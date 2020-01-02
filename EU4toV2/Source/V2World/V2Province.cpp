@@ -875,6 +875,8 @@ void V2Province::createPops(
 		int numOfV2Provs = Vic2Provinces.size();
 		if (numOfV2Provs > 1)
 		{
+			newPopulation /= numOfV2Provs;
+			/*
 			if (numOfV2Provs == 2)
 			{
 				newPopulation /= numOfV2Provs;
@@ -885,6 +887,7 @@ void V2Province::createPops(
 				newPopulation /= numOfV2Provs;
 				newPopulation = static_cast<long>(newPopulation * 1.15);
 			}
+			*/
 		}
 
 		newPopulation = oldPopulation + static_cast<long>((newPopulation - oldPopulation) * (theConfiguration.getPopShapingFactor() / 100.0));
