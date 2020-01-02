@@ -56,6 +56,7 @@ class ProvinceStats
 
 	private:
 		double goodsProduced = 0.0;
+		double xyz = 0.0;
 		double price = 0.0;
 		double tradeEfficiency = 0.0;
 		double productionEfficiency = 0.0;
