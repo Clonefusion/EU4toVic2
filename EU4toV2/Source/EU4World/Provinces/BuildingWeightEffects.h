@@ -40,6 +40,7 @@ struct BuildingWeightEffects
 	double tradeGoodsSizeModifier = 0.0;
 	double tradeValue = 0.0;
 	double tradeSteering = 0.0;
+	double taxEfficiency = 0.0;
 };
 
 }
