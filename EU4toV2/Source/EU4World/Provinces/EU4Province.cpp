@@ -207,7 +207,6 @@ void EU4::Province::makeState(double p)
 void EU4::Province::determineProvinceWeight(const Buildings& buildingTypes, const Modifiers& modifierTypes)
 {
 	double manpower_weight = manpower;
-	double taxEfficiency = 1.0;
 
 	BuildingWeightEffects buildingWeightEffects = getProvBuildingWeight(buildingTypes, modifierTypes);
 	buildingWeight = buildingWeightEffects.buildingWeight;
@@ -220,15 +219,28 @@ void EU4::Province::determineProvinceWeight(const Buildings& buildingTypes, cons
 	double tradeValue = buildingWeightEffects.tradeValue;
 	double tradeEfficiency = buildingWeightEffects.tradeEfficiency;
 	double tradeSteering = buildingWeightEffects.tradeSteering;
+	double taxEfficiency = buildingWeightEffects.taxEfficiency;
+	double devbonus = 0.0;
 
 	// Check tag, ex. TIB has goods_produced +0.05
 	// This needs to be hard coded unless there's some other way of figuring out modded national ambitions/ideas
-	if (ownerString == "TIB")
+	//if (ownerString == "TIB")
+	//{
+	//	tradeGoodsSizeModifier += 0.05;
+	//}
+
+	double xyz = 0.0;
+	
+	if ((taxModifier) >= 0.6)
 	{
-		tradeGoodsSizeModifier += 0.05;
+		xyz += 0.6;
+	}
+	if (((taxModifier) >= 0.4) && ((taxModifier) <= 0.5))
+	{
+		xyz += 0.4;
 	}
 
-	double goodsProduced = (baseProduction * 0.2) + manufactoriesValue + tradeGoodsSizeModifier + 0.03;
+	double goodsProduced = ((baseProduction * 0.2) + manufactoriesValue ) * (1 + tradeGoodsSizeModifier + 0.03);
 	goodsProduced = std::max(0.0, goodsProduced);
 
 	// idea effects
@@ -243,16 +255,16 @@ void EU4::Province::determineProvinceWeight(const Buildings& buildingTypes, cons
 
 	// manpower
 	manpower_weight *= 25;
-	manpower_weight += manpowerModifier;
+	//manpower_weight += manpowerModifier;
 	manpower_weight *= ((1 + manpowerModifier) / 25); // should work now as intended
 
 	//LOG(LogLevel::Info) << "Manpower Weight: " << manpower_weight;
 
-	double total_tx = (baseTax + taxModifier) * (taxEfficiency + 0.15);
-	double production_eff_tech = 0.5; // used to be 1.0
+	double total_tx = (baseTax * (1 + taxModifier + 0.65) + taxEfficiency * (1 + taxModifier + 0.15));
+	double production_eff_tech = 0.2; // used to be 1.0
 
 	double total_trade_value = ((getTradeGoodPrice() * goodsProduced) + tradeValue) * (1 + tradeEfficiency);
-	double production_income = total_trade_value * (1 + production_eff_tech + productionEfficiency);
+	double production_income = total_trade_value * (1 + production_eff_tech + productionEfficiency + 0.8);
 	//LOG(LogLevel::Info) << "province name: " << this->getProvName() 
 	//	<< " trade good: " << tradeGoods 
 	//	<< " Price: " << getTradeGoodPrice() 
@@ -262,21 +274,109 @@ void EU4::Province::determineProvinceWeight(const Buildings& buildingTypes, cons
 	//	<< " goods produced: " << goods_produced 
 	//	<< " production eff: " << production_eff 
 	//	<< " Production: " << production_income;
+	
+	if ((baseTax + baseProduction + manpower) >= 10)
+	{
+		devbonus += 1;
+	}
 
-	total_tx *= 1.5;
+	if ((baseTax + baseProduction + manpower) >= 20)
+	{
+		devbonus += 2;
+	}
+
+	if ((baseTax + baseProduction + manpower) >= 30)
+	{
+		devbonus += 3;
+	}
+
+	if ((baseTax + baseProduction + manpower) >= 40)
+	{
+		devbonus += 4;
+	}
+
+	if ((baseTax + baseProduction + manpower) >= 50)
+	{
+		devbonus += 6;
+	}
+
+	if ((baseTax + baseProduction + manpower) >= 60)
+	{
+		devbonus += 8;
+	}
+
+	if ((baseTax + baseProduction + manpower) >= 70)
+	{
+		devbonus += 10;
+	}
+
+	if ((baseTax + baseProduction + manpower) >= 80)
+	{
+		devbonus += 12;
+	}
+
+	if ((baseTax + baseProduction + manpower) >= 90)
+	{
+		devbonus += 15;
+	}
+
+	if ((baseTax + baseProduction + manpower) >= 15)
+	{
+		devbonus += 1;
+	}
+
+	if ((baseTax + baseProduction + manpower) >= 25)
+	{
+		devbonus += 2;
+	}
+
+	if ((baseTax + baseProduction + manpower) >= 35)
+	{
+		devbonus += 3;
+	}
+
+	if ((baseTax + baseProduction + manpower) >= 45)
+	{
+		devbonus += 4;
+	}
+
+	if ((baseTax + baseProduction + manpower) >= 55)
+	{
+		devbonus += 6;
+	}
+
+	if ((baseTax + baseProduction + manpower) >= 65)
+	{
+		devbonus += 8;
+	}
+
+	if ((baseTax + baseProduction + manpower) >= 75)
+	{
+		devbonus += 10;
+	}
+
+	if ((baseTax + baseProduction + manpower) >= 85)
+	{
+		devbonus += 12;
+	}
+
+	total_tx *= 1;
 	manpower_weight *= 1;
-	production_income *= 1.5;
+	production_income *= 1;
 
 	taxIncome = total_tx;
 	productionIncome = production_income;
 	manpowerWeight = manpower_weight;
 	
 	// dev modifier
-	devModifier = ( baseTax + baseProduction + manpower );
-	devDelta = devModifier - provinceHistory->getOriginalDevelopment();
+	//devModifier = ( baseTax + baseProduction + manpower );
+	//devDelta = devModifier - provinceHistory->getOriginalDevelopment();
 	modifierWeight = buildingWeight + manpower_weight + production_income + total_tx;
 
-	totalWeight = devModifier + modifierWeight;
+	tradeSteering *= ( baseTax + baseProduction + manpower );
+	devModifier = ( baseTax + baseProduction + manpower );
+	
+	totalWeight = modifierWeight + ( 2 * devModifier + 3 * devbonus  + tradeSteering );
 
 	if (modifierWeight > 0)
 	{
@@ -297,6 +397,7 @@ void EU4::Province::determineProvinceWeight(const Buildings& buildingTypes, cons
 	provinceStats.setTradeValue(tradeValue);
 	provinceStats.setTradeValue(production_income);
 	provinceStats.setBaseTax(baseTax);
+	provinceStats.setBuildingsIncome(xyz);
 	provinceStats.setBuildingsIncome(taxModifier);
 	provinceStats.setTaxEfficiency(taxEfficiency);
 	provinceStats.setTotalTaxIncome(total_tx);
@@ -337,39 +438,39 @@ double EU4::Province::getTradeGoodPrice() const
 
 	if (tradeGoods == "chinaware")
 	{
-		tradeGoodsPrice = 3;
+		tradeGoodsPrice = 3.04;
 	}
 	else if (tradeGoods == "grain")
 	{
-		tradeGoodsPrice = 2;
+		tradeGoodsPrice = 2.03;
 	}
 	else if (tradeGoods == "fish")
 	{
-		tradeGoodsPrice = 2.5;
+		tradeGoodsPrice = 2.11;
 	}
-	else if (tradeGoods == "tabacco")
+	else if (tradeGoods == "tobacco")
 	{
-		tradeGoodsPrice = 3;
+		tradeGoodsPrice = 3.84;
 	}
 	else if (tradeGoods == "iron")
 	{
-		tradeGoodsPrice = 3;
+		tradeGoodsPrice = 3.74;
 	}
 	else if (tradeGoods == "copper")
 	{
-		tradeGoodsPrice = 3;
+		tradeGoodsPrice = 3.79;
 	}
 	else if (tradeGoods == "cloth")
 	{
-		tradeGoodsPrice = 3;
+		tradeGoodsPrice = 3.62;
 	}
 	else if (tradeGoods == "slaves")
 	{
-		tradeGoodsPrice = 2;
+		tradeGoodsPrice = 2.68;
 	}
 	else if (tradeGoods == "salt")
 	{
-		tradeGoodsPrice = 3;
+		tradeGoodsPrice = 3.24;
 	}
 	else if (tradeGoods == "gold")
 	{
@@ -377,59 +478,83 @@ double EU4::Province::getTradeGoodPrice() const
 	}
 	else if (tradeGoods == "fur")
 	{
-		tradeGoodsPrice = 2;
+		tradeGoodsPrice = 3.14;
 	}
 	else if (tradeGoods == "sugar")
 	{
-		tradeGoodsPrice = 3;
+		tradeGoodsPrice = 3.71;
 	}
 	else if (tradeGoods == "naval_supplies")
 	{
-		tradeGoodsPrice = 2;
+		tradeGoodsPrice = 2.35;
 	}
 	else if (tradeGoods == "tea")
 	{
-		tradeGoodsPrice = 2;
+		tradeGoodsPrice = 2.68;
 	}
 	else if (tradeGoods == "coffee")
 	{
-		tradeGoodsPrice = 3;
+		tradeGoodsPrice = 2.97;
 	}
 	else if (tradeGoods == "spices")
 	{
-		tradeGoodsPrice = 3;
+		tradeGoodsPrice = 3.68;
 	}
 	else if (tradeGoods == "wine")
 	{
-		tradeGoodsPrice = 2.5;
+		tradeGoodsPrice = 2.75;
 	}
 	else if (tradeGoods == "cocoa")
 	{
-		tradeGoodsPrice = 4;
+		tradeGoodsPrice = 4.39;
 	}
 	else if (tradeGoods == "ivory")
 	{
-		tradeGoodsPrice = 4;
+		tradeGoodsPrice = 4.19;
 	}
 	else if (tradeGoods == "wool")
 	{
-		tradeGoodsPrice = 2.5;
+		tradeGoodsPrice = 2.7;
 	}
 	else if (tradeGoods == "cotton")
 	{
-		tradeGoodsPrice = 3;
+		tradeGoodsPrice = 3.56;
 	}
 	else if (tradeGoods == "dyes")
 	{
-		tradeGoodsPrice = 4;
+		tradeGoodsPrice = 4.36;
 	}
 	else if (tradeGoods == "tropical_wood")
 	{
-		tradeGoodsPrice = 2;
+		tradeGoodsPrice = 2.52;
 	}
 	else if (tradeGoods == "silk")
 	{
-		tradeGoodsPrice = 4;
+		tradeGoodsPrice = 4.47;
+	}
+	else if (tradeGoods == "incense")
+	{
+		tradeGoodsPrice = 2.74;
+	}
+	else if (tradeGoods == "livestock")
+	{
+		tradeGoodsPrice = 2.94;
+	}
+	else if (tradeGoods == "glass")
+	{
+		tradeGoodsPrice = 3.23;
+	}
+	else if (tradeGoods == "gems")
+	{
+		tradeGoodsPrice = 3.67;
+	}
+	else if (tradeGoods == "paper")
+	{
+		tradeGoodsPrice = 4.42;
+	}
+	else if (tradeGoods == "coal")
+	{
+		tradeGoodsPrice = 6;
 	}
 	else
 	{
@@ -453,15 +578,46 @@ EU4::BuildingWeightEffects EU4::Province::getProvBuildingWeight(
 		for (auto buildingName : buildings->getBuildings())
 		{
 			auto theBuilding = buildingTypes.getBuilding(buildingName);
+			
 			if (theBuilding)
 			{
-				effects.buildingWeight += theBuilding->getCost() * BUILDING_COST_TO_WEIGHT_RATIO;
+				//effects.buildingWeight += theBuilding->getCost() * BUILDING_COST_TO_WEIGHT_RATIO; //double dipping
 				if (theBuilding->isManufactory())
 				{
-					effects.manufactoriesValue += 1.0;
+					effects.manufactoriesValue += 0.9;
+					effects.tradeGoodsSizeModifier += 0.1;
 				}
+				
 				for (auto effect: theBuilding->getModifier().getAllEffects())
 				{
+					if (effect.first == "local_defensiveness")
+					{
+						effects.buildingWeight += (effect.second*4);
+					}
+					if (effect.first == "fort_level")
+					{
+						effects.buildingWeight += (effect.second*2);
+					}
+					if (effect.first == "local_state_maintenance_modifier")
+					{
+						effects.tradeSteering += (effect.second*-0.3);
+					}
+					if (effect.first == "local_development_cost")
+					{
+						effects.buildingWeight += (effect.second*-8);
+					}
+					if (effect.first == "naval_forcelimit")
+					{
+						effects.buildingWeight += (effect.second*3);
+					}
+					if (effect.first == "land_forcelimit")
+					{
+						effects.buildingWeight += (effect.second*6);
+					}
+					if (effect.first == "local_sailors_modifier")
+					{
+						effects.tradeSteering += (effect.second/8);
+					}
 					if (effect.first == "local_manpower_modifier")
 					{
 						effects.manpowerModifier += effect.second;
@@ -470,33 +626,45 @@ EU4::BuildingWeightEffects EU4::Province::getProvBuildingWeight(
 					{
 						effects.taxModifier += effect.second;
 					}
+					else if (effect.first == "tax_income")
+					{
+						effects.taxEfficiency += effect.second;
+					}
 					else if (effect.first == "local_production_efficiency")
 					{
 						effects.productionEfficiency += effect.second;
 					}
-					else if (effect.first == "province_trade_power_modifier")
-					{
-						effects.tradePower += effect.second;
-					}
-					else if (effect.first == "trade_efficiency")
+					else if (effect.first == "trade_efficiency")  //not used
 					{
 						effects.tradeEfficiency += effect.second;
 					}
 					else if (effect.first == "trade_goods_size")
 					{
-						effects.tradeGoodsSizeModifier += effect.second;
+						effects.manufactoriesValue += effect.second;
 					}
 					else if (effect.first == "trade_goods_size_modifier")
 					{
 						effects.tradeGoodsSizeModifier += effect.second;
 					}
-					else if (effect.first == "trade_value_modifier")
+					else if (effect.first == "trade_value")
 					{
 						effects.tradeValue += effect.second;
 					}
-					else if (effect.first == "trade_steering")
+					else if (effect.first == "trade_value_modifier")
 					{
-						effects.tradeSteering += effect.second;
+						effects.tradeEfficiency += effect.second;
+					}
+					else if (effect.first == "province_trade_power_modifier")
+					{
+						effects.tradeSteering += (effect.second*0.15);
+					}
+					else if (effect.first == "province_trade_power_value")
+					{
+						effects.buildingWeight += (effect.second*0.75);
+					}
+					else if (effect.first == "local_missionary_strength")
+					{
+						effects.tradeSteering += (effect.second*1.66);
 					}
 				}
 			}
@@ -514,42 +682,82 @@ EU4::BuildingWeightEffects EU4::Province::getProvBuildingWeight(
 		{
 			for (auto effect : theModifier->getAllEffects())
 			{
-				if (effect.first == "local_manpower_modifier")
-				{
-					effects.manpowerModifier += effect.second;
-				}
-				else if (effect.first == "local_tax_modifier")
-				{
-					effects.taxModifier += effect.second;
-				}
-				else if (effect.first == "local_production_efficiency")
-				{
-					effects.productionEfficiency += effect.second;
-				}
-				else if (effect.first == "province_trade_power_modifier")
-				{
-					effects.tradePower += effect.second;
-				}
-				else if (effect.first == "trade_efficiency")
-				{
-					effects.tradeEfficiency += effect.second;
-				}
-				else if (effect.first == "trade_goods_size")
-				{
-					effects.tradeGoodsSizeModifier += effect.second;
-				}
-				else if (effect.first == "trade_goods_size_modifier")
-				{
-					effects.tradeGoodsSizeModifier += effect.second;
-				}
-				else if (effect.first == "trade_value_modifier")
-				{
-					effects.tradeValue += effect.second;
-				}
-				else if (effect.first == "trade_steering")
-				{
-					effects.tradeSteering += effect.second;
-				}
+					if (effect.first == "local_defensiveness")
+					{
+						effects.buildingWeight += (effect.second*4);
+					}
+					if (effect.first == "fort_level")
+					{
+						effects.buildingWeight += (effect.second*2);
+					}
+					if (effect.first == "local_state_maintenance_modifier")
+					{
+						effects.tradeSteering += (effect.second*-0.3);
+					}
+					if (effect.first == "local_development_cost")
+					{
+						effects.buildingWeight += (effect.second*-8);
+					}
+					if (effect.first == "naval_forcelimit")
+					{
+						effects.buildingWeight += (effect.second*3);
+					}
+					if (effect.first == "land_forcelimit")
+					{
+						effects.buildingWeight += (effect.second*6);
+					}
+					if (effect.first == "local_sailors_modifier")
+					{
+						effects.tradeSteering += (effect.second/8);
+					}
+					if (effect.first == "local_manpower_modifier")
+					{
+						effects.manpowerModifier += effect.second;
+					}
+					else if (effect.first == "local_tax_modifier")
+					{
+						effects.taxModifier += effect.second;
+					}
+					else if (effect.first == "tax_income")
+					{
+						effects.taxEfficiency += effect.second;
+					}
+					else if (effect.first == "local_production_efficiency")
+					{
+						effects.productionEfficiency += effect.second;
+					}
+					else if (effect.first == "trade_efficiency")  //not used
+					{
+						effects.tradeEfficiency += effect.second;
+					}
+					else if (effect.first == "trade_goods_size")
+					{
+						effects.manufactoriesValue += effect.second;
+					}
+					else if (effect.first == "trade_goods_size_modifier")
+					{
+						effects.tradeGoodsSizeModifier += effect.second;
+					}
+					else if (effect.first == "trade_value")
+					{
+						effects.tradeValue += effect.second;
+					}
+					else if (effect.first == "trade_value_modifier")
+					{
+						effects.tradeEfficiency += effect.second;
+					}
+					else if (effect.first == "province_trade_power_modifier")
+					{
+						effects.tradeSteering += (effect.second*0.15);
+					}
+					else if (effect.first == "province_trade_power_value")
+					{
+						effects.buildingWeight += (effect.second*0.75);
+					}
+					else if (effect.first == "local_missionary_strength")
+					{
+						effects.tradeSteering += (effect.second*1.66);
+					}
 			}
 		}
 		else
@@ -560,15 +768,18 @@ EU4::BuildingWeightEffects EU4::Province::getProvBuildingWeight(
 
 	if (centerOfTradeLevel == 1)
 	{
-		effects.tradePower += 5;
+		effects.tradeSteering += 0.015;
+		effects.buildingWeight += 3;
 	}
 	else if (centerOfTradeLevel == 2)
 	{
-		effects.tradePower += 10;
+		effects.tradeSteering += 0.03;
+		effects.buildingWeight += 5.65;
 	}
 	else if (centerOfTradeLevel == 3)
 	{
-		effects.tradePower += 25;
+		effects.tradeSteering += 0.3575;
+		effects.buildingWeight += 14.9;
 	}
 
 	return effects;
