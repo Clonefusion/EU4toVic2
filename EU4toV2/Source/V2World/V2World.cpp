@@ -889,7 +889,8 @@ void V2World::convertProvinces(const EU4::world& sourceWorld)
 					}
 
 					// determine demographics
-					double provPopRatio = sourceProvince->getBaseTax() / newProvinceTotalBaseTax;
+					// double provPopRatio = sourceProvince->getBaseTax() / newProvinceTotalBaseTax;
+					double provPopRatio = 1.0;
 					auto popRatios = sourceProvince->getPopRatios();
 					std::vector<V2Demographic> demographics = determineDemographics(
 						sourceWorld.getRegions(),
