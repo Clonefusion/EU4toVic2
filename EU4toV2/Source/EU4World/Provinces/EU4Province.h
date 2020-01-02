@@ -93,6 +93,8 @@ class Province: commonItems::parser
 		double getTotalDevModifier() const { return devModifier; }
 		double getDevDelta() const { return devDelta; }
 		double getModifierWeight() const { return modifierWeight; }
+		double getTotalDevbonus() const { return devbonus; }
+		double getTotaltradeSteering() const { return tradeSteering; }
 		ProvinceStats getProvinceStats() const { return provinceStats; }
 		std::string getTradeGoods() const { return tradeGoods; }
 	        double getProsperity() const { return prosperity; }
@@ -136,6 +138,8 @@ class Province: commonItems::parser
 		double devModifier = 0;
 		double devDelta = 0;
 		double modifierWeight = 0;
+		double devbonus = 0; 
+		double tradeSteering = 0; 
 		int centerOfTradeLevel = 0;
 		ProvinceStats provinceStats;
 	        double prosperity = 0;
