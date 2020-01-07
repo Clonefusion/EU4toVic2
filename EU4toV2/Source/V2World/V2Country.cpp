@@ -1252,9 +1252,11 @@ void V2Country::convertArmies(
 	// allocate the remainders from the whole country to the armies according to their need, rounding up
 	for (int rc = static_cast<int>(EU4::REGIMENTCATEGORY::infantry); rc < static_cast<int>(EU4::REGIMENTCATEGORY::num_reg_categories); ++rc)
 	{
-		while (countryRemainder[rc] > 0.0)
+                int attempts = 0;
+		while (countryRemainder[rc] > 0.0 && attempts < 100)
 		{
 			V2Army* army = getArmyForRemainder(static_cast<EU4::REGIMENTCATEGORY>(rc));
+                        attempts++;
 			if (army == nullptr)
 			{
 				LOG(LogLevel::Debug) << "No suitable army or navy found for " << tag << "'s pooled regiments of " << EU4::RegimentCategoryTypes[static_cast<EU4::REGIMENTCATEGORY>(rc)];
