@@ -869,8 +869,8 @@ void V2Province::createPops(
 		break;
 
 	case Configuration::POPSHAPES::Extreme:
-		newPopulation = static_cast<long>((static_cast<double>(this->lifeRating) / 10)* popWeightRatio* oldProvince->getTotalWeight());
-
+		newPopulation = static_cast<long>(popWeightRatio * oldProvince->getTotalWeight());
+		
 		auto Vic2Provinces = provinceMapper.getVic2ProvinceNumbers(srcProvince->getNum());
 		int numOfV2Provs = Vic2Provinces.size();
 		if (numOfV2Provs > 1)
