@@ -139,12 +139,10 @@ V2UncivReforms::V2UncivReforms(int westernizationProgress, double milFocus, doub
 
 	if (reforms[9] == true)
 	{
-		country->addTech("flintlock_rifles");
 	}
 
 	if (reforms[10] == true)
 	{
-		country->addTech("post_napoleonic_thought");
 		auto provinces = country->getProvinces();
 		auto provItr = provinces.find(country->getCapital());
 		if (provItr != provinces.end())
@@ -155,12 +153,10 @@ V2UncivReforms::V2UncivReforms(int westernizationProgress, double milFocus, doub
 
 	if (reforms[11] == true)
 	{
-		country->addTech("military_staff_system");
 	}
 
 	if (reforms[15] == true)
 	{
-		country->addTech("post_nelsonian_thought");
 	}
 }
 
