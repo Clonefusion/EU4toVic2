@@ -25,7 +25,7 @@ configuration = {
 	resetProvinces = "no"
 
 	# Max Literacy: The maximum literacy a nation will start with. Default 100%
-	max_literacy = "1"
+	max_literacy = "0.4"
 
 	# Types of Landless nations to remove: Which landless nations to remove
 	#	1	 - Remove none of them
@@ -40,7 +40,7 @@ configuration = {
 	# 	1	 	- Use Vanilla population sizes.
 	#	2		- Adjust population sizes.
 	#	3		- Extreme Redistribution.
-	popShaping = "1"
+	popShaping = "3"
 	
 	# Shaping Factor?: How much does EU4 affect population sizes? 0 - Vanilla, 100 - Fully (1 dev increase approx 1% pop increase)
 	popShapingFactor = "100"
@@ -50,7 +50,7 @@ configuration = {
 	#	2		- Do not assign national cores (cannot reclaim cultural land without infamy)
 	#	3		- Do not assign cultural union cores (no scandinavia or germany!)
 	#	4		- Do not assign either
-	coreHandling = "1"
+	coreHandling = "2"
 
 	# Make world Eurocentric?
 	# 	1	 	- Leave as is in EU4. Most countries will be civilized.
