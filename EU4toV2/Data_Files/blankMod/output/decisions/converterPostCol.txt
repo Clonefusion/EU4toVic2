@@ -278,7 +278,7 @@ political_decisions = {
 			2231 = { add_core = STL } #Saint Lucia
 			2229 = { add_core = BBD } #Barbados
 			2233 = { add_core = GRD } #Grenada
-			2234 = { add_core = CUR remove_core = VNZ } #CuraÃ§ao
+			2234 = { add_core = CUR remove_core = VNZ } #Curaçao
 			2235 = { add_core = CUR remove_core = VNZ }
 			2409 = { add_core = STV } #Saint Vincent and the Grenadines
 			#Further addictions

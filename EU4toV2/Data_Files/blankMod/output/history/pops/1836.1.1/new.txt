@@ -1,0 +1,376 @@
+3249 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3250 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3251 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3252 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3253 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3254 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3255 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3256 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3257 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3258 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3259 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3260 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3261 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3262 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3263 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3264 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3265 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3266 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3267 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3268 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3269 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3270 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3271 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3272 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3273 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3274 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3275 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3276 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3277 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3278 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3279 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3280 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3281 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3282 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3283 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3284 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3285 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3286 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3287 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3288 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3289 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3290 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3291 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3292 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3293 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3294 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
+3295 = {
+	farmers=
+	{
+		culture = pashtun
+		religion = sunni
+		size=1
+	}
+}
