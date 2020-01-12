@@ -1707,39 +1707,6 @@ void V2Country::setArmyTech(double normalizedScore)
 {
 	if ((theConfiguration.getVic2Gametype() != "vanilla") && !civilized)
 		return;
-
-	if (normalizedScore >= -1.0)
-	{
-		techs.push_back("flintlock_rifles");
-		inventions.insert("flintlock_rifle_armament");
-	}
-	if (normalizedScore >= -0.9)
-	{
-		techs.push_back("bronze_muzzle_loaded_artillery");
-	}
-	if (normalizedScore >= -0.2)
-	{
-		techs.push_back("post_napoleonic_thought");
-		inventions.insert("post_napoleonic_army_doctrine");
-	}
-	if (normalizedScore >= 0.2)
-	{
-		techs.push_back("army_command_principle");
-	}
-	if (normalizedScore >= 0.6)
-	{
-		techs.push_back("military_staff_system");
-		inventions.insert("cuirassier_activation");
-		inventions.insert("dragoon_activation");
-		inventions.insert("_hussar_activation");
-	}
-	if (normalizedScore >= 1.0)
-	{
-		techs.push_back("army_professionalism");
-		inventions.insert("army_academic_training");
-		inventions.insert("field_training");
-		inventions.insert("army_societal_status");
-	}
 }
 
 
@@ -1747,42 +1714,6 @@ void V2Country::setNavyTech(double normalizedScore)
 {
 	if ((theConfiguration.getVic2Gametype() != "vanilla") && !civilized)
 		return;
-
-	if (normalizedScore >= 0)
-	{
-		techs.push_back("post_nelsonian_thought");
-		inventions.insert("long_range_fire_tactic");
-		inventions.insert("speedy_maneuvering_tactic");
-	}
-	if (normalizedScore >= 0.036)
-	{
-		techs.push_back("the_command_principle");
-	}
-	if (normalizedScore >= 0.571)
-	{
-		techs.push_back("clipper_design");
-		techs.push_back("naval_design_bureaus");
-		techs.push_back("alphabetic_flag_signaling");
-		inventions.insert("building_station_shipyards");
-	}
-	if (normalizedScore >= 0.857)
-	{
-		techs.push_back("battleship_column_doctrine");
-		techs.push_back("steamers");
-		inventions.insert("long_range_fire_tactic");
-		inventions.insert("speedy_maneuvering_tactic");
-		inventions.insert("mechanized_fishing_vessels");
-		inventions.insert("steamer_automatic_construction_plants");
-		inventions.insert("steamer_transports");
-		inventions.insert("commerce_raiders");
-	}
-	if (normalizedScore >= 1.0)
-	{
-		techs.push_back("naval_professionalism");
-		inventions.insert("academic_training");
-		inventions.insert("combat_station_training");
-		inventions.insert("societal_status");
-	}
 }
 
 
@@ -1790,52 +1721,6 @@ void V2Country::setCommerceTech(double normalizedScore)
 {
 	if ((theConfiguration.getVic2Gametype() != "vanilla") && !civilized)
 		return;
-
-	techs.push_back("no_standard");
-	if (normalizedScore >= -0.777)
-	{
-		techs.push_back("guild_based_production");
-	}
-	if (normalizedScore >= -0.555)
-	{
-		techs.push_back("private_banks");
-	}
-	if (normalizedScore >= -0.333)
-	{
-		techs.push_back("early_classical_theory_and_critique");
-	}
-	if (normalizedScore >= -.277)
-	{
-		techs.push_back("freedom_of_trade");
-		inventions.insert("john_ramsay_mcculloch");
-		inventions.insert("nassau_william_sr");
-		inventions.insert("james_mill");
-	}
-	if (normalizedScore >= 0.333)
-	{
-		techs.push_back("stock_exchange");
-		inventions.insert("multitude_of_financial_instruments");
-		inventions.insert("insurance_companies");
-		inventions.insert("regulated_buying_and_selling_of_stocks");
-	}
-	if (normalizedScore >= 0.777)
-	{
-		techs.push_back("ad_hoc_money_bill_printing");
-		techs.push_back("market_structure");
-		inventions.insert("silver_standard");
-		inventions.insert("decimal_monetary_system");
-		inventions.insert("polypoly_structure");
-		inventions.insert("oligopoly_structure");
-		inventions.insert("monopoly_structure");
-	}
-
-	if (normalizedScore >= 1.0)
-	{
-		techs.push_back("late_classical_theory");
-		inventions.insert("john_elliot_cairnes");
-		inventions.insert("robert_torrens");
-		inventions.insert("john_stuart_mill");
-	}
 }
 
 
@@ -1843,53 +1728,6 @@ void V2Country::setIndustryTech(double normalizedScore)
 {
 	if ((theConfiguration.getVic2Gametype() != "vanilla") && !civilized)
 		return;
-
-	if (normalizedScore >= -1.0)
-	{
-		techs.push_back("water_wheel_power");
-		inventions.insert("tulls_seed_drill");
-	}
-	if (normalizedScore >= -0.714)
-	{
-		techs.push_back("publishing_industry");
-	}
-	if (normalizedScore >= -0.143)
-	{
-		techs.push_back("mechanized_mining");
-		techs.push_back("basic_chemistry");
-		inventions.insert("ammunition_production");
-		inventions.insert("small_arms_production");
-		inventions.insert("explosives_production");
-		inventions.insert("artillery_production");
-	}
-	if (normalizedScore >= 0.143)
-	{
-		techs.push_back("practical_steam_engine");
-		inventions.insert("rotherham_plough");
-	}
-	if (normalizedScore >= 0.428)
-	{
-		techs.push_back("experimental_railroad");
-	}
-	if (normalizedScore >= 0.714)
-	{
-		techs.push_back("mechanical_production");
-		inventions.insert("sharp_n_roberts_power_loom");
-		inventions.insert("jacquard_power_loom");
-		inventions.insert("northrop_power_loom");
-		inventions.insert("mechanical_saw");
-		inventions.insert("mechanical_precision_saw");
-		inventions.insert("hussey_n_mccormicks_reaping_machine");
-		inventions.insert("pitts_threshing_machine");
-		inventions.insert("mechanized_slaughtering_block");
-		inventions.insert("precision_work");
-	}
-	if (normalizedScore >= 1.0)
-	{
-		techs.push_back("clean_coal");
-		inventions.insert("pit_coal");
-		inventions.insert("coke");
-	}
 }
 
 
@@ -1897,38 +1735,6 @@ void V2Country::setCultureTech(double normalizedScore)
 {
 	if ((theConfiguration.getVic2Gametype() != "vanilla") && !civilized)
 		return;
-
-	techs.push_back("classicism_n_early_romanticism");
-	inventions.insert("carlism");
-	techs.push_back("late_enlightenment_philosophy");
-	inventions.insert("declaration_of_the_rights_of_man");
-	if (normalizedScore >= -0.333)
-	{
-		techs.push_back("enlightenment_thought");
-		inventions.insert("paternalism");
-		inventions.insert("constitutionalism");
-		inventions.insert("atheism");
-		inventions.insert("egalitarianism");
-		inventions.insert("rationalism");
-		inventions.insert("caste_privileges");
-		inventions.insert("sati_abolished");
-		inventions.insert("pig_fat_cartridges");
-	}
-	if (normalizedScore >= 0.333)
-	{
-		techs.push_back("malthusian_thought");
-	}
-	if (normalizedScore >= 0.333)
-	{
-		techs.push_back("introspectionism");
-	}
-	if (normalizedScore >= 0.666)
-	{
-		techs.push_back("romanticism");
-		inventions.insert("romanticist_literature");
-		inventions.insert("romanticist_art");
-		inventions.insert("romanticist_music");
-	}
 }
 
 string V2Country::getLocalName()
