@@ -1,0 +1,6 @@
+owner=X07
+controller=X07
+add_core=X07
+add_core=HND
+trade_goods = cotton 
+life_rating = 15

@@ -1,0 +1,6 @@
+owner=X19
+controller=X19
+add_core=X19
+trade_goods = timber #ok
+life_rating = 15
+colonial=2

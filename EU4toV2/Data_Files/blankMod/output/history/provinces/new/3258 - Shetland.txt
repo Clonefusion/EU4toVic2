@@ -1,0 +1,7 @@
+owner=NOR
+controller=NOR
+add_core=NOR
+add_core=SCA
+add_core=SWE
+trade_goods = tropical_wood 
+life_rating = 15

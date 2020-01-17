@@ -1,0 +1,6 @@
+owner=TRA
+controller=TRA
+add_core=TRA
+add_core=BLC
+trade_goods = iron  #ok
+life_rating = 15

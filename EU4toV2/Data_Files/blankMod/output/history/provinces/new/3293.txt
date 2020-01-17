@@ -1,0 +1,6 @@
+owner=X13
+controller=X13
+add_core=X13
+add_core=HND
+trade_goods = grain
+life_rating = 15

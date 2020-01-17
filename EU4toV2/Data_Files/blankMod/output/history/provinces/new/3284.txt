@@ -1,0 +1,6 @@
+owner=LIT
+controller=LIT
+add_core=LIT
+add_core=RUS
+trade_goods = iron  #ok
+life_rating = 15

@@ -1,0 +1,7 @@
+owner=IRQ
+controller=IRQ
+add_core=MDI
+add_core=IRQ
+add_core=SOM
+trade_goods = tea  #ok
+life_rating = 15

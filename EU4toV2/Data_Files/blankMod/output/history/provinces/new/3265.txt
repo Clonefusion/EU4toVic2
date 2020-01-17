@@ -1,0 +1,6 @@
+owner=MJP
+controller=MJP
+add_core=MJP
+add_core=JAV
+trade_goods = silk 
+life_rating = 15

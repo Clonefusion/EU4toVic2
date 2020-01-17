@@ -1,0 +1,6 @@
+owner=TIB
+controller=TIB
+add_core=JNP
+add_core=TIB
+trade_goods = coal #ok
+life_rating = 15

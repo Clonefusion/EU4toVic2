@@ -1,0 +1,9 @@
+owner=KOR
+controller=KOR
+add_core=KOR
+add_core=ODA
+add_core=OIR
+add_core=CHI
+add_core=MCK
+trade_goods = tea 
+life_rating = 15
