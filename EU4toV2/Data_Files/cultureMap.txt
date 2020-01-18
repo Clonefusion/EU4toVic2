@@ -22,9 +22,7 @@
 # This culture map contains one to one and many to one culture conversions.
 
 # Slovene
-link = { vic2 = croatian eu4 = slovene } #Modded
-link = { vic2 = croatian eu4 = croatian region = germany_region }
-link = { vic2 = croatian eu4 = austrian region = carinthia_area }
+link = { vic2 = south_german eu4 = slovene } #Modded
 
 # Germanic - North German, South German, Ashkenazi
 # Swiss - Swiss
@@ -33,11 +31,10 @@ link = { vic2 = amerikaner eu4 = alamanni eu4 = lugii eu4 = quadi eu4 = marcoman
 link = { vic2 = amerikaner eu4 = alamanni eu4 = lugii eu4 = quadi eu4 = marcoman eu4 = bastarnae eu4 = gepid eu4 = greuthungi eu4 = thuringian eu4 = varinian eu4 = rugii eu4 = vandalic eu4 = pommeranian eu4 = prussian eu4 = hannoverian eu4 = saxon eu4 = hessian eu4 = old_saxon eu4 = german eu4 = thuringian eu4 = colognian eu4 = old_gothic eu4 = baltendeutsche eu4 = eastphalian eu4 = high_saxon eu4 = low_saxon eu4 = moselfranconian eu4 = westphalian eu4 = feldern eu4 = franconian eu4 = swabian eu4 = rheinlaender eu4 = bavarian eu4 = austrian eu4 = eastfranconian eu4 = high_alemanisch eu4 = rhine_alemanisch eu4 = ripuarianfranconian eu4 = schlesischdeutsch eu4 = schwabisch eu4 = alemanisch_colonial eu4 = amerikaner eu4 = prussian_colonial eu4 = berber_germanic eu4 = ashkenazi eu4 = jewish_colonial eu4 = old_frankish eu4 = frankish eu4 = ostrogothic eu4 = gepid eu4 = swiss eu4 = romansh eu4 = suisse region = south_america_superregion region = central_america_superregion }
 link = { vic2 = sudreicher eu4 = alamanni eu4 = lugii eu4 = quadi eu4 = marcoman eu4 = bastarnae eu4 = gepid eu4 = greuthungi eu4 = thuringian eu4 = varinian eu4 = rugii eu4 = vandalic eu4 = pommeranian eu4 = prussian eu4 = hannoverian eu4 = saxon eu4 = hessian eu4 = old_saxon eu4 = german eu4 = thuringian eu4 = colognian eu4 = old_gothic eu4 = baltendeutsche eu4 = eastphalian eu4 = high_saxon eu4 = low_saxon eu4 = moselfranconian eu4 = westphalian eu4 = feldern eu4 = franconian eu4 = swabian eu4 = rheinlaender eu4 = bavarian eu4 = austrian eu4 = eastfranconian eu4 = high_alemanisch eu4 = rhine_alemanisch eu4 = ripuarianfranconian eu4 = schlesischdeutsch eu4 = schwabisch eu4 = alemanisch_colonial eu4 = amerikaner eu4 = prussian_colonial eu4 = berber_germanic eu4 = ashkenazi eu4 = jewish_colonial eu4 = old_frankish eu4 = frankish eu4 = ostrogothic eu4 = gepid eu4 = swiss eu4 = romansh eu4 = suisse region = oceania_superregion }
 link = { vic2 = sephardic eu4 = alamanni eu4 = lugii eu4 = quadi eu4 = marcoman eu4 = bastarnae eu4 = gepid eu4 = greuthungi eu4 = thuringian eu4 = varinian eu4 = rugii eu4 = vandalic eu4 = pommeranian eu4 = prussian eu4 = hannoverian eu4 = saxon eu4 = old_saxon eu4 = rheinlaender eu4 = hessian eu4 = bavarian eu4 = austrian eu4 = swabian eu4 = franconian religion = jewish }
-link = { vic2 = south_german eu4 = thuringian eu4 = varinian eu4 = rugii eu4 = vandalic eu4 = pommeranian eu4 = prussian eu4 = hannoverian eu4 = saxon eu4 = hessian eu4 = old_saxon }
+link = { vic2 = south_german eu4 = thuringian eu4 = varinian eu4 = rugii eu4 = vandalic eu4 = pommeranian eu4 = prussian eu4 = saxon eu4 = hessian eu4 = old_saxon }
 link = { vic2 = swiss eu4 = franconian }
 link = { vic2 = south_german eu4 = lugii eu4 = quadi eu4 = marcoman eu4 = swabian eu4 = rheinlaender eu4 = bavarian eu4 = austrian eu4 = swiss eu4 = alamanni }
 # generic CK2 german split
-link = { vic2 = swiss eu4 = german region = switzerland_area region = romandie_area }
 link = { vic2 = south_german eu4 = german region = north_german_region }
 link = { vic2 = south_german eu4 = german region = south_german_region }
 link = { vic2 = german eu4 = german }
@@ -61,10 +58,10 @@ link = { vic2 = svart eu4 = swedish eu4 = gotar eu4 = gutnish eu4 = swedish_colo
 ##Split of Norse and creation of Icelandic
 
 link = { vic2 = swedish eu4 = swedish }
-link = { vic2 = danish eu4 = danish eu4 = faroese } #Faroese - from a mod
+link = { vic2 = danish eu4 = hannoverian } #Faroese - from a mod
 link = { vic2 = icelandic eu4 = norse }
 link = { vic2 = norwegian eu4 = norwegian }
-link = { vic2 = sami eu4 = sapmi eu4 = lappish }
+link = { vic2 = sami eu4 = sapmi eu4 = lappish eu4 = danish eu4 = faroese }
 
 # British - British, Irish
 # American - Yankee, Dixie, Texan
@@ -417,15 +414,15 @@ link = { vic2 = dongren eu4 = tangut eu4 = japanese eu4 = kyushuan eu4 = togoku 
 link = { vic2 = dongren eu4 = tangut eu4 = japanese eu4 = kyushuan eu4 = togoku eu4 = chubu eu4 = chugoku eu4 = hokkokujin eu4 = japanese_colonial eu4 = kansai eu4 = kanto eu4 = koshi eu4 = kyushu eu4 = nangokujin eu4 = nantoukokujin eu4 = ryukyuan eu4 = seikokujin eu4 = shikoku eu4 = shotoujin eu4 = tohoku eu4 = toukokujin eu4 = manchu eu4 = chihan eu4 = jin eu4 = xibei eu4 = zhongyuan eu4 = shangdong_culture eu4 = beiguoren eu4 = hanyu eu4 = gan eu4 = xiang eu4 = sichuanese eu4 = hubei eu4 = wu eu4 = jianghuai eu4 = chinese_colonial_dongguoren eu4 = lussong eu4 = minyu eu4 = nandongguoren eu4 = nanguoren eu4 = wuhan eu4 = xiguoren eu4 = yueyu eu4 = zuqun_colonial eu4 = korean eu4 = baegukin eu4 = donggukin eu4 = korean_colonial eu4 = namdonggukin eu4 = namgukin eu4 = seogukin eu4 = ainu eu4 = aynu eu4 = bai eu4 = hakka eu4 = miao eu4 = chimin region = central_america_superregion }
 link = { vic2 = nanren eu4 = tangut eu4 = japanese eu4 = kyushuan eu4 = togoku eu4 = chubu eu4 = chugoku eu4 = hokkokujin eu4 = japanese_colonial eu4 = kansai eu4 = kanto eu4 = koshi eu4 = kyushu eu4 = nangokujin eu4 = nantoukokujin eu4 = ryukyuan eu4 = seikokujin eu4 = shikoku eu4 = shotoujin eu4 = tohoku eu4 = toukokujin eu4 = manchu eu4 = chihan eu4 = jin eu4 = xibei eu4 = zhongyuan eu4 = shangdong_culture eu4 = beiguoren eu4 = hanyu eu4 = gan eu4 = xiang eu4 = sichuanese eu4 = hubei eu4 = wu eu4 = jianghuai eu4 = chinese_colonial_dongguoren eu4 = lussong eu4 = minyu eu4 = nandongguoren eu4 = nanguoren eu4 = wuhan eu4 = xiguoren eu4 = yueyu eu4 = zuqun_colonial eu4 = korean eu4 = baegukin eu4 = donggukin eu4 = korean_colonial eu4 = namdonggukin eu4 = namgukin eu4 = seogukin eu4 = ainu eu4 = aynu eu4 = bai eu4 = hakka eu4 = miao eu4 = chimin region = oceania_superregion }
 link = { vic2 = heiren eu4 = tangut eu4 = japanese eu4 = kyushuan eu4 = togoku eu4 = chubu eu4 = chugoku eu4 = hokkokujin eu4 = japanese_colonial eu4 = kansai eu4 = kanto eu4 = koshi eu4 = kyushu eu4 = nangokujin eu4 = nantoukokujin eu4 = ryukyuan eu4 = seikokujin eu4 = shikoku eu4 = shotoujin eu4 = tohoku eu4 = toukokujin eu4 = manchu eu4 = chihan eu4 = jin eu4 = xibei eu4 = zhongyuan eu4 = shangdong_culture eu4 = beiguoren eu4 = hanyu eu4 = gan eu4 = xiang eu4 = sichuanese eu4 = hubei eu4 = wu eu4 = jianghuai eu4 = chinese_colonial_dongguoren eu4 = lussong eu4 = minyu eu4 = nandongguoren eu4 = nanguoren eu4 = wuhan eu4 = xiguoren eu4 = yueyu eu4 = zuqun_colonial eu4 = korean eu4 = baegukin eu4 = donggukin eu4 = korean_colonial eu4 = namdonggukin eu4 = namgukin eu4 = seogukin eu4 = ainu eu4 = aynu eu4 = bai eu4 = hakka eu4 = miao eu4 = chimin region = niger_region region = guinea_region region = central_africa_region region = sahel_region region = horn_of_africa_region region = east_africa_region region = kongo_region region = south_africa_region }
-link = { vic2 = japanese eu4 = japanese eu4 = kyushuan eu4 = togoku }
-link = { vic2 = manchu eu4 = manchu }
+link = { vic2 = japanese eu4 = japanese }
+link = { vic2 = manchu eu4 = manchu eu4 = ainu }
 link = { vic2 = beifaren eu4 = zhongyuan }
-link = { vic2 = nanfaren eu4 = tangut eu4 = gan eu4 = xiang eu4 = sichuanese eu4 = hubei eu4 = wu eu4 = jianghuai eu4 = chihan  eu4 = jin eu4 = xibei eu4 = shandong_culture }
+link = { vic2 = nanfaren eu4 = tangut eu4 = gan eu4 = xiang eu4 = hubei eu4 = wu eu4 = jianghuai eu4 = chihan  eu4 = jin eu4 = xibei eu4 = shandong_culture }
 link = { vic2 = korean eu4 = korean }
-link = { vic2 = ainu eu4 = ainu }
+link = { vic2 = ainu eu4 = kyushuan eu4 = togoku }
 link = { vic2 = hakka eu4 = hakka }
-link = { vic2 = miao eu4 = miao }
-link = { vic2 = min eu4 = chimin }
+link = { vic2 = miao eu4 = miao eu4 = chimin }
+link = { vic2 = min eu4 = sichuanese }
 link = { vic2 = zhuang eu4 = zhuang }
 link = { vic2 = yi eu4 = yi }
 link = { vic2 = yue eu4 = cantonese }
@@ -460,14 +457,13 @@ link = { vic2 = kachin eu4 = kachin eu4 = mon eu4 = arakanese }
 link = { vic2 = karen eu4 = karen }
 
 # Pacific - papuan, aboriginal, melanesian, moluccan
-link = { vic2 = hawaiian eu4 = polynesian provinceid = 1240 }
-link = { vic2 = hawaiian eu4 = polynesian provinceid = 1997 }
-link = { vic2 = maori eu4 = polynesian region = new_zealand_region }
-link = { vic2 = aborigine eu4 = aboriginal }
+link = { vic2 = hawaiian eu4 = hawaiian }
+link = { vic2 = maori eu4 = maori }
+link = { vic2 = aborigine eu4 = aboriginal eu4 = kuric eu4 = kulin eu4 = noongar eu4 = palawa eu4 = paman eu4 = wati }
 link = { vic2 = melanesian eu4 = melanesian eu4 = papuan }
 link = { vic2 = melanesian eu4 = polynesian region = melanesia }
-link = { vic2 = micronesian eu4 = polynesian region = micronesia }
-link = { vic2 = polynesian eu4 = polynesian }
+link = { vic2 = micronesian eu4 = tagata }
+link = { vic2 = polynesian eu4 = polynesian eu4 = tongan eu4 = samoan }
 
 # Colonizer India
 link = { vic2 = nayeduniya eu4 = assamese eu4 = assamese_colonial eu4 = dimasa eu4 = kochrajbongshi eu4 = meitei eu4 = sutiya eu4 = tripuri eu4 = bengali eu4 = eastern_aryan_colonial eu4 = bihari eu4 = chin eu4 = pahari eu4 = nepali eu4 = pahari eu4 = pahari_colonial eu4 = sikkimese eu4 = oriya eu4 = sinhala eu4 = avadhi eu4 = vindhyan eu4 = kanauji eu4 = bagheli eu4 = bundeli eu4 = dakani eu4 = hindusthani_colonial eu4 = panjabi eu4 = urdu eu4 = kashmiri eu4 = gujarati eu4 = nagpuri eu4 = sambalpuri eu4 = marathi eu4 = bhil eu4 = deccan_colonial eu4 = tuluva eu4 = sindhi eu4 = rajput eu4 = malvi eu4 = dhundari eu4 = harauti eu4 = jati eu4 = khandeshi eu4 = marwari eu4 = meo eu4 = mewari eu4 = naga eu4 = rajput_colonial eu4 = saurashtri eu4 = tomara eu4 = kannada eu4 = kochi eu4 = malayalam eu4 = tamil eu4 = dravidian_colonial eu4 = mahl eu4 = telegu region = south_america_superregion }
@@ -745,8 +741,8 @@ link = { vic2 = berber eu4 = chleuh }
 link = { vic2 = mayan eu4 = cholan }
 link = { vic2 = native_american_minor eu4 = chon }
 link = { vic2 = nahua eu4 = chontal }
-link = { vic2 = japanese eu4 = chubu }
-link = { vic2 = japanese eu4 = chugoku }
+link = { vic2 = ainu eu4 = chubu }
+link = { vic2 = ainu eu4 = chugoku }
 link = { vic2 = siberian eu4 = chukchi }
 link = { vic2 = swahili eu4 = chwezi }
 link = { vic2 = armenian eu4 = cilician }
@@ -809,7 +805,7 @@ link = { vic2 = british eu4 = hiberno_norman }
 link = { vic2 = south_german eu4 = high_alemanisch }
 link = { vic2 = south_german eu4 = high_saxon }
 link = { vic2 = kanauji eu4 = hindusthani_colonial }
-link = { vic2 = japanese eu4 = hokkokujin }
+link = { vic2 = ainu eu4 = hokkokujin }
 link = { vic2 = na_dene eu4 = hoopa }
 link = { vic2 = sonoran eu4 = hopi }
 link = { vic2 = maranon eu4 = huancabamba }
@@ -820,7 +816,7 @@ link = { vic2 = malay eu4 = indonesian }
 link = { vic2 = central_algonquian eu4 = innu }
 link = { vic2 = mashriqi eu4 = iraqi }
 link = { vic2 = mayan eu4 = itza }
-link = { vic2 = japanese eu4 = japanese_colonial }
+link = { vic2 = ainu eu4 = japanese_colonial }
 link = { vic2 = rajput eu4 = jati }
 link = { vic2 = moluccan eu4 = javan }
 link = { vic2 = moluccan eu4 = javan_colonial }
@@ -833,8 +829,8 @@ link = { vic2 = carribean eu4 = kalina }
 link = { vic2 = penutian eu4 = kalispel }
 link = { vic2 = maranon eu4 = kanari }
 link = { vic2 = african_minor eu4 = kanouri }
-link = { vic2 = japanese eu4 = kansai }
-link = { vic2 = japanese eu4 = kanto }
+link = { vic2 = ainu eu4 = kansai }
+link = { vic2 = ainu eu4 = kanto }
 link = { vic2 = siouan eu4 = kanza }
 link = { vic2 = polish eu4 = kashubian }
 link = { vic2 = native_american_minor eu4 = ket }
@@ -852,8 +848,8 @@ link = { vic2 = swahili eu4 = kingwana }
 link = { vic2 = swahili eu4 = kiunguja }
 link = { vic2 = assamese eu4 = kochrajbongshi }
 link = { vic2 = korean eu4 = korean_colonial }
-link = { vic2 = japanese eu4 = koshi }
-link = { vic2 = japanese eu4 = kyushu }
+link = { vic2 = ainu eu4 = koshi }
+link = { vic2 = ainu eu4 = kyushu }
 link = { vic2 = bai eu4 = ladakhi }
 link = { vic2 = siouan eu4 = lakota }
 link = { vic2 = thai eu4 = lanna }
@@ -912,9 +908,9 @@ link = { vic2 = mashriqi eu4 = najdi }
 link = { vic2 = korean eu4 = namdonggukin }
 link = { vic2 = korean eu4 = namgukin }
 link = { vic2 = nanfaren eu4 = nandongguoren }
-link = { vic2 = japanese eu4 = nangokujin }
+link = { vic2 = ainu eu4 = nangokujin }
 link = { vic2 = nanfaren eu4 = nanguoren }
-link = { vic2 = japanese eu4 = nantoukokujin }
+link = { vic2 = ainu eu4 = nantoukokujin }
 link = { vic2 = south_italian eu4 = napolitan_colonial }
 link = { vic2 = nahua eu4 = nawa }
 link = { vic2 = quechua eu4 = nazca }
@@ -967,22 +963,22 @@ link = { vic2 = north_italian eu4 = romagnol }
 link = { vic2 = romanian eu4 = romanian_colonial }
 link = { vic2 = swiss eu4 = romansh }
 link = { vic2 = ukrainian eu4 = russian_colonial }
-link = { vic2 = japanese eu4 = ryukyuan }
+link = { vic2 = ainu eu4 = ryukyuan }
 link = { vic2 = penutian eu4 = sahaptian }
 link = { vic2 = gujarati eu4 = sambalpuri }
 link = { vic2 = rajput eu4 = saurashtri }
 link = { vic2 = icelandic eu4 = scandinavian_colonial }
 link = { vic2 = south_german eu4 = schlesischdeutsch }
 link = { vic2 = south_german eu4 = schwabisch }
-link = { vic2 = japanese eu4 = seikokujin }
+link = { vic2 = ainu eu4 = seikokujin }
 link = { vic2 = siberian eu4 = selkup }
 link = { vic2 = native_american_minor eu4 = seminole }
 link = { vic2 = korean eu4 = seogukin }
 link = { vic2 = sephardi eu4 = sephardi }
 link = { vic2 = mashriqi eu4 = shami }
-link = { vic2 = japanese eu4 = shikoku }
+link = { vic2 = ainu eu4 = shikoku }
 link = { vic2 = sudanese eu4 = shilluk }
-link = { vic2 = japanese eu4 = shotoujin }
+link = { vic2 = ainu eu4 = shotoujin }
 link = { vic2 = penutian eu4 = shuswap }
 link = { vic2 = nepali eu4 = sikkimese }
 link = { vic2 = polish eu4 = silesian }
@@ -999,7 +995,7 @@ link = { vic2 = norwegian eu4 = swedish_colonial }
 link = { vic2 = hungarian eu4 = szaszok }
 link = { vic2 = pashtun eu4 = tabari }
 link = { vic2 = filipino eu4 = tagalog }
-link = { vic2 = filipino eu4 = taiwanese }
+link = { vic2 = filipino eu4 = taiwanese eu4 = yami }
 link = { vic2 = tajik eu4 = tajihk }
 link = { vic2 = maghrebi eu4 = tamazight }
 link = { vic2 = na_dene eu4 = tanaina }
@@ -1016,11 +1012,11 @@ link = { vic2 = amhara eu4 = tigrean }
 link = { vic2 = native_american_minor eu4 = timicua }
 link = { vic2 = nahua eu4 = tlaxcallan }
 link = { vic2 = na_dene eu4 = tlingit }
-link = { vic2 = japanese eu4 = tohoku }
+link = { vic2 = ainu eu4 = tohoku }
 link = { vic2 = rajput eu4 = tomara }
 link = { vic2 = native_american_minor eu4 = tonkawa }
 link = { vic2 = teda eu4 = toubous }
-link = { vic2 = japanese eu4 = toukokujin }
+link = { vic2 = ainu eu4 = toukokujin }
 link = { vic2 = assamese eu4 = tripuri }
 link = { vic2 = norwegian eu4 = trondersk }
 link = { vic2 = penutian eu4 = tsimishian }
