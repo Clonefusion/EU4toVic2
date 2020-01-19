@@ -161,7 +161,6 @@ germanic = {
 		"von Kobratin" "von Schönburg" "von Tegetthoff" "von Uchatius" "von Wittelsbach" "von Württemberg" "von Zahringen" Wagner Wittmann "zu Hohenlohe"}
 	}
 	
-	union = GER
 }
 
 beneluxian = {
@@ -275,7 +274,7 @@ beneluxian = {
 		}
 		last_names = { Cilliers Botha Joubert Kruger Duquesne Potgieter "van Rensburg" "de la Rey" Theron "de Wet" Pretorius Retief "de Beer" Uys 
 		}
-		radicalism = 10
+		#radicalism = 10
 	}
 	zuidelijk = {
 		color = {205 104 42}
@@ -284,7 +283,7 @@ beneluxian = {
 		}
 		last_names = { Cilliers Botha Joubert Kruger Duquesne Potgieter "van Rensburg" "de la Rey" Theron "de Wet" Pretorius Retief "de Beer" Uys 
 		}
-		radicalism = 10
+		#radicalism = 10
 	}
 }
 
@@ -364,7 +363,7 @@ scandinavian = {
 		Linder Mannerheim Multamäki Nenonen Oesch Öquist Österman Paasikivi Raappana Ramsay
 		Sihvo Siilasvuo Talvela Thesleff Tujulin Tuompo "von Hesse-Kassel" Walden Wallenius Wetzer }
 		
-		radicalism = 5
+		#radicalism = 5
 	}
 	sami = {
 		color = { 60 180 110}
@@ -402,7 +401,6 @@ scandinavian = {
 		last_names = { Arnórsson Ásgeirsson Benediktsson Bjarnasen Björnsson Eggers Eldjárn Hafstein Hansen
 		Hermannsson Johánesson Jónsson Magnússon Stefánsson Steinthosson Thórdarson Thórhallson Thorláksson Thurs }
 	}
-	union = SCA
 }
 
 british = {
@@ -440,7 +438,7 @@ british = {
 	}
 	irish = { 
 		color = { 35 140 50}
-		radicalism = 15
+		#radicalism = 15
 		primary = IRE
 		first_names = { Alexander Arthur Brian Cathal Christopher Con Daniel Denis Desmond Éamon
 		Edward Ernes Fionán Frank George Harry Jack James John Joseph
@@ -491,7 +489,6 @@ british = {
 		}
 	}
 	
-	union = ENG
 }
 
 italian = {
@@ -522,7 +519,7 @@ italian = {
 		last_names = { Anfora Barberini-Colonna Bonaccorsi Caraga Cattaneo Chigi Clary Colonna "de Liguori" "de Riseis"
 		"della Rovere" "di Borbone della Due Sicilia" Diaz Ferrari Filangieri Gironda Gravina Grifeo Lanza Lombardo
 		Lunardi Molinelli Orsini Ottaviani Pironti Scammacca Torlonia Turrisi Vernazza Zunica }
-		radicalism = 10
+		#radicalism = 10
 	}
 	maltese = { 
 		color = {100 150 120}
@@ -638,7 +635,6 @@ italian = {
 			Šeženy Šeraiy Ueatru Uènusta Uiebrey Unue Útoeany Žusupureany }
 	}
 	
-	union = ITA
 }
 
 iberian = {
@@ -656,7 +652,7 @@ iberian = {
 		Bilbao Campión Churruca "de Amésquita" "de Azpilicueta" "de Erauso" "de Rentería" "de Ubisztongo" Echagüe Echave
 	 	Echegaray Echevarría Elorza Gaztañeta Ibarrola Ibárruri Irujo Lazcano Mendizabal Moneo 
 		Nárdiz Olano Olave Oyarzábal Rotaeche Uzcudun Zamárraga Zárate Zavala Zumalacárregui }
-		radicalism = 15
+		#radicalism = 15
 	}
 	spanish = {
 		color = {220 220 30}
@@ -719,7 +715,6 @@ iberian = {
 		last_names = { Abreu Barroso Becerra Camba Canedo Carreiro Da Ponte De Lemos Demato Fontes Goya Lagos Lemus Mar Marcelin Mazo Melendrez Millan Pastor Pozo Pozos Prado Quintana Razo Rios Rocha Rosal Ruybal Salgado Varela Vielma }
 	}
 	
-	union = SPA
 }
 
 french = {
@@ -779,7 +774,6 @@ french = {
 		
 		last_names = { "de Narbonne" "de Bourgogne-Comté" "de l'Aigle" "de Flotte" "de Vendome" "de Champagne" "de Namur" "de Bissy" "d'Eu" "von Margrave" "du Perche" "de Boulogne" "Puy du Fou" "de Preuilly" "de Salins" "d'Oisy" "de Barthe" "de Fezensac" "de Boisrobert" "de Bourbon" "d'Angoulême" "de Guyenne" "Le Tellier" "de Talleyrand" "de Batarnay" "de Beaumont-au-Maine" "de Hainaut" "de Crecy" "de Bellegarde" "de St. Hilary" "d'Aubigny" "de Albemarle" "de Verre" "d'Évreux" "de Blundeville" "de Mellent" "de Baalun" "de Vernon" Estouteville "de Vexin-Amiens" "de Tilly" }
 	}
-	union = FRA
 	
 }
 
@@ -819,7 +813,7 @@ south_slavic = {
 		Obrenovic Ojdanic Panic Paskaš Pavkovic Pešic Petrovic Popovic Putnik Radulovic
 		Rašic Šijan Simovic Sokolovic Stepanovic Vasiljevic Veric Vojvodic Vukotic Živkovic
 		}
-		radicalism = 15
+		#radicalism = 15
 	}
 	macedonian = {
 		color = {196 122 77}
@@ -847,7 +841,7 @@ south_slavic = {
 		Obrenovic Ojdanic Panic Paskaš Pavkovic Pešic Petrovic Popovic Putnik Radulovic
 		Rašic Šijan Simovic Sokolovic Stepanovic Vasiljevic Veric Vojvodic Vukotic Živkovic
 		}
-		radicalism = 15
+		#radicalism = 15
 	}
 	bulgarian = {
 		color = {65 150 100}
@@ -882,7 +876,7 @@ south_slavic = {
 		Koculi Konica Konushevci Kosturi Kota Logoreci Merlika-Kruja Mitrovica Mula Noli
 		"Pashë Përmeti" "Pashë Tepelena" "Pashë Toptani" Poga "Qemal Bej" Shahini Skiroi Thaçi Troja Xoxe
 		}
-		radicalism = 15
+		#radicalism = 15
 	}
 	slovene = {
 		color = {0 90 128}
@@ -934,7 +928,7 @@ south_slavic = {
 		Obrenovic Ojdanic Panic Paskaš Pavkovic Pešic Petrovic Popovic Putnik Radulovic
 		Rašic Šijan Simovic Sokolovic Stepanovic Vasiljevic Veric Vojvodic Vukotic Živkovic
 		}
-		radicalism = 15
+		#radicalism = 15
 	}
 	juzhno = {
 		color = {140 50 59}
@@ -952,7 +946,7 @@ south_slavic = {
 		Obrenovic Ojdanic Panic Paskaš Pavkovic Pešic Petrovic Popovic Putnik Radulovic
 		Rašic Šijan Simovic Sokolovic Stepanovic Vasiljevic Veric Vojvodic Vukotic Živkovic
 		}
-		radicalism = 15
+		#radicalism = 15
 	}
 	crni = {
 		color = {91 39 48}
@@ -970,9 +964,8 @@ south_slavic = {
 		Obrenovic Ojdanic Panic Paskaš Pavkovic Pešic Petrovic Popovic Putnik Radulovic
 		Rašic Šijan Simovic Sokolovic Stepanovic Vasiljevic Veric Vojvodic Vukotic Živkovic
 		}
-		radicalism = 15
+		#radicalism = 15
 	}
-	union = YUG
 }
 pan_romanian = {
 	leader = european
@@ -1061,7 +1054,6 @@ pan_romanian = {
 		Salajan Samsonovici Schitiu Scodrea Slaniceanu Steflea Tatarascu Tenescu Vaitoianu Zottu
 		}
 	}
-	union = ROM 
 }
 
 hungarian_culture_group = {
@@ -1128,7 +1120,6 @@ hungarian_culture_group = {
 		Lichtenstein Liszt Mikszáth Molnár Nagy-Sándor Österreicher Ottinger Perczel Poeltenberg Reményi
 		Rohr Schweidel Széchenyi Szemere Szlávic Tersztyansky Török Varga Vécsey "von Benedek" }
 	}
-	union = HUN
 }
 
 polish_culture_group = {
@@ -1149,7 +1140,7 @@ polish_culture_group = {
 		Mikolajczyk Mokronowski Niepokólczycki Ostrowski Pac Pilsudski Poniatowski Potocki Pradzynski Radziwill
 		Rokossowski Rola-Zymierski Rómmel Rózicky Rybinski Rydz-Smigly Sanguszko Skrzynecki Soltyk Sowinski
 		Taczanowski Traugutt Wawrzecki Wieniawa-Dlugoszowski Wybicki Wysocki Zajaczek Zaluski Zamoyski Zeligowski }
-		radicalism = 10
+		#radicalism = 10
 	}
 	western_slavic = {
 		color = {147 63 109}
@@ -1196,7 +1187,7 @@ polish_culture_group = {
 		Mikolajczyk Mokronowski Niepokólczycki Ostrowski Pac Pilsudski Poniatowski Potocki Pradzynski Radziwill
 		Rokossowski Rola-Zymierski Rómmel Rózicky Rybinski Rydz-Smigly Sanguszko Skrzynecki Soltyk Sowinski
 		Taczanowski Traugutt Wawrzecki Wieniawa-Dlugoszowski Wybicki Wysocki Zajaczek Zaluski Zamoyski Zeligowski }
-		radicalism = 10
+		#radicalism = 10
 	}
 	poludniowy = {
 		color = {204 83 83}
@@ -1212,7 +1203,7 @@ polish_culture_group = {
 		Mikolajczyk Mokronowski Niepokólczycki Ostrowski Pac Pilsudski Poniatowski Potocki Pradzynski Radziwill
 		Rokossowski Rola-Zymierski Rómmel Rózicky Rybinski Rydz-Smigly Sanguszko Skrzynecki Soltyk Sowinski
 		Taczanowski Traugutt Wawrzecki Wieniawa-Dlugoszowski Wybicki Wysocki Zajaczek Zaluski Zamoyski Zeligowski }
-		radicalism = 10
+		#radicalism = 10
 	}
 	czarny = {
 		color = {155 72 72}
@@ -1228,10 +1219,9 @@ polish_culture_group = {
 		Mikolajczyk Mokronowski Niepokólczycki Ostrowski Pac Pilsudski Poniatowski Potocki Pradzynski Radziwill
 		Rokossowski Rola-Zymierski Rómmel Rózicky Rybinski Rydz-Smigly Sanguszko Skrzynecki Soltyk Sowinski
 		Taczanowski Traugutt Wawrzecki Wieniawa-Dlugoszowski Wybicki Wysocki Zajaczek Zaluski Zamoyski Zeligowski }
-		radicalism = 10
+		#radicalism = 10
 	}
 	
-	union = PLC
 }
 
 czecho_slovak_culture_group = {
@@ -1314,7 +1304,6 @@ czecho_slovak_culture_group = {
                 Šafránek Schack Schubert Škoda Skuherský Smetana Šnejdárek Suk Svoboda Syrový 
                 Tomášek Tyl Vitásek "von Mittrowitz-Nettolitzky" Voríšek Wankel Weber Zíbrt Zívr Zoubek }
 	}
-	union = CZH
 }
 
 east_slavic = {
@@ -1356,7 +1345,7 @@ east_slavic = {
                 last_names = { Bezruchko Chernyakhovs'kyy Dyachenko Hamula Hrihoriyev Hrekov Ivanenko Ivanov
 				Krapustians'kyy Kondratenko Leshchenko Lesh·chinskyy "Omelyanovych-Pavlenko"
 				Paskevych Petlyura Radchenko Shevchenko Skoropads'kyy Stefaniv Tymoshenko Vitovs'kyy }
-		radicalism = 10
+		#radicalism = 10
         }
 	ugrian = {  
 		color = {60 160 160}
@@ -1407,7 +1396,6 @@ east_slavic = {
 				Shuvalov Surkov Tukhachevskiy Yegorov Yudenich Vorontsov Voroshilov Zavoyko }
         }
 	
-	union = RUS
 }
 
 baltic = {
@@ -1498,8 +1486,6 @@ baltic = {
 		Sikkar Sirk Tõnisson Uluots Vaga Veske Vilbaste Vilms "von Uexküll" Warma
 		}
 	}
-	
-	union = UBD
 
 }
 
@@ -1522,7 +1508,7 @@ levantine = {
 		Plastíras Sapountzákis Saráfis Smolénskis Sofoúlis Soútsos Spyromílios Staïkópoulos Stanotas "tis Elládas"
 		Trikoúpis Tsakalótos Tsolákoglou Typáldos-Alfonsátos Tzavélas Vássos Venizélos Voúlgaris Zaïmis Zymvrakákis
 		}
-		radicalism = 10
+		#radicalism = 10
 	}
 	georgian = {
 		color = {70 110 70}
@@ -1621,7 +1607,7 @@ levantine = {
 		Plastíras Sapountzákis Saráfis Smolénskis Sofoúlis Soútsos Spyromílios Staïkópoulos Stanotas "tis Elládas"
 		Trikoúpis Tsakalótos Tsolákoglou Typáldos-Alfonsátos Tzavélas Vássos Venizélos Voúlgaris Zaïmis Zymvrakákis
 		}
-		radicalism = 10
+		#radicalism = 10
 	}
 	notios = {
 		color = {170 40 71}
@@ -1639,7 +1625,7 @@ levantine = {
 		Plastíras Sapountzákis Saráfis Smolénskis Sofoúlis Soútsos Spyromílios Staïkópoulos Stanotas "tis Elládas"
 		Trikoúpis Tsakalótos Tsolákoglou Typáldos-Alfonsátos Tzavélas Vássos Venizélos Voúlgaris Zaïmis Zymvrakákis
 		}
-		radicalism = 10
+		#radicalism = 10
 	}
 	mavro = {
 		color = {121 30 60}
@@ -1657,7 +1643,7 @@ levantine = {
 		Plastíras Sapountzákis Saráfis Smolénskis Sofoúlis Soútsos Spyromílios Staïkópoulos Stanotas "tis Elládas"
 		Trikoúpis Tsakalótos Tsolákoglou Typáldos-Alfonsátos Tzavélas Vássos Venizélos Voúlgaris Zaïmis Zymvrakákis
 		}
-		radicalism = 10
+		#radicalism = 10
 	}
 }
 
@@ -1882,7 +1868,7 @@ arab = {
 			"ibn Umar" "ibn Uthman" "ibn Yusuf"
 			"al-Najdi" "al-Hijazi"   
 			}
-			radicalism = 10
+			#radicalism = 10
 		}
 	berber = {
 		color = {51 75 70}
@@ -1894,7 +1880,7 @@ arab = {
 		last_names = {
 			"al-Jazuli" Belkadi Mukrani "al-Rifi" "al-Sahrawi" "al-Shawiyyati" "al-Shiluhi" "al-Zanatawi"
 			}
-			radicalism = 10
+			#radicalism = 10
 	}
 
 	andalucian = {
@@ -1921,7 +1907,7 @@ arab = {
 			"ibn Umar" "ibn Uthman" "ibn Yusuf"
 			"al-Najdi" "al-Hijazi"   
 			}
-			radicalism = 10
+			#radicalism = 10
 		}
 	janubii = {
 		color = {127 136 143}
@@ -1940,7 +1926,7 @@ arab = {
 			"ibn Umar" "ibn Uthman" "ibn Yusuf"
 			"al-Najdi" "al-Hijazi"   
 			}
-			radicalism = 10
+			#radicalism = 10
 		}
 	ifriqi = {
 		color = {97 131 138}
@@ -1959,10 +1945,9 @@ arab = {
 			"ibn Umar" "ibn Uthman" "ibn Yusuf"
 			"al-Najdi" "al-Hijazi"   
 			}
-			radicalism = 10
+			#radicalism = 10
 		}
 	
-	union = ARA
 }
 
 iranian_turanian = {
@@ -2082,7 +2067,7 @@ iranian_turanian = {
 		#	Nawabi Niazai Noor Noorzai Nuristani Orakzai Popalzai Poya Rahman Rasul Sadozai Safi Sardar Sediqi Shah Shahnawaz Sherkhanzai Sherzai Shirzai Sidiqi Stanikzai Taheri Ullah Yasin Yousafzai Yusufi Yusufzai
 		#	Zadran Zahid Zalmai Zazai
 		#}
-		radicalism = 10
+		#radicalism = 10
 
 	}
 	baluchi = {
@@ -2146,7 +2131,7 @@ iranian_turanian = {
 		#	Lale Lerzan Mahabad Mercan Mîdya Narîn Nazdar Naznaz Nesrîn Nîna Nûcan Nûsîn Pelsîn Perîxan Pirnaz Rejnê Rewsen Rojbîn Ronahî Rûna Seîran Sergul Sîbel Sindis Sîtav Spêda Sana Sehrîvan Sewran Sures Tara Veman Xacê
 		#	Xemsîn Yasemîn Yekta Zende Zerya Zîv
 		#}
-			radicalism = 10
+			#radicalism = 10
 	}
 	tatar = {
 		color = {45 87 99}
@@ -2208,7 +2193,7 @@ iranian_turanian = {
 		first_names = { Amberline Belcher Baul Bavol Bersh Beval Bidshika Brishen Camlo Chik Cam Chaine Chal  Chavula Danior Dukker Durriken Durril Dangerfield Garridan Gillie Guibran Goliath Gilderoy Hezekiah Jal Javert Jibben Jivin Ker Lel Lennor Lendar Lensar Mander Merripen Mestipen  Major Nehemiah Pal Pattin Pias Pov Rye Stiggur Shadrack Silvanus Tas Tobar Tobbar Tawno Tem Terkari Vandlo Wen Wesh Yarb }
 		
 		last_names = { Petulengro Vardo-mescro Chumomisto Gry Balorengre Purrum Bedra-kero Camlo Mokkado Baremescre Baryor Beshaley Kaulo }
-		radicalism = 15
+		#radicalism = 15
 	}
 }
 
@@ -2258,7 +2243,7 @@ central_asian = {
 		last_names = { 
                Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
 		}
-		radicalism = 10
+		#radicalism = 10
 	}
 	janalem = {
 		color = {167 200 107}
@@ -2450,7 +2435,7 @@ south_asian = {
 		last_names = { "ur Rahman" Bhatti Tiwana Qaim Kunwar "Bachittar Singh" Shekha
                
 		}
-		radicalism = 10
+		#radicalism = 10
 	}
 	kannada = {
 		color = {82 32 170}
@@ -2525,7 +2510,6 @@ south_asian = {
         Gadaraju Nanapaninni Bahl Sodhi Sidana Sadana Sardana Chhabra Ichpujani Saluja Khanna Mattu Waraich Virk Bedi Bhatia Chambal Cheema Chauhan Kaleka Arora Sumag Batra Barsar Luthra Agnihotri Sood Bhola Jindal Kapoor Sachdeva Grover Chadha Chopra Chaudhary Johar Khanna
 		}
 	}
-	union = HND
 }
 
 southeast_asian = {
@@ -2541,7 +2525,7 @@ southeast_asian = {
 		last_names = { "vinh Thuy" Han Tuan "Vinh San" Cuong Khai Nien Than Quang "Trong Hiep" "Mien Lam" "Mien Trinh" "Buu Lan"
                
 		}
-		radicalism = 5
+		#radicalism = 5
 	}
 	khmer = {
 		color = {220 86 34}
@@ -2692,7 +2676,7 @@ southeast_asian = {
 		last_names = { "vinh Thuy" Han Tuan "Vinh San" Cuong Khai Nien Than Quang "Trong Hiep" "Mien Lam" "Mien Trinh" "Buu Lan"
                
 		}
-		radicalism = 5
+		#radicalism = 5
 	}
 	phianam = {
 		color = {63 70 17}
@@ -2704,7 +2688,7 @@ southeast_asian = {
 		last_names = { "vinh Thuy" Han Tuan "Vinh San" Cuong Khai Nien Than Quang "Trong Hiep" "Mien Lam" "Mien Trinh" "Buu Lan"
                
 		}
-		radicalism = 5
+		#radicalism = 5
 	}
 	dhen = {
 		color = {13 60 7}
@@ -2716,7 +2700,7 @@ southeast_asian = {
 		last_names = { "vinh Thuy" Han Tuan "Vinh San" Cuong Khai Nien Than Quang "Trong Hiep" "Mien Lam" "Mien Trinh" "Buu Lan"
                
 		}
-		radicalism = 5
+		#radicalism = 5
 	}
 }
 
@@ -3595,9 +3579,8 @@ american_cultures = {
 		last_names = {Bee Ector Gano Granbury Green Greer Gregg Hardeman Harrison Hood Johnston King Lane Mabry Maxey McCulloch Moore 
 		Nelson Randal Robertson Ross Rosser Scurry Steele Terrell Waterhouse Waul Wharton Whitfield Wigfall Young Bowie Travis Houston
 		}
-		radicalism = 10
+		#radicalism = 10
 	}
-	union = USA
 }
 
 neo_european_cultures = {
@@ -3611,7 +3594,7 @@ neo_european_cultures = {
 		}
 		last_names = { Cilliers Botha Joubert Kruger Duquesne Potgieter "van Rensburg" "de la Rey" Theron "de Wet" Pretorius Retief "de Beer" Uys 
 		}
-		radicalism = 10
+		#radicalism = 10
 	}
 	australian = {
 		color = {87 113 174}
@@ -3636,7 +3619,7 @@ neo_european_cultures = {
 		}
 		last_names = { Belleau Caron "de St.-Just" Robitaille Masson Angers Chapleau Jotte Pantaléon Langelier Damasne LeBlanc Brodeur Perodeau
 		}
-		radicalism = 10
+		#radicalism = 10
 	}
 	anglo_african = {
 		color = { 210 106 47}
@@ -3652,7 +3635,7 @@ neo_european_cultures = {
 		}
 		last_names = { Belleau Caron "de St.-Just" Robitaille Masson Angers Chapleau Jotte Pantaléon Langelier Damasne LeBlanc Brodeur Perodeau
 		}
-		radicalism = 10
+		#radicalism = 10
 	}
 	australienne = { 
 		color = {151 129 165}
@@ -3661,7 +3644,7 @@ neo_european_cultures = {
 		}
 		last_names = { Belleau Caron "de St.-Just" Robitaille Masson Angers Chapleau Jotte Pantaléon Langelier Damasne LeBlanc Brodeur Perodeau
 		}
-		radicalism = 10
+		#radicalism = 10
 	}
 	africaine = { 
 		color = {102 118 155}
@@ -3670,7 +3653,7 @@ neo_european_cultures = {
 		}
 		last_names = { Belleau Caron "de St.-Just" Robitaille Masson Angers Chapleau Jotte Pantaléon Langelier Damasne LeBlanc Brodeur Perodeau
 		}
-		radicalism = 10
+		#radicalism = 10
 	}
 }
 
@@ -3711,7 +3694,7 @@ latin_american_cultures = {
 		Medina Mejía Menéndez Montes Montiel Morazán Palacios Peralta Quiros Regalado
 		Rosales Sevilla Sinibaldi Soto Terán Ubico Vasconcelos Vigil Zelaya Zeledón
 		}
-		radicalism = 15
+		#radicalism = 15
 	}
 	caribeno = {
 		color = {122 11 74}
@@ -4614,7 +4597,7 @@ non_human = { #More names allover
 	leader = polar_bear
 	unit = SwedishGC
 	polar_bears = {
-		radicalism = 100
+		#radicalism = 100
 		primary = JAN
 		color = { 200 200 200}
 
@@ -4624,7 +4607,7 @@ non_human = { #More names allover
 	}
 	horse = {
 		color = { 255 111 94}
-		radicalism = 100
+		#radicalism = 100
 		primary = TRL
 
 		first_names = { Spot Star Spirit Blaze Lucky Chief Rain Stormy Duke Traveler "Clever Hans" Dreamer Midnight Twilight Arion Carlos Triumph }
@@ -4633,7 +4616,7 @@ non_human = { #More names allover
 	}
 	cat = {
 		color = { 25 75 25}
-		radicalism = 100
+		#radicalism = 100
 		primary = MIA
 
 		first_names = { Mittens Fluffy Tom Smudge Shadow }
@@ -4642,7 +4625,7 @@ non_human = { #More names allover
 	}
 	undead = {
 		color = { 30 30 30 }
-		radicalism = 100
+		#radicalism = 100
 		primary = UND
 
 		first_names = { General Doctor Leader Beknown Bespectacled Buried Befeared "Human-eater" }
@@ -4651,7 +4634,7 @@ non_human = { #More names allover
 	}
 	alien = {
 		color = { 0 150 0 }
-		radicalism = 100
+		#radicalism = 100
 		primary = ALI
 
 		first_names = { Xirgliss Cathiox Zir Zarax Rekaxir Cax Zidlaxi Cabroxi Xidlor Zeraxim Moz Zoz Xaz Zax Zacadliss Cothaxir Xoblagiss Rezicax Morezac Midloxec }
@@ -4660,7 +4643,7 @@ non_human = { #More names allover
 	}
 	duck_culture = {
 		color = { 25 75 25}
-		radicalism = 100
+		#radicalism = 100
 		primary = DUK
 
 		first_names = { Daffy Quacker Huck Waddles Donald Dominic Whitewing Duckus Quackmire Eggbert Howard Scrooge Winghelm Ludwing Gladstone Cake Blunder Duck Quackers Pippi Face Grape Anaheim
@@ -4670,7 +4653,7 @@ non_human = { #More names allover
 	}
 	dog_culture = {
 		color = { 25 75 25}
-		radicalism = 100
+		#radicalism = 100
 		primary = DOG
 
 		first_names = { Fido Alfonso Basil Albert Alistair Elmer Gilbert Alwin Brantley Kendrik Psyche Pluck Buckler Spigot Lance Lurcher Watch Keeper Brigade Fencer Butcher Blazer Prowess Craftsman
@@ -4684,7 +4667,7 @@ non_human = { #More names allover
 	}
 	dragon_culture = {
 		color = { 25 75 25}
-		radicalism = 100
+		#radicalism = 100
 		primary = DRK
 
 		first_names = { Fafnir Midgard Apopis Ladon Colchidei Piton Vouivre Drac Gorynych Bantu Mannu Khozen Morzas Xemcel Medeus Morva Nils Bahamut Leviathan Ryujin Zilant Typhos Puff Nyx
@@ -4695,7 +4678,7 @@ non_human = { #More names allover
 	}
 	elephant_culture = {
 		color = { 25 75 25}
-		radicalism = 100
+		#radicalism = 100
 		primary = ELE
 
 		first_names = { Doot Trumpo Snoot Pyyrhus Kandula Jumbo Elephant Setu Dhriti Bhaanu Bhadra Zain Barbar Pompadour Booper Dombo Abul Abbas Hanno Zaeem Hannibal Baal Hasdrubal Babur
@@ -4705,7 +4688,7 @@ non_human = { #More names allover
 	}
 	hedgehog_culture = {
 		color = { 25 75 25}
-		radicalism = 100
+		#radicalism = 100
 		primary = HEG
 
 		first_names = { Hughues Echinus Erinus Kidnae Micro Mesyo Aurion Sclaterion Rix Spike Pokey Quillem Quilliam Quillington Sanic Knucklys Silver Lancelot Galahad Cyrus Pincushion Hedgehog
