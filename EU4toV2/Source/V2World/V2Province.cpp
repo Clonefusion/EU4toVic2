@@ -890,7 +890,7 @@ void V2Province::createPops(
 			*/
 		}
 
-		newPopulation = oldPopulation + static_cast<long>((newPopulation - oldPopulation) * (theConfiguration.getPopShapingFactor() / 100.0));
+		//newPopulation = oldPopulation + static_cast<long>((newPopulation - oldPopulation) * (theConfiguration.getPopShapingFactor() / 100.0));
 		break;
 	}
 
