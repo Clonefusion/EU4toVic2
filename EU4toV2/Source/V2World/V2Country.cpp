@@ -1727,6 +1727,7 @@ void V2Country::setCommerceTech(double normalizedScore)
 void V2Country::setIndustryTech(double normalizedScore)
 {
 	if ((theConfiguration.getVic2Gametype() != "vanilla") && !civilized)
+		techs.push_back("mechanized_mining");
 		return;
 }
 
