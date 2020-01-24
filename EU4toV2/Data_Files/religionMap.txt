@@ -105,7 +105,7 @@ link = { v2 = lollard eu4 = hussite }
 link = { v2 = sunni eu4 = wahhabi }
 link = { v2 = jain eu4 = jainism }
 link = { v2 = animist eu4 = pantheism eu4 = adi_dharam eu4 = polynesian_religion }
-link = { v2 = tibet_bon eu4 = tibetan_bon eu4 = bon }
+link = { v2 = tibet_bon eu4 = tibetan_bon eu4 = bon eu4 = bon_reformed }
 link = { v2 = muism eu4 = muism }
 link = { v2 = zun_pagan_reformed eu4 = zunism }
 
