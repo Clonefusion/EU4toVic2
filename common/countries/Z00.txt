@@ -1,0 +1,208 @@
+# Vestisland
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 190 230 250 }
+historical_idea_groups = {
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	spy_ideas
+	defensive_ideas
+	trade_ideas
+	innovativeness_ideas
+	quality_ideas
+}
+
+historical_units = {
+	eastern_medieval_infantry
+	eastern_knights
+	slavic_stradioti
+	eastern_militia
+	ottoman_spahi
+	ottoman_sekban
+	ottoman_reformed_spahi
+	ottoman_reformed_janissary
+	ottoman_toprakli_hit_and_run
+	ottoman_nizami_cedid
+	ottoman_toprakli_dragoon
+	eastern_skirmisher
+	eastern_uhlan
+	eastern_carabinier
+	ottoman_new_model
+	ottoman_lancer
+}
+
+
+
+leader_names = {
+
+	"Einarr" "Svein" "Tord" "Åsta" "Skule" "Astrid" "Ragnfrid" "Svanhild" "Lígach" "Ragnar" 
+	"Ingrid" "Thordis" "Orm" "Trond" "Jorunn" "Guttorm" "Gunnhild" "Sturla" "Kraka" "Inga" 
+	"Faste" "Malmfrið" "Linda" "Sara" "Starkaðr" "Karin" "Alfgeir" "Fredrik" "Valdemar" "Birgitta" 
+	"Magni" "Ragnarr" "Botulfr" "Freyr" "Maer" "Knut" "Alfhildr" "Ulv" "Elisabet" "Arngrimr" 
+	"Bothildr" "Einar" "Erlend" "Erling" "Haldora" "Eldrid" "Tormod" "Margrete" "Torolf" "Gyda" 
+	"Ølver" "Sigurd" "Freja" "Ingjerd" "Åse" "Thora" "Gudrun" "Ragnhild" "Sverre" "Arne" 
+	"Sunniva" "Arnvid" "Martha" "Gjertrud" "Balder" "Homlaug" "Ragna" "Anund" "Thorborg" "Alv" 
+	"Arnfinn" "Arnkjell" "Arnmod" "Aslak" "Audun" "Bård" "Bjørn" "Eigil" "Eilif" "Eirik" 
+	"Eystein" "Finn" "Frej" "Grim" "Gudbrand" "Gudleik" "Gudmund" "Gudrød" "Gunnar" "Haldor" 
+	"Halfdan" "Halkjell" "Harald" "Helge" "Håkon" "Håvard" "Inge" "Ivar" "Jon" "Kåre" 
+	"Kolbein" "Lodin" "Magne" "Odd" "Ogmund" "Olav" "Ossor" "Ottar" "Pål" "Ragnvald" 
+	"Rolf" "Skjalg" "Skofte" "Sämund" "Torbjørn" "Tore" "Torbrand" "Torfinn" "Torgeir" "Torgil" 
+	"Torstein" "Tryggve" "Vigleik" "Åle" "Åmund" "Øystein" }
+monarch_names = {
+	"Einarr #0" = 1
+	"Svein #0" = 1
+	"Tord #0" = 1
+	"Åsta #0" = -1
+	"Skule #0" = 1
+	"Astrid #0" = -1
+	"Ragnfrid #0" = -1
+	"Svanhild #0" = -1
+	"Lígach #0" = -1
+	"Ragnar #0" = 1
+	"Ingrid #0" = -1
+	"Thordis #0" = -1
+	"Orm #0" = 1
+	"Trond #0" = 1
+	"Jorunn #0" = -1
+	"Guttorm #0" = 1
+	"Gunnhild #0" = -1
+	"Sturla #0" = 1
+	"Kraka #0" = -1
+	"Inga #0" = -1
+	"Faste #0" = 1
+	"Malmfrið #0" = -1
+	"Linda #0" = -1
+	"Sara #0" = -1
+	"Starkaðr #0" = 1
+	"Karin #0" = -1
+	"Alfgeir #0" = 1
+	"Fredrik #0" = 1
+	"Valdemar #0" = 1
+	"Birgitta #0" = -1
+	"Magni #0" = 1
+	"Ragnarr #0" = 1
+	"Botulfr #0" = 1
+	"Freyr #0" = 1
+	"Maer #0" = -1
+	"Knut #0" = 1
+	"Alfhildr #0" = -1
+	"Ulv #0" = 1
+	"Elisabet #0" = -1
+	"Arngrimr #0" = 1
+	"Bothildr #0" = -1
+	"Einar #0" = 1
+	"Erlend #0" = 1
+	"Erling #0" = 1
+	"Haldora #0" = -1
+	"Eldrid #0" = -1
+	"Tormod #0" = 1
+	"Margrete #0" = -1
+	"Torolf #0" = 1
+	"Gyda #0" = -1
+	"Ølver #0" = 1
+	"Sigurd #0" = 1
+	"Freja #0" = -1
+	"Ingjerd #0" = -1
+	"Åse #0" = -1
+	"Thora #0" = -1
+	"Gudrun #0" = -1
+	"Ragnhild #0" = -1
+	"Sverre #0" = 1
+	"Arne #0" = 1
+	"Sunniva #0" = -1
+	"Arnvid #0" = 1
+	"Martha #0" = -1
+	"Gjertrud #0" = -1
+	"Balder #0" = 1
+	"Homlaug #0" = -1
+	"Ragna #0" = -1
+	"Anund #0" = 1
+	"Thorborg #0" = -1
+	"Alv #0" = 0
+	"Arnfinn #0" = 0
+	"Arnkjell #0" = 0
+	"Arnmod #0" = 0
+	"Aslak #0" = 0
+	"Audun #0" = 0
+	"Bård #0" = 0
+	"Bjørn #0" = 0
+	"Eigil #0" = 0
+	"Eilif #0" = 0
+	"Eirik #0" = 0
+	"Eystein #0" = 0
+	"Finn #0" = 0
+	"Frej #0" = 0
+	"Grim #0" = 0
+	"Gudbrand #0" = 0
+	"Gudleik #0" = 0
+	"Gudmund #0" = 0
+	"Gudrød #0" = 0
+	"Gunnar #0" = 0
+	"Haldor #0" = 0
+	"Halfdan #0" = 0
+	"Halkjell #0" = 0
+	"Harald #0" = 0
+	"Helge #0" = 0
+	"Håkon #0" = 0
+	"Håvard #0" = 0
+	"Inge #0" = 0
+	"Ivar #0" = 0
+	"Jon #0" = 0
+	"Kåre #0" = 0
+	"Kolbein #0" = 0
+	"Lodin #0" = 0
+	"Magne #0" = 0
+	"Odd #0" = 0
+	"Ogmund #0" = 0
+	"Olav #0" = 0
+	"Ossor #0" = 0
+	"Ottar #0" = 0
+	"Pål #0" = 0
+	"Ragnvald #0" = 0
+	"Rolf #0" = 0
+	"Skjalg #0" = 0
+	"Skofte #0" = 0
+	"Sämund #0" = 0
+	"Torbjørn #0" = 0
+	"Tore #0" = 0
+	"Torbrand #0" = 0
+	"Torfinn #0" = 0
+	"Torgeir #0" = 0
+	"Torgil #0" = 0
+	"Torstein #0" = 0
+	"Tryggve #0" = 0
+	"Vigleik #0" = 0
+	"Åle #0" = 0
+	"Åmund #0" = 0
+	"Øystein #0" = 0
+}
+ship_names = {
+	Adrianopolis "Aetos Autokratiki" "Aghia Ioylia" "Aghia Irini" "Aghia Magdalini" "Aghia Sophia" "Aghia Thekla"
+	"Aghios Angelos" "Aghios Eusebios" "Aghios Ioakeim" "Aghios Ioannes" "Aghios Loukas"
+	"Aghios Markos" "Aghios Matthaios" "Aghios Maximos" "Aghios Nikolaos" "Aghios Pavlos"
+	"Aghios Petros" "Aghios Philimon" "Aghios Sergios" "Aghios Stephanos" "Aghios Thimoteos"
+	Aiakos Aineas Akhilleus Amphitrion Aphrodita Apollo Arakhne Ares Asia Athena
+	"Basileous Alexandros" "Basileous Alexeios" "Basileous Andronikos" "Basileous Basileos"
+	"Basileous Demetrios" "Basileous Ioannes" "Basileous Isaak" "Basileous Leon"
+	"Basileous Manuel" "Basileous Michael" "Basileous Rhomaion" "Basileous Romanos"
+	"Basileous Theodoros" "Basileous Theophilos" "Basileisa Theodora" "Basileisa Zoe"
+	Belisarios Byzantion
+	Cassandra Castor "Christos Soter" Chronos
+	Demeter "Despotes Demetrios" "Despotes Moreas" Diana "Drakon Ouranos" Dyonisos
+	Ellade Endymion Eros Europa
+	Gea "Gorgona Poseidonos"
+	Hades Hektor Hephaistos Hera Herakles Hermes Hestia Hydra Hypnos
+	Jason
+	"Kaisar Konstantinos" Konstantinopolis "Konstantinos Dragases"
+	"Liontari Skliros" "Lussa ton Theon" "Lykos Thalasses"
+	Makedonia "Margaritari Aspra" Minos
+	Nestor
+	Odysseos Orestes Okeanasthraustis Ouranos
+	Panselenos Pegasos Perseos "Pontikos Thalasses" Poseidon
+	Rhadamanthys
+	Sebastokrator
+	Thanatos Theseos
+	Zeous
+}
+

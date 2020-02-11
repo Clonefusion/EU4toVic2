@@ -1,102 +1,178 @@
-#Country Name: Please see filename.
-
+# Tabriz
+ck2_converter_generated = yes
 graphical_culture = muslimgfx
+color = { 76 103 200 }
 
-color = { 212 80 154 }
 
-historical_idea_groups = {
-	defensive_ideas
-	religious_ideas
-	offensive_ideas
-	trade_ideas
-	spy_ideas
-	economic_ideas
-	diplomatic_ideas
-	administrative_ideas
-}
 
-historical_units = {
-	persian_footsoldier
-	persian_cavalry_charge
-	persian_shamshir
-	qizilbash_cavalry
-	tofongchis_musketeer
-	topchis_artillery
-	afsharid_reformed
-	afsharid_reformed_infantry
-	muslim_mass_infantry
-	muslim_dragoon
-	persian_rifle
-}
-
-monarch_names = { #Shared with Persia
-	"Shahbaz #0" = 30
-	"Najaf #0" = 30
-	"Ahmad #0" = 30
-	"Hossein #0" = 20
-	"Jafar #0" = 10
-	"Mohammad #0" = 30
-	"Badr #0" = 20
-	"Nazarali #0" = 10
-	"Nasir #0" = 10
-	"Mohammadreza #0" = 10
-	"Sadiq #0" = 10
-	"Hassan #0" = 10
-	"Teymur #0" = 5
-	"Murtuzaqulu #0 Khân" = 10
-	"Kazim #0" = 10
-	"Haji #0" = 10
-	"Iskender #0" = 10
-	"Mirza #0 Hossein" = 10
-	"Samed #0" = 10
-	"Aliqulu #0" = 10
-	"Zulfaqar #0" = 10
-	"Abdullah #0" = 10
-	"Amanullah #0" = 10
-	
-	"Atiya #0" = -1
-	"Pari #0" = -1
-	"Khayr al-Nisa #0" = -1
-	"Tajlu #0" = -1
-	"Dilaram #0" = -1
-	"Shahbanu #0" = -1
-	"Razia #0" = -1
-	"Maryam #0" = -1
-}
 
 leader_names = {
-	Sabiri
-	Jalili
-	Azizi
-	Shahy
-	Daei
-	Qazai
-	Dalwand
-	Ahrari
-	Fatemi
-	Sabet
-	Ansari
+
+	"Darab" "Ahu" "Manushihr" "Sina" "Manuchihr" "Faramarz" "Navvaba" "Farva" "Furuzan" "Golnaz" 
+	"Shahrzad" "Mahdokht" "Kambiz" "Ruhollah" "Yasar" "Alyonj" "Yasaman" "Parvin" "Aram" "Hedayat" 
+	"Pujman" "Afshar" "Mehrzad" "Golpari" "Mehrab" "Bakhtiar" "Farzad" "Pourandokht" "Farnaz" "Hamdam" 
+	"Elham" "Leila" "Anushirvan" "Bahram" "No Character" "Vahusdan" "Varazdat" "Shahbaz" "Farhad" "Ermengarda" 
+	"Merwan" "Šepirze" "Ivane" "Zia" "Zerya" "Bonyak" "Saru" "Pulad" "Sirçan" "Menûšihr" 
+	"Zahak" "Ghalib" "Uzluk" "Faraz" "Ilkay" "Sati" "Kuntuvdi" "Sevilay" "Itlar" "Mutlu" 
+	"Tura" "Cloutilda" "Amin" "Ardahan" "Ardavan" "Ardeshir" "Assad" "Aurang" "Ayeshah" "Babak" 
+	"Bahman" "Behrad" "Behrouz" "Bozorg" "Danush" "Dariush" "Davud" "Djamasp" "Ebrahim" "Ehsan" 
+	"Esfandiar" "Eskander" "Esma'il" "Fareed" "Fariborz" "Farroukh" "Farrukhzad" "Fath" "Ferdows" "Fereedun" 
+	"Ghobad" "Gholam" "Godarz" "Goshtasb" "Hafez" "Hassan" "Hazarasp" "Hooshyar" "Hormoz" "Humayun" 
+	"Jahandar" "Jahangir" "Jahanshah" "Jamshid" "Javeed" "Kamran" "Kavoos" "Keyghobad" "Keykhosrau" "Kharmandar" 
+	"Khashayar" "Kavadh" "Khodadad" "Khosrau" "Khudayar" "Khurshid" "Kurush" "Marzuban" "Mashad" "Morad" 
+	"Morteza" "Mozaffar" "Nard" "Naveed" "Nawid" "Nezam" "Parviz" "Pashang" "Peroz" "Reza" 
+	"Rostam" "Sadri" "Salman" "Shahab" "Shahin" "Shahram" "Shahrokh" "Shahruz" "Shahryar" "Shayan" 
+	"Tahmasb" "Vahhab" "Vahid" "Vali" "Varshasb" "Vishtasb" "Yazdegerd" "Yousef" "Zakaria" "Zand" }
+monarch_names = {
+	"Darab #0" = 1
+	"Ahu #0" = -1
+	"Manushihr #0" = 1
+	"Sina #0" = 1
+	"Manuchihr #0" = 1
+	"Faramarz #0" = 1
+	"Navvaba #0" = -1
+	"Farva #0" = -1
+	"Furuzan #0" = -1
+	"Golnaz #0" = -1
+	"Shahrzad #0" = -1
+	"Mahdokht #0" = -1
+	"Kambiz #2" = 21
+	"Ruhollah #1" = 18
+	"Yasar #0" = -1
+	"Alyonj #0" = -1
+	"Yasaman #0" = -1
+	"Parvin #0" = -1
+	"Aram #0" = 1
+	"Hedayat #0" = 1
+	"Pujman #0" = 1
+	"Afshar #0" = 1
+	"Mehrzad #0" = 1
+	"Golpari #0" = -1
+	"Mehrab #0" = 1
+	"Bakhtiar #0" = 1
+	"Farzad #1" = 21
+	"Pourandokht #0" = -1
+	"Farnaz #0" = -1
+	"Hamdam #0" = -1
+	"Elham #0" = -1
+	"Leila #0" = -1
+	"Anushirvan #0" = 1
+	"Bahram #0" = 1
+	"No Character #1" = 0
+	"Vahusdan #1" = 0
+	"Varazdat #1" = 0
+	"Shahbaz #1" = 0
+	"Farhad #1" = 0
+	"Ermengarda #1" = -1
+	"Merwan #1" = 0
+	"Šepirze #1" = -1
+	"Ivane #1" = 0
+	"Zia #1" = 0
+	"Zerya #1" = -1
+	"Bonyak #1" = 0
+	"Saru #1" = 0
+	"Pulad #1" = 0
+	"Sirçan #1" = 0
+	"Menûšihr #1" = 0
+	"Zahak #1" = 0
+	"Ghalib #1" = 0
+	"Uzluk #1" = 0
+	"Faraz #1" = 0
+	"Ilkay #1" = -1
+	"Sati #1" = -1
+	"Kuntuvdi #1" = 0
+	"Sevilay #1" = -1
+	"Itlar #1" = 0
+	"Mutlu #1" = -1
+	"Tura #1" = -1
+	"Cloutilda #1" = -1
+	"Amin #0" = 0
+	"Ardahan #0" = 0
+	"Ardavan #0" = 0
+	"Ardeshir #0" = 0
+	"Assad #0" = 0
+	"Aurang #0" = 0
+	"Ayeshah #0" = 0
+	"Babak #0" = 0
+	"Bahman #0" = 0
+	"Behrad #0" = 0
+	"Behrouz #0" = 0
+	"Bozorg #0" = 0
+	"Danush #0" = 0
+	"Dariush #0" = 0
+	"Davud #0" = 0
+	"Djamasp #0" = 0
+	"Ebrahim #0" = 0
+	"Ehsan #0" = 0
+	"Esfandiar #0" = 0
+	"Eskander #0" = 0
+	"Esma'il #0" = 0
+	"Fareed #0" = 0
+	"Fariborz #0" = 0
+	"Farroukh #0" = 0
+	"Farrukhzad #0" = 0
+	"Fath #0" = 0
+	"Ferdows #0" = 0
+	"Fereedun #0" = 0
+	"Ghobad #0" = 0
+	"Gholam #0" = 0
+	"Godarz #0" = 0
+	"Goshtasb #0" = 0
+	"Hafez #0" = 0
+	"Hassan #0" = 0
+	"Hazarasp #0" = 0
+	"Hooshyar #0" = 0
+	"Hormoz #0" = 0
+	"Humayun #0" = 0
+	"Jahandar #0" = 0
+	"Jahangir #0" = 0
+	"Jahanshah #0" = 0
+	"Jamshid #0" = 0
+	"Javeed #0" = 0
+	"Kamran #0" = 0
+	"Kavoos #0" = 0
+	"Keyghobad #0" = 0
+	"Keykhosrau #0" = 0
+	"Kharmandar #0" = 0
+	"Khashayar #0" = 0
+	"Kavadh #0" = 0
+	"Khodadad #0" = 0
+	"Khosrau #0" = 0
+	"Khudayar #0" = 0
+	"Khurshid #0" = 0
+	"Kurush #0" = 0
+	"Marzuban #0" = 0
+	"Mashad #0" = 0
+	"Morad #0" = 0
+	"Morteza #0" = 0
+	"Mozaffar #0" = 0
+	"Nard #0" = 0
+	"Naveed #0" = 0
+	"Nawid #0" = 0
+	"Nezam #0" = 0
+	"Parviz #0" = 0
+	"Pashang #0" = 0
+	"Peroz #0" = 0
+	"Reza #0" = 0
+	"Rostam #0" = 0
+	"Sadri #0" = 0
+	"Salman #0" = 0
+	"Shahab #0" = 0
+	"Shahin #0" = 0
+	"Shahram #0" = 0
+	"Shahrokh #0" = 0
+	"Shahruz #0" = 0
+	"Shahryar #0" = 0
+	"Shayan #0" = 0
+	"Tahmasb #0" = 0
+	"Vahhab #0" = 0
+	"Vahid #0" = 0
+	"Vali #0" = 0
+	"Varshasb #0" = 0
+	"Vishtasb #0" = 0
+	"Yazdegerd #0" = 0
+	"Yousef #0" = 0
+	"Zakaria #0" = 0
+	"Zand #0" = 0
 }
 
-ship_names = {
-	Abathur "Adamn Kasia" "Aesma Daeva" Agas
-	Ahriman Ahura "Ahura Mazda" Ahurani Airyaman
-	"Aka Manah" Aladdin Allatum Amashaspan Ameratat
-	"Amesha Spentas" Anahita "Angra Mainyu" Anjuman
-	"Apam-natat" Apaosa Aredvi Arishtat Armaiti Arsaces
-	"Asha vahista" Asman "Asto Vidatu" "Astvat-Ereta"
-	Atar "Azi Dahaka" Baga Bahram Burijas Bushyasta Buyasta
-	Camros Daena Daevas Ahaka Dahhak Dena Dev Diwe Drug
-	Drvaspa Frashegird Fravashis Gandarewa "Gao-kerena"
-	Gayomard Gayomart "Geus-Tasan" "Geus-Urvan" Haoma
-	Haurvatat Humay Hvar Hvarekhshaeta Indar Indra Izha
-	Jamshid Jeh Karshipta Kavi Khara "Khshathra vairya"
-	Kundrav Mah Mahre Mahrianag Manu Manuchihir Mao 
-	Mashyane Mashye Menog Mithra Nairyosangha Nanghaithya
-	Neriosang Ormazd Peris Peshdadians Rapithwin Rashnu
-	Rustam Saurva Simurgh "Spenta Mainyu" Sraosa Srosh
-	Tawrich Thunaupa Tistrya Tushnamatay Vanant Vata
-	Verethragna "Vohu Manah" Vouruskasha Yam Yasht Yazata
-	Yezidi Yima Zal Zam "Zam-Armatay" Zarathustra Zarich
-	"Zend-Avesta" Zurvan
-}

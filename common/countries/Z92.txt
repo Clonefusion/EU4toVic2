@@ -1,0 +1,167 @@
+# Bjarmia
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 95 50 20 }
+
+
+
+
+leader_names = {
+
+	"Tarkhan" "Özlem" "Viba" "Galene" "Gundega" "Naula" "Butovit" "Imela" "Doriend" "Mainchíne" 
+	"Bitens" "Ráthach" "Gormflaith" "Rasa" "Baise" "Cailte" "Gáethíne" "Ausala" "Valikaila" "Cumman" 
+	"Traidenis" "Kiten" "Davins" "Karnak" "Rusins" "Maija" "Gráinne" "Likiik" "Dzeguze" "Ieva" 
+	"Róis" "Kordula" "Gastile" "Kodere" "Dose" "Stegut" "Itakh" "Sibel" "Samsam" "Cirulis" 
+	"Darate" "Sati" "Bulei" "Yudki" "Savna" "Pukuveras" "Marite" "Shvarnas" "Brita" "Kurlemuse" 
+	"Daira" "Liga" "Tautvila" "Gotene" "Dardedze" "Aishno" "Ankad" "Erdzivil" "Vaishvilkas" "Jaunule" 
+	"Sargun" "Sprudeik" "Flann" "Gunda" "Balba" "Flannchad" "Vishly" "Borut" "Étaín" "Máiread" 
+	"Zigne" "Lammekinus" "Klavess" "No Character" "Alik" "Pudak" "Nga" "Tada" "Num" "Yurak" 
+	"Kujku" "Yapti" "Kako" "Sirtya" "Ngënoh" "Vladimir" "Zorya" "Galeine" "Dzintis" "Ringaudas" 
+	"Litto" "Ako" "Balodis" "Bikshe" "Dangeruthe" "Darbeslave" "Dausprungas" "Demas" "Dobre" "Dovyat" 
+	"Elmede" "Erasts" "Gedere" "Gerden" "Gibedats" "Giemund" "Golovke" "Gunvald" "Imanta" "Janis" 
+	"Jedetus" "Juvage" "Kage" "Kaire" "Karijotas" "Kaupo" "Kerstigens" "Kuliens" "Lonkogveni" "Manvydas" 
+	"Meinekinus" "Mendune" "Nameisis" "Narvait" "Pliksov" "Pukiik" "Rushky" "Sabe" "Scurdo" "Shutr" 
+	"Skornand" "Steikint" "Sviendorog" "Talivaldis" "Treniota" "Vetseke" "Viesturs" "Visheiv" "Vishikut" "Vykantas" }
+monarch_names = {
+	"Tarkhan #1" = 18
+	"Özlem #0" = -1
+	"Viba #0" = -1
+	"Galene #0" = -1
+	"Gundega #0" = -1
+	"Naula #0" = -1
+	"Butovit #0" = 1
+	"Imela #1" = -28
+	"Doriend #0" = -1
+	"Mainchíne #0" = 1
+	"Bitens #1" = -22
+	"Ráthach #0" = 1
+	"Gormflaith #0" = -1
+	"Rasa #0" = -1
+	"Baise #0" = 1
+	"Cailte #0" = 1
+	"Gáethíne #0" = 1
+	"Ausala #0" = -1
+	"Valikaila #0" = 1
+	"Cumman #0" = -1
+	"Traidenis #1" = 30
+	"Kiten #0" = 1
+	"Davins #0" = 1
+	"Karnak #0" = 1
+	"Rusins #0" = 1
+	"Maija #0" = -1
+	"Gráinne #0" = -1
+	"Likiik #0" = 1
+	"Dzeguze #0" = -1
+	"Ieva #0" = -1
+	"Róis #0" = -1
+	"Kordula #0" = -1
+	"Gastile #0" = 1
+	"Kodere #1" = 18
+	"Dose #0" = -1
+	"Stegut #0" = 1
+	"Itakh #0" = 1
+	"Sibel #1" = -19
+	"Samsam #0" = 1
+	"Cirulis #0" = 1
+	"Darate #0" = -1
+	"Sati #0" = -1
+	"Bulei #0" = 1
+	"Yudki #0" = 1
+	"Savna #0" = -1
+	"Pukuveras #0" = 1
+	"Marite #1" = -25
+	"Shvarnas #0" = 1
+	"Brita #0" = -1
+	"Kurlemuse #0" = 1
+	"Daira #0" = -1
+	"Liga #0" = -1
+	"Tautvila #0" = 1
+	"Gotene #0" = 1
+	"Dardedze #0" = -1
+	"Aishno #0" = 1
+	"Ankad #0" = 1
+	"Erdzivil #0" = 1
+	"Vaishvilkas #0" = 1
+	"Jaunule #1" = 18
+	"Sargun #0" = 1
+	"Sprudeik #0" = 1
+	"Flann #0" = 1
+	"Gunda #0" = -1
+	"Balba #0" = -1
+	"Flannchad #0" = 1
+	"Vishly #0" = 1
+	"Borut #0" = 1
+	"Étaín #0" = -1
+	"Máiread #0" = -1
+	"Zigne #0" = -1
+	"Lammekinus #0" = 1
+	"Klavess #0" = 1
+	"No Character #4" = 0
+	"Alik #1" = 0
+	"Pudak #1" = 0
+	"Nga #1" = 0
+	"Tada #1" = -1
+	"Num #1" = 0
+	"Yurak #1" = 0
+	"Kujku #1" = -1
+	"Yapti #1" = 0
+	"Kako #1" = 0
+	"Sirtya #1" = 0
+	"Ngënoh #1" = 0
+	"Vladimir #2" = 0
+	"Zorya #1" = -1
+	"Galeine #1" = 0
+	"Dzintis #1" = 0
+	"Ringaudas #1" = 0
+	"Litto #1" = 0
+	"Ako #0" = 0
+	"Balodis #0" = 0
+	"Bikshe #0" = 0
+	"Dangeruthe #0" = 0
+	"Darbeslave #0" = 0
+	"Dausprungas #0" = 0
+	"Demas #0" = 0
+	"Dobre #0" = 0
+	"Dovyat #0" = 0
+	"Elmede #0" = 0
+	"Erasts #0" = 0
+	"Gedere #0" = 0
+	"Gerden #0" = 0
+	"Gibedats #0" = 0
+	"Giemund #0" = 0
+	"Golovke #0" = 0
+	"Gunvald #0" = 0
+	"Imanta #0" = 0
+	"Janis #0" = 0
+	"Jedetus #0" = 0
+	"Juvage #0" = 0
+	"Kage #0" = 0
+	"Kaire #0" = 0
+	"Karijotas #0" = 0
+	"Kaupo #0" = 0
+	"Kerstigens #0" = 0
+	"Kuliens #0" = 0
+	"Lonkogveni #0" = 0
+	"Manvydas #0" = 0
+	"Meinekinus #0" = 0
+	"Mendune #0" = 0
+	"Nameisis #0" = 0
+	"Narvait #0" = 0
+	"Pliksov #0" = 0
+	"Pukiik #0" = 0
+	"Rushky #0" = 0
+	"Sabe #0" = 0
+	"Scurdo #0" = 0
+	"Shutr #0" = 0
+	"Skornand #0" = 0
+	"Steikint #0" = 0
+	"Sviendorog #0" = 0
+	"Talivaldis #0" = 0
+	"Treniota #0" = 0
+	"Vetseke #0" = 0
+	"Viesturs #0" = 0
+	"Visheiv #0" = 0
+	"Vishikut #0" = 0
+	"Vykantas #0" = 0
+}
+

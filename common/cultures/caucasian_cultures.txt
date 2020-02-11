@@ -1,0 +1,14 @@
+caucasian = {
+	alan = {
+		primary = GEO
+		dynasty_names = { }
+	}
+	assyrian = {
+		primary = GEO
+		dynasty_names = { }
+	}
+	coptic = {
+		primary = EGY
+		dynasty_names = { "Bayomi" "Ruweis" "Atreides" "Bayomi" "en Bank" "Amoun" "en Bilbays" "Zaia" "Paphnoutios" "en Markuz" "en Hajr" "Shenouti" "en Mukha" "en Damman" "en Bu‘jan" "Bashmur" "en Al Awbhali" "Amoun" "en Al-Jammaniyah" "en Sohar" "en Begarawiyah" "en Damietta" "en Steroh" "Zaia" "Shenouti" "en Dam" "Amoun" }
+	}
+}

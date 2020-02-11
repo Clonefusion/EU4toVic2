@@ -3,8 +3,8 @@
 unit_type = south_american
 type = cavalry
 
-maneuver = 2
-offensive_morale = 2
+maneuver = 3
+offensive_morale = 3
 defensive_morale = 2
 offensive_fire = 0
 defensive_fire = 1

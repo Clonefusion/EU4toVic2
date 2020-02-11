@@ -1,112 +1,244 @@
-#Country Name: Please see filename.
+# Wallachia
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 220 132 40 }
 
-graphical_culture = easterngfx
 
-color = { 161  126  128 }
 
-historical_idea_groups = {
-	defensive_ideas
-	offensive_ideas
-	spy_ideas
-	trade_ideas
-	diplomatic_ideas
-	economic_ideas
-	innovativeness_ideas
-	religious_ideas
-}
-
-historical_units = {
-	eastern_medieval_infantry
-	eastern_knights
-	slavic_stradioti
-	eastern_militia
-	ottoman_sekban
-	ottoman_reformed_spahi
-	ottoman_reformed_janissary
-	ottoman_toprakli_hit_and_run
-	ottoman_nizami_cedid
-	ottoman_toprakli_dragoon
-	eastern_skirmisher
-	eastern_uhlan
-	eastern_carabinier
-	ottoman_new_model
-	ottoman_lancer
-}
-
-monarch_names = {
-	"Alexandru #0" = 160
-	"Radu #1" = 120
-	"Vlad #1" = 120
-	"Constantin #0" = 80
-	"Mihail #0" = 80
-	"Mircea #0" = 80
-	"George #0" = 60
-	"Grigore #0" = 60
-	"Mihnea #0" = 60
-	"Nicolae #0" = 60
-	"Besarab #1" = 40
-	"Vladislav #1" = 40
-	"Mattia #0" = 40
-	"Petru #0" = 40
-	"Radu Ilias #0" = 40
-	"Scarlat #0" = 40
-	"Stefan #0" = 40
-	"Dan #1" = 20
-	"Alexandru Ilias #0" = 20
-	"Gabriel #0" = 20
-	"Ioan George #0" = 20
-	"Leon #0" = 20
-	"Moise #0" = 20
-	"Neagoie Besarab #0" = 20
-	"Petrascu #0" = 20
-	"Radu Leon #0" = 20
-	"Radu Mihnea #0" = 20
-	"Serban #0" = 20
-	"Simeon #0" = 20
-	"Teodosiu #0" = 20
-	"Vintila #0" = 20
-	"Vladut #0" = 20
-	"Milos #0" = 10
-	"Corneliu #0" = 0
-	"Flaviu #0" = 0
-	"Iuliu #0" = 0
-	"Octavian #0" = 0
-	"Sergiu #0" = 0
-	"Teodor #0" = 0
-	"Valeriu #0" = 0
-	
-	"Rahela #0" = -1
-	"Flavia #0" = -1
-	"Cosmina #0" = -1
-}
 
 leader_names = {
-	Basarab Brâncoveanu
-	Cantacuzino Caragea Craiovescu
-	Dracul Duca
-	Ghica Golescu
-	Ilias Ipsilanti
-	Mavrocordat Mircea Moruzi
-	Racovita
-	Sutu 
-	Tepelus Tolmay
-	Vacarescu Voda
+
+	"Pliksov" "Naula" "Likiik" "Baise" "Manvydas" "Agita" "Rushky" "Imela" "Juvage" "Pukuveras" 
+	"Litto" "Elmede" "Rasa" "Balodis" "Galene" "Gedere" "Meltsayka" "Treniota" "Zigne" "Karijotas" 
+	"Galeine" "Karnak" "Kage" "Daira" "Dzeguze" "Balba" "Pakstyan" "Bikshe" "Tautvila" "Visheiv" 
+	"Traidenis" "Lammekinus" "Kordula" "Greze" "Simsam" "Bitens" "Darate" "Shutr" "Gibedats" "Meinekinus" 
+	"Erdzivil" "Kuliens" "Butovit" "Vaishvilkas" "Maija" "Brita" "Aishno" "Dovyat" "Vishikut" "Marite" 
+	"Viesturs" "Ruta" "Dose" "Yalgava" "Savna" "Sprudeik" "Pukiik" "Dzintis" "Dardedze" "Jedetus" 
+	"Gunda" "Talivaldis" "Biur" "Dobre" "Eunike" "Scurdo" "Mel'shay" "Gastile" "Gerden" "Gundega" 
+	"Liga" "Arvo" "Jaunule" "Vidyava" "Narvait" "Borut" "Ieva" "Erasts" "Viba" "Cherava" 
+	"Faga-Laye" "Brian" "Davins" "Poshayka" "Dausprungas" "Imanta" "Kurlemuse" "Dangeruthe" "Sabe" "Tura" 
+	"Lonkogveni" "Parush" "Vykantas" "Ausala" "Ako" "Kanafa" "Yudki" "Tarkhan" "Gotene" "Sviendorog" 
+	"Demas" "Vishly" "Rusins" "Skornand" "Ringaudas" "Mafalda" "Isabelle" "Kodere" "Gunvald" "Giemund" 
+	"Marcelina" "Darbeslave" "Vetseke" "Bulei" "Hassana" "Geyka" "Babba" "Birma" "Yuma" "Malla" 
+	"Mecca" "Hamish" "Fodi" "Mar-Chindin" "Nameisis" "Gando" "Samsam" "Muir" "Ankad" "Cirulis" 
+	"Gavin" "Bannu" "Shvarnas" "Koïzé" "Rodina" "Dervorgilla" "Kiten" "Yaqub" "Kerstigens" "Indulf" 
+	"Tib" "Sargun" "Halima" "Steikint" "Namiss" "Klavess" "Dermid" "Aymort" "Mendune" "Morna" 
+	"Dukum" "Sabin" "Isperikh" "Sarica" "Sibel" "Ivan" "Sviatopolk" "Putiata" "Alexei" "Lev" 
+	"Trifon" "Vasiliy" "Boris" "Iziaslav" "Vladislav" "Vasilko" "Malusha" "Vladimir" "Zorya" "Gulay" 
+	"Puyantay" "Bugha" "Usunbike" "Çeçeppi" "Çelgil" "Aba" "Baitzas" "Balgor" "Batan" "Batas" 
+	"Bator" "Bayça" "Biçkili" "Bizel" "Boru" "Bula" "Giazis" "Ildey" "Ipa" "Ipaos" 
+	"Kabuksin" "Karaca" "Kaydum" "Kegen" "Konel" "Korkutan" "Kortan" "Kostas" "Kourkoutai" "Kuerçi" 
+	"Kugel" "Kure" "Sol" "Suru" "Tatus" "Teber" "Temir" "Tyrach" "Yazi" "Yeke" }
+monarch_names = {
+	"Pliksov #0" = 1
+	"Naula #0" = -1
+	"Likiik #0" = 1
+	"Baise #0" = 1
+	"Manvydas #0" = 1
+	"Agita #0" = -1
+	"Rushky #0" = 1
+	"Imela #0" = -1
+	"Juvage #0" = 1
+	"Pukuveras #0" = 1
+	"Litto #0" = 1
+	"Elmede #0" = 1
+	"Rasa #0" = -1
+	"Balodis #0" = 1
+	"Galene #0" = -1
+	"Gedere #1" = 42
+	"Meltsayka #0" = 1
+	"Treniota #0" = 1
+	"Zigne #0" = -1
+	"Karijotas #0" = 1
+	"Galeine #0" = 1
+	"Karnak #0" = 1
+	"Kage #0" = 1
+	"Daira #0" = -1
+	"Dzeguze #0" = -1
+	"Balba #0" = -1
+	"Pakstyan #0" = 1
+	"Bikshe #0" = 1
+	"Tautvila #1" = 36
+	"Visheiv #0" = 1
+	"Traidenis #0" = 1
+	"Lammekinus #0" = 1
+	"Kordula #0" = -1
+	"Greze #0" = -1
+	"Simsam #0" = 1
+	"Bitens #0" = -1
+	"Darate #0" = -1
+	"Shutr #0" = 1
+	"Gibedats #0" = 1
+	"Meinekinus #0" = 1
+	"Erdzivil #0" = 1
+	"Kuliens #0" = 1
+	"Butovit #0" = 1
+	"Vaishvilkas #0" = 1
+	"Maija #0" = -1
+	"Brita #0" = -1
+	"Aishno #0" = 1
+	"Dovyat #0" = 1
+	"Vishikut #0" = 1
+	"Marite #0" = -1
+	"Viesturs #0" = 1
+	"Ruta #0" = -1
+	"Dose #0" = -1
+	"Yalgava #0" = -1
+	"Savna #0" = -1
+	"Sprudeik #0" = 1
+	"Pukiik #0" = 1
+	"Dzintis #0" = 1
+	"Dardedze #0" = -1
+	"Jedetus #0" = 1
+	"Gunda #0" = -1
+	"Talivaldis #0" = 1
+	"Biur #0" = 1
+	"Dobre #0" = 1
+	"Eunike #0" = -1
+	"Scurdo #0" = 1
+	"Mel'shay #0" = -1
+	"Gastile #0" = 1
+	"Gerden #0" = 1
+	"Gundega #0" = -1
+	"Liga #0" = -1
+	"Arvo #0" = 1
+	"Jaunule #0" = 1
+	"Vidyava #0" = -1
+	"Narvait #0" = 1
+	"Borut #0" = 1
+	"Ieva #1" = -52
+	"Erasts #0" = 1
+	"Viba #0" = -1
+	"Cherava #0" = -1
+	"Faga-Laye #0" = 1
+	"Brian #0" = 1
+	"Davins #0" = 1
+	"Poshayka #0" = -1
+	"Dausprungas #0" = 1
+	"Imanta #0" = 1
+	"Kurlemuse #0" = 1
+	"Dangeruthe #0" = 1
+	"Sabe #0" = 1
+	"Tura #0" = -1
+	"Lonkogveni #0" = 1
+	"Parush #0" = 1
+	"Vykantas #0" = 1
+	"Ausala #0" = -1
+	"Ako #0" = 1
+	"Kanafa #0" = 1
+	"Yudki #0" = 1
+	"Tarkhan #0" = 1
+	"Gotene #0" = 1
+	"Sviendorog #0" = 1
+	"Demas #0" = 1
+	"Vishly #0" = 1
+	"Rusins #0" = 1
+	"Skornand #0" = 1
+	"Ringaudas #0" = 1
+	"Mafalda #0" = -1
+	"Isabelle #0" = -1
+	"Kodere #0" = 1
+	"Gunvald #0" = 1
+	"Giemund #0" = 1
+	"Marcelina #0" = -1
+	"Darbeslave #0" = 1
+	"Vetseke #0" = 1
+	"Bulei #0" = 1
+	"Hassana #0" = -1
+	"Geyka #0" = -1
+	"Babba #0" = 1
+	"Birma #0" = 1
+	"Yuma #0" = 1
+	"Malla #0" = 1
+	"Mecca #0" = -1
+	"Hamish #0" = 1
+	"Fodi #0" = 1
+	"Mar-Chindin #0" = 1
+	"Nameisis #0" = 1
+	"Gando #0" = -1
+	"Samsam #0" = 1
+	"Muir #0" = 1
+	"Ankad #0" = 1
+	"Cirulis #0" = 1
+	"Gavin #0" = 1
+	"Bannu #0" = 1
+	"Shvarnas #0" = 1
+	"Koïzé #0" = 1
+	"Rodina #0" = -1
+	"Dervorgilla #0" = -1
+	"Kiten #0" = 1
+	"Yaqub #0" = 1
+	"Kerstigens #0" = 1
+	"Indulf #0" = 1
+	"Tib #0" = 1
+	"Sargun #0" = 1
+	"Halima #0" = -1
+	"Steikint #0" = 1
+	"Namiss #0" = -1
+	"Klavess #0" = 1
+	"Dermid #0" = 1
+	"Aymort #0" = 1
+	"Mendune #0" = 1
+	"Morna #0" = -1
+	"Dukum #2" = 0
+	"Sabin #3" = 0
+	"Isperikh #1" = 0
+	"Sarica #1" = -1
+	"Sibel #2" = -1
+	"Ivan #1" = 0
+	"Sviatopolk #2" = 0
+	"Putiata #2" = 0
+	"Alexei #1" = 0
+	"Lev #1" = 0
+	"Trifon #1" = 0
+	"Vasiliy #1" = 0
+	"Boris #1" = 0
+	"Iziaslav #1" = 0
+	"Vladislav #1" = 0
+	"Vasilko #1" = 0
+	"Malusha #1" = -1
+	"Vladimir #4" = 0
+	"Zorya #2" = -1
+	"Gulay #1" = -1
+	"Puyantay #2" = -1
+	"Bugha #2" = 0
+	"Usunbike #1" = -1
+	"Çeçeppi #1" = -1
+	"Çelgil #0" = 0
+	"Aba #0" = 0
+	"Baitzas #0" = 0
+	"Balgor #0" = 0
+	"Batan #0" = 0
+	"Batas #0" = 0
+	"Bator #0" = 0
+	"Bayça #0" = 0
+	"Biçkili #0" = 0
+	"Bizel #0" = 0
+	"Boru #0" = 0
+	"Bula #0" = 0
+	"Giazis #0" = 0
+	"Ildey #0" = 0
+	"Ipa #0" = 0
+	"Ipaos #0" = 0
+	"Kabuksin #0" = 0
+	"Karaca #0" = 0
+	"Kaydum #0" = 0
+	"Kegen #0" = 0
+	"Konel #0" = 0
+	"Korkutan #0" = 0
+	"Kortan #0" = 0
+	"Kostas #0" = 0
+	"Kourkoutai #0" = 0
+	"Kuerçi #0" = 0
+	"Kugel #0" = 0
+	"Kure #0" = 0
+	"Sol #0" = 0
+	"Suru #0" = 0
+	"Tatus #0" = 0
+	"Teber #0" = 0
+	"Temir #0" = 0
+	"Tyrach #0" = 0
+	"Yazi #0" = 0
+	"Yeke #0" = 0
 }
 
-ship_names = {
-	Dracul
-	Viteazul
-	Putera mari
-	Sperietoaria
-	"Frumuseatsa valurilor"
-	Posada
-	Calugareni
-	Rovine
-	Sirmium
-	"Atacul de noapte"
-	Litovoi
-}
-
-army_names = {
-	"Oastea de $PROVINCE$" 
-}

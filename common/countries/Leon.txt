@@ -1,116 +1,199 @@
-#Country Name: Please see filename.
+# León
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 253 158 51 }
 
-graphical_culture = westerngfx
 
-color = { 99  14  87 }
 
-historical_idea_groups = {
-	exploration_ideas
-	religious_ideas
-	offensive_ideas
-	expansion_ideas
-	influence_ideas
-	maritime_ideas
-	quality_ideas
-	defensive_ideas
-}
-
-historical_units = {
-	western_medieval_infantry
-	western_medieval_knights
-	western_men_at_arms
-	spanish_tercio
-	austrian_tercio
-	austrian_grenzer
-	austrian_hussar
-	austrian_white_coat
-	austrian_jaeger
-	mixed_order_infantry
-	open_order_cavalry
-	napoleonic_square
-	napoleonic_lancers
-}
-
-monarch_names = {
-	"Alfonso #11" = 40
-	"Fernando #4" = 20
-	"Sancho #4" = 10
-	"Ramiro #2" = 10
-	"Juan #1" = 10
-	"Felipe #0" = 10
-	"Carlos #0" = 10
-	"Enrique #2" = 5
-	"Pedro #1" = 1
-	"Isabel #0" = -10
-	"Juana #0" = -10
-	"María #0" = -5
-	"Urraca #0" = -5
-	"Alonso #0" = 0
-	"Álvaro #0" = 0
-	"Baltasar #0" = 0
-	"Bernardo #0" = 0
-	"Bertrán #0" = 0
-	"Cristobal #0" = 0
-	"Diego #0" = 0
-	"Domingo #0" = 0
-	"Esteban #0" = 0
-	"Fadrique #0" = 0
-	"Francisco #0" = 0
-	"García #0" = 0
-	"Gómez #0" = 0
-	"Gonzalo #0" = 0
-	"Gutierre #0" = 0
-	"Hermenegildo #0" = 0
-	"Hernando #0" = 0
-	"Ignacio #0" = 0
-	"Laín #0" = 0
-	"Lope #0" = 0
-	"Miguel #0" = 0
-	"Nuño #0" = 0
-	"Odón #0" = 0
-	"Ramón #0" = 0
-	"Rodrigo #0" = 0
-	"Tomás #0" = 0
-	"Valeriano #0" = 0
-}
 
 leader_names = {
-	"de Aguirre" "de Alarcón" "de Toledo" "de Andrade" "de Ayala"
-	"de Bazán" "de Benavides" Campomanes "de Castilla" "de la Cerda" Cienfuegos Colón Coronado Cortés
-	"de Toledo" "de Córdoba" "de la Cueva" "de Figueroa" Fonseca
-	Gálvez Gómez "de Guzmán" "Jiménez de Cisneros"
-	"de Leiva" "López de Haro" "de Luna"
-	"de Lara" "de Velasco" "de Villena" "de Mendoza"
-	Narváez "de Nebrija" "Nuñez de Balboa" "de Ojeda" Orellana Osorio 
-	Pimentel Pinzón Pizarro "Ponce de León" Portocarrero
-	"de Rojas" Tellez-Girón "de la Vega" "de Zúñiga"
+
+	"Makarios" "Sergios" "Maurikios" "Philaretos" "Dorothea" "Sergia" "Konstantia" "Kyriakos" "Parthena" "Theognosia" 
+	"Apollonia" "Gabrielia" "Gerasimos" "Damianos" "Rhodanthe" "Dionysia" "Kamaj" "Hakam" "Zoe" "Gregoria" 
+	"Leontia" "Boethios" "Lazaros" "Paschalis" "Epiphania" "Helene" "Ioulianos" "Eugenia" "Phokas" "Komitas" 
+	"Wifredo" "Ava" "Almodis" "Euphrosine" "Eudes" "Frédéric" "Adémar" "Hélie" "Yolande" "Cécile" 
+	"Vulcan" "Pamphilios" "Adrianos" "Akakios" "Alexandros" "Alexios" "Anastasios" "Anatolios" "Andreas" "Andronikos" 
+	"Anthemios" "Anthimos" "Antiochos" "Antonios" "Apollonios" "Arsenios" "Artemios" "Athanasios" "Bardas" "Bartholomaios" 
+	"Basileios" "Belisarios" "Bosporios" "Christophoros" "Chrysanthos" "Chrysogonos" "Demetrios" "Diogenes" "Dionysios" "Dorotheos" 
+	"Eirenaios" "Eudoxios" "Eustratios" "Eugenios" "Euphemios" "Eusebios" "Eustathios" "Evangelos" "Gabriel" "Gennadios" 
+	"Georgios" "Germanos" "Gregoras" "Gregorios" "Hektorios" "Helias" "Herakleios" "Hierotheos" "Himerios" "Hippolytos" 
+	"Hypatios" "Iakobos" "Ignatios" "Innokentios" "Ioannes" "Ioannikios" "Iordanes" "Ioseph" "Isaakios" "Isaias" 
+	"Isidoros" "Ioustinianos" "Ioustinos" "Kaisarios" "Kallinikos" "Kallistos" "Konstantinos" "Konstantios" "Konstas" "Kosmas" 
+	"Kyrillos" "Kyros" "Laurentios" "Leon" "Leontios" "Loukas" "Manuel" "Markos" "Matthaios" "Maximos" 
+	"Megistos" "Meletios" "Methodios" "Narses" "Neophytos" "Nikephoros" "Niketas" "Nikodemos" "Nikolaos" "Niphon" 
+	"Orestes" "Pankratios" "Pantoleon" "Pavlos" "Pelagios" "Petros" "Philippos" "Philotheos" "Photios" "Polykarpos" 
+	"Porphyrios" "Prokopios" "Pyrros" "Raphail" "Romanos" "Sabas" "Serapion" "Sebastianos" "Stephanos" "Staurakios" 
+	"Symeon" "Symmachos" "Theocharistos" "Theodoros" "Theodosios" "Theodotos" "Theodoulos" "Theoktistos" "Theophanes" "Theophilos" 
+	"Theophylaktos" "Tiberios" "Traianos" "Timotheos" "Tryphon" "Valerios" "Zacharias" "Zenobios" "Zenon" }
+monarch_names = {
+	"Makarios #2" = 21
+	"Sergios #1" = 18
+	"Maurikios #1" = 21
+	"Philaretos #0" = 1
+	"Dorothea #0" = -1
+	"Sergia #0" = -1
+	"Konstantia #0" = -1
+	"Kyriakos #0" = 1
+	"Parthena #0" = -1
+	"Theognosia #0" = -1
+	"Apollonia #0" = -1
+	"Gabrielia #0" = -1
+	"Gerasimos #0" = 1
+	"Damianos #1" = 21
+	"Rhodanthe #0" = -1
+	"Dionysia #0" = -1
+	"Kamaj #0" = 1
+	"Hakam #2" = 21
+	"Zoe #0" = -1
+	"Gregoria #0" = -1
+	"Leontia #0" = -1
+	"Boethios #2" = 21
+	"Lazaros #0" = 1
+	"Paschalis #0" = 1
+	"Epiphania #0" = -1
+	"Helene #0" = -1
+	"Ioulianos #0" = 1
+	"Eugenia #0" = -1
+	"Phokas #0" = 1
+	"Komitas #0" = 1
+	"Wifredo #1" = 0
+	"Ava #1" = -1
+	"Almodis #1" = -1
+	"Euphrosine #1" = -1
+	"Eudes #1" = 0
+	"Frédéric #1" = 0
+	"Adémar #1" = 0
+	"Hélie #3" = 0
+	"Yolande #1" = -1
+	"Cécile #1" = -1
+	"Vulcan #2" = 0
+	"Pamphilios #1" = 0
+	"Adrianos #0" = 0
+	"Akakios #0" = 0
+	"Alexandros #0" = 0
+	"Alexios #0" = 0
+	"Anastasios #0" = 0
+	"Anatolios #0" = 0
+	"Andreas #0" = 0
+	"Andronikos #0" = 0
+	"Anthemios #0" = 0
+	"Anthimos #0" = 0
+	"Antiochos #0" = 0
+	"Antonios #0" = 0
+	"Apollonios #0" = 0
+	"Arsenios #0" = 0
+	"Artemios #0" = 0
+	"Athanasios #0" = 0
+	"Bardas #0" = 0
+	"Bartholomaios #0" = 0
+	"Basileios #0" = 0
+	"Belisarios #0" = 0
+	"Bosporios #0" = 0
+	"Christophoros #0" = 0
+	"Chrysanthos #0" = 0
+	"Chrysogonos #0" = 0
+	"Demetrios #0" = 0
+	"Diogenes #0" = 0
+	"Dionysios #0" = 0
+	"Dorotheos #0" = 0
+	"Eirenaios #0" = 0
+	"Eudoxios #0" = 0
+	"Eustratios #0" = 0
+	"Eugenios #0" = 0
+	"Euphemios #0" = 0
+	"Eusebios #0" = 0
+	"Eustathios #0" = 0
+	"Evangelos #0" = 0
+	"Gabriel #0" = 0
+	"Gennadios #0" = 0
+	"Georgios #0" = 0
+	"Germanos #0" = 0
+	"Gregoras #0" = 0
+	"Gregorios #0" = 0
+	"Hektorios #0" = 0
+	"Helias #0" = 0
+	"Herakleios #0" = 0
+	"Hierotheos #0" = 0
+	"Himerios #0" = 0
+	"Hippolytos #0" = 0
+	"Hypatios #0" = 0
+	"Iakobos #0" = 0
+	"Ignatios #0" = 0
+	"Innokentios #0" = 0
+	"Ioannes #0" = 0
+	"Ioannikios #0" = 0
+	"Iordanes #0" = 0
+	"Ioseph #0" = 0
+	"Isaakios #0" = 0
+	"Isaias #0" = 0
+	"Isidoros #0" = 0
+	"Ioustinianos #0" = 0
+	"Ioustinos #0" = 0
+	"Kaisarios #0" = 0
+	"Kallinikos #0" = 0
+	"Kallistos #0" = 0
+	"Konstantinos #0" = 0
+	"Konstantios #0" = 0
+	"Konstas #0" = 0
+	"Kosmas #0" = 0
+	"Kyrillos #0" = 0
+	"Kyros #0" = 0
+	"Laurentios #0" = 0
+	"Leon #0" = 0
+	"Leontios #0" = 0
+	"Loukas #0" = 0
+	"Manuel #0" = 0
+	"Markos #0" = 0
+	"Matthaios #0" = 0
+	"Maximos #0" = 0
+	"Megistos #0" = 0
+	"Meletios #0" = 0
+	"Methodios #0" = 0
+	"Narses #0" = 0
+	"Neophytos #0" = 0
+	"Nikephoros #0" = 0
+	"Niketas #0" = 0
+	"Nikodemos #0" = 0
+	"Nikolaos #0" = 0
+	"Niphon #0" = 0
+	"Orestes #0" = 0
+	"Pankratios #0" = 0
+	"Pantoleon #0" = 0
+	"Pavlos #0" = 0
+	"Pelagios #0" = 0
+	"Petros #0" = 0
+	"Philippos #0" = 0
+	"Philotheos #0" = 0
+	"Photios #0" = 0
+	"Polykarpos #0" = 0
+	"Porphyrios #0" = 0
+	"Prokopios #0" = 0
+	"Pyrros #0" = 0
+	"Raphail #0" = 0
+	"Romanos #0" = 0
+	"Sabas #0" = 0
+	"Serapion #0" = 0
+	"Sebastianos #0" = 0
+	"Stephanos #0" = 0
+	"Staurakios #0" = 0
+	"Symeon #0" = 0
+	"Symmachos #0" = 0
+	"Theocharistos #0" = 0
+	"Theodoros #0" = 0
+	"Theodosios #0" = 0
+	"Theodotos #0" = 0
+	"Theodoulos #0" = 0
+	"Theoktistos #0" = 0
+	"Theophanes #0" = 0
+	"Theophilos #0" = 0
+	"Theophylaktos #0" = 0
+	"Tiberios #0" = 0
+	"Traianos #0" = 0
+	"Timotheos #0" = 0
+	"Tryphon #0" = 0
+	"Valerios #0" = 0
+	"Zacharias #0" = 0
+	"Zenobios #0" = 0
+	"Zenon #0" = 0
 }
 
-ship_names = {
-	León Argonauta Asturias Asunción Atrevido Azor
-	Cartagonova Castilla "Castillo Negro" Castor "Ciervo Volante"
-	Doncella Dragón 
-	"El Gran Grin" "El Retiro" Eneas Eolo Esperanza "Espíritu Santo" Extremadura
-	Furor Galicia "Gran Grifón" Halcón Hércules Isabela Júpiter
-	"La Concepción" "La Magdalena" "La Manuela" Ligera "Lobo Marino"
-	Marte Mercurio Neptuno Niña Orión
-	"Paloma Blanca" Pegaso "Perro Marino" Pinta Plutón Pollux "Príncipe de Asturias"
-	Rayo "Real Alfonso" "Real Enrique" "Real Juan" "Rey Pelayo" "Rey Rodrigo"
-	"San Andrés" "San Antonio" "San Bartolomé" "San Bernabé" "San Cristobal" "San Enrique"
-	"San Esteban" "San Fernando" "San Francisco" "San Gabriel" "San Isidoro" "San Jerónimo"
-	"San José" "San Juan" "San Juan Bautista" "San Leandro" "San Miguel" "San Pedro"
-	"San Rafael" "San Salvador" "San Sebastian" "Santa Ana" "Santa Bárbara" "Santa Beatriz"
-	"Santa Catalina" "Santa Cruz" "Santa Fe" "Santa Isabel" "Santa Justa" "Santa María"
-	"Santa Marta" "Santa Rita" "Santa Teresa" Santiago "Santísima Trinidad" "Santo Domingo" Sirena
-	Terror Toledo Trinidad Tritón Unicornio
-	Vencedora Ventura Victoria Vigilante Vizcaya Vulcano Zúñiga
-}
-
-
-army_names = {
-	"Guardia Real" "Ejército de $PROVINCE$"
-}
-
-fleet_names = {
-	"Armada Real"	"Flota de $PROVINCE$"
-}

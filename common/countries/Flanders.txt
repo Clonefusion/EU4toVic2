@@ -1,115 +1,105 @@
-#Country Name: Please see filename.
-
+# Flanders
+ck2_converter_generated = yes
 graphical_culture = westerngfx
+color = { 255 120 0 }
 
-color = { 43  141  172 }
 
-historical_idea_groups = {
-	trade_ideas
-	defensive_ideas
-	administrative_ideas
-	maritime_ideas
-	innovativeness_ideas
-	offensive_ideas
-	exploration_ideas
-	economic_ideas
-}
 
-historical_units = {
-	western_medieval_infantry
-	western_medieval_knights
-	western_men_at_arms
-	dutch_maurician
-	austrian_tercio
-	austrian_grenzer
-	french_bluecoat
-	french_dragoon
-	french_impulse
-	mixed_order_infantry
-	open_order_cavalry
-	napoleonic_square
-	napoleonic_lancers
-}
-
-monarch_names = {
-	"Filips #1" = 15
-	"Jan #0" = 15
-	"Boudewijn #9" = 5
-	"Arnolf #3" = 5
-	"Lodewijk #3" = 5
-	"Robrecht #3" = 5
-	"Willem #2" = 5
-	"Diederik #1" = 5	
-	"Gwijde #1" = 5	
-	"Karel #1" = 5
-	"Antoon #0" = 5
-	"Abraham #0" = 0
-	"Alexander #0" = 0
-	"Alfons #0" = 0
-	"Andries #0" = 0
-	"Balthasar #0" = 0
-	"Bartholomeus #0" = 0
-	"Christoffel #0" = 0
-	"Constantijn #0" = 0
-	"Cornelis #0" = 0
-	"Daniël #0" = 0
-	"David #0" = 0
-	"Ernst #0" = 0
-	"Erwin #0" = 0
-	"Ewoud #0" = 0
-	"Floris #0" = 0
-	"Gabriel #0" = 0
-	"Godfried #0" = 0
-	"Hans #0" = 0
-	"Jacob #0" = 0
-	"Kasper #0" = 0
-	"Ludger #0" = 0
-	"Luuk #0" = 0
-	"Marinus #0" = 0
-	"Pieter #0" = 0
-	"Renate #0" = 0
-	"Rodolf #0" = 0
-	"Roeland #0" = 0
-	"Valentijn #0" = 0
-	
-	"Margareta #3" = -15
-	"Maria #0" = -5
-	"Jeanne #0" = -1
-	"Matilda #0" = -1
-	"Beatrix #0" = -1
-	"Yolande #2" = -1
-}
 
 leader_names = {
-	Dampierre Deconinck
-	Goethals
-	Nevers
-	Penen
-	"Van Bellegem" "Van Gulik"
-	"Van Herstal" "Van Leeuwergem"
-	"Van Lichtervelde" "Van Nieuwland"
-	"Van Oudenaarde" "Van Petershem"
-	"Van Raveschoot" "Van Renesse"
+
+	"Vela" "Fuandrec" "Emili" "Oncum" "Nuña" "Galindo" "Nuño" "Fernando" "Ramiro" "Berengaria" 
+	"Elbira" "Fortun" "Maior" "Toda" "Ordoño" "Estefania" "Manrike" "Lope" "Alvar" "Aldontza" 
+	"Bernart" "Mentzia" "Urraka" "Bermudo" "Munia" "Aines" "Eliza" "Gilen" "Plazentzia" "Eneko" 
+	"Oneka" "Joana" "Zentulo" "Ximena" "Andregoto" "Alfontso" "Herramel" "Obeko" "Teresa" "Gartzia" 
+	"Belasko" "Gontzal" "Luis" "Antso" "Diego" "Oria" "Blanka" "Rodrigo" "Belaskita" "Egidio" 
+	"Rodric" "Guethenhoiarn" "Guinhoiarn" "Aznar" "Tibourge" "Antsa" "Roenhael" "Canna" "Argantmoet" "Iarnegon" 
+	"Guencenedl" "Meonre" "Leucum" "Prostlon" "Erouana" "Guerech" "Magdalene" "No Character" "Gaucelin" "Philippe" 
+	"Eginolf" "Friedrica" "Osterhild" "Rorgues" "Donato" "Erramun" "Joanes" "Ladron" "Martín" "Munio" 
+	"Pelaio" "Piarres" "Ximeno" }
+monarch_names = {
+	"Vela #0" = 1
+	"Fuandrec #0" = -1
+	"Emili #0" = -1
+	"Oncum #0" = -1
+	"Nuña #0" = -1
+	"Galindo #2" = 36
+	"Nuño #0" = 1
+	"Fernando #0" = 1
+	"Ramiro #2" = 42
+	"Berengaria #0" = -1
+	"Elbira #0" = -1
+	"Fortun #3" = 36
+	"Maior #0" = -1
+	"Toda #0" = -1
+	"Ordoño #0" = 1
+	"Estefania #0" = -1
+	"Manrike #0" = 1
+	"Lope #1" = 33
+	"Alvar #0" = 1
+	"Aldontza #0" = -1
+	"Bernart #0" = 1
+	"Mentzia #0" = -1
+	"Urraka #0" = -1
+	"Bermudo #0" = 1
+	"Munia #0" = -1
+	"Aines #0" = -1
+	"Eliza #0" = -1
+	"Gilen #1" = 24
+	"Plazentzia #0" = -1
+	"Eneko #1" = 21
+	"Oneka #0" = -1
+	"Joana #0" = -1
+	"Zentulo #0" = 1
+	"Ximena #0" = -1
+	"Andregoto #0" = -1
+	"Alfontso #0" = 1
+	"Herramel #1" = 27
+	"Obeko #2" = 30
+	"Teresa #0" = -1
+	"Gartzia #1" = 18
+	"Belasko #0" = 1
+	"Gontzal #1" = 24
+	"Luis #0" = 1
+	"Antso #1" = 24
+	"Diego #0" = 1
+	"Oria #0" = -1
+	"Blanka #0" = -1
+	"Rodrigo #0" = 1
+	"Belaskita #0" = -1
+	"Egidio #1" = 27
+	"Rodric #0" = 1
+	"Guethenhoiarn #1" = 18
+	"Guinhoiarn #1" = 18
+	"Aznar #0" = 1
+	"Tibourge #0" = -1
+	"Antsa #0" = -1
+	"Roenhael #0" = -1
+	"Canna #0" = -1
+	"Argantmoet #0" = 1
+	"Iarnegon #0" = 1
+	"Guencenedl #0" = -1
+	"Meonre #0" = -1
+	"Leucum #0" = 1
+	"Prostlon #0" = -1
+	"Erouana #0" = -1
+	"Guerech #0" = 1
+	"Magdalene #0" = -1
+	"No Character #2" = 0
+	"Gaucelin #1" = 0
+	"Philippe #1" = 0
+	"Eginolf #1" = 0
+	"Friedrica #1" = -1
+	"Osterhild #1" = -1
+	"Rorgues #1" = 0
+	"Donato #0" = 0
+	"Erramun #0" = 0
+	"Joanes #0" = 0
+	"Ladron #0" = 0
+	"Martín #0" = 0
+	"Munio #0" = 0
+	"Pelaio #0" = 0
+	"Piarres #0" = 0
+	"Ximeno #0" = 0
 }
 
-ship_names = {
-	Antwerpen
-	"Boudewijn I" Brugge
-	"De Vlaamse leeuw"
-	Gent Guldensporenslag "Gwijde van Dampierre" 
-	Hasselt
-	"Jacob van Artevelde"
-	"Karel de Goede" "Kerel van Vlaanderen"
-	Leuven
-	"Manneken Pis" Mechelen
-	"Pieter de Coninck"
-	Schelde
-	"Tijl Uilenspiegel"
-	Vlaanderen
-}
-
-army_names = {
-	"Leger van $PROVINCE$"  }
-
-fleet_names = {  "Vloot van $PROVINCE$" 
-	 }

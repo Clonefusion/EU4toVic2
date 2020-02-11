@@ -1,98 +1,235 @@
-#Country Name: Please see filename.
+# Tunis
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 45 255 3 }
 
-graphical_culture = muslimgfx
 
-color = { 146  134  57 }
 
-revolutionary_colors = { 8  5  9 }
-
-historical_idea_groups = {
-	trade_ideas
-	defensive_ideas
-	religious_ideas
-	maritime_ideas	
-	administrative_ideas
-	offensive_ideas
-	economic_ideas
-	expansion_ideas
-}
-
-historical_units = {
-	mamluk_archer
-	mamluk_cavalry_charge
-	mamluk_duel
-	mamluk_musket_charge
-	muslim_mass_infantry
-	muslim_dragoon
-	ali_bey_reformed_infantry
-}
-
-monarch_names = {
-	"Muhammad #3" = 100
-	"'Alî #0" = 40
-	"Ahmad #2" = 20
-	"Yahyâ #2" = 20
-	"Zkariyâ' #1" = 20
-	"'Abd al-'Aziz #0" = 20
-	"'Abd al-Mu'min #0" = 20
-	"Hamûda #0" = 20
-	"Husayn #0" = 20
-	"'Usman #0" = 20
-	"Salih #0" = 15
-	"Sulaiman #0" = 15
-	"Yunus #0" = 15
-	"Isma'îl #0" = 10
-	"Yûsuf #0" = 10
-	"Abû Bakr #0" = 0
-	"Ala ad-Din #0" = 0
-	"Butrus #0" = 0
-	"Fakhri #0" = 0
-	"Fayiz #0" = 0
-	"Hadj #0" = 0
-	"Hafiz #0" = 0
-	"Harun #0" = 0
-	"Hasan #0" = 0
-	"Hashim #0" = 0
-	"Ibrahim #0" = 0
-	"Ja'far #0" = 0
-	"Khalil #0" = 0
-	"Mahir #0" = 0
-	"Mas'ud #0" = 0
-	"Murad #0" = 10
-	"Mustafa #0" = 0
-	"Qadir #0" = 0
-	"Rasim #0" = 0
-	"Salah #0" = 0
-	"Shadi #0" = 0
-	"Tahir #0" = 0
-	"Torgud #0" = 0
-	
-	"Hikmat #0" = -1
-	"Inas #0" = -1
-	"Hafsia #0" = -1
-	"Fatima #0" = -1
-	"Jannat #0" = -1
-	"Jalila #0" = -1
-	"Aisha #0" = -1
-	"Khadija #0" = -1
-}
 
 leader_names = {
-	Taher
-	Akimi
-	Adhoum
-	Hakimi
-	Naybet
-	Bassir
-	Saber
-	Badra
-	Sassi
-	Dali
+
+	"Silvestro" "Hugo" "Abazza" "Kriemhild" "Filibert" "Hans" "Hartwig" "Dieter" "Reinhard" "Siegfried" 
+	"Brunhilde" "Irmgard" "Katharina" "Liutbert" "Engelbert" "Trude" "Osterhild" "Hartmann" "Sieghard" "Adelheid" 
+	"Alois" "Gerberga" "Hemma" "Hildeburg" "Augustin" "Adam" "Maria" "Manegold" "Wolfram" "Franz" 
+	"Ursula" "Beatrix" "Jürgen" "Jakob" "Günther" "Madidu" "Taszellayt" "Lutbert" "Rutger" "Tanefzawit" 
+	"Guido" "Zaccaria" "Jutta" "Sofie" "Uzmir" "Gertrude" "Magnus" "Edda" "Albrecht" "Klementia" 
+	"Antonella" "Leonide" "Baldomar" "Henrike" "Elisabeth" "Kunigunde" "Friedrica" "Konrad" "Emma" "Ambrosia" 
+	"Ibrahim" "Titbirt" "Hildegard" "Irmele" "Winfrida" "Aldrich" "Baraah" "Lothar" "Siman" "Amalie" 
+	"Oda" "Reinhold" "Ulrike" "Mechthild" "No Character" "Gulusa" "Khenchela" "Mez'yan" "Dali" "Joan" 
+	"Kisa" "Hiempsal" "Lunja" "Badda" "Ghumer" "Yuva" "Tiljad" "Umar" "Hussamaddin" "Sergia" 
+	"Kaisarios" "Mastanabal" "Bartolomeo" "Cosma" "Gabrino" "Adalbero" "Adalbert" "Adalhard" "Ademar" "Adolf" 
+	"Alarich" "Alberich" "Amadeus" "Amalrich" "Andreas" "Anselm" "Arnold" "Arnulf" "Baldarich" "Baldewin" 
+	"Baldur" "Berengar" "Bernhard" "Berthold" "Burchard" "Christopher" "Dietmar" "Dietpold" "Dietrich" "Dietwin" 
+	"Eberhard" "Eginolf" "Ehrenfried" "Ekbert" "Ekkehard" "Emelrich" "Emich" "Emmerich" "Erich" "Ernst" 
+	"Ferdinand" "Folkhard" "Folkmar" "Friedrich" "Gautselin" "Gebhard" "Georg" "Gerhard" "Gerlach" "Giselbert" 
+	"Gottfried" "Gotthard" "Gottschalk" "Gotzelo" "Guntram" "Gunzelin" "Heinrich" "Helferich" "Heribert" "Hermann" 
+	"Hesso" "Humbert" "Hupold" "Johann" "Karl" "Karlmann" "Kaspar" "Kuno" "Lambert" "Landolf" 
+	"Leopold" "Liudolf" "Liutbrand" "Liutpold" "Ludolf" "Ludwig" "Manfred" "Markward" "Martin" "Matthias" 
+	"Meinhard" "Michael" "Nikolaus" "Norbert" "Otto" "Peter" "Philipp" "Poppo" "Radbot" "Rudolf" 
+	"Ruprecht" "Siegmund" "Sigismund" "Simon" "Stefan" "Theodorich" "Thietmar" "Thomas" "Udalrich" "Ulrich" 
+	"Viktor" "Waldemar" "Walram" "Walther" "Welf" "Wenzel" "Werner" "Wido" "Wigerich" "Wilhelm" 
+	"Wolfgang" }
+monarch_names = {
+	"Silvestro #3" = 24
+	"Hugo #0" = 1
+	"Abazza #1" = 24
+	"Kriemhild #0" = -1
+	"Filibert #0" = 1
+	"Hans #0" = 1
+	"Hartwig #0" = 1
+	"Dieter #0" = 1
+	"Reinhard #0" = 1
+	"Siegfried #0" = 1
+	"Brunhilde #0" = -1
+	"Irmgard #0" = -1
+	"Katharina #0" = -1
+	"Liutbert #0" = 1
+	"Engelbert #1" = 27
+	"Trude #0" = -1
+	"Osterhild #0" = -1
+	"Hartmann #0" = 1
+	"Sieghard #0" = 1
+	"Adelheid #0" = -1
+	"Alois #0" = 1
+	"Gerberga #0" = -1
+	"Hemma #0" = -1
+	"Hildeburg #0" = -1
+	"Augustin #0" = 1
+	"Adam #1" = 24
+	"Maria #0" = -1
+	"Manegold #0" = 1
+	"Wolfram #0" = 1
+	"Franz #0" = 1
+	"Ursula #0" = -1
+	"Beatrix #0" = -1
+	"Jürgen #0" = 1
+	"Jakob #0" = 1
+	"Günther #0" = 1
+	"Madidu #0" = 1
+	"Taszellayt #0" = -1
+	"Lutbert #0" = 1
+	"Rutger #0" = 1
+	"Tanefzawit #0" = -1
+	"Guido #0" = 1
+	"Zaccaria #0" = 1
+	"Jutta #0" = -1
+	"Sofie #0" = -1
+	"Uzmir #0" = 1
+	"Gertrude #0" = -1
+	"Magnus #1" = 18
+	"Edda #0" = -1
+	"Albrecht #0" = 1
+	"Klementia #0" = -1
+	"Antonella #0" = -1
+	"Leonide #0" = -1
+	"Baldomar #0" = 1
+	"Henrike #0" = -1
+	"Elisabeth #0" = -1
+	"Kunigunde #0" = -1
+	"Friedrica #0" = -1
+	"Konrad #0" = 1
+	"Emma #0" = -1
+	"Ambrosia #0" = -1
+	"Ibrahim #0" = 1
+	"Titbirt #0" = -1
+	"Hildegard #0" = -1
+	"Irmele #0" = -1
+	"Winfrida #0" = -1
+	"Aldrich #0" = 1
+	"Baraah #0" = -1
+	"Lothar #0" = 1
+	"Siman #1" = -19
+	"Amalie #0" = -1
+	"Oda #0" = -1
+	"Reinhold #0" = 1
+	"Ulrike #0" = -1
+	"Mechthild #0" = -1
+	"No Character #7" = 0
+	"Gulusa #1" = 0
+	"Khenchela #1" = 0
+	"Mez'yan #1" = 0
+	"Dali #1" = 0
+	"Joan #3" = 0
+	"Kisa #1" = -1
+	"Hiempsal #1" = 0
+	"Lunja #3" = -1
+	"Badda #1" = 0
+	"Ghumer #1" = 0
+	"Yuva #1" = 0
+	"Tiljad #1" = 0
+	"Umar #1" = 0
+	"Hussamaddin #1" = 0
+	"Sergia #1" = -1
+	"Kaisarios #1" = 0
+	"Mastanabal #1" = 0
+	"Bartolomeo #1" = 0
+	"Cosma #1" = 0
+	"Gabrino #1" = 0
+	"Adalbero #0" = 0
+	"Adalbert #0" = 0
+	"Adalhard #0" = 0
+	"Ademar #0" = 0
+	"Adolf #0" = 0
+	"Alarich #0" = 0
+	"Alberich #0" = 0
+	"Amadeus #0" = 0
+	"Amalrich #0" = 0
+	"Andreas #0" = 0
+	"Anselm #0" = 0
+	"Arnold #0" = 0
+	"Arnulf #0" = 0
+	"Baldarich #0" = 0
+	"Baldewin #0" = 0
+	"Baldur #0" = 0
+	"Berengar #0" = 0
+	"Bernhard #0" = 0
+	"Berthold #0" = 0
+	"Burchard #0" = 0
+	"Christopher #0" = 0
+	"Dietmar #0" = 0
+	"Dietpold #0" = 0
+	"Dietrich #0" = 0
+	"Dietwin #0" = 0
+	"Eberhard #0" = 0
+	"Eginolf #0" = 0
+	"Ehrenfried #0" = 0
+	"Ekbert #0" = 0
+	"Ekkehard #0" = 0
+	"Emelrich #0" = 0
+	"Emich #0" = 0
+	"Emmerich #0" = 0
+	"Erich #0" = 0
+	"Ernst #0" = 0
+	"Ferdinand #0" = 0
+	"Folkhard #0" = 0
+	"Folkmar #0" = 0
+	"Friedrich #0" = 0
+	"Gautselin #0" = 0
+	"Gebhard #0" = 0
+	"Georg #0" = 0
+	"Gerhard #0" = 0
+	"Gerlach #0" = 0
+	"Giselbert #0" = 0
+	"Gottfried #0" = 0
+	"Gotthard #0" = 0
+	"Gottschalk #0" = 0
+	"Gotzelo #0" = 0
+	"Guntram #0" = 0
+	"Gunzelin #0" = 0
+	"Heinrich #0" = 0
+	"Helferich #0" = 0
+	"Heribert #0" = 0
+	"Hermann #0" = 0
+	"Hesso #0" = 0
+	"Humbert #0" = 0
+	"Hupold #0" = 0
+	"Johann #0" = 0
+	"Karl #0" = 0
+	"Karlmann #0" = 0
+	"Kaspar #0" = 0
+	"Kuno #0" = 0
+	"Lambert #0" = 0
+	"Landolf #0" = 0
+	"Leopold #0" = 0
+	"Liudolf #0" = 0
+	"Liutbrand #0" = 0
+	"Liutpold #0" = 0
+	"Ludolf #0" = 0
+	"Ludwig #0" = 0
+	"Manfred #0" = 0
+	"Markward #0" = 0
+	"Martin #0" = 0
+	"Matthias #0" = 0
+	"Meinhard #0" = 0
+	"Michael #0" = 0
+	"Nikolaus #0" = 0
+	"Norbert #0" = 0
+	"Otto #0" = 0
+	"Peter #0" = 0
+	"Philipp #0" = 0
+	"Poppo #0" = 0
+	"Radbot #0" = 0
+	"Rudolf #0" = 0
+	"Ruprecht #0" = 0
+	"Siegmund #0" = 0
+	"Sigismund #0" = 0
+	"Simon #0" = 0
+	"Stefan #0" = 0
+	"Theodorich #0" = 0
+	"Thietmar #0" = 0
+	"Thomas #0" = 0
+	"Udalrich #0" = 0
+	"Ulrich #0" = 0
+	"Viktor #0" = 0
+	"Waldemar #0" = 0
+	"Walram #0" = 0
+	"Walther #0" = 0
+	"Welf #0" = 0
+	"Wenzel #0" = 0
+	"Werner #0" = 0
+	"Wido #0" = 0
+	"Wigerich #0" = 0
+	"Wilhelm #0" = 0
+	"Wolfgang #0" = 0
 }
 
-ship_names = {
-	Alim Fattah Razzaq Wahhab Qahhar Ghaffar
-	Musawwir Bari Khaliq Mutakabbir Jabbar
-	Aziz Muhaymin Mu'min Salam Quddus Malik
-	Rahim Rahman
-}

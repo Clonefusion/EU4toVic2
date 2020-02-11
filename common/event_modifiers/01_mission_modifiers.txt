@@ -707,8 +707,14 @@ conquest_of_beijing = {
 }
 
 # Daimyo missions
+improved_capital = {
+	local_development_cost = -0.1
+}
 improved_han = {
 	local_development_cost = -0.1
+}
+artist_commissioned = {
+	advisor_cost = -0.15
 }
 supported_kabuki = {
 	advisor_cost = -0.15
@@ -720,10 +726,17 @@ strengthened_shinobi = {
 	spy_offence = 0.33
 	global_spy_defence = 0.33
 }
+strengthenedd_army = {
+	discipline = 0.015
+}
 strengthened_bushido = {
 	discipline = 0.015
 }
 divine_wind_modifier = {
+	navy_tradition = 0.25
+	recover_navy_morale_speed = 0.1
+}
+rulethewaves = {
 	navy_tradition = 0.25
 	recover_navy_morale_speed = 0.1
 }
@@ -2103,6 +2116,9 @@ portuguese_surat_modifier = {
 
 # Berber missions
 
+start_fleet = {
+	naval_maintenance_modifier = -0.2
+}
 berber_fleet = {
 	privateer_efficiency = 0.2
 }

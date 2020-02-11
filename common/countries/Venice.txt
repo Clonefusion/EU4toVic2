@@ -1,138 +1,145 @@
-#Country Name: Please see filename.
+# Venice
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 34 137 126 }
 
-graphical_culture = westerngfx
 
-color = { 54  167  156 }
 
-historical_score = 2800
-
-revolutionary_colors = { 8  14  8 }
-
-historical_idea_groups = {
-	maritime_ideas
-	plutocracy_ideas
-	humanist_ideas
-	trade_ideas	
-	defensive_ideas
-	economic_ideas
-	quality_ideas
-	innovativeness_ideas
-}
-
-historical_units = {
-	western_medieval_infantry
-	western_medieval_knights
-	western_men_at_arms
-	italian_condotta
-	austrian_tercio
-	austrian_grenzer
-	austrian_hussar
-	austrian_white_coat
-	austrian_jaeger
-	mixed_order_infantry
-	open_order_cavalry
-	napoleonic_square
-	napoleonic_lancers
-}
-
-monarch_names = {
-	"Antonio #0" = 20
-	"Michele #0" = 20
-	"Tomasso #0" = 20
-	"Mosé #0" = 40
-	"Niccolò #0" = 40
-	"Domenico #0" = 20
-	"Francesco #0" = 20
-	"Giovanni #0" = 20
-	"Marco #0" = 20
-	"Vittore #0" = 20
-	"Agostino #0" = 0
-	"Alfredo #0" = 0
-	"Alvise #0" = 0
-	"Andrea #0" = 0
-	"Anselmo #0" = 0
-	"Bertucci #0" = 0
-	"Bruno #0" = 0
-	"Carlo #0" = 0
-	"Constanzo #0" = 0
-	"Cristoforo #0" = 0
-	"Enzo #0" = 0
-	"Fabrizio #0" = 0
-	"Gianpiero #0" = 0
-	"Girolamo #0" = 0
-	"Giuseppe #0" = 0
-	"Jacopo #0" = 0
-	"Leonardo #0" = 0
-	"Lorenzo #0" = 0
-	"Ludovico #0" = 0
-	"Luigi #0" = 0
-	"Marco Antonio #0" = 0
-	"Marino #0" = 0
-	"Mario #0" = 0
-	"Ottavio #0" = 0
-	"Pasquale #0" = 0
-	"Pietro #0" = 0
-	"Sebastiano #0" = 0
-	"Silvestro #0" = 0
-	"Simone #0" = 0
-	"Teodoro #0" = 0
-	"Urbano #0" = 0
-	"Vitale #0" = 0
-	
-	"Pierina #0" = -1
-	"Santuzza #0" = -1
-	"Eulalia #0" = -1
-}
 
 leader_names = {
-	"d'Alviano" Alvise
-	Barbarigo Bembo Barilla Bassano Bardolino
-	Cornaro Contarini Cassandro Casanova Commachio Chiogga
-	Donato Dolfin "de Blazio"
-	Emo Erizzo Ermelli
-	Foscolo Flangini Foscarini
-	Grimani Giustinani Gritti Garda
-	Loredan Labia Lomellini Lando
-	Moceningo Marcello Morosini Molin Moro Memmo Magno Mestre Modigliano
-	Quirini
-	Polani Priuli Pisani Pesaro Pezzini Pordenone
-	Riva Ruzzini Rovigo Rovereto
-	"San Paulo" Schio Sugaina
-	Trevisano Toscani
-	Veniero Valieri Vittorio
-	Zeno Zustiniani
+
+	"Premil" "Radenko" "Bogdan" "Radana" "Sprejmir" "Miluša" "Mirigoj" "Božidar" "Dobren" "Blagica" 
+	"Grobiša" "Trebina" "Cvetana" "Jezerko" "Zenislava" "Dolgodelka" "Dobrana" "Zdedrag" "No Character" "Gelasio" 
+	"Duron" "Durin" "Berta" "Bertoldo" "Enzo" "Uberto" "Pagano" "Anselmo" "Claudio" "Cosma" 
+	"Salvestro" "Karnak" "Maija" "Rasa" "Lyneg" "Tyutyuk" "Miha" "Aishno" "Ako" "Ankad" 
+	"Baise" "Balodis" "Bikshe" "Borut" "Bulei" "Butovit" "Cirulis" "Dangeruthe" "Darbeslave" "Dausprungas" 
+	"Davins" "Demas" "Dobre" "Dovyat" "Dzintis" "Elmede" "Erasts" "Erdzivil" "Galeine" "Gastile" 
+	"Gedere" "Gerden" "Gibedats" "Giemund" "Golovke" "Gotene" "Gunvald" "Imanta" "Janis" "Jaunule" 
+	"Jedetus" "Juvage" "Kage" "Kaire" "Karijotas" "Kaupo" "Kerstigens" "Kiten" "Klavess" "Kodere" 
+	"Kuliens" "Kurlemuse" "Lammekinus" "Likiik" "Litto" "Lonkogveni" "Manvydas" "Meinekinus" "Mendune" "Nameisis" 
+	"Narvait" "Pliksov" "Pukiik" "Pukuveras" "Ringaudas" "Rushky" "Rusins" "Sabe" "Sargun" "Scurdo" 
+	"Shutr" "Shvarnas" "Skornand" "Sprudeik" "Stegut" "Steikint" "Sviendorog" "Talivaldis" "Tautvila" "Traidenis" 
+	"Treniota" "Vaishvilkas" "Valikaila" "Vetseke" "Viesturs" "Visheiv" "Vishikut" "Vishly" "Vykantas" "Yudki" }
+monarch_names = {
+	"Premil #0" = 1
+	"Radenko #0" = 1
+	"Bogdan #0" = 1
+	"Radana #1" = -19
+	"Sprejmir #0" = 1
+	"Miluša #0" = -1
+	"Mirigoj #0" = 1
+	"Božidar #1" = 21
+	"Dobren #0" = 1
+	"Blagica #0" = -1
+	"Grobiša #0" = -1
+	"Trebina #0" = -1
+	"Cvetana #0" = -1
+	"Jezerko #0" = 1
+	"Zenislava #0" = -1
+	"Dolgodelka #0" = -1
+	"Dobrana #0" = -1
+	"Zdedrag #1" = 18
+	"No Character #7" = 0
+	"Gelasio #1" = 0
+	"Duron #1" = 0
+	"Durin #2" = 0
+	"Berta #1" = -1
+	"Bertoldo #1" = 0
+	"Enzo #1" = 0
+	"Uberto #1" = 0
+	"Pagano #1" = 0
+	"Anselmo #2" = 0
+	"Claudio #1" = 0
+	"Cosma #1" = 0
+	"Salvestro #1" = 0
+	"Karnak #1" = 0
+	"Maija #1" = -1
+	"Rasa #1" = -1
+	"Lyneg #1" = 0
+	"Tyutyuk #1" = 0
+	"Miha #1" = 0
+	"Aishno #0" = 0
+	"Ako #0" = 0
+	"Ankad #0" = 0
+	"Baise #0" = 0
+	"Balodis #0" = 0
+	"Bikshe #0" = 0
+	"Borut #0" = 0
+	"Bulei #0" = 0
+	"Butovit #0" = 0
+	"Cirulis #0" = 0
+	"Dangeruthe #0" = 0
+	"Darbeslave #0" = 0
+	"Dausprungas #0" = 0
+	"Davins #0" = 0
+	"Demas #0" = 0
+	"Dobre #0" = 0
+	"Dovyat #0" = 0
+	"Dzintis #0" = 0
+	"Elmede #0" = 0
+	"Erasts #0" = 0
+	"Erdzivil #0" = 0
+	"Galeine #0" = 0
+	"Gastile #0" = 0
+	"Gedere #0" = 0
+	"Gerden #0" = 0
+	"Gibedats #0" = 0
+	"Giemund #0" = 0
+	"Golovke #0" = 0
+	"Gotene #0" = 0
+	"Gunvald #0" = 0
+	"Imanta #0" = 0
+	"Janis #0" = 0
+	"Jaunule #0" = 0
+	"Jedetus #0" = 0
+	"Juvage #0" = 0
+	"Kage #0" = 0
+	"Kaire #0" = 0
+	"Karijotas #0" = 0
+	"Kaupo #0" = 0
+	"Kerstigens #0" = 0
+	"Kiten #0" = 0
+	"Klavess #0" = 0
+	"Kodere #0" = 0
+	"Kuliens #0" = 0
+	"Kurlemuse #0" = 0
+	"Lammekinus #0" = 0
+	"Likiik #0" = 0
+	"Litto #0" = 0
+	"Lonkogveni #0" = 0
+	"Manvydas #0" = 0
+	"Meinekinus #0" = 0
+	"Mendune #0" = 0
+	"Nameisis #0" = 0
+	"Narvait #0" = 0
+	"Pliksov #0" = 0
+	"Pukiik #0" = 0
+	"Pukuveras #0" = 0
+	"Ringaudas #0" = 0
+	"Rushky #0" = 0
+	"Rusins #0" = 0
+	"Sabe #0" = 0
+	"Sargun #0" = 0
+	"Scurdo #0" = 0
+	"Shutr #0" = 0
+	"Shvarnas #0" = 0
+	"Skornand #0" = 0
+	"Sprudeik #0" = 0
+	"Stegut #0" = 0
+	"Steikint #0" = 0
+	"Sviendorog #0" = 0
+	"Talivaldis #0" = 0
+	"Tautvila #0" = 0
+	"Traidenis #0" = 0
+	"Treniota #0" = 0
+	"Vaishvilkas #0" = 0
+	"Valikaila #0" = 0
+	"Vetseke #0" = 0
+	"Viesturs #0" = 0
+	"Visheiv #0" = 0
+	"Vishikut #0" = 0
+	"Vishly #0" = 0
+	"Vykantas #0" = 0
+	"Yudki #0" = 0
 }
 
-ship_names = {
-	"Abbodanza e Ricchezza" Achille "Adria in Pace" Agile Aletto Amazzone "Amazzone Guerriera" Angelo "Anna Maria" Aquila "Aquila Incoronata" "Aquila Reale"
-	"Aquila Valeria" "Aquila Volante" "Arca di Noè" "Arma di Lech" "Arma di Nassau" Armellino Aurora Azzardo "Barza Grande" Barzotto Bellona Braccio Bravo
-	Bucintoro "Buon Consiglio" Cacciatore "Campo d'Oche" Capitana "Capitana Barbarigo" "Capitana Canale" "Capitana dei Mari" "Capitana Lanterna" "Carli Regolati"
-	"Carlo Duca di Lorena" "Cavalier Angelo" "Cavallo Marino" "Cavallo Marino di Candia" Cerere "Cervo d'Oro" "Cristo di Venezia" Cigno "Cocha Granda di Comun"
-	"Colomba d'Oro" Concordia Corona "Corriera Veneta" Costanza "Costanza Guerriera" Cristo "Cristo di Candia" "Cristo di Corfù" "Cristo Resuscitato di Veglia"
-	"Cristo Resuscitato di Venezia" "Cristo Risorto" Croce "Croce d'Oro" "Croce Rossa" Cupido "Dama a Cavallo" "David Golia" Diamante Diana Diligenza
-	"Dio Padre e Santa Trinità" "Donna con il Cavallo Armata" "Drago Volante" "Duca di Lorena" "Due Defini" "Due Leoni" "Due Mani" Ecate Enea Eolo Ercole "Ercole Grande"
-	"Ercole Piccolo" "Ercole Vittorioso" Europa Falcone Fama "Fama Volante" "Fattor del Zante" Fede "Fede Guerriera" Fedeltà Fenice "Fontana d'Oro" Fortuna
-	"Fortuna Guerriera" "Fortunato Jacob" Forza "Fregata Contarini" Fulmine Fuoco Galatea "Galeone di San Marco" "Galeone Grande" "Galeone Piccolo" "Galeone Pubblico"
-	"Galera Balbi" "Galera Bembo" "Galera Civran" "Galera Diedo" "Galera Dona" "Galera Gritti" "Galera Magno" "Galera Palma" "Galera Paruta" "Galera Sagredo"
-	"Galera Soranzo" Gerusalemme Giasone "Giglio d'Oro" Giove "Giove Fulminante" Giuditta Gloria "Gloria Veneta" "Grande Alessandro" Guerriera Guiditta Idra
-	"Illuminazione Celeste" Iride "Isabella Maria" Jupiter Ketianana "La Donna" "Leon Coronato" "Leon d'Oro" "Leon Incoronato" "Leon Negro" Leone "Leone di Candia"
-	"Leone di Capodistria" "Leone e Fenice" "Leone Trionfante" "Lepre Rossa" Maddalena Madonna "Madonna degli Angeli" "Madonna dei Carmine" "Madonna dei Miracoli"
-	"Madonna dei Sette Dolori" "Madonna del Rosario" "Madonna del Rosario e San Domenico" "Madonna dell'Arsenal" "Madonna delle Grazie" "Madonna delle Vigne"
-	"Madonna delle Salute" "Madonna di Loreto" "Madonna di Loreto e San Paolo" "Madonna di Marina" Medea Medusa Megera Mercurio "Mezza Luna" Minerva Mondo Mongibello
-	Montagna "Monton d'Oro" Natività Nave Nettuno Nino "Nostra Donna" "Nostra Signora" "Nostra Signora del Rosario" "Nostra Signora di Venezia" "Nostra Signora di Zanti"
-	"Nuova Caparra" "Pace e Abbondanza" "Padre Eterno" Pallade Palma Passaro Pilastro Piramide Polonia Postiglione "Principe di Colonia" "Principessa Grande"
-	"Principessa Piccola" "Profeta Elia" "Profeta Samuel" "Re Attila" "Re David" "Redentor del Mondo" Regina "Regina del Mar" "Regina Incoronata" "Rizzo d'Oro"
-	Roccafortis Rodi Rosa "Rosa Blanca" "Rosa Moceniga" "Ruota con Serpente" "Sacra Lega" "Sacrificio d'Abraham" "San Alvise" "San Andrea" "San Antonio Abate"
-	"San Antonio di Padova" "San Bartolomeo" "San Bonaventura" "San Brun" "San Carlo Borrome" "San Cristoforo" "San Demetrio" "San Domenico" "San Francesco di Paola"
-	"San Gaetano" "San Giorgio" "San Giovanni Battista" "San Girolamo" "San Guiseppe" "San Ignazio" "San Iseppo" "San Lorenzo Giustinian" "San Luca" "San Marco"
-	"San Marco e San Tito" "San Marco Grande" "San Michele" "San Michele Arcangelo" "San Nicolò" "San Pietro" "San Pietro Apostolo" "San Pietro di Alcantara"
-	"San Pio Quinto" "San Sebastiano" "San Spiridione" "San Teodoro" "San Trifone" "San Vincenzo Ferrer" "San Vittorio" "San Zaccaria" "Santa Anna" "Santa Caterina"
-	"Santa Dorotea" "Santa Elena" "Santa Maddalena" "Santa Margherita" "Santa Maria" "Santa Maria Torre di Mar" "Santa Virginia" "Sant'Alessandro" "Sant'Eufemia"
-	"Santissima Annunziata" "Santissima Trinità" "Santissimo Crocefisso" Scala "Scala di Giacob" "Scudo della Fede" Sibilla "Sibilla Europa" Signora
-	"Signora del Belvedere" "Sol d'Oro" Sole Speranza "Stella Maris" Tigre "Tomaso Francesco" "Toro Negro" Torre Totusmundus "Tre Mani" "Tre Re" Trionfo Tritone Tronco
-	"Uomo Armato" "Uomo di Mare" Valor "Valor Coronato" Venetia "Venezia Trionfante" "Vergine Santa" Vigilanza Vittoria Vulcano
-}
-
-army_names = {
-	"Armata di $PROVINCE$"
-}

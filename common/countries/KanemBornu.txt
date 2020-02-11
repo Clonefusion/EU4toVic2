@@ -1,100 +1,126 @@
-#Country Name: Please seefilename.
+# Kanem
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 10 215 225 }
 
-graphical_culture = africangfx
 
-color = { 30  131  162 }
 
-historical_idea_groups = {
-	trade_ideas
-	defensive_ideas
-	offensive_ideas
-	spy_ideas
-	diplomatic_ideas
-	economic_ideas
-	religious_ideas
-	innovativeness_ideas
-}
-
-historical_units = {
-	african_spearmen
-	niger_kongolese_tribal_warfare
-	bantu_plains_warfare
-	adal_gunpowder_warfare
-	westernized_adal
-	adal_guerilla_warfare
-	african_mandelaku
-	african_tuareg_cavalry
-	african_mossi_horsemen
-	african_hussar
-	african_dragoon		
-}
-
-monarch_names = {
-	"Dunama #3" = 120
-	"Muhammad #1" = 160
-	"Amir #0" = 20
-	"Ghaji #0" = 20
-	"'Uthman #0" = 20
-	"'Umar #0" = 20
-	"'Ali #0" = 80
-	"Idris #1" = 60
-	"'Abd Allah #3" = 20
-	"Ibrahim #2" = 40
-	"Hamdan #0" = 20
-	"Othman Kalinuama #0" = 20
-	"Abdullah #1" = 20
-	"Biri #1" = 20
-	"'Abd al-Karim #0" = 0
-	"Kharut #0" = 0
-	"Kharif #0" = 0
-	"Ya'qub #0" = 0
-	"Salih #0" = 0
-	"Birni Besse #0" = 0
-	"Dalai #0" = 0
-	"Burkomanda #0" = 0
-	"Dalo #0" = 0
-	"'Abd al-Qadir #0" = 0
-	"Wanja #0" = 0
-	"Abu Sekkin #0" = 0
-	"Rifaya #0" = 0
-	"Sharud #0" = 0
-	"Tindhim #0" = 0
-	"Musa #0" = 0
-	"Sulbuta #0" = 0
-	"Ishaq #0" = 0
-	"Kade Alunu #0" = 0
-	"Abu Bakr #0" = 0
-	"Da'ud #0" = 0
-	"Kure #0" = 0
-	"Bikoru #0" = 0
-	"Humayy #0" = 0
-	"Sa'id #0" = 0
-	"Nasr #0" = 0
-	"Yahya #0" = 0
-	"Yusuf #0" = 0
-	
-	"Fizza #0" = -1
-	"Hadil #0" = -1
-	"Aissa Kili #0" = -1
-}
 
 leader_names = {
-	Oueddai
-	Ahmat
-	Ardoum
-	Terap
-	Kabadi
-	Yorassem
-	Nahor
-	Deby
-	Djammous
-	Malloum
+
+	"Bikorom" "Gajideni" "Fune" "Nadia" "Bakr-Kanbu" "Malika" "Waziri" "Aziza" "Daniyah" "Amina" 
+	"Wahida" "Jalila" "Aisha" "Daoud" "Aissa" "Kanemi" "Bakhita" "Ibrahim" "Khadija" "Suleyman" 
+	"Namiss" "Yasiboy" "Nafissa" "Airimi" "Karima" "Bintou" "Halima" "Kili" "Alhaji" "Rashida" 
+	"Amr" "Fatima" "Buyuma" "Shettima" "Shu" "Ya" "Dabbalemi" "Shakira" "Salmama" "Yahya" 
+	"Shadia" "Dikwa" "Mufioma" "Osman" "Aliyah" "Murama" "Arsu" "Said" "Sukda" "Layla" 
+	"Bukar" "Kashim" "Dunama" "Gaji" "Mamane" "Khalila" "Baram" "Adam" "Abdulraham" "Hummay" 
+	"Tebunnu" "Dugu" "Galrima" "Tandja" "Amin" "Yaqub" "Selma" "Abdallah" "Abubakar" "Ahmed" 
+	"Alooma" "Arku" "Baba" "Biri" "Bulu" "Dala" "Gana" "Garbai" "Gazali" "Gazi" 
+	"Ghana" "Hume" "Idris" "Kaday" "Katakarmabe" "Katur" "Kiyari" "Kura" "Kuri" "Kuwaana" 
+	"Madu" "Mahmoud" "Modu" "Musa" "Mustafa" "Nikale" "Sanda" "Sani" "Sef" "Umar" 
+	"Yusuf" "Zannah" }
+monarch_names = {
+	"Bikorom #0" = 1
+	"Gajideni #0" = 1
+	"Fune #0" = 1
+	"Nadia #0" = -1
+	"Bakr-Kanbu #0" = 1
+	"Malika #0" = -1
+	"Waziri #0" = 1
+	"Aziza #1" = -22
+	"Daniyah #0" = -1
+	"Amina #1" = -22
+	"Wahida #0" = -1
+	"Jalila #0" = -1
+	"Aisha #0" = -1
+	"Daoud #1" = 18
+	"Aissa #0" = -1
+	"Kanemi #0" = 1
+	"Bakhita #0" = -1
+	"Ibrahim #1" = 18
+	"Khadija #1" = -28
+	"Suleyman #1" = 18
+	"Namiss #0" = -1
+	"Yasiboy #0" = 1
+	"Nafissa #0" = -1
+	"Airimi #1" = 24
+	"Karima #0" = -1
+	"Bintou #0" = -1
+	"Halima #0" = -1
+	"Kili #0" = -1
+	"Alhaji #0" = 1
+	"Rashida #0" = -1
+	"Amr #0" = 1
+	"Fatima #0" = -1
+	"Buyuma #0" = 1
+	"Shettima #0" = 1
+	"Shu #0" = 1
+	"Ya #0" = -1
+	"Dabbalemi #0" = 1
+	"Shakira #0" = -1
+	"Salmama #0" = 1
+	"Yahya #0" = 1
+	"Shadia #0" = -1
+	"Dikwa #0" = -1
+	"Mufioma #0" = 1
+	"Osman #0" = 1
+	"Aliyah #0" = -1
+	"Murama #0" = 1
+	"Arsu #0" = 1
+	"Said #0" = 1
+	"Sukda #0" = -1
+	"Layla #0" = -1
+	"Bukar #0" = 1
+	"Kashim #0" = 1
+	"Dunama #0" = 1
+	"Gaji #0" = 1
+	"Mamane #1" = 21
+	"Khalila #0" = -1
+	"Baram #0" = 1
+	"Adam #0" = 1
+	"Abdulraham #1" = 18
+	"Hummay #2" = 0
+	"Tebunnu #1" = -1
+	"Dugu #1" = 0
+	"Galrima #3" = 0
+	"Tandja #1" = 0
+	"Amin #1" = 0
+	"Yaqub #1" = 0
+	"Selma #1" = 0
+	"Abdallah #0" = 0
+	"Abubakar #0" = 0
+	"Ahmed #0" = 0
+	"Alooma #0" = 0
+	"Arku #0" = 0
+	"Baba #0" = 0
+	"Biri #0" = 0
+	"Bulu #0" = 0
+	"Dala #0" = 0
+	"Gana #0" = 0
+	"Garbai #0" = 0
+	"Gazali #0" = 0
+	"Gazi #0" = 0
+	"Ghana #0" = 0
+	"Hume #0" = 0
+	"Idris #0" = 0
+	"Kaday #0" = 0
+	"Katakarmabe #0" = 0
+	"Katur #0" = 0
+	"Kiyari #0" = 0
+	"Kura #0" = 0
+	"Kuri #0" = 0
+	"Kuwaana #0" = 0
+	"Madu #0" = 0
+	"Mahmoud #0" = 0
+	"Modu #0" = 0
+	"Musa #0" = 0
+	"Mustafa #0" = 0
+	"Nikale #0" = 0
+	"Sanda #0" = 0
+	"Sani #0" = 0
+	"Sef #0" = 0
+	"Umar #0" = 0
+	"Yusuf #0" = 0
+	"Zannah #0" = 0
 }
 
-ship_names = {
-	Dugu Fune Aritso Kature Ayoma Bulu
-	Arki Shu "Bad al-Djel" Hume Dunama
-	Biri Birkoru "Abd al-Djel Selma"
-	"Dunama Dibbalem" Kade "Kachim Biri"
-	Djil Dari "Kure Kura" "Kure Gana"
-}

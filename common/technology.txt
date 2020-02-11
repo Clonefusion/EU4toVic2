@@ -171,6 +171,39 @@ groups = {
 			value = 75
 		}
 	}
+	
+	###
+	
+	polynesian_tech = {
+		start_level = 2
+		start_cost_modifier = 0
+		nation_designer_unit_type = polynesian_tech
+		nation_designer_trigger = {
+			capital_scope = {
+				OR = {
+					continent = oceania
+				}
+			}
+		}
+		nation_designer_cost = {
+			value = 50
+		}
+	}
+	aboriginal_tech = {
+		start_level = 1
+		start_cost_modifier = 0
+		nation_designer_unit_type = aboriginal_tech
+		nation_designer_trigger = {
+			capital_scope = {
+				OR = {
+					continent = oceania
+				}
+			}
+		}
+		nation_designer_cost = {
+			value = 50
+		}
+	}
 }
 
 tables = {

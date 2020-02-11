@@ -1,0 +1,14 @@
+iranian = {
+	sogdian = {
+		primary = KHO
+		dynasty_names = { "Chaghan" "Sinaid" "Karghalikid" "Chishtian" "Avyaman" "Micheldorfid" "Kadzhan" }
+	}
+	tocharian = {
+		primary = KAS
+		dynasty_names = { "Yudhisthire" }
+	}
+	saka = {
+		primary = KAS
+		dynasty_names = { "Ustaka" "Birgamdara" "Hinaza" "Hinaza" "Visha" "Hvamna" }
+	}
+}

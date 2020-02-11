@@ -182,6 +182,7 @@ republic = {
 	reform_levels = {
 		oligarchy_merchant_class_noble_elite = {
 			reforms = {
+				russian_mechanic_gov
 				oligarchy_reform
 				merchants_reform
 				venice_merchants_reform

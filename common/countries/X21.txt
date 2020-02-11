@@ -1,0 +1,174 @@
+# Arashatid
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 179 120 64 }
+
+
+
+
+leader_names = {
+
+	"Burandokht" "Danush" "Leila" "Afsaneh" "Mahdokht" "Fareedeh" "Reza" "Shahrzad" "Yasaman" "Amin" 
+	"Shahrokh" "Roxana" "Mashad" "Banafsheh" "No Character" "Alaudin" "Nawaskhan" "Painda" "Gulrez" "Meereen" 
+	"Jehanzaib" "Tolun" "Sugr" "Begluk" "Uzur" "Çilbu" "Sokal" "Kuntuvdi" "Tugor" "Karacik" 
+	"Kozel" "Peksen" "Eldeçyuk" "Etrek" "Sibel" "Tekçe" "Fariborz" "Devadasa" "Upach" "Farroukh" 
+	"Zeynab" "Zarrindokht" "Jamileh" "Afshar" "Anushirvan" "Aram" "Ardahan" "Ardavan" "Ardeshir" "Assad" 
+	"Aurang" "Ayeshah" "Babak" "Bahman" "Bahram" "Bakhtiar" "Behrad" "Behrouz" "Bozorg" "Darab" 
+	"Dariush" "Davud" "Djamasp" "Ebrahim" "Ehsan" "Esfandiar" "Eskander" "Esma'il" "Faramarz" "Faraz" 
+	"Fareed" "Farhad" "Farrukhzad" "Farzad" "Fath" "Ferdows" "Fereedun" "Ghobad" "Gholam" "Godarz" 
+	"Goshtasb" "Hafez" "Hassan" "Hazarasp" "Hedayat" "Hooshyar" "Hormoz" "Humayun" "Jahandar" "Jahangir" 
+	"Jahanshah" "Jamshid" "Javeed" "Kambiz" "Kamran" "Kavoos" "Keyghobad" "Keykhosrau" "Kharmandar" "Khashayar" 
+	"Kavadh" "Khodadad" "Khosrau" "Khudayar" "Khurshid" "Kurush" "Manuchihr" "Manushihr" "Marzuban" "Mehrab" 
+	"Mehrzad" "Morad" "Morteza" "Mozaffar" "Nard" "Naveed" "Nawid" "Nezam" "Parviz" "Pashang" 
+	"Peroz" "Pujman" "Rostam" "Ruhollah" "Sadri" "Salman" "Shahab" "Shahbaz" "Shahin" "Shahram" 
+	"Shahruz" "Shahryar" "Shayan" "Sina" "Tahmasb" "Vahhab" "Vahid" "Vali" "Varshasb" "Vishtasb" 
+	"Yazdegerd" "Yousef" "Zahak" "Zakaria" "Zand" "Zia" }
+monarch_names = {
+	"Burandokht #0" = -1
+	"Danush #1" = 18
+	"Leila #0" = -1
+	"Afsaneh #0" = -1
+	"Mahdokht #0" = -1
+	"Fareedeh #1" = -22
+	"Reza #0" = 1
+	"Shahrzad #0" = -1
+	"Yasaman #0" = -1
+	"Amin #1" = 18
+	"Shahrokh #1" = 18
+	"Roxana #0" = -1
+	"Mashad #0" = 1
+	"Banafsheh #0" = -1
+	"No Character #9" = 0
+	"Alaudin #1" = 0
+	"Nawaskhan #1" = 0
+	"Painda #2" = 0
+	"Gulrez #1" = 0
+	"Meereen #1" = 0
+	"Jehanzaib #1" = 0
+	"Tolun #1" = 0
+	"Sugr #1" = 0
+	"Begluk #1" = 0
+	"Uzur #1" = 0
+	"Çilbu #1" = 0
+	"Sokal #1" = 0
+	"Kuntuvdi #1" = 0
+	"Tugor #2" = 0
+	"Karacik #1" = -1
+	"Kozel #1" = 0
+	"Peksen #1" = -1
+	"Eldeçyuk #2" = 0
+	"Etrek #1" = 0
+	"Sibel #1" = -1
+	"Tekçe #1" = -1
+	"Fariborz #1" = 0
+	"Devadasa #1" = 0
+	"Upach #1" = -1
+	"Farroukh #1" = 0
+	"Zeynab #1" = -1
+	"Zarrindokht #1" = -1
+	"Jamileh #1" = -1
+	"Afshar #0" = 0
+	"Anushirvan #0" = 0
+	"Aram #0" = 0
+	"Ardahan #0" = 0
+	"Ardavan #0" = 0
+	"Ardeshir #0" = 0
+	"Assad #0" = 0
+	"Aurang #0" = 0
+	"Ayeshah #0" = 0
+	"Babak #0" = 0
+	"Bahman #0" = 0
+	"Bahram #0" = 0
+	"Bakhtiar #0" = 0
+	"Behrad #0" = 0
+	"Behrouz #0" = 0
+	"Bozorg #0" = 0
+	"Darab #0" = 0
+	"Dariush #0" = 0
+	"Davud #0" = 0
+	"Djamasp #0" = 0
+	"Ebrahim #0" = 0
+	"Ehsan #0" = 0
+	"Esfandiar #0" = 0
+	"Eskander #0" = 0
+	"Esma'il #0" = 0
+	"Faramarz #0" = 0
+	"Faraz #0" = 0
+	"Fareed #0" = 0
+	"Farhad #0" = 0
+	"Farrukhzad #0" = 0
+	"Farzad #0" = 0
+	"Fath #0" = 0
+	"Ferdows #0" = 0
+	"Fereedun #0" = 0
+	"Ghobad #0" = 0
+	"Gholam #0" = 0
+	"Godarz #0" = 0
+	"Goshtasb #0" = 0
+	"Hafez #0" = 0
+	"Hassan #0" = 0
+	"Hazarasp #0" = 0
+	"Hedayat #0" = 0
+	"Hooshyar #0" = 0
+	"Hormoz #0" = 0
+	"Humayun #0" = 0
+	"Jahandar #0" = 0
+	"Jahangir #0" = 0
+	"Jahanshah #0" = 0
+	"Jamshid #0" = 0
+	"Javeed #0" = 0
+	"Kambiz #0" = 0
+	"Kamran #0" = 0
+	"Kavoos #0" = 0
+	"Keyghobad #0" = 0
+	"Keykhosrau #0" = 0
+	"Kharmandar #0" = 0
+	"Khashayar #0" = 0
+	"Kavadh #0" = 0
+	"Khodadad #0" = 0
+	"Khosrau #0" = 0
+	"Khudayar #0" = 0
+	"Khurshid #0" = 0
+	"Kurush #0" = 0
+	"Manuchihr #0" = 0
+	"Manushihr #0" = 0
+	"Marzuban #0" = 0
+	"Mehrab #0" = 0
+	"Mehrzad #0" = 0
+	"Morad #0" = 0
+	"Morteza #0" = 0
+	"Mozaffar #0" = 0
+	"Nard #0" = 0
+	"Naveed #0" = 0
+	"Nawid #0" = 0
+	"Nezam #0" = 0
+	"Parviz #0" = 0
+	"Pashang #0" = 0
+	"Peroz #0" = 0
+	"Pujman #0" = 0
+	"Rostam #0" = 0
+	"Ruhollah #0" = 0
+	"Sadri #0" = 0
+	"Salman #0" = 0
+	"Shahab #0" = 0
+	"Shahbaz #0" = 0
+	"Shahin #0" = 0
+	"Shahram #0" = 0
+	"Shahruz #0" = 0
+	"Shahryar #0" = 0
+	"Shayan #0" = 0
+	"Sina #0" = 0
+	"Tahmasb #0" = 0
+	"Vahhab #0" = 0
+	"Vahid #0" = 0
+	"Vali #0" = 0
+	"Varshasb #0" = 0
+	"Vishtasb #0" = 0
+	"Yazdegerd #0" = 0
+	"Yousef #0" = 0
+	"Zahak #0" = 0
+	"Zakaria #0" = 0
+	"Zand #0" = 0
+	"Zia #0" = 0
+}
+

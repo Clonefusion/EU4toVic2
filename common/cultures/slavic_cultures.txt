@@ -1,0 +1,26 @@
+east_slavic = {
+	ilmenian = {
+		primary = NOV
+		dynasty_names = { }
+	}
+	volhynian = {
+		primary = KIE
+		dynasty_names = { }
+	}
+	severian = {
+		primary = KIE
+		dynasty_names = { }
+	}
+	russian_culture = {
+		primary = RUS
+		dynasty_names = { "Bogatyr" "Sarkelia" }
+	}
+	carantanian = {
+		primary = SLO
+		dynasty_names = { "Rajkovic" "Kralj" "od Apatin" "od Szentgotthárd" "od Szombathely" "od Jajce" "od Pécs" "od Slatina" "Premizic" "od Altopascio" "od Olovo" "od Varazdin" "od Podgorica" "od Szentgyörgy" "od Russi" "Rajkovic" "Carantania" "Marizic" "od Pétervására" "od Huszt" "od Máramarossziget" "od Tarcento" "od Castro" "od Trebinje" "od Vinkovci" "od Siponto" "od Ston" "od Cervia" "od Kézdi" "Marizic" "od Gallenstein" "Rajkovic" "od Tramonti" "od Illava" "od Capri" "od Bácsalmás" "od Judenburg" "od Friedberg" "od Nagyröce" "od Szolyva" "od Bran" "od Tamási" "Carantania" "od Szentgyörgy" "od Zombor" "od Posgawar" "od Cetin" "od Pest" "od Modor" "od Vulcan" "od Banja Luka" "od Gonzaga" "od Budva" "od Jajce" "od Sinj" "od Baja" "od Klis" "od Szigetvár" "od Pettau" "od Reun" "od Judenburg" "od Mantua" "od Nagyröce" "od Jolsva" "od Balassagyarmat" "od Rozsnyó" "od Vinkovci" "od Montepeloso" "od Pest" "od Lepoglava" "od Vitrovitica" "od Hisarya" "od Etropole" "Pribic" "od Dalihe" "od Mioveni" "od Citadella" "od Cittá di Castello" "Preradic" "od Senj" "Marizic" "od Eboli" "od Zólyom" "Bogoslavic" "od Severin" "od Althofen" "od Szepsi" "od Galgóc" "od Bán" "od Belene" "od Dorostotum" "od Bács" "od Zimnicea" "od Tiszafüred" "Vukcic" "od Bononia" "od Köszeg" "od Szikszó" "od Sásd" "od Berga" "od Svetie Spas" "od Stupovi" "od Ribnica" "od Kragujevac" "od Valka" "od Rialto" "od Montecastrilli" "od Turris Octava" "od Tursi" "od Mindszent" "od Ógyalla" "od Nemesócsa" "od Nagyigmánd" "od Vranje" "od Brdo" "od Srvljig" "Rajkovic" "od Codigoro" }
+	}
+	bosnian = {
+		primary = BOS
+		dynasty_names = { }
+	}
+}

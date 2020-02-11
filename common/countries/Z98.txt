@@ -1,0 +1,177 @@
+# Skalvia
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 150 70 70 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	diplomatic_ideas
+	spy_ideas
+	economic_ideas
+	administrative_ideas
+	quantity_ideas
+}
+
+historical_units = {
+	bardiche_infantry
+	eastern_knights
+	slavic_stradioti
+	eastern_militia
+	hungarian_hussar
+	polish_musketeer
+	polish_hussar
+	polish_tercio
+	polish_winged_hussar
+	russian_lancer
+	russian_cuirassier
+	eastern_skirmisher
+	eastern_uhlan
+	eastern_carabinier
+	russian_mass
+}
+
+
+
+leader_names = {
+
+	"Sargun" "Demas" "Dzintis" "Kordula" "Litto" "Dose" "Rusins" "Marite" "Ausala" "Imela" 
+	"Karadakh" "Gunda" "Kuliens" "Stegut" "Liga" "Valikaila" "Dobre" "Dangeruthe" "Darate" "Gotene" 
+	"Imanta" "Daira" "Lammekinus" "Galene" "Viba" "Kaire" "Scurdo" "Savna" "Talivaldis" "Gibedats" 
+	"Ruta" "Giemund" "Zigne" "Dardedze" "Bitens" "Aishno" "Gundega" "Golovke" "Shutr" "No Character" 
+	"Butigeidis" "Merkelis" "Pukuveras" "Aras" "Korigaila" "Treniotas" "Karijotas" "Dausprungas" "Mindaugas" "Gedere" 
+	"Meinekinus" "Skornand" "Tautvila" "Ako" "Kodere" "Treniota" "Janis" "Erdzivil" "Anastasius" "Borut" 
+	"Kage" "Baise" "Darbeslave" "Narvait" "Ankad" "Balodis" "Bikshe" "Bulei" "Butovit" "Cirulis" 
+	"Davins" "Dovyat" "Elmede" "Erasts" "Galeine" "Gastile" "Gerden" "Gunvald" "Jaunule" "Jedetus" 
+	"Juvage" "Karnak" "Kaupo" "Kerstigens" "Kiten" "Klavess" "Kurlemuse" "Likiik" "Lonkogveni" "Manvydas" 
+	"Mendune" "Nameisis" "Pliksov" "Pukiik" "Ringaudas" "Rushky" "Sabe" "Shvarnas" "Sprudeik" "Steikint" 
+	"Sviendorog" "Traidenis" "Vaishvilkas" "Vetseke" "Viesturs" "Visheiv" "Vishikut" "Vishly" "Vykantas" "Yudki" }
+monarch_names = {
+	"Sargun #0" = 1
+	"Demas #0" = 1
+	"Dzintis #0" = 1
+	"Kordula #0" = -1
+	"Litto #0" = 1
+	"Dose #0" = -1
+	"Rusins #1" = 21
+	"Marite #0" = -1
+	"Ausala #0" = -1
+	"Imela #0" = -1
+	"Karadakh #0" = 1
+	"Gunda #0" = -1
+	"Kuliens #0" = 1
+	"Stegut #0" = 1
+	"Liga #0" = -1
+	"Valikaila #0" = 1
+	"Dobre #2" = 18
+	"Dangeruthe #0" = 1
+	"Darate #0" = -1
+	"Gotene #1" = 18
+	"Imanta #0" = 1
+	"Daira #0" = -1
+	"Lammekinus #0" = 1
+	"Galene #0" = -1
+	"Viba #0" = -1
+	"Kaire #0" = 1
+	"Scurdo #0" = 1
+	"Savna #1" = -22
+	"Talivaldis #1" = 18
+	"Gibedats #1" = 18
+	"Ruta #1" = -19
+	"Giemund #1" = 18
+	"Zigne #0" = -1
+	"Dardedze #0" = -1
+	"Bitens #0" = -1
+	"Aishno #0" = 1
+	"Gundega #0" = -1
+	"Golovke #1" = 18
+	"Shutr #0" = 1
+	"No Character #3" = 0
+	"Butigeidis #1" = 0
+	"Merkelis #1" = 0
+	"Pukuveras #1" = 0
+	"Aras #1" = 0
+	"Korigaila #1" = 0
+	"Treniotas #1" = 0
+	"Karijotas #2" = 0
+	"Dausprungas #2" = 0
+	"Mindaugas #1" = 0
+	"Gedere #1" = 0
+	"Meinekinus #1" = 0
+	"Skornand #2" = 0
+	"Tautvila #1" = 0
+	"Ako #1" = 0
+	"Kodere #1" = 0
+	"Treniota #1" = 0
+	"Janis #1" = 0
+	"Erdzivil #1" = 0
+	"Anastasius #1" = 0
+	"Borut #1" = 0
+	"Kage #1" = 0
+	"Baise #2" = 0
+	"Darbeslave #1" = 0
+	"Narvait #1" = 0
+	"Ankad #0" = 0
+	"Balodis #0" = 0
+	"Bikshe #0" = 0
+	"Bulei #0" = 0
+	"Butovit #0" = 0
+	"Cirulis #0" = 0
+	"Davins #0" = 0
+	"Dovyat #0" = 0
+	"Elmede #0" = 0
+	"Erasts #0" = 0
+	"Galeine #0" = 0
+	"Gastile #0" = 0
+	"Gerden #0" = 0
+	"Gunvald #0" = 0
+	"Jaunule #0" = 0
+	"Jedetus #0" = 0
+	"Juvage #0" = 0
+	"Karnak #0" = 0
+	"Kaupo #0" = 0
+	"Kerstigens #0" = 0
+	"Kiten #0" = 0
+	"Klavess #0" = 0
+	"Kurlemuse #0" = 0
+	"Likiik #0" = 0
+	"Lonkogveni #0" = 0
+	"Manvydas #0" = 0
+	"Mendune #0" = 0
+	"Nameisis #0" = 0
+	"Pliksov #0" = 0
+	"Pukiik #0" = 0
+	"Ringaudas #0" = 0
+	"Rushky #0" = 0
+	"Sabe #0" = 0
+	"Shvarnas #0" = 0
+	"Sprudeik #0" = 0
+	"Steikint #0" = 0
+	"Sviendorog #0" = 0
+	"Traidenis #0" = 0
+	"Vaishvilkas #0" = 0
+	"Vetseke #0" = 0
+	"Viesturs #0" = 0
+	"Visheiv #0" = 0
+	"Vishikut #0" = 0
+	"Vishly #0" = 0
+	"Vykantas #0" = 0
+	"Yudki #0" = 0
+}
+ship_names = {
+	Alytus
+	Birzai
+	Druskininkai
+	Gardinas
+	Jonava
+	Kaunas Kretinga Kreva
+	Lazdijai
+	Naugardukas
+	Palanga
+	Raseiniai
+	Siauliai Sventoji
+	Taurage Telsiai Trakai
+	Utena
+	Vilkmerge
+}
+

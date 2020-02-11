@@ -1,97 +1,87 @@
-#Country Name: See the Name of this File.
+# Malwa
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 255 200 25 }
 
-graphical_culture = indiangfx
 
-color = { 192 5 24 }
 
-historical_idea_groups = {
-	economic_ideas
-	quantity_ideas
-	humanist_ideas
-	defensive_ideas
-	trade_ideas
-	spy_ideas
-	diplomatic_ideas
-	innovativeness_ideas
-}
-
-historical_units = {
-	indian_footsoldier
-	rajput_hill_fighters
-	indian_arquebusier
-	mughal_musketeer
-	rajput_musketeer
-	mughal_mansabdar
-	indian_elephant
-	sikh_hit_and_run
-	bhonsle_cavalry
-	indian_rifle
-	tipu_sultan_rocket
-}
-
-monarch_names = {
-	"Dilavar Khan #0" = 10
-	"Alp Khan Hushang #0" = 10
-	"Ghazni Khan #0" = 10
-	"Nasir Shah #0" = 10
-	"Salim Shah #0" = 10
-	"Baz Bahadur #0" = 10
-	"Mali Rao #0" = 10
-	"Ahalya Bai #0" = 10
-	"Mahmud Shah #0" = 20
-	"Ghiyath Shah #0" = 10
-	"Qadir Shah #0" = 10
-	"Shaja'at Khan #0" = 10
-	"Bahadur #0" = 10
-	"Mahmud  #0" = 0
-	"Ferishta #0" = 0
-	"Ghiyas-ud-din #0" = 0
-	"Qadir #0" = 0
-	"Mohammed #0" = 0
-	"Baz #0" = 0
-	"Salim #0" = 0
-	"Nasir #0" = 0
-	"Amir #0" = 0
-	"Hoshang #0" = 0
-	"Qudsia #0" = -5
-	"Hajjah #0" = -5
-	"Shahjahan Begum #0" = -5
-}
 
 leader_names = {
-	Mori
-	Haji
-	Uzbek
-	Gilani
-	Paramara
-	Bahadur
-	Gauri
-	Jurjani
-	Khan
-	Malik
-	Sultan
-	Khorasani
-	Farooqi
-	Changezi
-	Turani
-	Latif
-	Bhilala
-	Solanki
-	Chattari
-	Kanjar
-	Ghuri
-	Naru
-	Chudasama
-	Pahore
-	Tomara
-	Solanki
+
+	"Atrak" "Özlem" "Ipek" "Gulay" "Ilkay" "Kutan" "Bönek" "Kuntuvdi" "Sibel" "Sevindik" 
+	"Asli" "Ipekel" "Asalup" "Kopti" "Yildiz" "Sevenç" "Yasar" "Yasu" "No Character" "Dattadevi" 
+	"Adityadeva" "Uddharandeva" "Sanyukta" "Bhoja" "Govindraj" "Inel" "Sultanpala" "Doth" "Daulatrao" "Vishwanathpant" 
+	"Shevanti" "Lasthiyavva" "Tugor" "Borç" "Akgul" "Gunduz" "Dilek" "Etrek" "Çilbu" "Aepak" 
+	"Asep" "Bachman" "Begluk" "Blush" "Bonyak" "Eldeçyuk" "Girgen" "Gzi" "Itlar" "Ituk" 
+	"Könçek" "Kobyak" "Kotyan" "Koza" "Kozel" "Kubasar" "Pulad" "Saru" "Sirçan" "Sokal" 
+	"Sotan" "Sugr" "Törtogul" "Togli" "Tolun" "Uzluk" "Uzur" }
+monarch_names = {
+	"Atrak #0" = 1
+	"Özlem #0" = -1
+	"Ipek #0" = -1
+	"Gulay #0" = -1
+	"Ilkay #0" = -1
+	"Kutan #0" = 1
+	"Bönek #0" = 1
+	"Kuntuvdi #5" = 24
+	"Sibel #0" = -1
+	"Sevindik #0" = -1
+	"Asli #0" = -1
+	"Ipekel #0" = -1
+	"Asalup #0" = 1
+	"Kopti #1" = 18
+	"Yildiz #0" = -1
+	"Sevenç #0" = 1
+	"Yasar #0" = -1
+	"Yasu #0" = 1
+	"No Character #5" = 0
+	"Dattadevi #1" = -1
+	"Adityadeva #2" = 0
+	"Uddharandeva #1" = 0
+	"Sanyukta #1" = -1
+	"Bhoja #2" = 0
+	"Govindraj #1" = 0
+	"Inel #1" = 0
+	"Sultanpala #1" = 0
+	"Doth #2" = 0
+	"Daulatrao #3" = 0
+	"Vishwanathpant #1" = 0
+	"Shevanti #1" = -1
+	"Lasthiyavva #1" = -1
+	"Tugor #1" = 0
+	"Borç #1" = 0
+	"Akgul #1" = -1
+	"Gunduz #1" = -1
+	"Dilek #1" = -1
+	"Etrek #1" = 0
+	"Çilbu #0" = 0
+	"Aepak #0" = 0
+	"Asep #0" = 0
+	"Bachman #0" = 0
+	"Begluk #0" = 0
+	"Blush #0" = 0
+	"Bonyak #0" = 0
+	"Eldeçyuk #0" = 0
+	"Girgen #0" = 0
+	"Gzi #0" = 0
+	"Itlar #0" = 0
+	"Ituk #0" = 0
+	"Könçek #0" = 0
+	"Kobyak #0" = 0
+	"Kotyan #0" = 0
+	"Koza #0" = 0
+	"Kozel #0" = 0
+	"Kubasar #0" = 0
+	"Pulad #0" = 0
+	"Saru #0" = 0
+	"Sirçan #0" = 0
+	"Sokal #0" = 0
+	"Sotan #0" = 0
+	"Sugr #0" = 0
+	"Törtogul #0" = 0
+	"Togli #0" = 0
+	"Tolun #0" = 0
+	"Uzluk #0" = 0
+	"Uzur #0" = 0
 }
 
-ship_names = {
-	Alia Betwa Chambal Dhasan Fatimah
-	Ghambir Jalsena "Kala Jahazi" Khan
-	"Lal Jahazi" Mahi Narmada Nausena
-	"Nav ka Yudh" Niknaz "Nila Jahazi"
-	Niloufa Sagar Salima Suhalia Shameena
-	Shipra Yasmine
-}

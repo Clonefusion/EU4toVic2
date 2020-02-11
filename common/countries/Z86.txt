@@ -1,0 +1,123 @@
+# Novgorod
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 107 164 64 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	economic_ideas
+	religious_ideas
+	administrative_ideas
+	quality_ideas
+}
+
+historical_units = {
+	bardiche_infantry
+	eastern_knights
+	slavic_stradioti
+	eastern_militia
+	muscovite_musketeer
+	muscovite_caracolle
+	muscovite_soldaty
+	muscovite_cossack
+	russian_petrine
+	russian_lancer
+	russian_green_coat
+	russian_cuirassier
+	eastern_skirmisher
+	eastern_uhlan
+	eastern_carabinier
+	russian_mass
+}
+
+
+
+leader_names = {
+
+	"Karadakh" "Peroz" "Farah" "Yabghu" "Bahar" "Vahid" "Banafsheh" "Behrad" "Zeynab" "Samsam" 
+	"Çorpan" "Bulan" "Barjik" "No Character" "Terentiy" "Rodislav" "Erich" "Väinö" "Vasilko" "Vladimir" 
+	"Bashtwa" "Buzer" "Mënümarót" "Gunduz" "Sartäç" "Yasar" "Yeldem" "Usunbike" "Alp" "Araslan" 
+	"Bagha" "Baghatur" "Bälgiçi" "Barsbek" "Bastu" "Bihor" "Böri" "Bugha" "Bulçan" "Busir" 
+	"Çat" "Çat'n" "Ilik" "Iltäbär" "Itakh" "Kamaj" "Kayghalagh" "Khatir" "Khuterkin" "Kibar" 
+	"Kisa" "Kundaçiq" "Kundaç" "Mänär" "Mänäs" "Ötemis" "Papaçyz" "Simsam" "Täbär" "Tabghaç" 
+	"Tarkhan" "Tarmaç" "Tuzniq" "Vakrim" "Yavantey" "Yençepi" "Yerneslu" "Yeçtirek" "Yilig" }
+monarch_names = {
+	"Karadakh #1" = 18
+	"Peroz #0" = 1
+	"Farah #0" = -1
+	"Yabghu #0" = 1
+	"Bahar #0" = -1
+	"Vahid #0" = 1
+	"Banafsheh #1" = -19
+	"Behrad #0" = 1
+	"Zeynab #0" = -1
+	"Samsam #0" = 1
+	"Çorpan #0" = 1
+	"Bulan #0" = 1
+	"Barjik #0" = 1
+	"No Character #2" = 0
+	"Terentiy #2" = 0
+	"Rodislav #1" = 0
+	"Erich #1" = 0
+	"Väinö #1" = 0
+	"Vasilko #1" = 0
+	"Vladimir #6" = 0
+	"Bashtwa #2" = 0
+	"Buzer #2" = 0
+	"Mënümarót #1" = 0
+	"Gunduz #1" = -1
+	"Sartäç #1" = 0
+	"Yasar #1" = -1
+	"Yeldem #1" = -1
+	"Usunbike #1" = -1
+	"Alp #0" = 0
+	"Araslan #0" = 0
+	"Bagha #0" = 0
+	"Baghatur #0" = 0
+	"Bälgiçi #0" = 0
+	"Barsbek #0" = 0
+	"Bastu #0" = 0
+	"Bihor #0" = 0
+	"Böri #0" = 0
+	"Bugha #0" = 0
+	"Bulçan #0" = 0
+	"Busir #0" = 0
+	"Çat #0" = 0
+	"Çat'n #0" = 0
+	"Ilik #0" = 0
+	"Iltäbär #0" = 0
+	"Itakh #0" = 0
+	"Kamaj #0" = 0
+	"Kayghalagh #0" = 0
+	"Khatir #0" = 0
+	"Khuterkin #0" = 0
+	"Kibar #0" = 0
+	"Kisa #0" = 0
+	"Kundaçiq #0" = 0
+	"Kundaç #0" = 0
+	"Mänär #0" = 0
+	"Mänäs #0" = 0
+	"Ötemis #0" = 0
+	"Papaçyz #0" = 0
+	"Simsam #0" = 0
+	"Täbär #0" = 0
+	"Tabghaç #0" = 0
+	"Tarkhan #0" = 0
+	"Tarmaç #0" = 0
+	"Tuzniq #0" = 0
+	"Vakrim #0" = 0
+	"Yavantey #0" = 0
+	"Yençepi #0" = 0
+	"Yerneslu #0" = 0
+	"Yeçtirek #0" = 0
+	"Yilig #0" = 0
+}
+ship_names = {
+	"Staraya Russa" Ladoga Torzhok Oreshek
+	"Alexander Nevsky" Pestrovo Valdai Kholm
+	Borovichi Luga Msta "Ozero I'lmen" Lovat
+	Polist Redja Pola Visera Volchov Selon Polomet
+}
+

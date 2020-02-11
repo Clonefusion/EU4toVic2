@@ -1,0 +1,347 @@
+# Zhetysu
+ck2_converter_generated = yes
+graphical_culture = asiangfx
+color = { 200 130 70 }
+
+
+
+
+leader_names = {
+
+	"Mangsham" "Chakna" "Khrimalod" "Getong" "Lotsen" "Shangnang" "Tsomo" "Devitara" "Bum" "Tritog" 
+	"Yarïsh" "Kunga" "Pungse" "Sal" "Taramo" "Khritsun" "Mutri" "Gyagar" "Sumnang" "Dompu" 
+	"Tritsuk" "Jomo" "Drongnyen" "Punyasene" "Dro" "Wiryasiñi" "Vishtasb" "Magyal" "Damshe" "Sadnalegs" 
+	"Tisho" "Aryaraksite" "Santisene" "Putere" "Silasoma" "Pawaske" "Arghavan" "Maya" "Kentarske" "Shahrzad" 
+	"Dinah" "Tärtvisara" "Cowaske" "Cogrobza" "Gémathar" "Torma" "Wasampile" "Gangkarwa" "Fareedeh" "Dharmadase" 
+	"Saci" "Farrin" "Zanam" "Taknye" "Tongtsen" "Jayavarman" "Tagbu" "Chökyi" "Pema" "Farrukhzad" 
+	"Praniyata" "Dechen" "Pujman" "Khvarnarse" "Furuzan" "Yekta" "Kushtana" "Omade" "Chika" "Dzeden" 
+	"Kharmandar" "Hormoz" "Ahu" "Phoyongsa" "Raksita" "Farroukh" "Dagmo" "Salomeh" "Fareed" "Burandokht" 
+	"Tograk" "Khivyaina" "Marzuban" "Golnaz" "Nezam" "Phagpa" "Orgyen" "Amala" "Darya" "Golshan" 
+	"Asa" "Tingngezin" "Delaram" "Gyeltsen" "Nazilla" "Dhruvadevi" "Farhad" "Gyimsheng" "Manushihr" "Pavak" 
+	"Vahid" "Aepak" "Zakaria" "Jetsun" "Gambhir" "Sang" "Shrimitradevi" "Wangchuk" "Ituk" "Pelmo" 
+	"Özgul" "Sugr" "Çilen" "Zhonnu" "Prabhavati" "Tashi" "Mangpoje" "Delbar" "Tegh Bahadur" "Bozçin" 
+	"Isho" "Tricham" "Toktokteng" "Sadmarkar" "Nyendrak" "Kotyan" "Yeshe" "Trimonyen" "Yeldem" "Otqan" 
+	"Palkye" "Drönma" "Tridra" "Sönam" "Uzluk" "Yon" "Tsunmotog" "Dunkyi" "Gungtsen" "Lha" 
+	"Kelzang" "Drag" "Ipekel" "Mungchang" "Tshistöng" "Umay" "Mangmo" "Kyi" "Jelme" "Külbilgä" 
+	"Çuçibüri" "Kül" "Çuçi" "Teken" "Iltughun" "Çeçek" "Beslik" "Börtil" "Yiltïs" "Bumin" 
+	"Katun" "Maqaraç" "Yollughtegin" "Tafaç" "Tamgaç" "Aglen" "Balpo" "Changchub" "Chatri" "Chokey" 
+	"Chögyal" "Chukpo" "Daktri" "Degyal" "Denöl" "Desho" "Detrin" "Detsen" "Detrul" "Deu" 
+	"Dharmapala" "Dickey" "Dingtri" "Dondup" "Donyö" "Dorje" "Dragpa" "Dranga" "Drigum" "Drogön" 
+	"Dusong" "Dzamling" "Esho" "Gampo" "Gesar" "Gön" "Gongpa" "Gongru" "Gunggyal" "Gungsong" 
+	"Gyal" "Gyalpo" "Gyaltore" "Gyaltsen" "Jamyang" "Jekundag" "Könchok" "Kyidé" "Langdarma" "Lek" 
+	"Lekpa" "Lhanang" "Lingpa" "Lodrö" "Longtsen" "Löntsen" "Lukhong" "Mangban" "Mangnyen" "Mangsong" 
+	"Mangtsen" "Mertri" "Muné" "Mutik" "Muzu" "Nam" "Namdé" "Namkha" "Namri" "Namzhungtsen" 
+	"Ngawang" "Nyantsen" "Nyasig" "Nyigön" "Nyima" "Nyingpo" "Nytari" "Öpoche" "Ösung" "Pal" 
+	"Palden" "Palchen" "Pälkhortsän" "Po" "Podé" "Pude" "Pungtsen" "Ramsha" "Ralpacan" "Rapsel" 
+	"Rinchen" "Sachen" "Sambhota" "Selbar" "Senöl" "Shakya" "Shang" "Shanglon" "Siptri" "Songtsen" 
+	"Sotri" "Sutse" "Takdra" "Taknang" "Taktsab" "Tawen" "Thönmi" "Thothori" "Thrikhyiding" "Tori" 
+	"Trashi" "Tridé" "Tridu" "Trimang" "Trinring" "Trinyen" "Trisong" "Trisu" "Trisumje" "Tritsen" 
+	"Tromo" "Trongzhi" "Tsangma" "Tsemo" "Tsen" "Tsendro" "Tsenpo" "Tsensong" "Tsentsän" "Tsenye" 
+	"Tsugru" "Tsuktsen" "Udumtsen" "Wangdu" "Yongten" "Yontan" "Yülsung" "Yumtän" "Zangtsa" "Zhangtsun" 
+	"Zimun" "Zindé" "Zungtsen" }
+monarch_names = {
+	"Mangsham #0" = 1
+	"Chakna #0" = 1
+	"Khrimalod #1" = -19
+	"Getong #0" = 1
+	"Lotsen #0" = 1
+	"Shangnang #0" = 1
+	"Tsomo #0" = -1
+	"Devitara #0" = -1
+	"Bum #0" = -1
+	"Tritog #0" = 1
+	"Yarïsh #0" = 1
+	"Kunga #0" = -1
+	"Pungse #0" = 1
+	"Sal #0" = -1
+	"Taramo #0" = -1
+	"Khritsun #0" = -1
+	"Mutri #0" = 1
+	"Gyagar #0" = 1
+	"Sumnang #0" = 1
+	"Dompu #0" = 1
+	"Tritsuk #0" = 1
+	"Jomo #0" = -1
+	"Drongnyen #0" = 1
+	"Punyasene #0" = -1
+	"Dro #0" = -1
+	"Wiryasiñi #0" = 1
+	"Vishtasb #0" = 1
+	"Magyal #0" = -1
+	"Damshe #0" = 1
+	"Sadnalegs #0" = 1
+	"Tisho #0" = 1
+	"Aryaraksite #0" = -1
+	"Santisene #0" = -1
+	"Putere #0" = -1
+	"Silasoma #0" = 1
+	"Pawaske #0" = 1
+	"Arghavan #0" = -1
+	"Maya #0" = -1
+	"Kentarske #0" = 1
+	"Shahrzad #0" = -1
+	"Dinah #0" = -1
+	"Tärtvisara #0" = -1
+	"Cowaske #0" = 1
+	"Cogrobza #0" = -1
+	"Gémathar #0" = -1
+	"Torma #0" = -1
+	"Wasampile #0" = 1
+	"Gangkarwa #0" = 1
+	"Fareedeh #0" = -1
+	"Dharmadase #0" = 1
+	"Saci #0" = -1
+	"Farrin #0" = -1
+	"Zanam #0" = 1
+	"Taknye #0" = 1
+	"Tongtsen #0" = 1
+	"Jayavarman #0" = 1
+	"Tagbu #0" = 1
+	"Chökyi #0" = -1
+	"Pema #0" = -1
+	"Farrukhzad #0" = 1
+	"Praniyata #0" = -1
+	"Dechen #0" = -1
+	"Pujman #0" = 1
+	"Khvarnarse #0" = 1
+	"Furuzan #0" = -1
+	"Yekta #0" = -1
+	"Kushtana #0" = 1
+	"Omade #0" = 1
+	"Chika #0" = 1
+	"Dzeden #0" = -1
+	"Kharmandar #0" = 1
+	"Hormoz #0" = 1
+	"Ahu #0" = -1
+	"Phoyongsa #0" = -1
+	"Raksita #0" = 1
+	"Farroukh #0" = 1
+	"Dagmo #0" = -1
+	"Salomeh #0" = -1
+	"Fareed #0" = 1
+	"Burandokht #0" = -1
+	"Tograk #0" = -1
+	"Khivyaina #0" = -1
+	"Marzuban #0" = 1
+	"Golnaz #0" = -1
+	"Nezam #0" = 1
+	"Phagpa #0" = 1
+	"Orgyen #0" = -1
+	"Amala #0" = -1
+	"Darya #0" = -1
+	"Golshan #0" = -1
+	"Asa #0" = -1
+	"Tingngezin #0" = 1
+	"Delaram #0" = -1
+	"Gyeltsen #0" = 1
+	"Nazilla #0" = -1
+	"Dhruvadevi #0" = -1
+	"Farhad #0" = 1
+	"Gyimsheng #0" = -1
+	"Manushihr #0" = 1
+	"Pavak #0" = 1
+	"Vahid #0" = 1
+	"Aepak #0" = 1
+	"Zakaria #0" = 1
+	"Jetsun #0" = 1
+	"Gambhir #0" = 1
+	"Sang #0" = -1
+	"Shrimitradevi #0" = -1
+	"Wangchuk #0" = 1
+	"Ituk #0" = 1
+	"Pelmo #0" = -1
+	"Özgul #0" = -1
+	"Sugr #0" = 1
+	"Çilen #0" = -1
+	"Zhonnu #0" = 1
+	"Prabhavati #0" = -1
+	"Tashi #0" = -1
+	"Mangpoje #0" = 1
+	"Delbar #0" = -1
+	"Tegh Bahadur #0" = 1
+	"Bozçin #0" = -1
+	"Isho #0" = 1
+	"Tricham #0" = -1
+	"Toktokteng #0" = -1
+	"Sadmarkar #0" = -1
+	"Nyendrak #0" = -1
+	"Kotyan #0" = 1
+	"Yeshe #0" = -1
+	"Trimonyen #0" = -1
+	"Yeldem #0" = -1
+	"Otqan #0" = -1
+	"Palkye #0" = 1
+	"Drönma #0" = -1
+	"Tridra #0" = 1
+	"Sönam #0" = 1
+	"Uzluk #0" = 1
+	"Yon #0" = -1
+	"Tsunmotog #0" = -1
+	"Dunkyi #0" = -1
+	"Gungtsen #0" = 1
+	"Lha #0" = -1
+	"Kelzang #0" = -1
+	"Drag #0" = 1
+	"Ipekel #0" = -1
+	"Mungchang #0" = -1
+	"Tshistöng #0" = -1
+	"Umay #0" = -1
+	"Mangmo #0" = -1
+	"Kyi #0" = -1
+	"Jelme #1" = 0
+	"Külbilgä #2" = 0
+	"Çuçibüri #1" = 0
+	"Kül #1" = 0
+	"Çuçi #1" = 0
+	"Teken #1" = -1
+	"Iltughun #1" = 0
+	"Çeçek #1" = -1
+	"Beslik #1" = -1
+	"Börtil #1" = 0
+	"Yiltïs #1" = -1
+	"Bumin #1" = 0
+	"Katun #1" = -1
+	"Maqaraç #1" = 0
+	"Yollughtegin #1" = 0
+	"Tafaç #1" = 0
+	"Tamgaç #1" = 0
+	"Aglen #0" = 0
+	"Balpo #0" = 0
+	"Changchub #0" = 0
+	"Chatri #0" = 0
+	"Chokey #0" = 0
+	"Chögyal #0" = 0
+	"Chukpo #0" = 0
+	"Daktri #0" = 0
+	"Degyal #0" = 0
+	"Denöl #0" = 0
+	"Desho #0" = 0
+	"Detrin #0" = 0
+	"Detsen #0" = 0
+	"Detrul #0" = 0
+	"Deu #0" = 0
+	"Dharmapala #0" = 0
+	"Dickey #0" = 0
+	"Dingtri #0" = 0
+	"Dondup #0" = 0
+	"Donyö #0" = 0
+	"Dorje #0" = 0
+	"Dragpa #0" = 0
+	"Dranga #0" = 0
+	"Drigum #0" = 0
+	"Drogön #0" = 0
+	"Dusong #0" = 0
+	"Dzamling #0" = 0
+	"Esho #0" = 0
+	"Gampo #0" = 0
+	"Gesar #0" = 0
+	"Gön #0" = 0
+	"Gongpa #0" = 0
+	"Gongru #0" = 0
+	"Gunggyal #0" = 0
+	"Gungsong #0" = 0
+	"Gyal #0" = 0
+	"Gyalpo #0" = 0
+	"Gyaltore #0" = 0
+	"Gyaltsen #0" = 0
+	"Jamyang #0" = 0
+	"Jekundag #0" = 0
+	"Könchok #0" = 0
+	"Kyidé #0" = 0
+	"Langdarma #0" = 0
+	"Lek #0" = 0
+	"Lekpa #0" = 0
+	"Lhanang #0" = 0
+	"Lingpa #0" = 0
+	"Lodrö #0" = 0
+	"Longtsen #0" = 0
+	"Löntsen #0" = 0
+	"Lukhong #0" = 0
+	"Mangban #0" = 0
+	"Mangnyen #0" = 0
+	"Mangsong #0" = 0
+	"Mangtsen #0" = 0
+	"Mertri #0" = 0
+	"Muné #0" = 0
+	"Mutik #0" = 0
+	"Muzu #0" = 0
+	"Nam #0" = 0
+	"Namdé #0" = 0
+	"Namkha #0" = 0
+	"Namri #0" = 0
+	"Namzhungtsen #0" = 0
+	"Ngawang #0" = 0
+	"Nyantsen #0" = 0
+	"Nyasig #0" = 0
+	"Nyigön #0" = 0
+	"Nyima #0" = 0
+	"Nyingpo #0" = 0
+	"Nytari #0" = 0
+	"Öpoche #0" = 0
+	"Ösung #0" = 0
+	"Pal #0" = 0
+	"Palden #0" = 0
+	"Palchen #0" = 0
+	"Pälkhortsän #0" = 0
+	"Po #0" = 0
+	"Podé #0" = 0
+	"Pude #0" = 0
+	"Pungtsen #0" = 0
+	"Ramsha #0" = 0
+	"Ralpacan #0" = 0
+	"Rapsel #0" = 0
+	"Rinchen #0" = 0
+	"Sachen #0" = 0
+	"Sambhota #0" = 0
+	"Selbar #0" = 0
+	"Senöl #0" = 0
+	"Shakya #0" = 0
+	"Shang #0" = 0
+	"Shanglon #0" = 0
+	"Siptri #0" = 0
+	"Songtsen #0" = 0
+	"Sotri #0" = 0
+	"Sutse #0" = 0
+	"Takdra #0" = 0
+	"Taknang #0" = 0
+	"Taktsab #0" = 0
+	"Tawen #0" = 0
+	"Thönmi #0" = 0
+	"Thothori #0" = 0
+	"Thrikhyiding #0" = 0
+	"Tori #0" = 0
+	"Trashi #0" = 0
+	"Tridé #0" = 0
+	"Tridu #0" = 0
+	"Trimang #0" = 0
+	"Trinring #0" = 0
+	"Trinyen #0" = 0
+	"Trisong #0" = 0
+	"Trisu #0" = 0
+	"Trisumje #0" = 0
+	"Tritsen #0" = 0
+	"Tromo #0" = 0
+	"Trongzhi #0" = 0
+	"Tsangma #0" = 0
+	"Tsemo #0" = 0
+	"Tsen #0" = 0
+	"Tsendro #0" = 0
+	"Tsenpo #0" = 0
+	"Tsensong #0" = 0
+	"Tsentsän #0" = 0
+	"Tsenye #0" = 0
+	"Tsugru #0" = 0
+	"Tsuktsen #0" = 0
+	"Udumtsen #0" = 0
+	"Wangdu #0" = 0
+	"Yongten #0" = 0
+	"Yontan #0" = 0
+	"Yülsung #0" = 0
+	"Yumtän #0" = 0
+	"Zangtsa #0" = 0
+	"Zhangtsun #0" = 0
+	"Zimun #0" = 0
+	"Zindé #0" = 0
+	"Zungtsen #0" = 0
+}
+

@@ -1,96 +1,105 @@
-#Country Name: Please see filename.
+# Vologda
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 178 192 134 }
 
-graphical_culture = easterngfx
 
-color = { 131  141  142 }
 
-historical_idea_groups = {
-	defensive_ideas
-	offensive_ideas
-	trade_ideas
-	spy_ideas
-	economic_ideas
-	quality_ideas
-	diplomatic_ideas
-	religious_ideas
-}
 
-historical_units = {
-	bardiche_infantry
-	druzhina_cavalry
-	slavic_stradioti
-	eastern_militia
-	muscovite_musketeer
-	muscovite_caracolle
-	muscovite_soldaty
-	muscovite_cossack
-	russian_petrine
-	russian_lancer
-	russian_green_coat
-	russian_cuirassier
-	eastern_skirmisher
-	eastern_uhlan
-	eastern_carabinier
-	russian_mass
-}
+leader_names = {
 
+	"Karadakh" "Peroz" "Farah" "Yabghu" "Bahar" "Vahid" "Banafsheh" "Behrad" "Zeynab" "Samsam" 
+	"Çorpan" "Bulan" "Barjik" "No Character" "Nuyanza" "Viryas" "Varmanpaz" "Oshama" "Potyava" "Meltsayka" 
+	"Kanyava" "Satajalka" "Väinö" "Kaarle" "Yurak" "Kujku" "Yapti" "Vesei" "Rauha" "Toivo" 
+	"Kauro" "Vladimir" "Zorya" "Bälgiçi" "Ilik" "Savkëlti" "Mutlu" "Kundaçiq" "Bastu" "Lyukha" 
+	"Yeke" "Kegen" "Alp" "Araslan" "Bagha" "Baghatur" "Barsbek" "Bashtwa" "Bihor" "Böri" 
+	"Bugha" "Bulçan" "Busir" "Buzer" "Çat" "Çat'n" "Iltäbär" "Itakh" "Kamaj" "Kayghalagh" 
+	"Khatir" "Khuterkin" "Kibar" "Kisa" "Kundaç" "Mänär" "Mänäs" "Mënümarót" "Ötemis" "Papaçyz" 
+	"Sartäç" "Simsam" "Täbär" "Tabghaç" "Tarkhan" "Tarmaç" "Tuzniq" "Vakrim" "Yavantey" "Yençepi" 
+	"Yerneslu" "Yeçtirek" "Yilig" }
 monarch_names = {
-	"Aleksandr #2" = 20
-	"Dmitriy #1" = 20
-	"Ivan #0" = 20
-	"Semen #0" = 15
-	"Fyodor #2" = 10
-	"Vasiliy #2" = 10
-	"David #1" = 10
-	"Adrian #0" = 0
-	"Afanasiy #0" = 0
-	"Anatoliy #0" = 0
-	"Arseniy #0" = 0
-	"Daniil #0" = 0
-	"Dorofey #0" = 0
-	"Eduard #0" = 0
-	"Faddey #0" = 0
-	"Feodosiy #0" = 0
-	"Feofil #0" = 0
-	"Ferapont #0" = 0
-	"Foka #0" = 0
-	"Foma #0" = 0
-	"Gavriil #0" = 0
-	"Grigoriy #0" = 0
-	"Igor #0" = 0
-	"Kliment #0" = 0
-	"Mefodiy #0" = 0
-	"Mikhail #0" = 0
-	"Naum #0" = 0
-	"Nikita #0" = 0
-	"Nikolai #0" = 0
-	"Pankrati #0" = 0
-	"Prokhor #0" = 0
-	"Radoslav #0" = 0
-	"Ruslan #0" = 0
-	"Serafim #0" = 0
-	"Sevastian #0" = 0
-	"Stanislav #0" = 0
-	"Timofeiy #0" = 0
-	"Varfolomeiy #0" = 0
-	"Vikentiy #0" = 0
-	"Viktor #0" = 0
-	
-	"Varvara #0" = -1
-	"Uliana #0" = -1
-	"Tevdokiya #0" = -1
+	"Karadakh #1" = 18
+	"Peroz #1" = 18
+	"Farah #0" = -1
+	"Yabghu #0" = 1
+	"Bahar #0" = -1
+	"Vahid #0" = 1
+	"Banafsheh #0" = -1
+	"Behrad #0" = 1
+	"Zeynab #0" = -1
+	"Samsam #1" = 18
+	"Çorpan #1" = 18
+	"Bulan #0" = 1
+	"Barjik #1" = 18
+	"No Character #5" = 0
+	"Nuyanza #1" = 0
+	"Viryas #1" = 0
+	"Varmanpaz #1" = 0
+	"Oshama #1" = -1
+	"Potyava #1" = -1
+	"Meltsayka #1" = 0
+	"Kanyava #1" = -1
+	"Satajalka #1" = 0
+	"Väinö #1" = 0
+	"Kaarle #1" = 0
+	"Yurak #1" = 0
+	"Kujku #1" = -1
+	"Yapti #1" = 0
+	"Vesei #1" = 0
+	"Rauha #1" = -1
+	"Toivo #1" = 0
+	"Kauro #1" = 0
+	"Vladimir #6" = 0
+	"Zorya #2" = -1
+	"Bälgiçi #1" = 0
+	"Ilik #1" = 0
+	"Savkëlti #1" = -1
+	"Mutlu #1" = -1
+	"Kundaçiq #1" = 0
+	"Bastu #1" = 0
+	"Lyukha #1" = -1
+	"Yeke #1" = 0
+	"Kegen #1" = 0
+	"Alp #0" = 0
+	"Araslan #0" = 0
+	"Bagha #0" = 0
+	"Baghatur #0" = 0
+	"Barsbek #0" = 0
+	"Bashtwa #0" = 0
+	"Bihor #0" = 0
+	"Böri #0" = 0
+	"Bugha #0" = 0
+	"Bulçan #0" = 0
+	"Busir #0" = 0
+	"Buzer #0" = 0
+	"Çat #0" = 0
+	"Çat'n #0" = 0
+	"Iltäbär #0" = 0
+	"Itakh #0" = 0
+	"Kamaj #0" = 0
+	"Kayghalagh #0" = 0
+	"Khatir #0" = 0
+	"Khuterkin #0" = 0
+	"Kibar #0" = 0
+	"Kisa #0" = 0
+	"Kundaç #0" = 0
+	"Mänär #0" = 0
+	"Mänäs #0" = 0
+	"Mënümarót #0" = 0
+	"Ötemis #0" = 0
+	"Papaçyz #0" = 0
+	"Sartäç #0" = 0
+	"Simsam #0" = 0
+	"Täbär #0" = 0
+	"Tabghaç #0" = 0
+	"Tarkhan #0" = 0
+	"Tarmaç #0" = 0
+	"Tuzniq #0" = 0
+	"Vakrim #0" = 0
+	"Yavantey #0" = 0
+	"Yençepi #0" = 0
+	"Yerneslu #0" = 0
+	"Yeçtirek #0" = 0
+	"Yilig #0" = 0
 }
 
-leader_names = { 
-	Alabyshe Alenkin Belsky Velikogagin Golygin Dulov Deyev 
-	Zhirovy Zaozersky Zasekin Zubaty Kubensky Kurbsky 
-	Mulozhsky Mortkin Okhlyabinin Pnekov Siseev Sitsky Sontsov
-	Sudsky Temnosiny Troekurov Ukhorsky Ushaty Yukhotsky Shchetinin
-}
-
-ship_names = {
-	Danilov Lyubim Myshkin Petrovskoye Rybinsk Uglich
-	Borok Itolar Karabikha Borisoglebsky Berendeyevo
-	Varegove Tunoshna Kurba Nekouz Pesochnoye Prechistoye
-	Nekrasovskoye Semibratovo
-}

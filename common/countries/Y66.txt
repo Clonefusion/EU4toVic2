@@ -1,0 +1,465 @@
+# Mosul
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 11 205 70 }
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	economic_ideas
+	diplomatic_ideas
+	administrative_ideas
+}
+
+historical_units = {
+	persian_footsoldier
+	persian_cavalry_charge
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_mass_infantry
+	muslim_dragoon
+	persian_rifle
+}
+
+
+
+leader_names = {
+
+	"Charlemagne" "Roxana" "Isnardo" "Nezam" "Manushihr" "Acfred" "Pertevniyal" "Peroz" "Anfòs" "Zahak" 
+	"Rostam" "Fath" "Loïs" "Delbar" "Jamshid" "Marzuban" "Violent" "Petronilha" "Girvais" "Raisenda" 
+	"Jahangir" "Shahryar" "Bahram" "Garcenda" "Milo" "Mabila" "Dinah" "Gisla" "Navar" "Alienòr" 
+	"Touran" "Anushirvan" "Clarmonda" "Danush" "Ioulanda" "Yasaman" "Dat" "Guilhèm" "Hamdam" "Parvaneh" 
+	"Behrad" "Leila" "Morteza" "Gilbèrt" "Naveed" "Khurshid" "Arsenda" "Donya" "Carlòta" "Péire-Arnaut" 
+	"Uc" "Mehrzad" "Zohreh" "Furuzan" "Amalric" "Baudoïn" "Reza" "Bahar" "Ardeshir" "Aimeric" 
+	"Pourandokht" "Aldebert" "Özgul" "Nard" "Peranudet" "Azarmidokht" "Gaston" "Ghoncheh" "Bahman" "Duran" 
+	"Kamran" "Gholam" "Parvin" "Leon" "Fareed" "Terèsa" "Albert" "Golpari" "Javaneh" "Elham" 
+	"Khosrau" "Keyghobad" "Morad" "Amin" "Shahram" "Guiraud" "Savarics" "Rainer" "Fareedeh" "Bérard" 
+	"Richènda" "Faramarz" "Vali" "Vahhab" "Darya" "Sadri" "Emmanuèl" "Francesa" "Mascaròsa" "Arghavan" 
+	"Flòra" "Almòdis" "Farah" "Aram" "Golbahar" "Zarrindokht" "Zand" "Alah-Verdi" "Aliç" "Sança" 
+	"Francés" "Rainaut" "Matias" "Alpaïs" "Guigone" "Azalaïs" "Agata" "Josselin" "Svetoslav" "Bregida" 
+	"Emich" "Adeltrudis" "Klara" "Adalaïda" "Hildegard" "Centolh" "Alboino" "Juvage" "Adèla" "Pons" 
+	"Marquisa" "Berenguela" "Anastasia" "Aymeric" "Eufrosina" "Robèrt" "Stefania" "Puelle" "Audoïn" "Pol" 
+	"Lucio" "Peironèla" "Marta" "Lop" "Assalhida" "Joana" "Verounica" "Guichard" "Madalena" "Mahaut" 
+	"Otton" "Eisabèu" "Rosèla" "Dodon" "Frederi" "Ferrand" "Caterina" "Ermengau" "Péire-Raimond" "Isabèu" 
+	"Isabèla" "Clara" "Brandimena" "Soraya" "Jaufret" "Ricard" "Ermessentz" "Dolça" "Federigo" "Cnes" 
+	"Tièrri" "Lúcia" "Shahrokh" "Rainero" "Asalup" "Mehrab" "Martina" "Farva" "Estefania" "Ferdows" 
+	"Blasi" "Sancho" "Folquet" "Matfre" "Camila" "Farzad" "Faidida" "Jahanshah" "Ana" "Melisènda" 
+	"Matilda" "Joan" "Keykhosrau" "Ruhollah" "Micaela" "Bòna" "Itlar" "Gulçiçek" "Sina" "Begluk" 
+	"Gerbèrga" "Shahruz" "Behrouz" "Roshanora" "Dariush" "Behnaz" "Brunissenda" "Florènç" "Julian" "Asa" 
+	"Theognosia" "Ugues" "Dharmadasi" "Djamasp" "Javeed" "Khudayar" "Dilek" "Gausbert" "Farroukh" "Shahrzad" 
+	"Esfandiar" "Parviz" "Blush" "Adhémar" "Vishtasb" "Vézian" "Shahzadeh" "Bozorg" "Cloutilda" "Bertrand" 
+	"Ehsan" "Farrin" "Elnaz" "Nawid" "Afsaneh" "Eufèmia" "Ardavan" "Aton" "Yildiz" "Khodadad" 
+	"Ermengarda" "Šehrîban" "Mahtab" "Goshtasb" "Shayan" "Tahmasb" "Navvaba" "Aurang" "Nazgol" "Mahdokht" 
+	"Jamileh" "Borel" "Ava" "Guilheumina" "Girard" "Farnaz" "Guitart" "Yekta" "Sevilay" "Blanca" 
+	"Karacik" "Jahandar" "Ahu" "Nazilla" "Sirçan" "Çilen" "Zakaria" "Farrukhzad" "Shahab" "Golnaz" 
+	"Aymar" "Hurmat" "Hooshyar" "Kambiz" "Mozaffar" "Elisabèta" "Alias" "Azadeh" "Çiçek" "Marçau" 
+	"Mashad" "Uzluk" "Shirin" "Elisabetta" "Noor" "Farhad" "Barral" "Kharmandar" "Hafez" "Delaram" 
+	"Yeldem" "Tura" "Hazarasp" "Pujman" "Kutan" "Salomeh" "Golshan" "Bernat" "Zeynab" "Zia" 
+	"Irandokht" "Atrak" "Hedayat" "Berenguié" "Kavadh" "Amaneus" "No Character" "Enûširwan" "Esfendiyar" "Merwan" 
+	"Ferhad" "Herbert" "Imamaddin" "Abdul-Azeem" "Sharaf" "Jahan" "Muaddam" "Khalid" "Niki" "Jamil" 
+	"Abdul-Hamid" "Abdul-Lateef" "Abdul-Razzaq" "Abdul-Wahad" "Adhid" "Adil" "Akab" "Ala'i" "Amir" "Ashraf" 
+	"Aziz" "Bashar" "Boutros" "Da'ud" "Faisal" "Fayiz" "Ghazi" "Hakam" "Hamdan" "Hashmaddin" 
+	"Ibrahim" "Isa" "Is'mail" "Ismat" "Majid" "Mas'ud" "Muhsin" "Mukhtar" "Murad" "Musa" 
+	"Muzaffar" "Muzaffaraddin" "Nasraddin" "Nuraddin" "Nuri" "Radhi" "Rasul" "Sa'ud" "Salahaddin" "Seyfullah" 
+	"Sirhan" "Taimur" "Tawfiq" "Umaya" "Wahid" "Yahya" "Ya'qub" "Yasar" "Youkhanna" "Zahir" }
+monarch_names = {
+	"Charlemagne #0" = 1
+	"Roxana #0" = -1
+	"Isnardo #0" = 1
+	"Nezam #0" = 1
+	"Manushihr #0" = 1
+	"Acfred #0" = 1
+	"Pertevniyal #0" = -1
+	"Peroz #0" = 1
+	"Anfòs #0" = 1
+	"Zahak #0" = 1
+	"Rostam #0" = 1
+	"Fath #0" = 1
+	"Loïs #0" = 1
+	"Delbar #0" = -1
+	"Jamshid #0" = 1
+	"Marzuban #0" = 1
+	"Violent #0" = -1
+	"Petronilha #0" = -1
+	"Girvais #0" = 1
+	"Raisenda #1" = -28
+	"Jahangir #0" = 1
+	"Shahryar #0" = 1
+	"Bahram #0" = 1
+	"Garcenda #0" = -1
+	"Milo #0" = 1
+	"Mabila #0" = -1
+	"Dinah #0" = -1
+	"Gisla #0" = -1
+	"Navar #0" = -1
+	"Alienòr #0" = -1
+	"Touran #0" = -1
+	"Anushirvan #0" = 1
+	"Clarmonda #0" = -1
+	"Danush #0" = 1
+	"Ioulanda #0" = -1
+	"Yasaman #0" = -1
+	"Dat #0" = 1
+	"Guilhèm #2" = 24
+	"Hamdam #0" = -1
+	"Parvaneh #0" = -1
+	"Behrad #0" = 1
+	"Leila #0" = -1
+	"Morteza #0" = 1
+	"Gilbèrt #0" = 1
+	"Naveed #0" = 1
+	"Khurshid #0" = 1
+	"Arsenda #0" = -1
+	"Donya #0" = -1
+	"Carlòta #0" = -1
+	"Péire-Arnaut #0" = 1
+	"Uc #0" = 1
+	"Mehrzad #0" = 1
+	"Zohreh #0" = -1
+	"Furuzan #0" = -1
+	"Amalric #0" = 1
+	"Baudoïn #0" = 1
+	"Reza #0" = 1
+	"Bahar #0" = -1
+	"Ardeshir #0" = 1
+	"Aimeric #0" = 1
+	"Pourandokht #0" = -1
+	"Aldebert #0" = 1
+	"Özgul #0" = -1
+	"Nard #0" = 1
+	"Peranudet #0" = 1
+	"Azarmidokht #0" = -1
+	"Gaston #0" = 1
+	"Ghoncheh #0" = -1
+	"Bahman #0" = 1
+	"Duran #1" = 24
+	"Kamran #0" = 1
+	"Gholam #0" = 1
+	"Parvin #0" = -1
+	"Leon #0" = 1
+	"Fareed #0" = 1
+	"Terèsa #0" = -1
+	"Albert #0" = 1
+	"Golpari #0" = -1
+	"Javaneh #0" = -1
+	"Elham #0" = -1
+	"Khosrau #0" = 1
+	"Keyghobad #0" = 1
+	"Morad #0" = 1
+	"Amin #0" = 1
+	"Shahram #0" = 1
+	"Guiraud #0" = 1
+	"Savarics #0" = 1
+	"Rainer #0" = 1
+	"Fareedeh #0" = -1
+	"Bérard #0" = 1
+	"Richènda #0" = -1
+	"Faramarz #0" = 1
+	"Vali #0" = 1
+	"Vahhab #0" = 1
+	"Darya #0" = -1
+	"Sadri #0" = 1
+	"Emmanuèl #0" = 1
+	"Francesa #0" = -1
+	"Mascaròsa #0" = -1
+	"Arghavan #0" = -1
+	"Flòra #0" = -1
+	"Almòdis #0" = -1
+	"Farah #0" = -1
+	"Aram #0" = 1
+	"Golbahar #0" = -1
+	"Zarrindokht #0" = -1
+	"Zand #0" = 1
+	"Alah-Verdi #0" = 1
+	"Aliç #0" = -1
+	"Sança #0" = -1
+	"Francés #0" = 1
+	"Rainaut #0" = 1
+	"Matias #0" = 1
+	"Alpaïs #0" = -1
+	"Guigone #0" = -1
+	"Azalaïs #0" = -1
+	"Agata #0" = -1
+	"Josselin #0" = 1
+	"Svetoslav #0" = 1
+	"Bregida #0" = -1
+	"Emich #0" = 1
+	"Adeltrudis #0" = -1
+	"Klara #0" = -1
+	"Adalaïda #0" = -1
+	"Hildegard #0" = -1
+	"Centolh #0" = 1
+	"Alboino #0" = 1
+	"Juvage #0" = 1
+	"Adèla #0" = -1
+	"Pons #0" = 1
+	"Marquisa #0" = -1
+	"Berenguela #0" = -1
+	"Anastasia #0" = -1
+	"Aymeric #0" = 1
+	"Eufrosina #0" = -1
+	"Robèrt #0" = 1
+	"Stefania #0" = -1
+	"Puelle #0" = -1
+	"Audoïn #0" = 1
+	"Pol #0" = 1
+	"Lucio #0" = 1
+	"Peironèla #0" = -1
+	"Marta #0" = -1
+	"Lop #0" = 1
+	"Assalhida #0" = -1
+	"Joana #0" = -1
+	"Verounica #0" = -1
+	"Guichard #0" = 1
+	"Madalena #0" = -1
+	"Mahaut #0" = -1
+	"Otton #0" = 1
+	"Eisabèu #0" = -1
+	"Rosèla #0" = -1
+	"Dodon #0" = 1
+	"Frederi #0" = 1
+	"Ferrand #0" = 1
+	"Caterina #0" = -1
+	"Ermengau #0" = 1
+	"Péire-Raimond #0" = 1
+	"Isabèu #0" = -1
+	"Isabèla #0" = -1
+	"Clara #0" = -1
+	"Brandimena #0" = -1
+	"Soraya #0" = -1
+	"Jaufret #0" = 1
+	"Ricard #0" = 1
+	"Ermessentz #0" = -1
+	"Dolça #0" = -1
+	"Federigo #0" = 1
+	"Cnes #0" = -1
+	"Tièrri #0" = 1
+	"Lúcia #0" = -1
+	"Shahrokh #0" = 1
+	"Rainero #0" = 1
+	"Asalup #0" = 1
+	"Mehrab #0" = 1
+	"Martina #0" = -1
+	"Farva #0" = -1
+	"Estefania #0" = -1
+	"Ferdows #0" = 1
+	"Blasi #0" = 1
+	"Sancho #0" = 1
+	"Folquet #0" = 1
+	"Matfre #0" = 1
+	"Camila #0" = -1
+	"Farzad #0" = 1
+	"Faidida #0" = -1
+	"Jahanshah #0" = 1
+	"Ana #0" = -1
+	"Melisènda #0" = -1
+	"Matilda #0" = -1
+	"Joan #0" = 1
+	"Keykhosrau #0" = 1
+	"Ruhollah #0" = 1
+	"Micaela #0" = -1
+	"Bòna #0" = -1
+	"Itlar #0" = 1
+	"Gulçiçek #0" = -1
+	"Sina #0" = 1
+	"Begluk #0" = 1
+	"Gerbèrga #1" = -22
+	"Shahruz #0" = 1
+	"Behrouz #0" = 1
+	"Roshanora #0" = -1
+	"Dariush #0" = 1
+	"Behnaz #0" = -1
+	"Brunissenda #0" = -1
+	"Florènç #0" = 1
+	"Julian #0" = 1
+	"Asa #0" = -1
+	"Theognosia #0" = -1
+	"Ugues #0" = 1
+	"Dharmadasi #0" = -1
+	"Djamasp #0" = 1
+	"Javeed #0" = 1
+	"Khudayar #0" = 1
+	"Dilek #0" = -1
+	"Gausbert #0" = 1
+	"Farroukh #0" = 1
+	"Shahrzad #0" = -1
+	"Esfandiar #0" = 1
+	"Parviz #0" = 1
+	"Blush #0" = 1
+	"Adhémar #0" = 1
+	"Vishtasb #0" = 1
+	"Vézian #0" = 1
+	"Shahzadeh #0" = -1
+	"Bozorg #0" = 1
+	"Cloutilda #0" = -1
+	"Bertrand #0" = 1
+	"Ehsan #0" = 1
+	"Farrin #0" = -1
+	"Elnaz #0" = -1
+	"Nawid #0" = 1
+	"Afsaneh #0" = -1
+	"Eufèmia #0" = -1
+	"Ardavan #0" = 1
+	"Aton #0" = 1
+	"Yildiz #0" = -1
+	"Khodadad #0" = 1
+	"Ermengarda #1" = -22
+	"Šehrîban #0" = -1
+	"Mahtab #0" = -1
+	"Goshtasb #0" = 1
+	"Shayan #0" = 1
+	"Tahmasb #0" = 1
+	"Navvaba #0" = -1
+	"Aurang #0" = 1
+	"Nazgol #0" = -1
+	"Mahdokht #0" = -1
+	"Jamileh #0" = -1
+	"Borel #0" = 1
+	"Ava #0" = -1
+	"Guilheumina #0" = -1
+	"Girard #1" = 18
+	"Farnaz #0" = -1
+	"Guitart #0" = 1
+	"Yekta #0" = -1
+	"Sevilay #0" = -1
+	"Blanca #0" = -1
+	"Karacik #0" = -1
+	"Jahandar #0" = 1
+	"Ahu #0" = -1
+	"Nazilla #0" = -1
+	"Sirçan #0" = 1
+	"Çilen #0" = -1
+	"Zakaria #0" = 1
+	"Farrukhzad #0" = 1
+	"Shahab #0" = 1
+	"Golnaz #0" = -1
+	"Aymar #0" = 1
+	"Hurmat #0" = -1
+	"Hooshyar #0" = 1
+	"Kambiz #0" = 1
+	"Mozaffar #0" = 1
+	"Elisabèta #0" = -1
+	"Alias #0" = 1
+	"Azadeh #0" = -1
+	"Çiçek #0" = -1
+	"Marçau #0" = 1
+	"Mashad #0" = 1
+	"Uzluk #0" = 1
+	"Shirin #0" = -1
+	"Elisabetta #0" = -1
+	"Noor #0" = -1
+	"Farhad #0" = 1
+	"Barral #0" = 1
+	"Kharmandar #0" = 1
+	"Hafez #0" = 1
+	"Delaram #0" = -1
+	"Yeldem #0" = -1
+	"Tura #0" = -1
+	"Hazarasp #0" = 1
+	"Pujman #0" = 1
+	"Kutan #0" = 1
+	"Salomeh #0" = -1
+	"Golshan #0" = -1
+	"Bernat #0" = 1
+	"Zeynab #0" = -1
+	"Zia #0" = 1
+	"Irandokht #0" = -1
+	"Atrak #0" = 1
+	"Hedayat #0" = 1
+	"Berenguié #0" = 1
+	"Kavadh #0" = 1
+	"Amaneus #0" = 1
+	"No Character #1" = 0
+	"Enûširwan #1" = 0
+	"Esfendiyar #1" = 0
+	"Merwan #1" = 0
+	"Ferhad #1" = 0
+	"Herbert #1" = 0
+	"Imamaddin #1" = 0
+	"Abdul-Azeem #1" = 0
+	"Sharaf #1" = 0
+	"Jahan #1" = 0
+	"Muaddam #1" = 0
+	"Khalid #1" = 0
+	"Niki #1" = -1
+	"Jamil #1" = 0
+	"Abdul-Hamid #0" = 0
+	"Abdul-Lateef #0" = 0
+	"Abdul-Razzaq #0" = 0
+	"Abdul-Wahad #0" = 0
+	"Adhid #0" = 0
+	"Adil #0" = 0
+	"Akab #0" = 0
+	"Ala'i #0" = 0
+	"Amir #0" = 0
+	"Ashraf #0" = 0
+	"Aziz #0" = 0
+	"Bashar #0" = 0
+	"Boutros #0" = 0
+	"Da'ud #0" = 0
+	"Faisal #0" = 0
+	"Fayiz #0" = 0
+	"Ghazi #0" = 0
+	"Hakam #0" = 0
+	"Hamdan #0" = 0
+	"Hashmaddin #0" = 0
+	"Ibrahim #0" = 0
+	"Isa #0" = 0
+	"Is'mail #0" = 0
+	"Ismat #0" = 0
+	"Majid #0" = 0
+	"Mas'ud #0" = 0
+	"Muhsin #0" = 0
+	"Mukhtar #0" = 0
+	"Murad #0" = 0
+	"Musa #0" = 0
+	"Muzaffar #0" = 0
+	"Muzaffaraddin #0" = 0
+	"Nasraddin #0" = 0
+	"Nuraddin #0" = 0
+	"Nuri #0" = 0
+	"Radhi #0" = 0
+	"Rasul #0" = 0
+	"Sa'ud #0" = 0
+	"Salahaddin #0" = 0
+	"Seyfullah #0" = 0
+	"Sirhan #0" = 0
+	"Taimur #0" = 0
+	"Tawfiq #0" = 0
+	"Umaya #0" = 0
+	"Wahid #0" = 0
+	"Yahya #0" = 0
+	"Ya'qub #0" = 0
+	"Yasar #0" = 0
+	"Youkhanna #0" = 0
+	"Zahir #0" = 0
+}
+ship_names = {
+	Abathur "Adamn Kasia" "Aesma Daeva" Agas
+	Ahriman Ahura "Ahura Mazda" Ahurani Airyaman
+	"Aka Manah" Aladdin Allatum Amashaspan Ameratat
+	"Amesha Spentas" Anahita "Angra Mainyu" Anjuman
+	"Apam-natat" Apaosa Aredvi Arishtat Armaiti Arsaces
+	"Asha vahista" Asman "Asto Vidatu" "Astvat-Ereta"
+	Atar "Azi Dahaka" Baga Bahram Burijas Bushyasta Buyasta
+	Camros Daena Daevas Ahaka Dahhak Dena Dev Diwe Drug
+	Drvaspa Frashegird Fravashis Gandarewa "Gao-kerena"
+	Gayomard Gayomart "Geus-Tasan" "Geus-Urvan" Haoma
+	Haurvatat Humay Hvar Hvarekhshaeta Indar Indra Izha
+	Jamshid Jeh Karshipta Kavi Khara "Khshathra vairya"
+	Kundrav Mah Mahre Mahrianag Manu Manuchihir Mao 
+	Mashyane Mashye Menog Mithra Nairyosangha Nanghaithya
+	Neriosang Ormazd Peris Peshdadians Rapithwin Rashnu
+	Rustam Saurva Simurgh "Spenta Mainyu" Sraosa Srosh
+	Tawrich Thunaupa Tistrya Tushnamatay Vanant Vata
+	Verethragna "Vohu Manah" Vouruskasha Yam Yasht Yazata
+	Yezidi Yima Zal Zam "Zam-Armatay" Zarathustra Zarich
+	"Zend-Avesta" Zurvan
+}
+

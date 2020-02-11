@@ -1,0 +1,290 @@
+# Vîrôtayid
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 140 75 75 }
+
+
+
+
+leader_names = {
+
+	"Vîrôtaya" "Atittapatâriyâr" "Kañciakkan" "Cinkapâku" "Cîvallapan" "Taturântakiyâr" "Mâtêvatikal" "Parântaka" "Annamma" "Rajamati" 
+	"Naltêviyâr" "Puvirâca" "Punniyavâtti" "Kunapûsana" "Varakunan" "Kunavîra" "Viccâtiri" "Pollâtapillai" "Prola" "Cuntara" 
+	"Vânavanmâtêvi" "Aruvanki" "Thresiamma" "Kûttâtunâcci" "Karnpal" "Chandena" "Tirunattapperumâl" "Aramutaiyâl" "Cataiyavarman" "Manappâkkîlan" 
+	"Atavallâl" "Srimahadevi" "Mârkantaiyan" "Vicayâlaya" "Nankaiyâr" "Irâcâtirâcatevar" "Irâcakecaripanmar" "Puppadevi" "Ankâti" "Amittiravalli" 
+	"Ponnampalattatikalâr" "Karaikkiyemarrayilaiyân" "Mâmpâkkamutaiyân" "Ceyavîra" "Viranârâyanapattan" "Tavañceytâl" "Corappaiyâr" "Aricukâti" "Umaiyâlvâr" "Etuttapâtam" 
+	"Tunaiyiruntâlcâni" "Tirumûlattânam" "Perrappai" "Irâcinkam" "Malaiyamân" "Eluvattûr" "Piratamâtevi" "Irâcacuntari" "Nârani" "Nârâyani" 
+	"Câramutaiyân" "Ariñcikaipirâtti" "Aaleyaamma" "Âccinataratippan" "Tennavan" "Kanavati" "Perumâl" "Nantirinankai" "Kuñciramalli" "Râcakêcari" 
+	"Arulmolivarman" "Mârapanmar" "Vikkiramâtitti" "Tiruvênkatam" "Vennâval" "Côlamâtêvi" "Nimmatikal" "Periyanâcci" "Kôkilânadigal" "Vîrakêcari" 
+	"Nâcci" "Cevakattevan" "Mâravarman" "Ariñcaya" "Nâñcûri" "Cantirâdêvi" "Pañcavan" "Kôyinâccipitâriyâr" "Parakesaripanmar" "Vicayâraka" 
+	"Kulacêkara" "Tiruvennâval" "Kôlâliyâr" "Amarapuyankan" "Mâtevipattan" "Pâlarâvâyan" "Âyirattalipattan" "Câmuntappai" "Eluvanai" "Kalicci" 
+	"Sosamma" "Nârpattennâyirapattan" "Nirupatunkavarman" "Nîliyâr" "Tripuvanacakkaravattikal" "Ammankâtêvi" "Cenkulam" "Atticapitâriyâr" "Kilân" "Paramêsvaravarman" 
+	"Vikramâtittâ" "Tiruccirrampalapattan" "Aiyyârratikal" "Mânikkam" "Akkâranankayâr" "Kaucalaiyâr" "Sâmavâyi" "Kantiyûr" "Têmpâvai" "Kuñcaramalli" 
+	"Têvânrâl" "Vellantânkinân" "Nilammai" "Catturukâlamakalâtittan" "Pavitram" "Nâtittañcâttan" "Kanakacûriya" "Kannapparaciyâr" "Utaiya" "Tantivarman" 
+	"Orriâlvi" "Cankâni" "Irâcarâca" "Cayantavarman" "Câttanân" "Vîracêkara" "Malapâti" "Râcatêviyâr" "Kutameratiruvatikal" "Varakuni" 
+	"Cekarâcacêkaran" "Nîlakanti" "Impânâyarpattan" "Kûrrantêvi" "Viraiyâccilai" "Nakarattâl" "Raahelamma" "Kâmuttiri" "Ceyyacôlam" "Mañcavi" 
+	"Namaiyâr" "Pommavâyi" "Venankai" "Vatavâyil" "Atitta" "Pirriccâni" "Saramma" "Uditanarayan" "Mushkara" "Prasadhanadevi" 
+	"Vîrarâcêntira" "Eccumantai" "Kundakadevi" "Jayapala" "Kulacêkaran" "Tayânitiyâr" "Accamma" "Brahmadeva" "Arikêcari" "Dattadevi" 
+	"No Character" "Irâcâtitta" "Ranatîran" "Katunkon" "Manavâlapperumâl" "Maraikkâtu" "Aparâcita" "Aparâcitavarman" "Appûtaiyân" "Arulmolitêvar" 
+	"Atirâcêntira" "Avaniyâlappirantâr" "Avraaham" "Brahmamârâyar" "Cadayan" "Cankili" "Celiyancentan" "Chaacko" "Chaandy" "Cimmavisnu" 
+	"Civakkoluntân" "Cîvallapa" "Daniyel" "Eappen" "Eccavarâkan" "Eisow" "Irattapadikonda" "Irâcacimman" "Irâcâcekara" "Irâcâtirâca" 
+	"Irâcêntira" "Ittac" "Iyob" "Kadarangkonda" "Kantarâtitta" "Karunandadakkan" "Karunandan" "Kirâmarâcapattan" "Kontân" "Kossy" 
+	"Kotukulapattan" "Kulôttunka" "Kurian" "Kôpperuñcimman" "Lukose" "Makêntiravarman" "Munnûrruvappattan" "Mânaticcuran" "Markose" "Mâtevapattan" 
+	"Nantivarman" "Naracimmavarman" "Niyâyaparipâlapattan" "Pantâram" "Paranirupacinkam" "Pararâcacêkaran" "Parâkkirama" "Parânkucan" "Pathrose" "Paulose" 
+	"Periyapillai" "Peruñcintevar" "Piramârâyan" "Piyliypaos" "Pâkkilân" "Ranatitta" "Ravivarman" "Thoma" "Tirupuvanavîratevar" "Uravâkkinân" 
+	"Uttama" "Varakunavarman" "Varôtaya" "Varughese" "Vicayâtitta" "Vikkirama" "Virâcakecaripanmar" "Yohannaan" "Yosef" "Zacharria" 
+	"Ânûrrenmanpiccan" }
+monarch_names = {
+	"Vîrôtaya #1" = 24
+	"Atittapatâriyâr #0" = -1
+	"Kañciakkan #0" = -1
+	"Cinkapâku #0" = 1
+	"Cîvallapan #0" = 1
+	"Taturântakiyâr #0" = -1
+	"Mâtêvatikal #0" = -1
+	"Parântaka #0" = 1
+	"Annamma #0" = -1
+	"Rajamati #0" = -1
+	"Naltêviyâr #0" = -1
+	"Puvirâca #0" = 1
+	"Punniyavâtti #0" = -1
+	"Kunapûsana #0" = 1
+	"Varakunan #0" = 1
+	"Kunavîra #0" = 1
+	"Viccâtiri #0" = -1
+	"Pollâtapillai #0" = -1
+	"Prola #0" = 1
+	"Cuntara #0" = 1
+	"Vânavanmâtêvi #0" = -1
+	"Aruvanki #0" = -1
+	"Thresiamma #0" = -1
+	"Kûttâtunâcci #0" = -1
+	"Karnpal #0" = 1
+	"Chandena #0" = -1
+	"Tirunattapperumâl #0" = 1
+	"Aramutaiyâl #0" = -1
+	"Cataiyavarman #0" = 1
+	"Manappâkkîlan #0" = 1
+	"Atavallâl #0" = -1
+	"Srimahadevi #0" = -1
+	"Mârkantaiyan #0" = 1
+	"Vicayâlaya #1" = 30
+	"Nankaiyâr #0" = -1
+	"Irâcâtirâcatevar #1" = 18
+	"Irâcakecaripanmar #0" = 1
+	"Puppadevi #0" = -1
+	"Ankâti #0" = -1
+	"Amittiravalli #0" = -1
+	"Ponnampalattatikalâr #0" = -1
+	"Karaikkiyemarrayilaiyân #3" = 21
+	"Mâmpâkkamutaiyân #0" = 1
+	"Ceyavîra #0" = 1
+	"Viranârâyanapattan #2" = 21
+	"Tavañceytâl #0" = -1
+	"Corappaiyâr #0" = -1
+	"Aricukâti #0" = -1
+	"Umaiyâlvâr #0" = -1
+	"Etuttapâtam #0" = -1
+	"Tunaiyiruntâlcâni #0" = -1
+	"Tirumûlattânam #0" = -1
+	"Perrappai #0" = -1
+	"Irâcinkam #0" = -1
+	"Malaiyamân #0" = -1
+	"Eluvattûr #0" = -1
+	"Piratamâtevi #0" = -1
+	"Irâcacuntari #0" = -1
+	"Nârani #0" = -1
+	"Nârâyani #0" = -1
+	"Câramutaiyân #0" = 1
+	"Ariñcikaipirâtti #0" = -1
+	"Aaleyaamma #0" = -1
+	"Âccinataratippan #0" = 1
+	"Tennavan #0" = 1
+	"Kanavati #0" = -1
+	"Perumâl #0" = 1
+	"Nantirinankai #0" = -1
+	"Kuñciramalli #0" = -1
+	"Râcakêcari #0" = -1
+	"Arulmolivarman #0" = 1
+	"Mârapanmar #0" = 1
+	"Vikkiramâtitti #0" = -1
+	"Tiruvênkatam #0" = -1
+	"Vennâval #0" = -1
+	"Côlamâtêvi #0" = -1
+	"Nimmatikal #0" = -1
+	"Periyanâcci #0" = -1
+	"Kôkilânadigal #0" = -1
+	"Vîrakêcari #4" = 18
+	"Nâcci #0" = -1
+	"Cevakattevan #0" = 1
+	"Mâravarman #0" = 1
+	"Ariñcaya #0" = 1
+	"Nâñcûri #0" = -1
+	"Cantirâdêvi #0" = -1
+	"Pañcavan #0" = 1
+	"Kôyinâccipitâriyâr #0" = -1
+	"Parakesaripanmar #0" = 1
+	"Vicayâraka #0" = 1
+	"Kulacêkara #1" = 42
+	"Tiruvennâval #0" = -1
+	"Kôlâliyâr #0" = -1
+	"Amarapuyankan #1" = 24
+	"Mâtevipattan #0" = 1
+	"Pâlarâvâyan #0" = 1
+	"Âyirattalipattan #0" = 1
+	"Câmuntappai #0" = -1
+	"Eluvanai #0" = -1
+	"Kalicci #0" = -1
+	"Sosamma #0" = -1
+	"Nârpattennâyirapattan #0" = 1
+	"Nirupatunkavarman #0" = 1
+	"Nîliyâr #0" = -1
+	"Tripuvanacakkaravattikal #0" = 1
+	"Ammankâtêvi #0" = -1
+	"Cenkulam #0" = -1
+	"Atticapitâriyâr #0" = -1
+	"Kilân #0" = 1
+	"Paramêsvaravarman #0" = 1
+	"Vikramâtittâ #1" = 24
+	"Tiruccirrampalapattan #0" = 1
+	"Aiyyârratikal #0" = -1
+	"Mânikkam #0" = -1
+	"Akkâranankayâr #0" = -1
+	"Kaucalaiyâr #0" = -1
+	"Sâmavâyi #0" = -1
+	"Kantiyûr #0" = -1
+	"Têmpâvai #0" = -1
+	"Kuñcaramalli #0" = -1
+	"Têvânrâl #0" = -1
+	"Vellantânkinân #0" = 1
+	"Nilammai #0" = -1
+	"Catturukâlamakalâtittan #0" = 1
+	"Pavitram #0" = -1
+	"Nâtittañcâttan #0" = 1
+	"Kanakacûriya #0" = 1
+	"Kannapparaciyâr #0" = -1
+	"Utaiya #0" = 1
+	"Tantivarman #0" = 1
+	"Orriâlvi #0" = -1
+	"Cankâni #0" = -1
+	"Irâcarâca #0" = 1
+	"Cayantavarman #0" = 1
+	"Câttanân #0" = 1
+	"Vîracêkara #0" = 1
+	"Malapâti #0" = -1
+	"Râcatêviyâr #0" = -1
+	"Kutameratiruvatikal #0" = 1
+	"Varakuni #0" = -1
+	"Cekarâcacêkaran #0" = 1
+	"Nîlakanti #0" = -1
+	"Impânâyarpattan #1" = 18
+	"Kûrrantêvi #0" = -1
+	"Viraiyâccilai #0" = -1
+	"Nakarattâl #0" = -1
+	"Raahelamma #0" = -1
+	"Kâmuttiri #0" = -1
+	"Ceyyacôlam #0" = -1
+	"Mañcavi #0" = -1
+	"Namaiyâr #0" = -1
+	"Pommavâyi #0" = -1
+	"Venankai #0" = -1
+	"Vatavâyil #0" = -1
+	"Atitta #0" = 1
+	"Pirriccâni #0" = -1
+	"Saramma #0" = -1
+	"Uditanarayan #0" = 1
+	"Mushkara #0" = 1
+	"Prasadhanadevi #0" = -1
+	"Vîrarâcêntira #0" = 1
+	"Eccumantai #0" = -1
+	"Kundakadevi #0" = -1
+	"Jayapala #0" = 1
+	"Kulacêkaran #0" = 1
+	"Tayânitiyâr #0" = -1
+	"Accamma #0" = -1
+	"Brahmadeva #0" = 1
+	"Arikêcari #0" = 1
+	"Dattadevi #0" = -1
+	"No Character #2" = 0
+	"Irâcâtitta #1" = 0
+	"Ranatîran #1" = 0
+	"Katunkon #1" = 0
+	"Manavâlapperumâl #1" = 0
+	"Maraikkâtu #1" = -1
+	"Aparâcita #0" = 0
+	"Aparâcitavarman #0" = 0
+	"Appûtaiyân #0" = 0
+	"Arulmolitêvar #0" = 0
+	"Atirâcêntira #0" = 0
+	"Avaniyâlappirantâr #0" = 0
+	"Avraaham #0" = 0
+	"Brahmamârâyar #0" = 0
+	"Cadayan #0" = 0
+	"Cankili #0" = 0
+	"Celiyancentan #0" = 0
+	"Chaacko #0" = 0
+	"Chaandy #0" = 0
+	"Cimmavisnu #0" = 0
+	"Civakkoluntân #0" = 0
+	"Cîvallapa #0" = 0
+	"Daniyel #0" = 0
+	"Eappen #0" = 0
+	"Eccavarâkan #0" = 0
+	"Eisow #0" = 0
+	"Irattapadikonda #0" = 0
+	"Irâcacimman #0" = 0
+	"Irâcâcekara #0" = 0
+	"Irâcâtirâca #0" = 0
+	"Irâcêntira #0" = 0
+	"Ittac #0" = 0
+	"Iyob #0" = 0
+	"Kadarangkonda #0" = 0
+	"Kantarâtitta #0" = 0
+	"Karunandadakkan #0" = 0
+	"Karunandan #0" = 0
+	"Kirâmarâcapattan #0" = 0
+	"Kontân #0" = 0
+	"Kossy #0" = 0
+	"Kotukulapattan #0" = 0
+	"Kulôttunka #0" = 0
+	"Kurian #0" = 0
+	"Kôpperuñcimman #0" = 0
+	"Lukose #0" = 0
+	"Makêntiravarman #0" = 0
+	"Munnûrruvappattan #0" = 0
+	"Mânaticcuran #0" = 0
+	"Markose #0" = 0
+	"Mâtevapattan #0" = 0
+	"Nantivarman #0" = 0
+	"Naracimmavarman #0" = 0
+	"Niyâyaparipâlapattan #0" = 0
+	"Pantâram #0" = 0
+	"Paranirupacinkam #0" = 0
+	"Pararâcacêkaran #0" = 0
+	"Parâkkirama #0" = 0
+	"Parânkucan #0" = 0
+	"Pathrose #0" = 0
+	"Paulose #0" = 0
+	"Periyapillai #0" = 0
+	"Peruñcintevar #0" = 0
+	"Piramârâyan #0" = 0
+	"Piyliypaos #0" = 0
+	"Pâkkilân #0" = 0
+	"Ranatitta #0" = 0
+	"Ravivarman #0" = 0
+	"Thoma #0" = 0
+	"Tirupuvanavîratevar #0" = 0
+	"Uravâkkinân #0" = 0
+	"Uttama #0" = 0
+	"Varakunavarman #0" = 0
+	"Varôtaya #0" = 0
+	"Varughese #0" = 0
+	"Vicayâtitta #0" = 0
+	"Vikkirama #0" = 0
+	"Virâcakecaripanmar #0" = 0
+	"Yohannaan #0" = 0
+	"Yosef #0" = 0
+	"Zacharria #0" = 0
+	"Ânûrrenmanpiccan #0" = 0
+}
+

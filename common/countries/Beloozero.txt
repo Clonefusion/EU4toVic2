@@ -1,103 +1,177 @@
-#Country Name: Please see filename.
+# Veps
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 120 155 80 }
 
-graphical_culture = easterngfx
 
-color = { 66 32 81 }
 
-historical_idea_groups = {
-	trade_ideas
-	defensive_ideas
-	offensive_ideas
-	spy_ideas
-	economic_ideas
-	diplomatic_ideas
-	innovativeness_ideas
-	quality_ideas
-}
 
-historical_units = {
-	bardiche_infantry
-	druzhina_cavalry
-	slavic_stradioti
-	eastern_militia
-	muscovite_musketeer
-	muscovite_caracolle
-	muscovite_soldaty
-	muscovite_cossack
-	russian_petrine
-	russian_lancer
-	russian_green_coat
-	russian_cuirassier
-	eastern_skirmisher
-	eastern_uhlan
-	eastern_carabinier
-	russian_mass
-}
+leader_names = {
 
+	"Bizel" "Yildiz" "Özgul" "Giazis" "Esin" "Tekçe" "Kätyarikka" "Baitzas" "Usunbike" "Teber" 
+	"Ipaos" "Karaca" "Bayça" "Ildey" "Sarä" "Busir" "Sevilay" "Lyukha" "Karacik" "Balgor" 
+	"Gunes" "Bator" "Yeke" "Kuerçi" "Bozçin" "Songul" "Tatus" "Kabuksin" "Dilek" "Ipek" 
+	"Kourkoutai" "Ipa" "Kugel" "Batas" "Gunduz" "Kaydum" "Konel" "Yasar" "Sarica" "Kegen" 
+	"Gulay" "Aba" "Çilen" "Ayten" "Samur" "Kostas" "Bulçan" "Sarikel" "Umay" "Tura" 
+	"Tyrach" "Mala" "Sevindik" "Akgul" "Yilig" "Boru" "Özlem" "Sirma" "Kortan" "Khatir" 
+	"Asli" "Çelgil" "Sol" "Gundes" "Kure" "Kozel" "Korkutan" "Gulçiçek" "Çiçek" "Biçkili" 
+	"Yeçtirek" "Suru" "Irge" "Çiltanesi" "Peksen" "Ilkay" "Togli" "Batan" "Yazi" "Ana" 
+	"Ipekel" "Mutlu" "Çat'n" "Temir" "Yeldem" "Sibel" "Çiçäk" "Këlyamal" "Sati" "Bula" 
+	"No Character" "Demid" "Mstislav" "Ozhmeg" "Inyava" "Alur" "Tõeleid" "Ott" "Gunnhildr" "Sigbjörn" 
+	"Vladimir" "Bashtwa" "Buzer" "Böri" "Tuzniq" "Azadeh" "Savilay" "Yerneslu" "Lärkka" "Alp" 
+	"Araslan" "Bagha" "Baghatur" "Bälgiçi" "Barjik" "Barsbek" "Bastu" "Bihor" "Bugha" "Bulan" 
+	"Çat" "Çorpan" "Ilik" "Iltäbär" "Itakh" "Kamaj" "Karadakh" "Kayghalagh" "Khuterkin" "Kibar" 
+	"Kisa" "Kundaçiq" "Kundaç" "Mänär" "Mänäs" "Mënümarót" "Ötemis" "Papaçyz" "Samsam" "Sartäç" 
+	"Simsam" "Täbär" "Tabghaç" "Tarkhan" "Tarmaç" "Vakrim" "Yabghu" "Yavantey" "Yençepi" }
 monarch_names = {
-	"Mikhail #0" = 20
-	"Aleksandr #0" = 20
-	"Boris #0" = 20
-	"Yuriy #0" = 20
-	"Yaroslav #0" = 5
-	"Dmitriy #0" = 5
-	"Ivan #0" = 5
-	"Konstantin #0" = 5
-	"Svyatoslav #0" = 5
-	"Akim #0" = 0
-	"Anastas #0" = 0
-	"Anton #0" = 0
-	"Arseniy #0" = 0
-	"Bogdan #0" = 0
-	"Daniil #0" = 0
-	"David #0" = 0
-	"Ferapont #0" = 0
-	"Fyodor #0" = 0
-	"Isaak #0" = 0
-	"Kirill #0" = 0
-	"Lavrentiy #0" = 0
-	"Lazar #0" = 0
-	"Leonti #0" = 0
-	"Luka #0" = 0
-	"Makariy #0" = 0
-	"Mefodiy #0" = 0
-	"Milan #0" = 0
-	"Mitrofan #0" = 0
-	"Nazariy #0" = 0
-	"Nestor #0" = 0
-	"Nikolai #0" = 0
-	"Nikon #0" = 0
-	"Pyotr #0" = 0
-	"Roman #0" = 0
-	"Veniamin #0" = 0
-	"Vlad #0" = 0
-	"Vsevolod #0" = 0
-	"Yaromir #0" = 0
-	"Yevgeniy #0" = 0
-	"Zinoviy #0" = 0
-	
-	"Serafima #0" = -1
-	"Viktoriya #0" = -1
-	"Anna #0" = -1
-	"Xenia #0" = -1
-	"Maria #0" = -1
-	"Anastasia #0" = -1
-	"Alyona #0" = -1
-	"Elizaveta #0" = -1
-	"Natasha #0" = -1
-	"Tatiana #0" = -1
-	"Nadezhda #0" = -1
-	"Uliana #0" = -3
+	"Bizel #0" = 1
+	"Yildiz #0" = -1
+	"Özgul #0" = -1
+	"Giazis #0" = 1
+	"Esin #0" = -1
+	"Tekçe #0" = -1
+	"Kätyarikka #0" = -1
+	"Baitzas #0" = 1
+	"Usunbike #0" = -1
+	"Teber #0" = 1
+	"Ipaos #0" = 1
+	"Karaca #0" = 1
+	"Bayça #0" = 1
+	"Ildey #0" = 1
+	"Sarä #0" = -1
+	"Busir #1" = 21
+	"Sevilay #0" = -1
+	"Lyukha #0" = -1
+	"Karacik #0" = -1
+	"Balgor #0" = 1
+	"Gunes #0" = -1
+	"Bator #0" = 1
+	"Yeke #0" = 1
+	"Kuerçi #0" = 1
+	"Bozçin #0" = -1
+	"Songul #0" = -1
+	"Tatus #0" = 1
+	"Kabuksin #0" = 1
+	"Dilek #0" = -1
+	"Ipek #0" = -1
+	"Kourkoutai #0" = 1
+	"Ipa #0" = 1
+	"Kugel #0" = 1
+	"Batas #0" = 1
+	"Gunduz #0" = -1
+	"Kaydum #0" = 1
+	"Konel #0" = 1
+	"Yasar #0" = -1
+	"Sarica #0" = -1
+	"Kegen #0" = 1
+	"Gulay #0" = -1
+	"Aba #0" = 1
+	"Çilen #0" = -1
+	"Ayten #0" = -1
+	"Samur #0" = -1
+	"Kostas #0" = 1
+	"Bulçan #0" = 1
+	"Sarikel #0" = -1
+	"Umay #0" = -1
+	"Tura #0" = -1
+	"Tyrach #0" = 1
+	"Mala #0" = -1
+	"Sevindik #0" = -1
+	"Akgul #1" = -25
+	"Yilig #0" = 1
+	"Boru #0" = 1
+	"Özlem #0" = -1
+	"Sirma #0" = -1
+	"Kortan #0" = 1
+	"Khatir #0" = 1
+	"Asli #0" = -1
+	"Çelgil #0" = 1
+	"Sol #0" = 1
+	"Gundes #0" = -1
+	"Kure #0" = 1
+	"Kozel #0" = 1
+	"Korkutan #0" = 1
+	"Gulçiçek #0" = -1
+	"Çiçek #0" = -1
+	"Biçkili #0" = 1
+	"Yeçtirek #0" = 1
+	"Suru #0" = 1
+	"Irge #0" = -1
+	"Çiltanesi #0" = -1
+	"Peksen #0" = -1
+	"Ilkay #1" = -22
+	"Togli #0" = 1
+	"Batan #0" = 1
+	"Yazi #0" = 1
+	"Ana #0" = -1
+	"Ipekel #0" = -1
+	"Mutlu #0" = -1
+	"Çat'n #0" = 1
+	"Temir #0" = 1
+	"Yeldem #0" = -1
+	"Sibel #0" = -1
+	"Çiçäk #0" = -1
+	"Këlyamal #0" = -1
+	"Sati #1" = -19
+	"Bula #0" = 1
+	"No Character #4" = 0
+	"Demid #1" = 0
+	"Mstislav #1" = 0
+	"Ozhmeg #1" = 0
+	"Inyava #1" = -1
+	"Alur #1" = 0
+	"Tõeleid #1" = 0
+	"Ott #1" = 0
+	"Gunnhildr #1" = -1
+	"Sigbjörn #1" = 0
+	"Vladimir #7" = 0
+	"Bashtwa #1" = 0
+	"Buzer #2" = 0
+	"Böri #1" = 0
+	"Tuzniq #1" = 0
+	"Azadeh #1" = -1
+	"Savilay #1" = -1
+	"Yerneslu #1" = 0
+	"Lärkka #1" = -1
+	"Alp #0" = 0
+	"Araslan #0" = 0
+	"Bagha #0" = 0
+	"Baghatur #0" = 0
+	"Bälgiçi #0" = 0
+	"Barjik #0" = 0
+	"Barsbek #0" = 0
+	"Bastu #0" = 0
+	"Bihor #0" = 0
+	"Bugha #0" = 0
+	"Bulan #0" = 0
+	"Çat #0" = 0
+	"Çorpan #0" = 0
+	"Ilik #0" = 0
+	"Iltäbär #0" = 0
+	"Itakh #0" = 0
+	"Kamaj #0" = 0
+	"Karadakh #0" = 0
+	"Kayghalagh #0" = 0
+	"Khuterkin #0" = 0
+	"Kibar #0" = 0
+	"Kisa #0" = 0
+	"Kundaçiq #0" = 0
+	"Kundaç #0" = 0
+	"Mänär #0" = 0
+	"Mänäs #0" = 0
+	"Mënümarót #0" = 0
+	"Ötemis #0" = 0
+	"Papaçyz #0" = 0
+	"Samsam #0" = 0
+	"Sartäç #0" = 0
+	"Simsam #0" = 0
+	"Täbär #0" = 0
+	"Tabghaç #0" = 0
+	"Tarkhan #0" = 0
+	"Tarmaç #0" = 0
+	"Vakrim #0" = 0
+	"Yabghu #0" = 0
+	"Yavantey #0" = 0
+	"Yençepi #0" = 0
 }
 
-leader_names = { 
-	Dorogobushsky Kashinsky Mikulinsky Telyatevsky Kholmsky 
-	Chernyatinsky Andomsky Beloselsky Vadbolsky Dyabrinsky 
-	Kargolomsky Kemsky Sugorsky Ukhtomsky Sheleshpansky
-}
-
-ship_names = {
-	Yaroslavich Volga Tvertsa Mikhail Dmitry
-	Kashin Kholmsky Torzhok "Vyshniy Voloche"
-	Zubtsov Toropets Rzev Startsa Valdai Brosno
-}

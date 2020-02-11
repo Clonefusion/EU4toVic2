@@ -1,119 +1,246 @@
-#Novgorod
+# Novgorod
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 137 194 100 }
 
-graphical_culture = easterngfx
 
-color = { 97  126  37 }
 
-revolutionary_colors = { 8  13  0 } #Colors of Novgorod
 
-historical_idea_groups = {
-	administrative_ideas
-	plutocracy_ideas
-	trade_ideas
-	religious_ideas
-	offensive_ideas
-	maritime_ideas
-	economic_ideas
-	quality_ideas
-}
+leader_names = {
 
-historical_units = {
-	bardiche_infantry
-	eastern_knights
-	slavic_stradioti
-	eastern_militia
-	muscovite_musketeer
-	muscovite_caracolle
-	muscovite_soldaty
-	muscovite_cossack
-	russian_petrine
-	russian_lancer
-	russian_green_coat
-	russian_cuirassier
-	eastern_skirmisher
-	eastern_uhlan
-	eastern_carabinier
-	russian_mass
-}
-
+	"Pliksov" "Naula" "Likiik" "Baise" "Manvydas" "Agita" "Rushky" "Imela" "Juvage" "Pukuveras" 
+	"Litto" "Elmede" "Rasa" "Balodis" "Galene" "Gedere" "Meltsayka" "Treniota" "Zigne" "Karijotas" 
+	"Galeine" "Karnak" "Kage" "Daira" "Dzeguze" "Balba" "Pakstyan" "Bikshe" "Tautvila" "Visheiv" 
+	"Traidenis" "Lammekinus" "Kordula" "Greze" "Simsam" "Bitens" "Darate" "Shutr" "Gibedats" "Meinekinus" 
+	"Erdzivil" "Kuliens" "Butovit" "Vaishvilkas" "Maija" "Brita" "Aishno" "Dovyat" "Vishikut" "Marite" 
+	"Viesturs" "Ruta" "Dose" "Yalgava" "Savna" "Sprudeik" "Pukiik" "Dzintis" "Dardedze" "Jedetus" 
+	"Gunda" "Talivaldis" "Biur" "Dobre" "Eunike" "Scurdo" "Mel'shay" "Gastile" "Gerden" "Gundega" 
+	"Liga" "Arvo" "Jaunule" "Vidyava" "Narvait" "Borut" "Ieva" "Erasts" "Viba" "Cherava" 
+	"Faga-Laye" "Brian" "Davins" "Poshayka" "Dausprungas" "Imanta" "Kurlemuse" "Dangeruthe" "Sabe" "Tura" 
+	"Lonkogveni" "Parush" "Vykantas" "Ausala" "Ako" "Kanafa" "Yudki" "Tarkhan" "Gotene" "Sviendorog" 
+	"Demas" "Vishly" "Rusins" "Skornand" "Ringaudas" "Mafalda" "Isabelle" "Kodere" "Gunvald" "Giemund" 
+	"Marcelina" "Darbeslave" "Vetseke" "Bulei" "Hassana" "Geyka" "Babba" "Birma" "Yuma" "Malla" 
+	"Mecca" "Hamish" "Fodi" "Mar-Chindin" "Nameisis" "Gando" "Samsam" "Muir" "Ankad" "Cirulis" 
+	"Gavin" "Bannu" "Shvarnas" "Koïzé" "Rodina" "Dervorgilla" "Kiten" "Yaqub" "Kerstigens" "Indulf" 
+	"Tib" "Sargun" "Halima" "Steikint" "Namiss" "Klavess" "Dermid" "Aymort" "Mendune" "Morna" 
+	"Terentiy" "Rodislav" "Erich" "Putiata" "Väinö" "Sviatoslav" "Vladimir" "Wayngachi" "Bashtwa" "Buzer" 
+	"Karadakh" "Patiyer" "Sartäç" "Puyantay" "Zorya" "Gunduz" "Yençepi" "Mänär" "Asli" "Alp" 
+	"Araslan" "Bagha" "Baghatur" "Bälgiçi" "Barjik" "Barsbek" "Bastu" "Bihor" "Böri" "Bugha" 
+	"Bulan" "Bulçan" "Busir" "Çat" "Çat'n" "Çorpan" "Ilik" "Iltäbär" "Itakh" "Kamaj" 
+	"Kayghalagh" "Khatir" "Khuterkin" "Kibar" "Kisa" "Kundaçiq" "Kundaç" "Mänäs" "Mënümarót" "Ötemis" 
+	"Papaçyz" "Täbär" "Tabghaç" "Tarmaç" "Tuzniq" "Vakrim" "Yabghu" "Yavantey" "Yerneslu" "Yeçtirek" 
+	"Yilig" }
 monarch_names = {
-	"Svyatoslav #7" = 20
-	"Yaroslav #6" = 20
-	"Rotislav #4" = 20
-	"Dmitriy #3" = 20
-	"Vsevolod #3" = 20
-	"Vasiliy #2" = 20
-	"Yuriy #2" = 20
-	"Aleksandr #1" = 20
-	"Andrei #1" = 20
-	"Fyodor #1" = 20
-	"Mikhail #1" = 20
-	"Mstislav #6" = 15
-	"Yaropolk #3" = 15
-	"Roman #2" = 15
-	"Rurik #2" = 15
-	"Konstantin #1" = 15
-	"David #2" = 10
-	"Afanasiy #0" = 0
-	"Akim #0" = 0
-	"Alexei #0" = 0
-	"Anatoliy #0" = 0
-	"Arkadiy #0" = 0
-	"Boris #0" = 0
-	"Daniil #0" = 0
-	"Dorofey #0" = 0
-	"Feodosiy #0" = 0
-	"Gavriil #0" = 0
-	"Iosif #0" = 0
-	"Ivan #0" = 0
-	"Matveiy #0" = 0
-	"Nazariy #0" = 0
-	"Nikifor #0" = 0
-	"Oleg #0" = 0
-	"Prokopiy #0" = 0
-	"Radomir #0" = 0
-	"Saveliy #0" = 0
-	"Semen #0" = 0
-	"Sergei #0" = 0
-	"Valeriy #0" = 0
-	"Yevgeniy #0" = 0
-	
-	"Anastasiya #0" = -1
-	"Zlata #0" = -1
-	"Marfa #0" = -1
+	"Pliksov #0" = 1
+	"Naula #0" = -1
+	"Likiik #0" = 1
+	"Baise #0" = 1
+	"Manvydas #0" = 1
+	"Agita #0" = -1
+	"Rushky #0" = 1
+	"Imela #0" = -1
+	"Juvage #0" = 1
+	"Pukuveras #0" = 1
+	"Litto #0" = 1
+	"Elmede #0" = 1
+	"Rasa #0" = -1
+	"Balodis #0" = 1
+	"Galene #0" = -1
+	"Gedere #0" = 1
+	"Meltsayka #0" = 1
+	"Treniota #0" = 1
+	"Zigne #0" = -1
+	"Karijotas #0" = 1
+	"Galeine #0" = 1
+	"Karnak #0" = 1
+	"Kage #0" = 1
+	"Daira #2" = -88
+	"Dzeguze #0" = -1
+	"Balba #0" = -1
+	"Pakstyan #0" = 1
+	"Bikshe #0" = 1
+	"Tautvila #0" = 1
+	"Visheiv #0" = 1
+	"Traidenis #0" = 1
+	"Lammekinus #0" = 1
+	"Kordula #0" = -1
+	"Greze #0" = -1
+	"Simsam #0" = 1
+	"Bitens #0" = -1
+	"Darate #0" = -1
+	"Shutr #0" = 1
+	"Gibedats #0" = 1
+	"Meinekinus #0" = 1
+	"Erdzivil #0" = 1
+	"Kuliens #0" = 1
+	"Butovit #0" = 1
+	"Vaishvilkas #0" = 1
+	"Maija #0" = -1
+	"Brita #0" = -1
+	"Aishno #0" = 1
+	"Dovyat #0" = 1
+	"Vishikut #0" = 1
+	"Marite #0" = -1
+	"Viesturs #0" = 1
+	"Ruta #0" = -1
+	"Dose #0" = -1
+	"Yalgava #0" = -1
+	"Savna #0" = -1
+	"Sprudeik #0" = 1
+	"Pukiik #0" = 1
+	"Dzintis #0" = 1
+	"Dardedze #0" = -1
+	"Jedetus #0" = 1
+	"Gunda #0" = -1
+	"Talivaldis #0" = 1
+	"Biur #0" = 1
+	"Dobre #0" = 1
+	"Eunike #0" = -1
+	"Scurdo #0" = 1
+	"Mel'shay #0" = -1
+	"Gastile #0" = 1
+	"Gerden #0" = 1
+	"Gundega #0" = -1
+	"Liga #0" = -1
+	"Arvo #0" = 1
+	"Jaunule #0" = 1
+	"Vidyava #0" = -1
+	"Narvait #0" = 1
+	"Borut #0" = 1
+	"Ieva #0" = -1
+	"Erasts #0" = 1
+	"Viba #0" = -1
+	"Cherava #0" = -1
+	"Faga-Laye #0" = 1
+	"Brian #0" = 1
+	"Davins #0" = 1
+	"Poshayka #0" = -1
+	"Dausprungas #0" = 1
+	"Imanta #0" = 1
+	"Kurlemuse #0" = 1
+	"Dangeruthe #0" = 1
+	"Sabe #0" = 1
+	"Tura #0" = -1
+	"Lonkogveni #0" = 1
+	"Parush #0" = 1
+	"Vykantas #0" = 1
+	"Ausala #0" = -1
+	"Ako #0" = 1
+	"Kanafa #0" = 1
+	"Yudki #0" = 1
+	"Tarkhan #0" = 1
+	"Gotene #0" = 1
+	"Sviendorog #0" = 1
+	"Demas #0" = 1
+	"Vishly #0" = 1
+	"Rusins #0" = 1
+	"Skornand #0" = 1
+	"Ringaudas #0" = 1
+	"Mafalda #0" = -1
+	"Isabelle #0" = -1
+	"Kodere #0" = 1
+	"Gunvald #0" = 1
+	"Giemund #0" = 1
+	"Marcelina #0" = -1
+	"Darbeslave #0" = 1
+	"Vetseke #0" = 1
+	"Bulei #0" = 1
+	"Hassana #0" = -1
+	"Geyka #0" = -1
+	"Babba #0" = 1
+	"Birma #0" = 1
+	"Yuma #0" = 1
+	"Malla #0" = 1
+	"Mecca #0" = -1
+	"Hamish #0" = 1
+	"Fodi #0" = 1
+	"Mar-Chindin #0" = 1
+	"Nameisis #0" = 1
+	"Gando #0" = -1
+	"Samsam #0" = 1
+	"Muir #0" = 1
+	"Ankad #0" = 1
+	"Cirulis #0" = 1
+	"Gavin #0" = 1
+	"Bannu #0" = 1
+	"Shvarnas #0" = 1
+	"Koïzé #0" = 1
+	"Rodina #0" = -1
+	"Dervorgilla #0" = -1
+	"Kiten #0" = 1
+	"Yaqub #0" = 1
+	"Kerstigens #0" = 1
+	"Indulf #0" = 1
+	"Tib #0" = 1
+	"Sargun #0" = 1
+	"Halima #0" = -1
+	"Steikint #0" = 1
+	"Namiss #0" = -1
+	"Klavess #0" = 1
+	"Dermid #0" = 1
+	"Aymort #0" = 1
+	"Mendune #0" = 1
+	"Morna #0" = -1
+	"Terentiy #2" = 0
+	"Rodislav #1" = 0
+	"Erich #1" = 0
+	"Putiata #1" = 0
+	"Väinö #1" = 0
+	"Sviatoslav #1" = 0
+	"Vladimir #6" = 0
+	"Wayngachi #1" = 0
+	"Bashtwa #1" = 0
+	"Buzer #2" = 0
+	"Karadakh #1" = 0
+	"Patiyer #2" = -1
+	"Sartäç #1" = 0
+	"Puyantay #1" = -1
+	"Zorya #1" = -1
+	"Gunduz #1" = -1
+	"Yençepi #1" = 0
+	"Mänär #1" = 0
+	"Asli #1" = -1
+	"Alp #0" = 0
+	"Araslan #0" = 0
+	"Bagha #0" = 0
+	"Baghatur #0" = 0
+	"Bälgiçi #0" = 0
+	"Barjik #0" = 0
+	"Barsbek #0" = 0
+	"Bastu #0" = 0
+	"Bihor #0" = 0
+	"Böri #0" = 0
+	"Bugha #0" = 0
+	"Bulan #0" = 0
+	"Bulçan #0" = 0
+	"Busir #0" = 0
+	"Çat #0" = 0
+	"Çat'n #0" = 0
+	"Çorpan #0" = 0
+	"Ilik #0" = 0
+	"Iltäbär #0" = 0
+	"Itakh #0" = 0
+	"Kamaj #0" = 0
+	"Kayghalagh #0" = 0
+	"Khatir #0" = 0
+	"Khuterkin #0" = 0
+	"Kibar #0" = 0
+	"Kisa #0" = 0
+	"Kundaçiq #0" = 0
+	"Kundaç #0" = 0
+	"Mänäs #0" = 0
+	"Mënümarót #0" = 0
+	"Ötemis #0" = 0
+	"Papaçyz #0" = 0
+	"Täbär #0" = 0
+	"Tabghaç #0" = 0
+	"Tarmaç #0" = 0
+	"Tuzniq #0" = 0
+	"Vakrim #0" = 0
+	"Yabghu #0" = 0
+	"Yavantey #0" = 0
+	"Yerneslu #0" = 0
+	"Yeçtirek #0" = 0
+	"Yilig #0" = 0
 }
 
-leader_names = { 
-	Zhiznomir Mikula Posenya Baryatinsky Belevsky Volkonsky 
-	Vorotynsky Gorensky Gorchakov Dolgorukov Yeletsky Ryumin 
-	Barashev Spyachy Shestov Zventsov Tokmakov Nozdrevaty 
-	Kashin Massalski Kozelsky Koninsky Kurlyatev Lykov Obolensky
-	Strigin Nagiye Spashsky Torussky Trostensky Turenin
-	Tufyakin Khotetovsky 
-}
-
-ship_names = {
-	"Archistratig Michail" "Arkhangel Gavriil" "Arkhangel Mikhail" "Arkhangel Rafail" "Arkhangel Uriil" "Bogoiavlenie Gospodne" "Boris i Gleb" "Bozhiye Predvideniye"
-	"Cvet Vojny" "Dimitrii Donskoi" "Dvenadtsat Apostolov" "Evva Elenora" "Evva Katerina" "Generalissimus Rossiiskaia" "Gorod Arkhangelsk" "Goto Predestinatsia"
-	"Graf Orlov" "Imperatritsa Anna" "Ioann Zlatoust Pervyi" "Isaak Viktoriia" "Ivan Gorod" "Kavaler Sviatoi Aleksandr" "Kavaler Sviatoi Andrei" "Kazanskaya Bogoroditsa"
-	"Kir Ioann" "Kiriil Belozerskiy" "Mariia Magdalina Pervaia" "Mariia Magdalina Vtoraja" "Mariia Magdalina" "Matvei Evangelist" "Nadezhda Blagopoluchiia" "Ne Tron Menia"
-	"Nord Adler" "Novaia Nadezhada" "Osnovanie Blagopoluchiia" "Out Adler" "Out Eketbom" "Pamiat Evstafii" "Panagiia Aporogrilli" "Panagiia Apotumengano" "Panagiia Kaligati"
-	"Panagiia Popandi" "Panteleimon Viktoriia" "Piotr I i II" "Pravitelnitsa Rossiiskaia" "Prints Evgenii" "Prints Gustav" "Printsessa Anna" "Razzhyonnoe Zhelezo"
-	"Rozhdestrvo Khristovo" "Sankt Michail" "Sant Iakim" "Severnyj Oryol" "Slava Ekateriny" "Slava Rossii" "Spiashchii Lev" "Staryi Dub" "Staryi Oryol" "Sviataia Anna"
-	"Sviataia Velikomuchenitsa Varvara" "Sviatogo Dukha" "Sviatoi Aleksandr Nevskij" "Sviatoi Aleksandr" "Sviatoi Andrei Pervozvannii" "Sviatoi Andrei" "Sviatoi Antonii"
-	"Sviatoi Dmitrii Rostovskii" "Sviatoi Evstafii Plakida" "Sviatoi Fyodor" "Sviatoi Georgii Pobedonosets" "Sviatoi Georgii" "Sviatoi Iakov" "Sviatoi Ieronim"
-	"Sviatoi Ilia" "Sviatoi Isakii" "Sviatoi Januarii" "Sviatoi Kliment Papa Rimskii" "Sviatoi Nikolai" "Sviatoi Panteleimon" "Sviatoi Pavel" "Sviatoi Piotr"
-	"Sviatoi Sergii" "Sviatoi Velikomuchenik Isidor" "Svietaia Ekaterina" "Svietaia Mariia" "Sysoi Velikii" "Tolskaya Bogoroditsa" "Trekh Ierarkhov" "Trekh Sviatitelei"
-	"Tsar Konstantin" "Tsvet Voiny" "Vinogradnaia Vetv" "Voznesenie Gospodne" "Zakharii i Elisavet" "Zhuravl Steregushchii" "Zolotaia Zvezda" "Zolotoe Iaboloko" Afrika
-	Aist Amur Apollo Arkhipelag Armont Arondel Astrakhan Aziia Azov Blagodat Blagopoluchie Britanniia Bulinbrok Bystraia Cherepakha Chesma Chestnaia Degas Dekrondelivde
-	Delfin Delos Derbent Derpt Devonshir Diana Dobraia Donder Drumkrakht Dumkrat Eingorn Elena Emgeiten Emmanuil Endrakht Esperans Etna Evropa Falk Favoritka Feniks Flag
-	Fortuna Fredrikhshtadt Fridemaker Fyodor Gamburg Gangut Gektor Gremiashchii Grigorii Grom Iagudiil Iamburg Iaroslav Iassy Iezekiil Ingermanland Ioann Iupiter Kamen
-	Khobot Khotin Khvalnaia Kit Konstantin Kopore Korona Kreiser Krepost Kronshlot Kronshtadt Kruis Krym Landsdou Laskovaia Lastka Leferm Legkii Lesnoye Lev Liliia Lizet
-	London Luks Marlburg Merkurii Miach Milo Minerva Mittau Modon Molniia Monbekend Monplezir Moreia Moris Moskva Munker Nadezhda Naktsiia Narva Natalia Nazaret
-	Nepobedimaia Neptunus Nishtadt Novopavlovsk Oksford Olga Olifant Orfei Oryol Palyulos Parizh Paros Patriklii Perl Pernov Pervyi Peterburg Piotr Piotr II Plato Pobeda
-	Pochtalon Poltava Poluks Pomoshchnyi Portsmut Pospeshnyi Prevoskhoditeinaia Printsessa Priyatelnaya Prokhor Provornyi Rafail Rak Randolf Razumnaia Revel Riga Rossia
-	Rostislav Roza Rys Salamandra Samson Saratov Schastie Schastlivyi Selafail Shkhelpol Shlisselburg Shpaga Shtandart Shval Siiatelnaia Sion Sklonnaia Skorpion Snuk
-	Sobaka Sokol Starn Stein Straford Strakh Strela Strus Sulitsa Sviatoslav Svirepaia Taganrog Taimalar Telemakus Terpelivaia Tino Tver Tvyordyi Ubornaia Uchtivaia
-	Uliss Ulriksdal Upovanie Uriil Vakhmeister Varakhail Vedraia Venera Venker Venus Vestovoi Vesuvii Viacheslav Viktoriia Vinkelgak Voin Voronez Vsevolod Vtoroi Vyborg
-	Vydra Yanos Zabavnaia Zadornaia Zhemchug Zhurzha Zmeia Zvezda
-}

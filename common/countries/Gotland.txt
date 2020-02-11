@@ -1,169 +1,199 @@
-#Gotland
+# Gotland
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 170 25 25 }
 
-graphical_culture = westerngfx
 
-color = { 191  113  133 }
 
-historical_idea_groups = {
-	maritime_ideas
-	economic_ideas
-	defensive_ideas
-	offensive_ideas
-	diplomatic_ideas
-	aristocracy_ideas
-	spy_ideas
-	religious_ideas
-}
-
-historical_units = {
-	western_medieval_infantry
-	western_medieval_knights
-	western_men_at_arms
-	dutch_maurician
-	swedish_gallop
-	swedish_gustavian
-	swedish_caroline
-	swedish_arme_blanche
-	prussian_frederickian
-	prussian_uhlan
-	mixed_order_infantry
-	open_order_cavalry
-	napoleonic_square
-	napoleonic_lancers
-}
-
-monarch_names = {
-	"Johan #0" = 40
-	"Fredrik #0" = 40
-	"Chris #0" = 20
-	"Thomas #0" = 40
-	"Henrik #0" = 50
-	"Olof #0" = 20
-	"Martin #0" = 20
-	"Petter #0" = 20
-	"Rickard #0" = 20
-	"Dan #0" = 20
-	"Daniel #0" = 30
-	"Jonas #0" = 20
-	"Mats #0" = 20
-	"Rufus #0" = 20
-	"Sara #0" = -20
-	"Linda #0" = -30
-	"Niklas #0" = 40 
-	"David #0" = 20 
-	"Peter #0" = 10
-	"Aline #0" = -20
-	"Rikard #0" = 20
-	"Jimmy #0" = 20
-	"Gustav #0" = 20
-	"Carsten #0" = 20 
-	"Marko #0" = 20 
-	"Michael #0" = 20 
-	"Samuel #0" = 10
-	"Mathieu #0" = 10
-	"Sebastian #0" = 10 
-	"Joel #0" = 10
-	"Marcus #0" = 10
-	"Lorenzo #0" = 10
-	"Carmille #0" = -10
-	"Anna #0" = -10
-	"Mathilda #0" = -10
-	"Milla #0" = -10
-	"Irene #0" = -10
-	"Joakim #0" = 10
-	"Zack #0" = 10
-	
-	"Artur #0" = 5 
-	"Mikael #0" = 5
-	"Dick #0" = 5
-	
-	"Joachim #0" = 5
-	"Drikus #0" = 5
-	"Timor #0" = 5
-	"Patric #0" = 5
-	"Pontus #0" = 5
-	"Adam #0" = 5
-	"Viktor #0" = 2
-	"Stefan #0" = 5
-	"Björn #0" = 5
-	"Nina #0" = -5
-}
 
 leader_names = {
-    Andersson
-	Andreasson
-	Anward
-    Backlund
-	Ballantyne 
-    Bergqwist
-	Berni
-	Bjarnehed
-	Björk
-	Borg
-	Drevendal
-	Edström
-	Eklund
-	Eriksson
-	Foxander
-	Fåhraeus
-	Gidfors
-	Gladh
-	Hansson
-	Hesselborn
-	Holmgren
-	Isaksson
-	Jakobsson
-	Johansson
-	Johannesson
-	Khanagov
-	Kiby
-	King
-	Korhonen
-	Kowalcyzk
-	Kuiper
-	Lagerbäck
-	Lohmander
-	Lerström
-	Lind
-	Mannetje
-	Millen
-	Nicholson
-	Norrevik
-	Olsson
-	Palmqvist
-	Rodriguez
-	Ropert
-	Rönn
-	Sarell
-	Schießl
-	Skoglund
-	Sjöström
-	Strid
-	Tammpere
-	Tiger
-	Toll
-	Tolman
-	Tronde
-	Thulin
-	Zetterman
-	Villberg
-	Åberg
-	Åslund
-	Virtanen
-	Wendel-Örtqvist
+
+	"Pliksov" "Naula" "Likiik" "Baise" "Manvydas" "Agita" "Rushky" "Imela" "Juvage" "Pukuveras" 
+	"Litto" "Elmede" "Rasa" "Balodis" "Galene" "Gedere" "Meltsayka" "Treniota" "Zigne" "Karijotas" 
+	"Galeine" "Karnak" "Kage" "Daira" "Dzeguze" "Balba" "Pakstyan" "Bikshe" "Tautvila" "Visheiv" 
+	"Traidenis" "Lammekinus" "Kordula" "Greze" "Simsam" "Bitens" "Darate" "Shutr" "Gibedats" "Meinekinus" 
+	"Erdzivil" "Kuliens" "Butovit" "Vaishvilkas" "Maija" "Brita" "Aishno" "Dovyat" "Vishikut" "Marite" 
+	"Viesturs" "Ruta" "Dose" "Yalgava" "Savna" "Sprudeik" "Pukiik" "Dzintis" "Dardedze" "Jedetus" 
+	"Gunda" "Talivaldis" "Biur" "Dobre" "Eunike" "Scurdo" "Mel'shay" "Gastile" "Gerden" "Gundega" 
+	"Liga" "Arvo" "Jaunule" "Vidyava" "Narvait" "Borut" "Ieva" "Erasts" "Viba" "Cherava" 
+	"Faga-Laye" "Brian" "Davins" "Poshayka" "Dausprungas" "Imanta" "Kurlemuse" "Dangeruthe" "Sabe" "Tura" 
+	"Lonkogveni" "Parush" "Vykantas" "Ausala" "Ako" "Kanafa" "Yudki" "Tarkhan" "Gotene" "Sviendorog" 
+	"Demas" "Vishly" "Rusins" "Skornand" "Ringaudas" "Mafalda" "Isabelle" "Kodere" "Gunvald" "Giemund" 
+	"Marcelina" "Darbeslave" "Vetseke" "Bulei" "Hassana" "Geyka" "Babba" "Birma" "Yuma" "Malla" 
+	"Mecca" "Hamish" "Fodi" "Mar-Chindin" "Nameisis" "Gando" "Samsam" "Muir" "Ankad" "Cirulis" 
+	"Gavin" "Bannu" "Shvarnas" "Koïzé" "Rodina" "Dervorgilla" "Kiten" "Yaqub" "Kerstigens" "Indulf" 
+	"Tib" "Sargun" "Halima" "Steikint" "Namiss" "Klavess" "Dermid" "Aymort" "Mendune" "Morna" 
+	"Bo" "Ale" "Gyla" "Oddr" "Arni" "Hrane" "Emund" "Skuli" "Toke" "Gandalfr" 
+	"Borkvard" "Örvar" "Anlaufr" "Golovke" "Janis" "Kaire" "Kaupo" "Stegut" "Valikaila" }
+monarch_names = {
+	"Pliksov #0" = 1
+	"Naula #1" = -70
+	"Likiik #0" = 1
+	"Baise #1" = 39
+	"Manvydas #0" = 1
+	"Agita #0" = -1
+	"Rushky #0" = 1
+	"Imela #0" = -1
+	"Juvage #0" = 1
+	"Pukuveras #0" = 1
+	"Litto #0" = 1
+	"Elmede #0" = 1
+	"Rasa #0" = -1
+	"Balodis #0" = 1
+	"Galene #0" = -1
+	"Gedere #1" = 42
+	"Meltsayka #0" = 1
+	"Treniota #0" = 1
+	"Zigne #1" = -46
+	"Karijotas #0" = 1
+	"Galeine #0" = 1
+	"Karnak #0" = 1
+	"Kage #0" = 1
+	"Daira #1" = -88
+	"Dzeguze #0" = -1
+	"Balba #0" = -1
+	"Pakstyan #0" = 1
+	"Bikshe #0" = 1
+	"Tautvila #0" = 1
+	"Visheiv #0" = 1
+	"Traidenis #0" = 1
+	"Lammekinus #0" = 1
+	"Kordula #1" = -49
+	"Greze #0" = -1
+	"Simsam #0" = 1
+	"Bitens #0" = -1
+	"Darate #0" = -1
+	"Shutr #0" = 1
+	"Gibedats #1" = 33
+	"Meinekinus #0" = 1
+	"Erdzivil #0" = 1
+	"Kuliens #0" = 1
+	"Butovit #0" = 1
+	"Vaishvilkas #0" = 1
+	"Maija #0" = -1
+	"Brita #0" = -1
+	"Aishno #0" = 1
+	"Dovyat #0" = 1
+	"Vishikut #0" = 1
+	"Marite #0" = -1
+	"Viesturs #0" = 1
+	"Ruta #0" = -1
+	"Dose #0" = -1
+	"Yalgava #0" = -1
+	"Savna #0" = -1
+	"Sprudeik #0" = 1
+	"Pukiik #0" = 1
+	"Dzintis #1" = 48
+	"Dardedze #0" = -1
+	"Jedetus #0" = 1
+	"Gunda #0" = -1
+	"Talivaldis #0" = 1
+	"Biur #0" = 1
+	"Dobre #0" = 1
+	"Eunike #0" = -1
+	"Scurdo #0" = 1
+	"Mel'shay #0" = -1
+	"Gastile #0" = 1
+	"Gerden #1" = 24
+	"Gundega #0" = -1
+	"Liga #0" = -1
+	"Arvo #0" = 1
+	"Jaunule #0" = 1
+	"Vidyava #0" = -1
+	"Narvait #0" = 1
+	"Borut #2" = 60
+	"Ieva #0" = -1
+	"Erasts #0" = 1
+	"Viba #1" = -52
+	"Cherava #0" = -1
+	"Faga-Laye #0" = 1
+	"Brian #0" = 1
+	"Davins #0" = 1
+	"Poshayka #0" = -1
+	"Dausprungas #0" = 1
+	"Imanta #0" = 1
+	"Kurlemuse #1" = 36
+	"Dangeruthe #0" = 1
+	"Sabe #0" = 1
+	"Tura #0" = -1
+	"Lonkogveni #0" = 1
+	"Parush #0" = 1
+	"Vykantas #1" = 27
+	"Ausala #0" = -1
+	"Ako #0" = 1
+	"Kanafa #0" = 1
+	"Yudki #0" = 1
+	"Tarkhan #0" = 1
+	"Gotene #0" = 1
+	"Sviendorog #0" = 1
+	"Demas #0" = 1
+	"Vishly #0" = 1
+	"Rusins #0" = 1
+	"Skornand #1" = 27
+	"Ringaudas #0" = 1
+	"Mafalda #0" = -1
+	"Isabelle #0" = -1
+	"Kodere #1" = 36
+	"Gunvald #0" = 1
+	"Giemund #0" = 1
+	"Marcelina #0" = -1
+	"Darbeslave #0" = 1
+	"Vetseke #0" = 1
+	"Bulei #0" = 1
+	"Hassana #0" = -1
+	"Geyka #0" = -1
+	"Babba #0" = 1
+	"Birma #0" = 1
+	"Yuma #0" = 1
+	"Malla #0" = 1
+	"Mecca #0" = -1
+	"Hamish #0" = 1
+	"Fodi #0" = 1
+	"Mar-Chindin #0" = 1
+	"Nameisis #0" = 1
+	"Gando #0" = -1
+	"Samsam #0" = 1
+	"Muir #0" = 1
+	"Ankad #0" = 1
+	"Cirulis #0" = 1
+	"Gavin #0" = 1
+	"Bannu #0" = 1
+	"Shvarnas #0" = 1
+	"Koïzé #0" = 1
+	"Rodina #0" = -1
+	"Dervorgilla #0" = -1
+	"Kiten #0" = 1
+	"Yaqub #0" = 1
+	"Kerstigens #0" = 1
+	"Indulf #0" = 1
+	"Tib #0" = 1
+	"Sargun #0" = 1
+	"Halima #0" = -1
+	"Steikint #0" = 1
+	"Namiss #0" = -1
+	"Klavess #0" = 1
+	"Dermid #0" = 1
+	"Aymort #0" = 1
+	"Mendune #0" = 1
+	"Morna #0" = -1
+	"Bo #1" = 0
+	"Ale #2" = 0
+	"Gyla #1" = -1
+	"Oddr #1" = 0
+	"Arni #1" = 0
+	"Hrane #1" = 0
+	"Emund #1" = 0
+	"Skuli #1" = 0
+	"Toke #1" = 0
+	"Gandalfr #1" = 0
+	"Borkvard #1" = 0
+	"Örvar #1" = 0
+	"Anlaufr #1" = 0
+	"Golovke #0" = 0
+	"Janis #0" = 0
+	"Kaire #0" = 0
+	"Kaupo #0" = 0
+	"Stegut #0" = 0
+	"Valikaila #0" = 0
 }
 
-ship_names = {
-	Burgsvik
-	Djauvik
-	Fårösund
-	Gnisvärd
-	Klintehamn
-	Hoburgen
-	Katthamra
-	Drake
-	Ljugarn
-	Slite
-    Västergarn
-    Visby
-}

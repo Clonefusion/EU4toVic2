@@ -1,0 +1,449 @@
+# Gothindil
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 234 135 253 }
+
+
+
+
+leader_names = {
+
+	"Egill" "Hevn" "Valkyrie" "Margareta" "Björg" "Ingólfr" "Eirikr" "Valdemar" "Helena" "Hrabis" 
+	"Eilif" "Vagn" "Ingrid" "Alvör" "Gyrið" "Katarina" "Hafrid" "Hroðulfr" "Styrkar" "Kol" 
+	"Þorolfr" "Karin" "Freyja" "Holmfrid" "Kettilmund" "Gloð" "Styrbjörn" "Hroðgar" "Alfgeir" "Inga" 
+	"Þora" "Elisabet" "Rikulfr" "Kraka" "Birgitta" "Ylva" "Bothildr" "Sveinn" "Eulalia" "Þordis" 
+	"Beata" "Asa" "Hevnvidd" "Theodora" "Maer" "Linda" "Rögnhildr" "Geirr" "Artbran" "Froði" 
+	"Skuld" "Astrid" "Sigurðr" "Katrien" "Borkvard" "Ingemar" "Martha" "Grimr" "Botulfr" "Ofeig" 
+	"Malmfrið" "Dan" "Alfhildr" "Guðröðr" "Yngvar" "Chrysogonos" "Sara" "Baldr" "Örvar" "Gyla" 
+	"Arni" "Ale" "Saga" "Ragnarr" "Sif" "Frirek" "Kettil" "Refil" "Ulfhildr" "Fredrik" 
+	"Magni" "Dag" "Ormr" "Asta" "Birger" "Arnbjörn" "Gerðr" "Sæmundr" "Eusebia" "Elin" 
+	"Grima" "Svanhildr" "Ivar" "Anundr" "Steinn" "Gurli" "Demetra" "Einarr" "Buðli" "Folki" 
+	"Kolbjörn" "Hrörekr" "Guðrun" "Ioustina" "Sörkver" "Karl" "Sverker" "Guðmundr" "Sölvi" "Aleta" 
+	"Anlaufr" "Dyre" "Toste" "Ingjerðr" "Gandalfr" "Hæsteinn" "Refr" "Gorm" "Tyke" "Ingfrid" 
+	"Kristina" "Bragi" "Hakon" "Halla" "Síthmaith" "Vigdis" "Gunnarr" "Arnfast" "Hrafn" "Eudoxia" 
+	"Rikissa" "Snorri" "Alfrið" "Þorfinn" "Petronia" "Sumarliði" "Knut" "Þyra" "Gunnhildr" "Haraldr" 
+	"Oddr" "Polykarpos" "Hrolfr" "Hemming" "Yrsa" "Lóchíne" "Kjartan" "Arngrimr" "Åke" "Bertil" 
+	"Cairbre" "Aslaug" "Ottarr" "Asbjörn" "Gjengjeldelse" "Vigrid" "Sigrid" "Rögnvaldr" "Blodtørst" "Bodil" 
+	"Bo" "Negrid" "Mordbrann" "Hevntørst" "Eskild" "Iliana" "Borghild" "Hysing" "Ravned" "Sigrun" 
+	"Emund" "Halsten" "Suni" "Hrane" "Tryggve" "Tjudmund" "Ulfr" "Ingibjörg" "Blodhild" "Sigdis" 
+	"Cuddles" "Kamphild" "Faste" "Alfr" "Guðfrið" "Starkaðr" "Gyða" "Þorgil" "Konrad" "Freyr" 
+	"Skuli" "Hjalmar" "Ravnsed" "Sofia" "Seier" "Kristiina" "Henri" "Ahvo" "Rögnfrið" "Toivo" 
+	"Brynhilde" "Gnupa" "Aino" "Hevned" "Kielo" "Totil" "Björn" "Ravnvidd" "Ilta" "Þordr" 
+	"Olafr" "Öysteinn" "Helgi" "Ingjald" "Toke" "Þorbrandr" "Sturla" "Haukr" "Sigtrygg" "Seirulf" 
+	"Sigbjörn" "Edla" "Brynjeglad" "Morgan" "Skallagrim" "Seirr" "Barid" "Gerasimos" "Þorsteinn" "Donald" 
+	"Lorna" "Þorbjörn" "Conan" "Hevnsæl" "Falki" "Marthoc" "Robert" "Jedvard" "Derilla" "Tolir" 
+	"Lachlan" "Bersi" "Nuala" "Holmger" "Bagge" "Ninian" "Cathán" "Slaine" "Maura" "Énna" 
+	"Sholto" "Nikoletta" "Pyrros" "No Character" "Dionysia" "Leontios" "Alexios" "Pankratios" "Gorthaur" "Belisarios" 
+	"Beregar" "Herakleios" "Zenobios" "Kallinikos" "Sergios" "Theophylaktos" "Traianos" "Ioulianos" "Basillike" "Cernachán" 
+	"Adrianos" "Akakios" "Alexandros" "Anastasios" "Anatolios" "Andreas" "Andronikos" "Anthemios" "Anthimos" "Antiochos" 
+	"Antonios" "Apollonios" "Arsenios" "Artemios" "Athanasios" "Bardas" "Bartholomaios" "Basileios" "Boethios" "Bosporios" 
+	"Christophoros" "Chrysanthos" "Damianos" "Demetrios" "Diogenes" "Dionysios" "Dorotheos" "Eirenaios" "Eudoxios" "Eustratios" 
+	"Eugenios" "Euphemios" "Eusebios" "Eustathios" "Evangelos" "Gabriel" "Gennadios" "Georgios" "Germanos" "Gregoras" 
+	"Gregorios" "Hektorios" "Helias" "Hierotheos" "Himerios" "Hippolytos" "Hypatios" "Iakobos" "Ignatios" "Innokentios" 
+	"Ioannes" "Ioannikios" "Iordanes" "Ioseph" "Isaakios" "Isaias" "Isidoros" "Ioustinianos" "Ioustinos" "Kaisarios" 
+	"Kallistos" "Komitas" "Konstantinos" "Konstantios" "Konstas" "Kosmas" "Kyriakos" "Kyrillos" "Kyros" "Laurentios" 
+	"Lazaros" "Leon" "Loukas" "Makarios" "Manuel" "Markos" "Matthaios" "Maurikios" "Maximos" "Megistos" 
+	"Meletios" "Methodios" "Narses" "Neophytos" "Nikephoros" "Niketas" "Nikodemos" "Nikolaos" "Niphon" "Orestes" 
+	"Pamphilios" "Pantoleon" "Paschalis" "Pavlos" "Pelagios" "Petros" "Philaretos" "Philippos" "Philotheos" "Phokas" 
+	"Photios" "Porphyrios" "Prokopios" "Raphail" "Romanos" "Sabas" "Serapion" "Sebastianos" "Stephanos" "Staurakios" 
+	"Symeon" "Symmachos" "Theocharistos" "Theodoros" "Theodosios" "Theodotos" "Theodoulos" "Theoktistos" "Theophanes" "Theophilos" 
+	"Tiberios" "Timotheos" "Tryphon" "Valerios" "Zacharias" "Zenon" }
+monarch_names = {
+	"Egill #0" = 1
+	"Hevn #0" = 1
+	"Valkyrie #0" = -1
+	"Margareta #0" = -1
+	"Björg #0" = -1
+	"Ingólfr #0" = 1
+	"Eirikr #0" = 1
+	"Valdemar #0" = 1
+	"Helena #0" = -1
+	"Hrabis #0" = 1
+	"Eilif #0" = 1
+	"Vagn #0" = 1
+	"Ingrid #0" = -1
+	"Alvör #0" = -1
+	"Gyrið #0" = -1
+	"Katarina #0" = -1
+	"Hafrid #0" = -1
+	"Hroðulfr #0" = 1
+	"Styrkar #0" = 1
+	"Kol #0" = 1
+	"Þorolfr #0" = 1
+	"Karin #0" = -1
+	"Freyja #0" = -1
+	"Holmfrid #0" = -1
+	"Kettilmund #0" = 1
+	"Gloð #0" = -1
+	"Styrbjörn #0" = 1
+	"Hroðgar #0" = 1
+	"Alfgeir #0" = 1
+	"Inga #0" = -1
+	"Þora #0" = -1
+	"Elisabet #0" = -1
+	"Rikulfr #0" = 1
+	"Kraka #0" = -1
+	"Birgitta #0" = -1
+	"Ylva #0" = -1
+	"Bothildr #0" = -1
+	"Sveinn #0" = 1
+	"Eulalia #0" = -1
+	"Þordis #0" = -1
+	"Beata #0" = -1
+	"Asa #0" = -1
+	"Hevnvidd #0" = 1
+	"Theodora #0" = -1
+	"Maer #0" = -1
+	"Linda #0" = -1
+	"Rögnhildr #0" = -1
+	"Geirr #0" = 1
+	"Artbran #0" = 1
+	"Froði #0" = 1
+	"Skuld #0" = -1
+	"Astrid #0" = -1
+	"Sigurðr #0" = 1
+	"Katrien #0" = -1
+	"Borkvard #0" = 1
+	"Ingemar #0" = 1
+	"Martha #0" = -1
+	"Grimr #0" = 1
+	"Botulfr #0" = 1
+	"Ofeig #0" = 1
+	"Malmfrið #0" = -1
+	"Dan #0" = 1
+	"Alfhildr #0" = -1
+	"Guðröðr #0" = 1
+	"Yngvar #0" = 1
+	"Chrysogonos #0" = 1
+	"Sara #0" = -1
+	"Baldr #0" = 1
+	"Örvar #0" = 1
+	"Gyla #0" = -1
+	"Arni #0" = 1
+	"Ale #0" = 1
+	"Saga #0" = -1
+	"Ragnarr #0" = 1
+	"Sif #0" = -1
+	"Frirek #0" = 1
+	"Kettil #0" = 1
+	"Refil #0" = 1
+	"Ulfhildr #0" = -1
+	"Fredrik #0" = 1
+	"Magni #0" = 1
+	"Dag #0" = 1
+	"Ormr #0" = 1
+	"Asta #0" = -1
+	"Birger #0" = 1
+	"Arnbjörn #0" = 1
+	"Gerðr #0" = -1
+	"Sæmundr #0" = 1
+	"Eusebia #1" = -19
+	"Elin #0" = -1
+	"Grima #0" = -1
+	"Svanhildr #0" = -1
+	"Ivar #0" = 1
+	"Anundr #0" = 1
+	"Steinn #0" = 1
+	"Gurli #0" = -1
+	"Demetra #0" = -1
+	"Einarr #0" = 1
+	"Buðli #0" = 1
+	"Folki #0" = 1
+	"Kolbjörn #0" = 1
+	"Hrörekr #0" = 1
+	"Guðrun #0" = -1
+	"Ioustina #0" = -1
+	"Sörkver #0" = 1
+	"Karl #0" = 1
+	"Sverker #0" = 1
+	"Guðmundr #0" = 1
+	"Sölvi #0" = 1
+	"Aleta #0" = -1
+	"Anlaufr #1" = 33
+	"Dyre #0" = 1
+	"Toste #0" = 1
+	"Ingjerðr #0" = -1
+	"Gandalfr #0" = 1
+	"Hæsteinn #0" = 1
+	"Refr #0" = 1
+	"Gorm #0" = 1
+	"Tyke #0" = 1
+	"Ingfrid #0" = -1
+	"Kristina #0" = -1
+	"Bragi #0" = 1
+	"Hakon #0" = 1
+	"Halla #0" = -1
+	"Síthmaith #0" = -1
+	"Vigdis #0" = -1
+	"Gunnarr #0" = 1
+	"Arnfast #0" = 1
+	"Hrafn #0" = 1
+	"Eudoxia #0" = -1
+	"Rikissa #0" = -1
+	"Snorri #0" = 1
+	"Alfrið #0" = -1
+	"Þorfinn #0" = 1
+	"Petronia #1" = -19
+	"Sumarliði #0" = 1
+	"Knut #0" = 1
+	"Þyra #0" = -1
+	"Gunnhildr #0" = -1
+	"Haraldr #0" = 1
+	"Oddr #0" = 1
+	"Polykarpos #0" = 1
+	"Hrolfr #0" = 1
+	"Hemming #0" = 1
+	"Yrsa #0" = -1
+	"Lóchíne #0" = 1
+	"Kjartan #0" = 1
+	"Arngrimr #0" = 1
+	"Åke #0" = 1
+	"Bertil #0" = 1
+	"Cairbre #0" = 1
+	"Aslaug #0" = -1
+	"Ottarr #0" = 1
+	"Asbjörn #1" = 42
+	"Gjengjeldelse #0" = 1
+	"Vigrid #0" = 1
+	"Sigrid #0" = -1
+	"Rögnvaldr #0" = 1
+	"Blodtørst #0" = 1
+	"Bodil #0" = -1
+	"Bo #0" = 1
+	"Negrid #0" = -1
+	"Mordbrann #0" = -1
+	"Hevntørst #0" = 1
+	"Eskild #0" = 1
+	"Iliana #0" = -1
+	"Borghild #0" = -1
+	"Hysing #0" = 1
+	"Ravned #0" = 1
+	"Sigrun #0" = -1
+	"Emund #0" = 1
+	"Halsten #0" = 1
+	"Suni #0" = 1
+	"Hrane #0" = 1
+	"Tryggve #0" = 1
+	"Tjudmund #0" = 1
+	"Ulfr #0" = 1
+	"Ingibjörg #0" = -1
+	"Blodhild #0" = -1
+	"Sigdis #0" = -1
+	"Cuddles #0" = 1
+	"Kamphild #0" = -1
+	"Faste #0" = 1
+	"Alfr #0" = 1
+	"Guðfrið #0" = 1
+	"Starkaðr #0" = 1
+	"Gyða #0" = -1
+	"Þorgil #0" = 1
+	"Konrad #0" = 1
+	"Freyr #0" = 1
+	"Skuli #0" = 1
+	"Hjalmar #0" = 1
+	"Ravnsed #0" = 1
+	"Sofia #0" = -1
+	"Seier #0" = 1
+	"Kristiina #0" = -1
+	"Henri #0" = 1
+	"Ahvo #0" = 1
+	"Rögnfrið #0" = -1
+	"Toivo #0" = 1
+	"Brynhilde #0" = -1
+	"Gnupa #0" = 1
+	"Aino #0" = -1
+	"Hevned #0" = 1
+	"Kielo #0" = -1
+	"Totil #0" = 1
+	"Björn #0" = 1
+	"Ravnvidd #0" = 1
+	"Ilta #0" = -1
+	"Þordr #0" = 1
+	"Olafr #0" = 1
+	"Öysteinn #0" = 1
+	"Helgi #0" = 1
+	"Ingjald #0" = 1
+	"Toke #0" = 1
+	"Þorbrandr #0" = 1
+	"Sturla #0" = 1
+	"Haukr #0" = 1
+	"Sigtrygg #0" = 1
+	"Seirulf #0" = 1
+	"Sigbjörn #0" = 1
+	"Edla #0" = -1
+	"Brynjeglad #0" = -1
+	"Morgan #0" = 1
+	"Skallagrim #0" = 1
+	"Seirr #0" = 1
+	"Barid #0" = 1
+	"Gerasimos #0" = 1
+	"Þorsteinn #0" = 1
+	"Donald #0" = 1
+	"Lorna #0" = -1
+	"Þorbjörn #0" = 1
+	"Conan #0" = 1
+	"Hevnsæl #0" = 1
+	"Falki #0" = 1
+	"Marthoc #0" = -1
+	"Robert #0" = 1
+	"Jedvard #0" = 1
+	"Derilla #0" = -1
+	"Tolir #0" = 1
+	"Lachlan #0" = 1
+	"Bersi #0" = 1
+	"Nuala #0" = -1
+	"Holmger #0" = 1
+	"Bagge #0" = 1
+	"Ninian #0" = 1
+	"Cathán #0" = -1
+	"Slaine #0" = -1
+	"Maura #0" = -1
+	"Énna #0" = 1
+	"Sholto #0" = -1
+	"Nikoletta #0" = -1
+	"Pyrros #1" = 18
+	"No Character #3" = 0
+	"Dionysia #1" = -1
+	"Leontios #1" = 0
+	"Alexios #1" = 0
+	"Pankratios #1" = 0
+	"Gorthaur #2" = 0
+	"Belisarios #1" = 0
+	"Beregar #1" = 0
+	"Herakleios #1" = 0
+	"Zenobios #1" = 0
+	"Kallinikos #2" = 0
+	"Sergios #3" = 0
+	"Theophylaktos #1" = 0
+	"Traianos #1" = 0
+	"Ioulianos #1" = 0
+	"Basillike #1" = -1
+	"Cernachán #1" = 0
+	"Adrianos #0" = 0
+	"Akakios #0" = 0
+	"Alexandros #0" = 0
+	"Anastasios #0" = 0
+	"Anatolios #0" = 0
+	"Andreas #0" = 0
+	"Andronikos #0" = 0
+	"Anthemios #0" = 0
+	"Anthimos #0" = 0
+	"Antiochos #0" = 0
+	"Antonios #0" = 0
+	"Apollonios #0" = 0
+	"Arsenios #0" = 0
+	"Artemios #0" = 0
+	"Athanasios #0" = 0
+	"Bardas #0" = 0
+	"Bartholomaios #0" = 0
+	"Basileios #0" = 0
+	"Boethios #0" = 0
+	"Bosporios #0" = 0
+	"Christophoros #0" = 0
+	"Chrysanthos #0" = 0
+	"Damianos #0" = 0
+	"Demetrios #0" = 0
+	"Diogenes #0" = 0
+	"Dionysios #0" = 0
+	"Dorotheos #0" = 0
+	"Eirenaios #0" = 0
+	"Eudoxios #0" = 0
+	"Eustratios #0" = 0
+	"Eugenios #0" = 0
+	"Euphemios #0" = 0
+	"Eusebios #0" = 0
+	"Eustathios #0" = 0
+	"Evangelos #0" = 0
+	"Gabriel #0" = 0
+	"Gennadios #0" = 0
+	"Georgios #0" = 0
+	"Germanos #0" = 0
+	"Gregoras #0" = 0
+	"Gregorios #0" = 0
+	"Hektorios #0" = 0
+	"Helias #0" = 0
+	"Hierotheos #0" = 0
+	"Himerios #0" = 0
+	"Hippolytos #0" = 0
+	"Hypatios #0" = 0
+	"Iakobos #0" = 0
+	"Ignatios #0" = 0
+	"Innokentios #0" = 0
+	"Ioannes #0" = 0
+	"Ioannikios #0" = 0
+	"Iordanes #0" = 0
+	"Ioseph #0" = 0
+	"Isaakios #0" = 0
+	"Isaias #0" = 0
+	"Isidoros #0" = 0
+	"Ioustinianos #0" = 0
+	"Ioustinos #0" = 0
+	"Kaisarios #0" = 0
+	"Kallistos #0" = 0
+	"Komitas #0" = 0
+	"Konstantinos #0" = 0
+	"Konstantios #0" = 0
+	"Konstas #0" = 0
+	"Kosmas #0" = 0
+	"Kyriakos #0" = 0
+	"Kyrillos #0" = 0
+	"Kyros #0" = 0
+	"Laurentios #0" = 0
+	"Lazaros #0" = 0
+	"Leon #0" = 0
+	"Loukas #0" = 0
+	"Makarios #0" = 0
+	"Manuel #0" = 0
+	"Markos #0" = 0
+	"Matthaios #0" = 0
+	"Maurikios #0" = 0
+	"Maximos #0" = 0
+	"Megistos #0" = 0
+	"Meletios #0" = 0
+	"Methodios #0" = 0
+	"Narses #0" = 0
+	"Neophytos #0" = 0
+	"Nikephoros #0" = 0
+	"Niketas #0" = 0
+	"Nikodemos #0" = 0
+	"Nikolaos #0" = 0
+	"Niphon #0" = 0
+	"Orestes #0" = 0
+	"Pamphilios #0" = 0
+	"Pantoleon #0" = 0
+	"Paschalis #0" = 0
+	"Pavlos #0" = 0
+	"Pelagios #0" = 0
+	"Petros #0" = 0
+	"Philaretos #0" = 0
+	"Philippos #0" = 0
+	"Philotheos #0" = 0
+	"Phokas #0" = 0
+	"Photios #0" = 0
+	"Porphyrios #0" = 0
+	"Prokopios #0" = 0
+	"Raphail #0" = 0
+	"Romanos #0" = 0
+	"Sabas #0" = 0
+	"Serapion #0" = 0
+	"Sebastianos #0" = 0
+	"Stephanos #0" = 0
+	"Staurakios #0" = 0
+	"Symeon #0" = 0
+	"Symmachos #0" = 0
+	"Theocharistos #0" = 0
+	"Theodoros #0" = 0
+	"Theodosios #0" = 0
+	"Theodotos #0" = 0
+	"Theodoulos #0" = 0
+	"Theoktistos #0" = 0
+	"Theophanes #0" = 0
+	"Theophilos #0" = 0
+	"Tiberios #0" = 0
+	"Timotheos #0" = 0
+	"Tryphon #0" = 0
+	"Valerios #0" = 0
+	"Zacharias #0" = 0
+	"Zenon #0" = 0
+}
+

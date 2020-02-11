@@ -1,0 +1,174 @@
+# Adrar
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 90 190 5 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+	religious_ideas
+	innovativeness_ideas
+}
+
+historical_units = {
+	african_spearmen
+	mali_tribal_warfare
+	african_hill_warfare
+	niger_kongolese_gunpowder_warfare
+	westernized_niger_kongolese
+	african_western_franchise_warfare
+}
+
+
+
+leader_names = {
+
+	"Kinkin" "Aoua" "Fadima" "Kayna" "Morobani" "Sunni" "Musa" "Youma" "Igoumou" "Malla" 
+	"Alayaman" "Birama" "Kusoy" "Alima" "Daouda" "Hassana" "Soundiata" "Baba" "Namiss" "Aisha" 
+	"Bonga" "Ouati" "Daoud" "Ina" "Gane" "Deye" "Djire" "Düru" "Maammarou" "Fatoumata" 
+	"Nafissa" "Siya" "Safiatou" "Bamari" "Tib" "Namandjé" "Bintou" "Koïzé" "Fatim" "Kadi" 
+	"Hargani" "Tekhaye" "Sassouma" "Kassa" "Sulayman" "Amita" "Lorane" "Djenly" "Bakr" "Fuluku" 
+	"Bassarou" "Djeneba" "Maÿroumfa" "Nana" "Kodama" "Kaday" "Halima" "Yaghmurasen" "Tanebdatt" "Bashira" 
+	"Badia" "Irgen" "Laweye" "N'Guna" "Abi-Bakr" "Abubakari" "Akoi" "Badä" "Bakr-Kanbu" "Bankanu" 
+	"Bannu" "Bassi" "Bisi" "Biyu" "Cisse" "Dankaran" "Dawud" "Demba" "Diara" "Faga-Laye" 
+	"Fatta" "Fodi" "Fädazu" "Gao" "Harun" "Ishaq" "Kabayo" "Kalabi" "Kambine" "Kanafa" 
+	"Kasseï" "Kaya" "Kisha" "Kukuray" "Lahiltoul" "M'Bali" "Maghan" "Majan" "Mamadi" "Mamoudou" 
+	"Manding-Bory" "Mari-Djata" "Missi-Izé" "Nintasanay" "Nuh" "Ouali" "Ouankoÿ" "Reidja" "Sakoura" "Salman" 
+	"Samsou-Béri" "Samsou-Keïna" "Sandaki" "Soumaba" "Soumaoro" "Takoi" "Tomo" "Tunka" "Umar" "Yama" 
+	"Yaqub" "Yasiboy" "Zakoi" "Zenku" }
+monarch_names = {
+	"Kinkin #0" = 1
+	"Aoua #0" = -1
+	"Fadima #0" = -1
+	"Kayna #0" = 1
+	"Morobani #0" = 1
+	"Sunni #0" = 1
+	"Musa #0" = 1
+	"Youma #0" = -1
+	"Igoumou #0" = 1
+	"Malla #1" = 24
+	"Alayaman #0" = 1
+	"Birama #0" = 1
+	"Kusoy #0" = 1
+	"Alima #0" = -1
+	"Daouda #0" = 1
+	"Hassana #0" = -1
+	"Soundiata #1" = 24
+	"Baba #0" = 1
+	"Namiss #0" = -1
+	"Aisha #0" = -1
+	"Bonga #0" = 1
+	"Ouati #1" = 21
+	"Daoud #0" = 1
+	"Ina #0" = -1
+	"Gane #0" = 1
+	"Deye #0" = -1
+	"Djire #0" = -1
+	"Düru #1" = 18
+	"Maammarou #0" = 1
+	"Fatoumata #0" = -1
+	"Nafissa #0" = -1
+	"Siya #0" = -1
+	"Safiatou #0" = -1
+	"Bamari #0" = 1
+	"Tib #0" = 1
+	"Namandjé #0" = -1
+	"Bintou #1" = -22
+	"Koïzé #0" = 1
+	"Fatim #0" = -1
+	"Kadi #0" = -1
+	"Hargani #0" = 1
+	"Tekhaye #0" = -1
+	"Sassouma #0" = -1
+	"Kassa #0" = 1
+	"Sulayman #1" = 21
+	"Amita #1" = -19
+	"Lorane #0" = -1
+	"Djenly #0" = -1
+	"Bakr #0" = 1
+	"Fuluku #1" = 18
+	"Bassarou #0" = 1
+	"Djeneba #0" = -1
+	"Maÿroumfa #0" = 1
+	"Nana #0" = -1
+	"Kodama #0" = 1
+	"Kaday #0" = 1
+	"Halima #0" = -1
+	"Yaghmurasen #1" = 0
+	"Tanebdatt #1" = -1
+	"Bashira #2" = -1
+	"Badia #1" = -1
+	"Irgen #5" = 0
+	"Laweye #1" = 0
+	"N'Guna #2" = 0
+	"Abi-Bakr #0" = 0
+	"Abubakari #0" = 0
+	"Akoi #0" = 0
+	"Badä #0" = 0
+	"Bakr-Kanbu #0" = 0
+	"Bankanu #0" = 0
+	"Bannu #0" = 0
+	"Bassi #0" = 0
+	"Bisi #0" = 0
+	"Biyu #0" = 0
+	"Cisse #0" = 0
+	"Dankaran #0" = 0
+	"Dawud #0" = 0
+	"Demba #0" = 0
+	"Diara #0" = 0
+	"Faga-Laye #0" = 0
+	"Fatta #0" = 0
+	"Fodi #0" = 0
+	"Fädazu #0" = 0
+	"Gao #0" = 0
+	"Harun #0" = 0
+	"Ishaq #0" = 0
+	"Kabayo #0" = 0
+	"Kalabi #0" = 0
+	"Kambine #0" = 0
+	"Kanafa #0" = 0
+	"Kasseï #0" = 0
+	"Kaya #0" = 0
+	"Kisha #0" = 0
+	"Kukuray #0" = 0
+	"Lahiltoul #0" = 0
+	"M'Bali #0" = 0
+	"Maghan #0" = 0
+	"Majan #0" = 0
+	"Mamadi #0" = 0
+	"Mamoudou #0" = 0
+	"Manding-Bory #0" = 0
+	"Mari-Djata #0" = 0
+	"Missi-Izé #0" = 0
+	"Nintasanay #0" = 0
+	"Nuh #0" = 0
+	"Ouali #0" = 0
+	"Ouankoÿ #0" = 0
+	"Reidja #0" = 0
+	"Sakoura #0" = 0
+	"Salman #0" = 0
+	"Samsou-Béri #0" = 0
+	"Samsou-Keïna #0" = 0
+	"Sandaki #0" = 0
+	"Soumaba #0" = 0
+	"Soumaoro #0" = 0
+	"Takoi #0" = 0
+	"Tomo #0" = 0
+	"Tunka #0" = 0
+	"Umar #0" = 0
+	"Yama #0" = 0
+	"Yaqub #0" = 0
+	"Yasiboy #0" = 0
+	"Zakoi #0" = 0
+	"Zenku #0" = 0
+}
+ship_names = {
+	Kiringa Timbuktu "Koumbi Saleh" Gao
+	Jenne "Sundiata Keita" "Kankan Musa"
+	"Kouroukan Fouga" "Wali Keita" "Quati Keita"
+	"Khalifa Keita" Sakura
+}
+

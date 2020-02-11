@@ -1,0 +1,6 @@
+scandinavian = {
+	norse = {
+		primary = DAN
+		dynasty_names = { "Skrauti" "Þvari" "Spaki" "av Agder" "Fróni" "Drake" "Koss" "af Aalborg" "af Dovre" "Forsa" "af Skalholt" "av Herjedalen" "av Hordaland" "Aesirling" "Borg" "Trönde" "Skáld" "Hylling" "Mikli" "Yngling" "Stafr" "af Paderborn" "af Bayeux" "af Haldensleben" "af Lupawa" "af Bergenhus" "Fróni" "af Dovre" "af Walkenried" "Koss" "Väse" "Cumbria" "af Dovre" "Snjalli" "af St Ethelberts" "Möring" "Saxholm" "af Enkhuizen" "Ölfúss" "af Haldensleben" "af Piltyn" "af Staines" "af Flint" "af Kallavesi" "Súrr" "Geta" "af Walcz" "af Klepp" "af Thomasburg" "af Alclud" "af Slesvig" "Gautske" "af Anaktoropolis" "Njudunge" "af Tottenham" "Eirikson" "Gute" "af Lebe" "Spaki" "Hárde" "af Dindori" "Vansö" "af Huntingdon" "af Beverstedt" "af Emmerich" "Styr" "af Avaskär" "af Herjadalr" "af Oweynagat" "af Aalborg" "af Gislum" "Skarfr" "Flod" "af Clogher" "af Köping" }
+	}
+}

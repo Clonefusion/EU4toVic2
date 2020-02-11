@@ -1,0 +1,10 @@
+israelite = {
+	ashkenazi = {
+		primary = ISR
+		dynasty_names = { "Ben David" "Mose" "of Zahle" "of Darbasak" "of Dhiban" "of Mafraq" "of Ketura" "of Yarmouk" "of Caymont" "of Qasr Amra" "of Symposion" "of Komanal" "of Sis" "of Yeha" "of Ungwan Deri" "of Busra" "of Xois" "of Athribis" "of Ibora" "of Cocussus" "of Germanikeia" "of Eupatoria" "of Athribis" "of Qantir" "of Al-Samoa" "of Taufiq" "Ben Aharon" "of Darbasak" "of Debir" "of Radwan" "of Osimo" "of Megedel" "of Shahba" "of Laboue" "of Ain et-Tibniya" "of El Harrah" "of Abu Minqar" "of Qaret Agnes" "of Fuka" "of Sebastopolis" "of Aboniteichos" "of Tium" "Ben Ari" "of Kyrenia" "of Ibelin" "of Fustat" "of Umm Rus" "of Asfoun" "of Luxor" "of Shiblanjah" "of Abydos" "of Thebes" "Ben Michael" "of Nafab" "of Kramatorsk" "of Ballana" "of Buhen" "of Komotit" "Ben Aharon" "Ben Jeremias" "Ben Michael" "of Resafa" "of Helwan" "of White Desert" "of Kochisar" "of Carissa" "of Faiyum" "of Wawa" "Ben Ari" "Ben Michael" "of Taiwi" "of Panopolis" "of Jerash" "of Showak" "of Aroma" "of Tyrus" "of Al-Qasr" "of Belmont" "of Bilal" "Mose" "Ben Jeremias" "of Arsinoe" "of Fustat" "of Isauria" "of Diri Dawa" "of Salhiyah" "of Kombolcha" "of Ain et-Tibniya" "Ben Jeremias" "of Zuhrah" "of Khalaf" "of Wadi Al Sir" }
+	}
+	sephardi = {
+		primary = ISR
+		dynasty_names = { }
+	}
+}

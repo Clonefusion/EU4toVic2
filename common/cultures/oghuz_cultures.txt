@@ -1,0 +1,26 @@
+oghuz = {
+	pecheneg = {
+		primary = KAZ
+		dynasty_names = { "Çepni" "Salgurlu" "Yänäyid" "Bayçid" "Kourkoutai" "Bayçid" "Bizelid" "Bizelid" "Çelgilid" "Yankulid" "Uspenkid" "Karacid" "Qazan" "Borisoglebskid" "Djendid" "Kaydumid" "Kuerçi" "Ipaosid" "Köpingid" "Andkhudid" "Kuerçi" "Däüläkän" "Mayakid" "Teberid" "Yeke" "Mughalzharid" "Teberid" "Kunsayid" }
+	}
+	cuman = {
+		primary = KAZ
+		dynasty_names = { "Askarid" "Ili" "Sarener" "Tolun" "Kozelid" "Beglukid" "Blu" "Kozelid" "Togli" "Tolun" "Eldeçyukid" "Jahromid" "Kobyakid" "Vidisid" "Itlarid" "Bachman" "Sokalid" "Kunduzid" "Yamali" "Shalkarid" "Amrohid" "Khangai" "Saru" "Beglukid" "Sugrid" "Ilteri" "Hardoi" "Atrakid" "Shalçi" "Uzurid" "Asalupid" "Kuntuvdi" "Kotyan" "Etrekid" "Etrekid" "Bachman" "Bönekid" "Uzurid" "Törtogulid" "Kozelid" }
+	}
+	bolghar = {
+		primary = KAZ
+		dynasty_names = { "Balamberid" }
+	}
+	avar = {
+		primary = KAZ
+		dynasty_names = { }
+	}
+	khazar = {
+		primary = KAZ
+		dynasty_names = { "of Chernobog" "Busirid" "Kamajid" "Kamajid" "Tarkhan" "Khuterkin" "Kadnikovskayid" "Çatid" "Petroverovkid" "Peksen" "Bashtwid" "Busirid" "Yakovlevskyid" "Bälgiçi" "Khuterkin" "Tarkhan" "Kayghalaid" "Falciu" "Yabghu" "Bihorid" "Mikun" "Barsbekid" "Syktyvarid" "Samsamid" "Likhoslavlid" "Yeçtirekid" "Dobryankid" "Böri" "Karadaid" "Lyukhid" "Sartäçid" "Sartäçid" "Bashtwid" "Yeçtirekid" "Baiaid" "Barjikid" "Bulçan" "Yavanteyid" "Gorodishche" "Kundaçiqid" "Kundaçiqid" "Alpid" "Khuterkin" "Karachevid" "Buzerid" "Baghaturid" "Rovid" "Täbärid" "Barsbekid" "Vyritsid" "Çatid" "Buzerid" "Simsamid" "Liozn" "Zhizhitsid" "Khmelniki" "Karadaid" "Bashtwid" "Yavanteyid" "Bogorodskid" "Degtyanoye" "Knyaginino" "Mänärid" "Pokrovskoye" "Zaokskiyid" "Ötemisid" "Bihorid" "Reni" "Tabghaçid" "Varnavino" "Yazhelbitsyid" "Tabghaçid" "Kilemaryid" "Araslan" "Tesnoye" "Sindorid" "Osypid" "Yeçtirekid" "Baghid" "Voin" "Baghid" "Buaid" "Çatn" "Loqid" "Chili" "Nenashevo" "Araslan" "Barsbekid" "Barsbekid" "VelDvorid" "Motyn" "Lekid" "Chistoye" "Vakrimid" "Alpid" "Khimki" "Araslan" "Tarmaçid" "Mänäsid" "Koytyid" "Berezan" "Rasumowkid" "Ryasnoye" "Kisaid" "Bodesti" "Kayghalaid" "Sartäçid" "Kibarid" "Busirid" "Vorgashorid" "Ilikid" "Bastu" "Barjikid" "Ichin" "Ötemisid" "Samsamid" "Mutnyyid" "Chermid" "Nizvid" "Burashevo" "Korenovo" "Choyid" "Sukhinichi" "Znamiankid" "Araslan" "Tokmakid" "Bälgiçi" "Mänärid" "Böri" "Khuterkin" "Tuzniqid" "Sartäçid" "Kibarid" "Baghaturid" }
+	}
+	karluk = {
+		primary = UZB
+		dynasty_names = { "Karlukid" "Tamghançurid" "Satuqbughrid" "Yollughtegin" "Öztoghdïid" }
+	}
+}

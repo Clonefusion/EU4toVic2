@@ -1,0 +1,89 @@
+# Ammarajid
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 130 0 20 }
+
+
+
+
+leader_names = {
+
+	"Ammaraja" "Somaditya" "Vijayaditya" "Chandena" "Anavota" "Kadeyaraja" "Narendra" "Srimahadevi" "Kumaragiri" "Rudramadevi" 
+	"Anitalli" "Ganapathideva" "Nagipoti" "Rudramba" "No Character" "Chamekamba" "Ballaladeva" "Vengabhupathi" "Rajanayaka" "Danamava" 
+	"Prataparudra" "Chellava" "Vendakadri" "Jogama" "Mahadeva" "Chandaladevi" "Konganivarman" "Thimma" "Akkadevi" "Kubjavishnuvardhana" 
+	"Yuddamalla" "Allada" "Allayavema" "Amma" "Anavema" "Ayyapayya" "Baladitya" "Beta" "Bhima" "Bhandanaditya" 
+	"Chennappa" "Devanayaka" "Durgaraja" "Ganapathinayaka" "Indrabhattaraka" "Jayasimha" "Kaapayanayaka" "Kalakampa" "Kammanayaka" "Katayavema" 
+	"Mahakala" "Mangiyuvaraja" "Mallapa" "Nachana" "Niravadyadhavala" "Nrpakama" "Pandaranga" "Prola" "Prolayanayak" "Prolayavema" 
+	"Prthiviyaraja" "Rajaraja" "Rudradeva" "Saktivarman" "Singamanayaka" "Vimaladitya" "Virabhadra" "Vishnuvardhana" "Yuddhamalla" }
+monarch_names = {
+	"Ammaraja #1" = 24
+	"Somaditya #2" = 21
+	"Vijayaditya #0" = 1
+	"Chandena #0" = -1
+	"Anavota #2" = 21
+	"Kadeyaraja #0" = 1
+	"Narendra #0" = 1
+	"Srimahadevi #0" = -1
+	"Kumaragiri #0" = 1
+	"Rudramadevi #0" = -1
+	"Anitalli #0" = -1
+	"Ganapathideva #0" = 1
+	"Nagipoti #0" = -1
+	"Rudramba #0" = -1
+	"No Character #1" = 0
+	"Chamekamba #1" = -1
+	"Ballaladeva #1" = 0
+	"Vengabhupathi #3" = 0
+	"Rajanayaka #2" = 0
+	"Danamava #1" = 0
+	"Prataparudra #1" = 0
+	"Chellava #1" = -1
+	"Vendakadri #1" = 0
+	"Jogama #1" = 0
+	"Mahadeva #1" = 0
+	"Chandaladevi #1" = -1
+	"Konganivarman #5" = 0
+	"Thimma #1" = 0
+	"Akkadevi #1" = -1
+	"Kubjavishnuvardhana #1" = 0
+	"Yuddamalla #1" = 0
+	"Allada #0" = 0
+	"Allayavema #0" = 0
+	"Amma #0" = 0
+	"Anavema #0" = 0
+	"Ayyapayya #0" = 0
+	"Baladitya #0" = 0
+	"Beta #0" = 0
+	"Bhima #0" = 0
+	"Bhandanaditya #0" = 0
+	"Chennappa #0" = 0
+	"Devanayaka #0" = 0
+	"Durgaraja #0" = 0
+	"Ganapathinayaka #0" = 0
+	"Indrabhattaraka #0" = 0
+	"Jayasimha #0" = 0
+	"Kaapayanayaka #0" = 0
+	"Kalakampa #0" = 0
+	"Kammanayaka #0" = 0
+	"Katayavema #0" = 0
+	"Mahakala #0" = 0
+	"Mangiyuvaraja #0" = 0
+	"Mallapa #0" = 0
+	"Nachana #0" = 0
+	"Niravadyadhavala #0" = 0
+	"Nrpakama #0" = 0
+	"Pandaranga #0" = 0
+	"Prola #0" = 0
+	"Prolayanayak #0" = 0
+	"Prolayavema #0" = 0
+	"Prthiviyaraja #0" = 0
+	"Rajaraja #0" = 0
+	"Rudradeva #0" = 0
+	"Saktivarman #0" = 0
+	"Singamanayaka #0" = 0
+	"Vimaladitya #0" = 0
+	"Virabhadra #0" = 0
+	"Vishnuvardhana #0" = 0
+	"Yuddhamalla #0" = 0
+}
+

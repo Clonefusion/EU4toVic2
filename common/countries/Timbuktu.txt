@@ -1,9 +1,7 @@
-#Country Name: Please seefilename.
-
-graphical_culture = africangfx
-
-color = { 230  231  62 }
-
+# Timbuktu
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 45 90 224 }
 historical_idea_groups = {
 	trade_ideas
 	defensive_ideas
@@ -22,96 +20,134 @@ historical_units = {
 	niger_kongolese_gunpowder_warfare
 	westernized_niger_kongolese
 	african_western_franchise_warfare
-	african_mandelaku
-	african_tuareg_cavalry
-	african_mossi_horsemen
-	african_hussar
-	african_dragoon
 }
 
-monarch_names = {
-	"Akil #0" = 10
-	"Agg-Abba #0" = 120
-	"al-Amin #0" = 160
-	"al-Wali #0" = 20
-	"al-Mu'min #0" = 20
-	"Uthman #0" = 20
-	"Agg-A'isha #0" = 20
-	"Humad #0" = 80
-	"Guma #0" = 60
-	"al-Adil #0" = 20
-	"ad-Dani #0" = 40
-	"al-Baqiri #0" = 20
-	"Waffa #0" = 20
-	"Ibrahim Waffa #0" = 20
-	"al-Qadir #0" = 20
-	"ar-Raffa #0" = 0
-	"ad-Dusuki #0" = 0
-	"Mikitan #0" = 0
-	"ar-Rahman #0" = 0
-	"Umaru #0" = 0
-	"ag-Ibrahim #0" = 0
-	"Salah #0" = 0
-	"al-Khir #0" = 0
-	"Yunus #0" = 0
-	"Ag Mama #0" = 0
-	"al-Hajj #0" = 0
-	"Ahmad #0" = 0
-	"Aytarel #0" = 0
-	"Attici #0" = 0
-	"Musa #0" = 0
-	"Akhamuk #0" = 0
-	"Meslar #0" = 0
-	"Bayy #0" = 0
-	
-	"Takama #0" = -1
-	"Tanteflest #0" = -1
-	"Tarayna #0" = -1
-	"Dassin #0" = -1
-	"Guraya #0" = -1
-}
+
 
 leader_names = {
-	Akamalwal
-	"Ait Loaien"
-	"Dag Rali"
-	Iregenaten
-	"Kel Rela"
-	"Kel Silet"
-	Taituq
-	"Tgéhé Millet"
-	"Kel Afella"
-	"Kel Taghlit"
-	"Kel Essouk"
-	"Kel Ouzzeyn"
-	Ifergoumessen
-	Iriyaken
-	"Taghat Mellet"
-	Idnan
-	Ibatanaten
-	"Kel Gharous"
-	"Kel Tadele"
-	"Kel Tamat"
-	Ikazkazan
-	"Kel Fadey"
-	Igdalen
-	"Kel Ferwan"
-	Tahabanaten
-	Ighatafan
-	Irreulen
-	Lisawan
-	Tiggirmat
-	Tellemidez
-	Ikhekheren
-	"Kel Nan"
 
+	"Suleyman" "Musa" "Karima" "Fatima" "Aissa" "Waziri" "Megistos" "Dikwa" "Raphail" "Shakira" 
+	"Kiyari" "Mufioma" "Zer'wal" "Zafir" "Annaber" "Badia" "Ajeddig" "Hashim" "H'emmu" "Akli" 
+	"Jamal" "Abazza" "Takoi" "Hawa" "Menzu" "T'ar'iq" "Khidr" "Cantara" "Lyaqut" "Siya" 
+	"Aichata" "Alayaman" "Konstantia" "Eusebios" "Phokas" "Belisarios" "Khadija" "Aziza" "Abdulraham" "Abdallah" 
+	"Abubakar" "Adam" "Ahmed" "Airimi" "Alhaji" "Alooma" "Amin" "Amr" "Arku" "Arsu" 
+	"Baba" "Baram" "Bikorom" "Biri" "Bukar" "Bulu" "Buyuma" "Dabbalemi" "Dala" "Daoud" 
+	"Dugu" "Dunama" "Fune" "Gaji" "Gajideni" "Galrima" "Gana" "Garbai" "Gazali" "Gazi" 
+	"Ghana" "Hume" "Hummay" "Ibrahim" "Idris" "Kaday" "Kanemi" "Kashim" "Katakarmabe" "Katur" 
+	"Kura" "Kuri" "Kuwaana" "Madu" "Mahmoud" "Mamane" "Modu" "Murama" "Mustafa" "Nikale" 
+	"Osman" "Said" "Salmama" "Sanda" "Sani" "Sef" "Selma" "Shettima" "Shu" "Tandja" 
+	"Umar" "Yahya" "Yaqub" "Yusuf" "Zannah" }
+monarch_names = {
+	"Suleyman #0" = 1
+	"Musa #1" = 18
+	"Karima #0" = -1
+	"Fatima #0" = -1
+	"Aissa #0" = -1
+	"Waziri #0" = 1
+	"Megistos #0" = 1
+	"Dikwa #0" = -1
+	"Raphail #0" = 1
+	"Shakira #0" = -1
+	"Kiyari #0" = 1
+	"Mufioma #0" = 1
+	"Zer'wal #1" = 0
+	"Zafir #1" = 0
+	"Annaber #2" = 0
+	"Badia #1" = -1
+	"Ajeddig #1" = 0
+	"Hashim #1" = 0
+	"H'emmu #1" = 0
+	"Akli #1" = 0
+	"Jamal #1" = 0
+	"Abazza #1" = 0
+	"Takoi #1" = 0
+	"Hawa #1" = -1
+	"Menzu #1" = 0
+	"T'ar'iq #2" = 0
+	"Khidr #1" = 0
+	"Cantara #1" = -1
+	"Lyaqut #1" = -1
+	"Siya #1" = -1
+	"Aichata #1" = -1
+	"Alayaman #1" = 0
+	"Konstantia #1" = -1
+	"Eusebios #1" = 0
+	"Phokas #1" = 0
+	"Belisarios #1" = 0
+	"Khadija #1" = -1
+	"Aziza #1" = -1
+	"Abdulraham #1" = 0
+	"Abdallah #0" = 0
+	"Abubakar #0" = 0
+	"Adam #0" = 0
+	"Ahmed #0" = 0
+	"Airimi #0" = 0
+	"Alhaji #0" = 0
+	"Alooma #0" = 0
+	"Amin #0" = 0
+	"Amr #0" = 0
+	"Arku #0" = 0
+	"Arsu #0" = 0
+	"Baba #0" = 0
+	"Baram #0" = 0
+	"Bikorom #0" = 0
+	"Biri #0" = 0
+	"Bukar #0" = 0
+	"Bulu #0" = 0
+	"Buyuma #0" = 0
+	"Dabbalemi #0" = 0
+	"Dala #0" = 0
+	"Daoud #0" = 0
+	"Dugu #0" = 0
+	"Dunama #0" = 0
+	"Fune #0" = 0
+	"Gaji #0" = 0
+	"Gajideni #0" = 0
+	"Galrima #0" = 0
+	"Gana #0" = 0
+	"Garbai #0" = 0
+	"Gazali #0" = 0
+	"Gazi #0" = 0
+	"Ghana #0" = 0
+	"Hume #0" = 0
+	"Hummay #0" = 0
+	"Ibrahim #0" = 0
+	"Idris #0" = 0
+	"Kaday #0" = 0
+	"Kanemi #0" = 0
+	"Kashim #0" = 0
+	"Katakarmabe #0" = 0
+	"Katur #0" = 0
+	"Kura #0" = 0
+	"Kuri #0" = 0
+	"Kuwaana #0" = 0
+	"Madu #0" = 0
+	"Mahmoud #0" = 0
+	"Mamane #0" = 0
+	"Modu #0" = 0
+	"Murama #0" = 0
+	"Mustafa #0" = 0
+	"Nikale #0" = 0
+	"Osman #0" = 0
+	"Said #0" = 0
+	"Salmama #0" = 0
+	"Sanda #0" = 0
+	"Sani #0" = 0
+	"Sef #0" = 0
+	"Selma #0" = 0
+	"Shettima #0" = 0
+	"Shu #0" = 0
+	"Tandja #0" = 0
+	"Umar #0" = 0
+	"Yahya #0" = 0
+	"Yaqub #0" = 0
+	"Yusuf #0" = 0
+	"Zannah #0" = 0
 }
-
 ship_names = {
-	Amenis "Mula-Mula" Akhoudi Takhourhit Araleg Abaikor Aheluf "Aouak'k'as" Amschisch 
-	Élou Ésou Ekahi Eys Aqjun Tahenkat Amayas Ahulil Tafuk Tallit Etran Elkessan 
-	"Tatrit n tufat" "Teschek-ulli" Talamt Aura "Schet-ehad" Amanar "Edi n Amanar" Taggait 
-	"Abuk Eneden" Mehellau Arer Telek Takouba Taganzé Amor Elmusi Adrar Tasilé addhar Adhou 
-	Egagg Harmattan Tezelader "Nchar-n-icheren" Agzir Azeggagh Averckan Illascchevhan 
-	Awragh Azegaw Ahlahal 
+	Kiringa Timbuktu "Koumbi Saleh" Gao
+	Jenne "Sundiata Keita" "Kankan Musa"
+	"Kouroukan Fouga" "Wali Keita" "Quati Keita"
+	"Khalifa Keita" Sakura
 }
+

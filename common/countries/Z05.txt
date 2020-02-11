@@ -1,0 +1,413 @@
+# Gwynedd
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 172 99 22 }
+historical_idea_groups = {
+	naval_ideas
+	aristocracy_ideas
+	trade_ideas
+	economic_ideas
+	religious_ideas
+	innovativeness_ideas
+	offensive_ideas
+	defensive_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_longbow
+	gaelic_mercenary
+	gaelic_free_shooter
+	irish_charge
+	anglofrench_line
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+
+
+leader_names = {
+
+	"Markward" "Tewdrig" "Maches" "Gwydol" "Delyth" "Henry" "Dwynwen" "Brychan" "Dyddgu" "Meilyr" 
+	"Rodina" "Flora" "Cedwyn" "Cadog" "Hugh" "Haukr" "Arianrhod" "Cadell" "Nesta" "Sigismund" 
+	"Cothilda" "Hrolfr" "Konstanze" "Brunhilde" "Dietmar" "Serhilda" "Friedrica" "Christine" "Barbara" "Gerhild" 
+	"Landolf" "Radbot" "Ingeltrude" "Karlotte" "Asbjörn" "Dietrich" "Adelheid" "Trude" "No Character" "Cuhelyn" 
+	"Gwen" "Þorgil" "Tryggve" "Siweard" "Stigand" "Beorhtwynn" "Hrodberht" "Æthelwulf" "Adalhard" "Kaspar" 
+	"Liutpold" "Arnold" "Werner" "Amadeus" "Meinhard" "Ludolf" "Hartmann" "Arni" "Gertruda" "Walter" 
+	"Gwerstan" "Faste" "Adda" "Adgar" "Adran" "Aeddan" "Alan" "Aldwr" "Algwyn" "Alisander" 
+	"Alured" "Alwyn" "Anarawd" "Andreas" "Aneurin" "Anlaff" "Anllech" "Annwn" "Argad" "Arod" 
+	"Arthen" "Arthfael" "Arthfoddw" "Arthwr" "Arthws" "Arthwys" "Asa" "Asaph" "Awst" "Bangar" 
+	"Bedwyr" "Beli" "Berthgwyn" "Berthwallt" "Bleddyn" "Bledrig" "Bleiddud" "Branwaladr" "Bride" "Briog" 
+	"Brochfael" "Brwt" "Brwyn" "Brân" "Cadeyrn" "Cadfael" "Cadfan" "Cadw" "Cadwal" "Cadwaladr" 
+	"Cadwallon" "Cadwared" "Cadwgan" "Cadwr" "Cai" "Caid" "Cain" "Caradog" "Casnar" "Caswallon" 
+	"Cawdaf" "Cedig" "Ceneu" "Ceredig" "Clydog" "Coel" "Corentin" "Custennin" "Cwlfyn" "Cwrig" 
+	"Cydifor" "Cydrych" "Cynan" "Cynddelw" "Cyndyddan" "Cynddylan" "Cyndeyrn" "Cynfael" "Cynfarch" "Cynfawr" 
+	"Cynfeddw" "Cynfelyn" "Cynfran" "Cynfyn" "Cyngar" "Cyngen" "Cynwallon" "Cynwared" "Cynwrig" "Cynwyd" 
+	"Cynyr" "Cysteint" "Dafydd" "Deheuwant" "Deiniol" "Dewi" "Dogfael" "Drystan" "Dumnagual" "Dwyfan" 
+	"Dyfnarth" "Dyfnwal" "Dyfnwallon" "Dynod" "Dywel" "Edern" "Ednyfed" "Ednywain" "Edryd" "Edwyn" 
+	"Edylfred" "Einion" "Elfin" "Elidyr" "Elis" "Elisedd" "Elud" "Elystan" "Emrys" "Enfidaig" 
+	"Erb" "Erclwf" "Eudaf" "Ewyas" "Ffernfael" "Ffilip" "Ffriog" "Ffwdwr" "Fragan" "Ffransis" 
+	"Fychan" "Fyrsil" "Gamon" "Garmon" "Geraint" "Gerallt" "Glwyddien" "Glywys" "Godwyn" "Goronwy" 
+	"Gronw" "Gruffydd" "Grygor" "Guret" "Gwalchmai" "Gwenwynwyn" "Gwerthefyr" "Gwerthern" "Gwydolin" "Gwyn" 
+	"Gwidyr" "Gwilym" "Gwrfawr" "Gwrfoddw" "Gwrgant" "Gwrgeneu" "Gwrgi" "Gwriad" "Harri" "Herewallt" 
+	"Huw" "Hywel" "Iago" "Ivor" "Idnerth" "Idwal" "Idwallon" "Iestyn" "Ieuan" "Ifor" 
+	"Io" "Ioan" "Iolo" "Iorwerth" "Ithel" "Lles" "Llew" "Llyr" "Llywarch" "Llywelyn" 
+	"Macsen" "Madog" "Mael" "Maelcwn" "Maelgwn" "Maenyrch" "March" "Maredudd" "Math" "Mawgan" 
+	"Meirchion" "Meiriadog" "Meirion" "Merfyn" "Meurig" "Mihangel" "Morfarch" "Morgan" "Morien" "Morydd" 
+	"Mwyn" "Myrddin" "Neithon" "Nowy" "Nynniaw" "Oswallt" "Owain" "Oucydd" "Padern" "Padrig" 
+	"Pandoff" "Pasgen" "Padarn" "Pawl" "Pedr" "Peredyr" "Publig" "Pyr" "Rheinallt" "Rhicert" 
+	"Rhigeneu" "Rhirid" "Rhiwal" "Rhiwallon" "Rhobert" "Rhodri" "Rhufon" "Rhun" "Rhydderch" "Rhydog" 
+	"Rhys" "Riaged" "Richwin" "Sandde" "Sawyl" "Seferus" "Seisyll" "Selyf" "Senyllt" "Serigi" 
+	"Sieffre" "Sion" "Sior" "Siwauna" "Steffen" "Stinian" "Sulien" "Taliesin" "Tegonwy" "Tegwyd" 
+	"Teilo" "Teithfalch" "Teudebur" "Tewdos" "Tewdwr" "Tomos" "Trahaearn" "Tudur" "Tudwal" "Tudwallon" 
+	"Tydy" "Tyfoedd" "Tysilio" "Urien" "Uthyr" "Ynyr" "Ysfael" }
+monarch_names = {
+	"Markward #0" = 1
+	"Tewdrig #1" = 30
+	"Maches #0" = -1
+	"Gwydol #0" = 1
+	"Delyth #0" = -1
+	"Henry #0" = 1
+	"Dwynwen #0" = -1
+	"Brychan #0" = 1
+	"Dyddgu #0" = -1
+	"Meilyr #0" = 1
+	"Rodina #0" = -1
+	"Flora #0" = -1
+	"Cedwyn #0" = 1
+	"Cadog #0" = 1
+	"Hugh #0" = 1
+	"Haukr #1" = 21
+	"Arianrhod #0" = -1
+	"Cadell #0" = 1
+	"Nesta #0" = -1
+	"Sigismund #0" = 1
+	"Cothilda #0" = -1
+	"Hrolfr #0" = 1
+	"Konstanze #0" = -1
+	"Brunhilde #0" = -1
+	"Dietmar #0" = 1
+	"Serhilda #0" = -1
+	"Friedrica #1" = -19
+	"Christine #0" = -1
+	"Barbara #0" = -1
+	"Gerhild #0" = -1
+	"Landolf #0" = 1
+	"Radbot #0" = 1
+	"Ingeltrude #0" = -1
+	"Karlotte #0" = -1
+	"Asbjörn #0" = 1
+	"Dietrich #0" = 1
+	"Adelheid #0" = -1
+	"Trude #0" = -1
+	"No Character #19" = 0
+	"Cuhelyn #2" = 0
+	"Gwen #1" = -1
+	"Þorgil #1" = 0
+	"Tryggve #1" = 0
+	"Siweard #1" = 0
+	"Stigand #1" = 0
+	"Beorhtwynn #1" = -1
+	"Hrodberht #1" = 0
+	"Æthelwulf #1" = 0
+	"Adalhard #1" = 0
+	"Kaspar #1" = 0
+	"Liutpold #2" = 0
+	"Arnold #1" = 0
+	"Werner #1" = 0
+	"Amadeus #1" = 0
+	"Meinhard #1" = 0
+	"Ludolf #1" = 0
+	"Hartmann #2" = 0
+	"Arni #1" = 0
+	"Gertruda #1" = -1
+	"Walter #1" = 0
+	"Gwerstan #1" = 0
+	"Faste #1" = 0
+	"Adda #0" = 0
+	"Adgar #0" = 0
+	"Adran #0" = 0
+	"Aeddan #0" = 0
+	"Alan #0" = 0
+	"Aldwr #0" = 0
+	"Algwyn #0" = 0
+	"Alisander #0" = 0
+	"Alured #0" = 0
+	"Alwyn #0" = 0
+	"Anarawd #0" = 0
+	"Andreas #0" = 0
+	"Aneurin #0" = 0
+	"Anlaff #0" = 0
+	"Anllech #0" = 0
+	"Annwn #0" = 0
+	"Argad #0" = 0
+	"Arod #0" = 0
+	"Arthen #0" = 0
+	"Arthfael #0" = 0
+	"Arthfoddw #0" = 0
+	"Arthwr #0" = 0
+	"Arthws #0" = 0
+	"Arthwys #0" = 0
+	"Asa #0" = 0
+	"Asaph #0" = 0
+	"Awst #0" = 0
+	"Bangar #0" = 0
+	"Bedwyr #0" = 0
+	"Beli #0" = 0
+	"Berthgwyn #0" = 0
+	"Berthwallt #0" = 0
+	"Bleddyn #0" = 0
+	"Bledrig #0" = 0
+	"Bleiddud #0" = 0
+	"Branwaladr #0" = 0
+	"Bride #0" = 0
+	"Briog #0" = 0
+	"Brochfael #0" = 0
+	"Brwt #0" = 0
+	"Brwyn #0" = 0
+	"Brân #0" = 0
+	"Cadeyrn #0" = 0
+	"Cadfael #0" = 0
+	"Cadfan #0" = 0
+	"Cadw #0" = 0
+	"Cadwal #0" = 0
+	"Cadwaladr #0" = 0
+	"Cadwallon #0" = 0
+	"Cadwared #0" = 0
+	"Cadwgan #0" = 0
+	"Cadwr #0" = 0
+	"Cai #0" = 0
+	"Caid #0" = 0
+	"Cain #0" = 0
+	"Caradog #0" = 0
+	"Casnar #0" = 0
+	"Caswallon #0" = 0
+	"Cawdaf #0" = 0
+	"Cedig #0" = 0
+	"Ceneu #0" = 0
+	"Ceredig #0" = 0
+	"Clydog #0" = 0
+	"Coel #0" = 0
+	"Corentin #0" = 0
+	"Custennin #0" = 0
+	"Cwlfyn #0" = 0
+	"Cwrig #0" = 0
+	"Cydifor #0" = 0
+	"Cydrych #0" = 0
+	"Cynan #0" = 0
+	"Cynddelw #0" = 0
+	"Cyndyddan #0" = 0
+	"Cynddylan #0" = 0
+	"Cyndeyrn #0" = 0
+	"Cynfael #0" = 0
+	"Cynfarch #0" = 0
+	"Cynfawr #0" = 0
+	"Cynfeddw #0" = 0
+	"Cynfelyn #0" = 0
+	"Cynfran #0" = 0
+	"Cynfyn #0" = 0
+	"Cyngar #0" = 0
+	"Cyngen #0" = 0
+	"Cynwallon #0" = 0
+	"Cynwared #0" = 0
+	"Cynwrig #0" = 0
+	"Cynwyd #0" = 0
+	"Cynyr #0" = 0
+	"Cysteint #0" = 0
+	"Dafydd #0" = 0
+	"Deheuwant #0" = 0
+	"Deiniol #0" = 0
+	"Dewi #0" = 0
+	"Dogfael #0" = 0
+	"Drystan #0" = 0
+	"Dumnagual #0" = 0
+	"Dwyfan #0" = 0
+	"Dyfnarth #0" = 0
+	"Dyfnwal #0" = 0
+	"Dyfnwallon #0" = 0
+	"Dynod #0" = 0
+	"Dywel #0" = 0
+	"Edern #0" = 0
+	"Ednyfed #0" = 0
+	"Ednywain #0" = 0
+	"Edryd #0" = 0
+	"Edwyn #0" = 0
+	"Edylfred #0" = 0
+	"Einion #0" = 0
+	"Elfin #0" = 0
+	"Elidyr #0" = 0
+	"Elis #0" = 0
+	"Elisedd #0" = 0
+	"Elud #0" = 0
+	"Elystan #0" = 0
+	"Emrys #0" = 0
+	"Enfidaig #0" = 0
+	"Erb #0" = 0
+	"Erclwf #0" = 0
+	"Eudaf #0" = 0
+	"Ewyas #0" = 0
+	"Ffernfael #0" = 0
+	"Ffilip #0" = 0
+	"Ffriog #0" = 0
+	"Ffwdwr #0" = 0
+	"Fragan #0" = 0
+	"Ffransis #0" = 0
+	"Fychan #0" = 0
+	"Fyrsil #0" = 0
+	"Gamon #0" = 0
+	"Garmon #0" = 0
+	"Geraint #0" = 0
+	"Gerallt #0" = 0
+	"Glwyddien #0" = 0
+	"Glywys #0" = 0
+	"Godwyn #0" = 0
+	"Goronwy #0" = 0
+	"Gronw #0" = 0
+	"Gruffydd #0" = 0
+	"Grygor #0" = 0
+	"Guret #0" = 0
+	"Gwalchmai #0" = 0
+	"Gwenwynwyn #0" = 0
+	"Gwerthefyr #0" = 0
+	"Gwerthern #0" = 0
+	"Gwydolin #0" = 0
+	"Gwyn #0" = 0
+	"Gwidyr #0" = 0
+	"Gwilym #0" = 0
+	"Gwrfawr #0" = 0
+	"Gwrfoddw #0" = 0
+	"Gwrgant #0" = 0
+	"Gwrgeneu #0" = 0
+	"Gwrgi #0" = 0
+	"Gwriad #0" = 0
+	"Harri #0" = 0
+	"Herewallt #0" = 0
+	"Huw #0" = 0
+	"Hywel #0" = 0
+	"Iago #0" = 0
+	"Ivor #0" = 0
+	"Idnerth #0" = 0
+	"Idwal #0" = 0
+	"Idwallon #0" = 0
+	"Iestyn #0" = 0
+	"Ieuan #0" = 0
+	"Ifor #0" = 0
+	"Io #0" = 0
+	"Ioan #0" = 0
+	"Iolo #0" = 0
+	"Iorwerth #0" = 0
+	"Ithel #0" = 0
+	"Lles #0" = 0
+	"Llew #0" = 0
+	"Llyr #0" = 0
+	"Llywarch #0" = 0
+	"Llywelyn #0" = 0
+	"Macsen #0" = 0
+	"Madog #0" = 0
+	"Mael #0" = 0
+	"Maelcwn #0" = 0
+	"Maelgwn #0" = 0
+	"Maenyrch #0" = 0
+	"March #0" = 0
+	"Maredudd #0" = 0
+	"Math #0" = 0
+	"Mawgan #0" = 0
+	"Meirchion #0" = 0
+	"Meiriadog #0" = 0
+	"Meirion #0" = 0
+	"Merfyn #0" = 0
+	"Meurig #0" = 0
+	"Mihangel #0" = 0
+	"Morfarch #0" = 0
+	"Morgan #0" = 0
+	"Morien #0" = 0
+	"Morydd #0" = 0
+	"Mwyn #0" = 0
+	"Myrddin #0" = 0
+	"Neithon #0" = 0
+	"Nowy #0" = 0
+	"Nynniaw #0" = 0
+	"Oswallt #0" = 0
+	"Owain #0" = 0
+	"Oucydd #0" = 0
+	"Padern #0" = 0
+	"Padrig #0" = 0
+	"Pandoff #0" = 0
+	"Pasgen #0" = 0
+	"Padarn #0" = 0
+	"Pawl #0" = 0
+	"Pedr #0" = 0
+	"Peredyr #0" = 0
+	"Publig #0" = 0
+	"Pyr #0" = 0
+	"Rheinallt #0" = 0
+	"Rhicert #0" = 0
+	"Rhigeneu #0" = 0
+	"Rhirid #0" = 0
+	"Rhiwal #0" = 0
+	"Rhiwallon #0" = 0
+	"Rhobert #0" = 0
+	"Rhodri #0" = 0
+	"Rhufon #0" = 0
+	"Rhun #0" = 0
+	"Rhydderch #0" = 0
+	"Rhydog #0" = 0
+	"Rhys #0" = 0
+	"Riaged #0" = 0
+	"Richwin #0" = 0
+	"Sandde #0" = 0
+	"Sawyl #0" = 0
+	"Seferus #0" = 0
+	"Seisyll #0" = 0
+	"Selyf #0" = 0
+	"Senyllt #0" = 0
+	"Serigi #0" = 0
+	"Sieffre #0" = 0
+	"Sion #0" = 0
+	"Sior #0" = 0
+	"Siwauna #0" = 0
+	"Steffen #0" = 0
+	"Stinian #0" = 0
+	"Sulien #0" = 0
+	"Taliesin #0" = 0
+	"Tegonwy #0" = 0
+	"Tegwyd #0" = 0
+	"Teilo #0" = 0
+	"Teithfalch #0" = 0
+	"Teudebur #0" = 0
+	"Tewdos #0" = 0
+	"Tewdwr #0" = 0
+	"Tomos #0" = 0
+	"Trahaearn #0" = 0
+	"Tudur #0" = 0
+	"Tudwal #0" = 0
+	"Tudwallon #0" = 0
+	"Tydy #0" = 0
+	"Tyfoedd #0" = 0
+	"Tysilio #0" = 0
+	"Urien #0" = 0
+	"Uthyr #0" = 0
+	"Ynyr #0" = 0
+	"Ysfael #0" = 0
+}
+ship_names = {
+	Bedwyr Brycheiniog
+	Cadwaladr Caerdydd Caernarfon Caradoc Ceredigion Conwy Culhwch  
+	Deheubarth "Dewi Sant" Dolbadarn Dolwyddelan Dyfed
+	Eryri
+	Glywysing Gwalchmei "Gwenan Gorn" Gwydion Gwyn Gwynedd
+	Lleu "Llewellyn Fawr"
+	Mabinogi Math Meirionydd Morgannwg
+	Olwen "Owain Glyndwr"
+	Penfro Powys "Preiddeu Annwn" Pryderi Pwyll
+	Rhiannon
+	Taff Teifi Teirnon Tywi
+	"Ynys Môn"
+}
+

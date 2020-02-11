@@ -1,103 +1,178 @@
-#Country Name: Please see filename.
-
+# Cyprus
+ck2_converter_generated = yes
 graphical_culture = easterngfx
+color = { 239 109 163 }
 
-color = { 245 200 30 }
 
-historical_idea_groups = {
-	defensive_ideas
-	religious_ideas
-	offensive_ideas
-	spy_ideas
-	trade_ideas
-	maritime_ideas
-	economic_ideas
-	diplomatic_ideas
-}
 
-historical_units = {
-	eastern_medieval_infantry
-	eastern_knights
-	slavic_stradioti
-	eastern_militia
-	ottoman_spahi
-	ottoman_sekban
-	ottoman_reformed_spahi
-	ottoman_reformed_janissary
-	ottoman_toprakli_hit_and_run
-	ottoman_nizami_cedid
-	ottoman_toprakli_dragoon
-	eastern_skirmisher
-	eastern_uhlan
-	eastern_carabinier
-	ottoman_new_model
-	ottoman_lancer
-}
 
+leader_names = {
+
+	"Saris" "Scolaster" "Pultzelina" "Madrona" "Theophylaktos" "Murad" "Faisal" "Khalid" "Isa" "Akab" 
+	"Musa" "Ghazi" "Radhi" "Abdul-Razzaq" "Nikodemos" "Megistos" "Orchaldor" "Porphyrios" "Hierotheos" "Gerasimos" 
+	"Hippolytos" "Thranduil" "Menashe" "Rava" "Chananel" "Shalom" "Beila" "Shlomo" "Ravya" "Meir" 
+	"Umaya" "Mari" "Chana" "Abba" "Abbaye" "Acha" "Achai" "Achunai" "Aharon" "Alechsandri" 
+	"Ammi" "Amram" "Amunah" "Ashi" "Asher" "Avomai" "Avraham" "Azariah" "Baboi" "Baruch" 
+	"Bibai" "Binyamin" "Boaz" "Bustenai" "Chanan" "Chaninai" "Chanoch" "Chaim" "Chayim" "Chelbo" 
+	"Chisdai" "Chiyya" "Chizkiyah" "Chofni" "Chushiel" "Dimi" "Dodai" "Dudai" "Efrayim" "Eina" 
+	"Elazar" "Elchanan" "Eldad" "Eliezer" "Elyakim" "Gedalyah" "Gershom" "Ghayyat" "Giat" "Giza" 
+	"Hillel" "Hila" "Ivomai" "Kafnai" "Kahana" "Kalonymos" "Levi" "Kiyomi" "Machir" "Malcha" 
+	"Mar" "Matiyahu" "Menechem" "Mesharsheya" "Meshulam" "Mevasser" "Mishael" "Mordechai" "Moshe" "Nachman" 
+	"Nachshon" "Nasan" "Natan" "Natroi" "Natronai" "Nechemiah" "Nehilai" "Nesanel" "Nissim" "Paltoi" 
+	"Pirkoi" "Ravai" "Ravi" "Reuven" "Rivai" "Saadiah" "Sechok" "Shabsai" "Shanoi" "Shemaryah" 
+	"Sherira" "Sheshna" "Shila" "Shimon" "Shinoi" "Shmuel" "Sorgo" "Sulam" "Tachlifa" "Tamar" 
+	"Tzadok" "Tzemach" "Uri" "Yaakov" "Yachya" "Yechiel" "Yehudah" "Yehudai" "Yehoshua" "Yeshayah" 
+	"Yisrael" "Yitzchak" "Yoel" "Yosef" "Yoshiah" "Yosi" "Yuda" "Zakkai" "Zelekman" "Zuiskind" }
 monarch_names = {
-	"Jacques #1" = 40
-	"Jean #1" = 40
-	"Henri #2" = 15
-	"Hugues #4" = 10
-	"Guy #1" = 10
-	"Eudes #0" = 10
-	"Philippe #0" = 10
-	"Amalric #2" = 5
-	"Pierre #1" = 5
-	"Aiolos #0" = 0
-	"Bartholomaios #0" = 0
-	"Dionysios #0" = 0
-	"Eusebios #0" = 0
-	"Gregorios #0" = 0
-	"Heliodoros #0" = 0
-	"Hermogenes #0" = 0
-	"Hieronymos #0" = 0
-	"Ioannes #0" = 0
-	"Isidoros #0" = 0
-	"Konstantinos #0" = 0
-	"Kreon #0" = 0
-	"Lavrentios #0" = 0
-	"Matthaios #0" = 0
-	"Nikolaos #0" = 0
-	"Nikomachos #0" = 0
-	"Nomiki #0" = 0
-	"Onesimos #0" = 0
-	"Phamphilos #0" = 0
-	"Pantaleon #0" = 0
-	"Paris #0" = 0
-	"Pelagios #0" = 0
-	"Serafeim #0" = 0
-	"Spyridon #0" = 0
-	"Thaddeos #0" = 0
-	"Theodoros #0" = 0
-	"Urias #0" = 0
-	"Xenocrates #0" = 0
-	"Zacharias #0" = 0
-	"Zenobios #0" = 0
-	
-	"Charlotte #0" = -15
-	"Barbara #0" = -1
-	"Helene #0" = -1
+	"Saris #1" = -19
+	"Scolaster #0" = -1
+	"Pultzelina #0" = -1
+	"Madrona #0" = -1
+	"Theophylaktos #1" = 0
+	"Murad #1" = 0
+	"Faisal #1" = 0
+	"Khalid #1" = 0
+	"Isa #1" = 0
+	"Akab #1" = 0
+	"Musa #1" = 0
+	"Ghazi #1" = 0
+	"Radhi #1" = 0
+	"Abdul-Razzaq #1" = 0
+	"Nikodemos #1" = 0
+	"Megistos #1" = 0
+	"Orchaldor #1" = 0
+	"Porphyrios #1" = 0
+	"Hierotheos #1" = 0
+	"Gerasimos #1" = 0
+	"Hippolytos #1" = 0
+	"Thranduil #1" = 0
+	"Menashe #1" = 0
+	"Rava #2" = 0
+	"Chananel #2" = 0
+	"Shalom #1" = 0
+	"Beila #1" = -1
+	"Shlomo #1" = 0
+	"Ravya #1" = 0
+	"Meir #1" = 0
+	"Umaya #1" = 0
+	"Mari #1" = 0
+	"Chana #1" = -1
+	"Abba #0" = 0
+	"Abbaye #0" = 0
+	"Acha #0" = 0
+	"Achai #0" = 0
+	"Achunai #0" = 0
+	"Aharon #0" = 0
+	"Alechsandri #0" = 0
+	"Ammi #0" = 0
+	"Amram #0" = 0
+	"Amunah #0" = 0
+	"Ashi #0" = 0
+	"Asher #0" = 0
+	"Avomai #0" = 0
+	"Avraham #0" = 0
+	"Azariah #0" = 0
+	"Baboi #0" = 0
+	"Baruch #0" = 0
+	"Bibai #0" = 0
+	"Binyamin #0" = 0
+	"Boaz #0" = 0
+	"Bustenai #0" = 0
+	"Chanan #0" = 0
+	"Chaninai #0" = 0
+	"Chanoch #0" = 0
+	"Chaim #0" = 0
+	"Chayim #0" = 0
+	"Chelbo #0" = 0
+	"Chisdai #0" = 0
+	"Chiyya #0" = 0
+	"Chizkiyah #0" = 0
+	"Chofni #0" = 0
+	"Chushiel #0" = 0
+	"Dimi #0" = 0
+	"Dodai #0" = 0
+	"Dudai #0" = 0
+	"Efrayim #0" = 0
+	"Eina #0" = 0
+	"Elazar #0" = 0
+	"Elchanan #0" = 0
+	"Eldad #0" = 0
+	"Eliezer #0" = 0
+	"Elyakim #0" = 0
+	"Gedalyah #0" = 0
+	"Gershom #0" = 0
+	"Ghayyat #0" = 0
+	"Giat #0" = 0
+	"Giza #0" = 0
+	"Hillel #0" = 0
+	"Hila #0" = 0
+	"Ivomai #0" = 0
+	"Kafnai #0" = 0
+	"Kahana #0" = 0
+	"Kalonymos #0" = 0
+	"Levi #0" = 0
+	"Kiyomi #0" = 0
+	"Machir #0" = 0
+	"Malcha #0" = 0
+	"Mar #0" = 0
+	"Matiyahu #0" = 0
+	"Menechem #0" = 0
+	"Mesharsheya #0" = 0
+	"Meshulam #0" = 0
+	"Mevasser #0" = 0
+	"Mishael #0" = 0
+	"Mordechai #0" = 0
+	"Moshe #0" = 0
+	"Nachman #0" = 0
+	"Nachshon #0" = 0
+	"Nasan #0" = 0
+	"Natan #0" = 0
+	"Natroi #0" = 0
+	"Natronai #0" = 0
+	"Nechemiah #0" = 0
+	"Nehilai #0" = 0
+	"Nesanel #0" = 0
+	"Nissim #0" = 0
+	"Paltoi #0" = 0
+	"Pirkoi #0" = 0
+	"Ravai #0" = 0
+	"Ravi #0" = 0
+	"Reuven #0" = 0
+	"Rivai #0" = 0
+	"Saadiah #0" = 0
+	"Sechok #0" = 0
+	"Shabsai #0" = 0
+	"Shanoi #0" = 0
+	"Shemaryah #0" = 0
+	"Sherira #0" = 0
+	"Sheshna #0" = 0
+	"Shila #0" = 0
+	"Shimon #0" = 0
+	"Shinoi #0" = 0
+	"Shmuel #0" = 0
+	"Sorgo #0" = 0
+	"Sulam #0" = 0
+	"Tachlifa #0" = 0
+	"Tamar #0" = 0
+	"Tzadok #0" = 0
+	"Tzemach #0" = 0
+	"Uri #0" = 0
+	"Yaakov #0" = 0
+	"Yachya #0" = 0
+	"Yechiel #0" = 0
+	"Yehudah #0" = 0
+	"Yehudai #0" = 0
+	"Yehoshua #0" = 0
+	"Yeshayah #0" = 0
+	"Yisrael #0" = 0
+	"Yitzchak #0" = 0
+	"Yoel #0" = 0
+	"Yosef #0" = 0
+	"Yoshiah #0" = 0
+	"Yosi #0" = 0
+	"Yuda #0" = 0
+	"Zakkai #0" = 0
+	"Zelekman #0" = 0
+	"Zuiskind #0" = 0
 }
 
-ship_names = {
-	"Agios Georgios"
-	"Kato Yialla"
-	Lachi Leivadi Lempa 
-	Maa Maurvoll
-	Pakhyammos Pomos
-	Symvoulos
-}
-
-leader_names = { 
-	Bragadin 
-	Crispo
-	Doria	
-	Fadrigue
-	Lusignans
-	Melissinos 
-	Plethon
-	Rendis
-	Saraceno 
-	Tocco
-}

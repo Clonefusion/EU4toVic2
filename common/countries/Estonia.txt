@@ -1,65 +1,234 @@
-graphical_culture = westerngfx
-
-color = { 248  125  125 }
-
+# Estonia
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 150 75 75 }
 historical_idea_groups = {
 	trade_ideas
 	defensive_ideas
 	offensive_ideas
-	economic_ideas
 	diplomatic_ideas
-	aristocracy_ideas
 	spy_ideas
-	religious_ideas
+	economic_ideas
+	administrative_ideas
+	quantity_ideas
 }
 
 historical_units = {
-	western_medieval_infantry
-	western_medieval_knights
-	western_men_at_arms
-	swiss_landsknechten
-	dutch_maurician
-	swedish_gallop
-	swedish_gustavian
-	swedish_caroline
-	swedish_arme_blanche
-	prussian_frederickian
-	prussian_uhlan
-	mixed_order_infantry
-	open_order_cavalry
-	napoleonic_square
-	napoleonic_lancers
+	bardiche_infantry
+	eastern_knights
+	slavic_stradioti
+	eastern_militia
+	hungarian_hussar
+	polish_musketeer
+	polish_hussar
+	polish_tercio
+	polish_winged_hussar
+	russian_lancer
+	russian_cuirassier
+	eastern_skirmisher
+	eastern_uhlan
+	eastern_carabinier
+	russian_mass
 }
+
+
 
 leader_names = {
-	Bielke Horn Tott
-	Fleming Paijkull Bonde
-	Wrede Soop
-	Mannerheim Furuhjelm Aminoff
-	Armfelt Carpelan Rehbinder Schulman
-}
 
-ship_names = {
-	Reval Hapsal Weissenstein Wesenberg Pernau
-	Toompea Ösel Arensburg Narva Maria
-}
-
+	"Pliksov" "Naula" "Likiik" "Baise" "Manvydas" "Agita" "Rushky" "Imela" "Juvage" "Pukuveras" 
+	"Litto" "Elmede" "Rasa" "Balodis" "Galene" "Gedere" "Meltsayka" "Treniota" "Zigne" "Karijotas" 
+	"Galeine" "Karnak" "Kage" "Daira" "Dzeguze" "Balba" "Pakstyan" "Bikshe" "Tautvila" "Visheiv" 
+	"Traidenis" "Lammekinus" "Kordula" "Greze" "Simsam" "Bitens" "Darate" "Shutr" "Gibedats" "Meinekinus" 
+	"Erdzivil" "Kuliens" "Butovit" "Vaishvilkas" "Maija" "Brita" "Aishno" "Dovyat" "Vishikut" "Marite" 
+	"Viesturs" "Ruta" "Dose" "Yalgava" "Savna" "Sprudeik" "Pukiik" "Dzintis" "Dardedze" "Jedetus" 
+	"Gunda" "Talivaldis" "Biur" "Dobre" "Eunike" "Scurdo" "Mel'shay" "Gastile" "Gerden" "Gundega" 
+	"Liga" "Arvo" "Jaunule" "Vidyava" "Narvait" "Borut" "Ieva" "Erasts" "Viba" "Cherava" 
+	"Faga-Laye" "Brian" "Davins" "Poshayka" "Dausprungas" "Imanta" "Kurlemuse" "Dangeruthe" "Sabe" "Tura" 
+	"Lonkogveni" "Parush" "Vykantas" "Ausala" "Ako" "Kanafa" "Yudki" "Tarkhan" "Gotene" "Sviendorog" 
+	"Demas" "Vishly" "Rusins" "Skornand" "Ringaudas" "Mafalda" "Isabelle" "Kodere" "Gunvald" "Giemund" 
+	"Marcelina" "Darbeslave" "Vetseke" "Bulei" "Hassana" "Geyka" "Babba" "Birma" "Yuma" "Malla" 
+	"Mecca" "Hamish" "Fodi" "Mar-Chindin" "Nameisis" "Gando" "Samsam" "Muir" "Ankad" "Cirulis" 
+	"Gavin" "Bannu" "Shvarnas" "Koïzé" "Rodina" "Dervorgilla" "Kiten" "Yaqub" "Kerstigens" "Indulf" 
+	"Tib" "Sargun" "Halima" "Steikint" "Namiss" "Klavess" "Dermid" "Aymort" "Mendune" "Morna" 
+	"No Character" "Hurmetõiv" "Raak" "Õigemeel" "Alfgeir" "Golovke" "Janis" "Kaire" "Kaupo" "Stegut" 
+	"Valikaila" }
 monarch_names = {
-	"Eerikki #0" = 20
-	"Jaak #0" = 20
-	"Ilmar #0" = 20
-	"Aabraham #0" = 10
-	"Kauri #0" = 10
-	"Priidu #0" = 10
-	"Marten #0" = 5
-	"Otto #0" = 5
-	"Jaakko #0" = 5
-	"Jürgen #0" = 5
-	"Kaarel #0" = 0
-	"Meeme #0" = 0
-	"Riivo #0" = 0
-	
-	"Silja #0" = -1
-	"Kätlin #0" = -1
-	"Juta #0" = -1
+	"Pliksov #0" = 1
+	"Naula #0" = -1
+	"Likiik #0" = 1
+	"Baise #1" = 39
+	"Manvydas #0" = 1
+	"Agita #0" = -1
+	"Rushky #0" = 1
+	"Imela #0" = -1
+	"Juvage #0" = 1
+	"Pukuveras #0" = 1
+	"Litto #0" = 1
+	"Elmede #0" = 1
+	"Rasa #0" = -1
+	"Balodis #0" = 1
+	"Galene #0" = -1
+	"Gedere #0" = 1
+	"Meltsayka #0" = 1
+	"Treniota #0" = 1
+	"Zigne #1" = -46
+	"Karijotas #0" = 1
+	"Galeine #0" = 1
+	"Karnak #0" = 1
+	"Kage #0" = 1
+	"Daira #0" = -1
+	"Dzeguze #1" = -49
+	"Balba #0" = -1
+	"Pakstyan #0" = 1
+	"Bikshe #0" = 1
+	"Tautvila #0" = 1
+	"Visheiv #0" = 1
+	"Traidenis #0" = 1
+	"Lammekinus #0" = 1
+	"Kordula #0" = -1
+	"Greze #0" = -1
+	"Simsam #0" = 1
+	"Bitens #0" = -1
+	"Darate #0" = -1
+	"Shutr #0" = 1
+	"Gibedats #0" = 1
+	"Meinekinus #0" = 1
+	"Erdzivil #0" = 1
+	"Kuliens #0" = 1
+	"Butovit #0" = 1
+	"Vaishvilkas #0" = 1
+	"Maija #0" = -1
+	"Brita #0" = -1
+	"Aishno #0" = 1
+	"Dovyat #0" = 1
+	"Vishikut #0" = 1
+	"Marite #0" = -1
+	"Viesturs #0" = 1
+	"Ruta #0" = -1
+	"Dose #2" = -49
+	"Yalgava #0" = -1
+	"Savna #0" = -1
+	"Sprudeik #1" = 30
+	"Pukiik #0" = 1
+	"Dzintis #0" = 1
+	"Dardedze #0" = -1
+	"Jedetus #0" = 1
+	"Gunda #0" = -1
+	"Talivaldis #0" = 1
+	"Biur #0" = 1
+	"Dobre #0" = 1
+	"Eunike #0" = -1
+	"Scurdo #0" = 1
+	"Mel'shay #0" = -1
+	"Gastile #0" = 1
+	"Gerden #0" = 1
+	"Gundega #0" = -1
+	"Liga #0" = -1
+	"Arvo #0" = 1
+	"Jaunule #0" = 1
+	"Vidyava #0" = -1
+	"Narvait #0" = 1
+	"Borut #2" = 60
+	"Ieva #0" = -1
+	"Erasts #0" = 1
+	"Viba #0" = -1
+	"Cherava #0" = -1
+	"Faga-Laye #0" = 1
+	"Brian #0" = 1
+	"Davins #0" = 1
+	"Poshayka #0" = -1
+	"Dausprungas #0" = 1
+	"Imanta #0" = 1
+	"Kurlemuse #0" = 1
+	"Dangeruthe #0" = 1
+	"Sabe #0" = 1
+	"Tura #0" = -1
+	"Lonkogveni #0" = 1
+	"Parush #0" = 1
+	"Vykantas #0" = 1
+	"Ausala #0" = -1
+	"Ako #0" = 1
+	"Kanafa #0" = 1
+	"Yudki #0" = 1
+	"Tarkhan #0" = 1
+	"Gotene #0" = 1
+	"Sviendorog #0" = 1
+	"Demas #0" = 1
+	"Vishly #0" = 1
+	"Rusins #0" = 1
+	"Skornand #0" = 1
+	"Ringaudas #0" = 1
+	"Mafalda #0" = -1
+	"Isabelle #0" = -1
+	"Kodere #0" = 1
+	"Gunvald #0" = 1
+	"Giemund #0" = 1
+	"Marcelina #0" = -1
+	"Darbeslave #0" = 1
+	"Vetseke #0" = 1
+	"Bulei #0" = 1
+	"Hassana #0" = -1
+	"Geyka #0" = -1
+	"Babba #0" = 1
+	"Birma #0" = 1
+	"Yuma #0" = 1
+	"Malla #0" = 1
+	"Mecca #0" = -1
+	"Hamish #0" = 1
+	"Fodi #0" = 1
+	"Mar-Chindin #0" = 1
+	"Nameisis #0" = 1
+	"Gando #0" = -1
+	"Samsam #0" = 1
+	"Muir #0" = 1
+	"Ankad #0" = 1
+	"Cirulis #0" = 1
+	"Gavin #0" = 1
+	"Bannu #0" = 1
+	"Shvarnas #0" = 1
+	"Koïzé #0" = 1
+	"Rodina #0" = -1
+	"Dervorgilla #0" = -1
+	"Kiten #0" = 1
+	"Yaqub #0" = 1
+	"Kerstigens #0" = 1
+	"Indulf #0" = 1
+	"Tib #0" = 1
+	"Sargun #0" = 1
+	"Halima #0" = -1
+	"Steikint #0" = 1
+	"Namiss #0" = -1
+	"Klavess #0" = 1
+	"Dermid #0" = 1
+	"Aymort #0" = 1
+	"Mendune #0" = 1
+	"Morna #0" = -1
+	"No Character #2" = 0
+	"Hurmetõiv #1" = 0
+	"Raak #1" = 0
+	"Õigemeel #1" = 0
+	"Alfgeir #1" = 0
+	"Golovke #0" = 0
+	"Janis #0" = 0
+	"Kaire #0" = 0
+	"Kaupo #0" = 0
+	"Stegut #0" = 0
+	"Valikaila #0" = 0
 }
+ship_names = {
+	Alytus
+	Birzai
+	Druskininkai
+	Gardinas
+	Jonava
+	Kaunas Kretinga Kreva
+	Lazdijai
+	Naugardukas
+	Palanga
+	Raseiniai
+	Siauliai Sventoji
+	Taurage Telsiai Trakai
+	Utena
+	Vilkmerge
+}
+

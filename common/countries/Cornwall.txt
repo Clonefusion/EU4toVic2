@@ -1,18 +1,16 @@
-#Country Name: Please see filename.
-
+# Cornwall
+ck2_converter_generated = yes
 graphical_culture = westerngfx
-
-color = { 155  56  0 }
-
+color = { 181 60 10 }
 historical_idea_groups = {
-	maritime_ideas
+	naval_ideas
 	aristocracy_ideas
 	trade_ideas
-	diplomatic_ideas
 	economic_ideas
-	spy_ideas
 	religious_ideas
+	innovativeness_ideas
 	offensive_ideas
+	defensive_ideas
 }
 
 historical_units = {
@@ -32,91 +30,354 @@ historical_units = {
 	napoleonic_lancers
 }
 
+
+
+leader_names = {
+
+	"Talorc" "Minchán" "Lerben" "Guðrun" "Raphail" "Muadhnait" "Báethgalach" "Cnes" "Faílenn" "Kol" 
+	"Sáerbrethach" "Laisrén" "Birgitta" "Aleta" "Samthann" "Cormac" "Valerios" "Agne" "Thomais" "Dúnadach" 
+	"Petronia" "Gilla-Pátraic" "Þordr" "Órlaith" "Der-Lugdach" "Tálán" "Forbassach" "Ilik" "Emer" "Cobflaith" 
+	"Kraka" "Snedgus" "Temair" "Mainchíne" "Bhátair" "Riacán" "Martha" "Imag" "Uasal" "Cellach" 
+	"Akakios" "Dubgilla" "Dubchoblaig" "Sofia" "Symmachos" "Anastasios" "Theophanes" "Sláíne" "Damianos" "Starkaðr" 
+	"Trenchad" "Der-Ilei" "Donngal" "Maine" "Grimr" "Asa" "Alexios" "Echrad" "Tómnat" "Alfrið" 
+	"Máel-Dúin" "Irge" "Odrán" "Konstas" "Eupraxia" "Scáthach" "Senchán" "Ultán" "Dyre" "Catríona" 
+	"Siothrún" "Guðmundr" "Eustratios" "Karl" "Hroðgar" "Porphyrios" "Hroðulfr" "Áine" "Crundmáel" "Xene" 
+	"Seonaid" "Cacht" "Þora" "Margareta" "Máel-Íosa" "Ingibjörg" "Euginia" "Sturla" "Helena" "Derbáil" 
+	"Borkvard" "Fedach" "Der-bForgaill" "Crónán" "Máel-Muire" "Máel-Mórda" "Éua" "Cú-Bretan" "Érennach" "Flann" 
+	"Tailefhlaith" "Duiblesc" "Comgán" "Róis" "Eithne" "Eógan" "Caisséne" "Mór" "Fáeldobur" "Ben-Ulad" 
+	"Muirne" "Barrfhind" "Síthmaith" "Dub-Dil" "Flaithem" "Aíbinn" "Fáelcar" "Tigernach" "Artgal" "Máel-Fábaill" 
+	"Fuacarta" "Cernachán" "Sétna" "Bé-Fáil" "Sadb" "Gráinne" "Muiredach" "Ciar" "Coirpre" "Ardgal" 
+	"Demmán" "Éicnech" "Doriend" "Mathgamain" "Nuala" "Anlaith" "Dub-Essa" "Gelgéis" "Áed" "Siobán" 
+	"Ráthach" "Martan" "Máel-Fothartaig" "Bodil" "Cainnech" "Faílbe" "Airechtach" "Fursu" "Fallaman" "Conchenn" 
+	"Máire" "Aróc" "Khatun" "Garb" "Gerróc" "Flannchad" "Conmac" "Ben-Muman" "Fearchar" "Brigit" 
+	"Dúinsech" "Sorcha" "Fianchú" "Gormlaith" "Rónán" "Tailltiu" "Ercán" "Conallán" "Múadán" "Échtgal" 
+	"Laidcenn" "Gabrán" "Taithlech" "Dub-dá-Lethe" "Kyra" "Aibilín" "Fáelchú" "Selblaith" "Lann" "Dubhglais" 
+	"Dunáed" "Sétach" "Eóganán" "Máiread" "Gormflaith" "Garalt" "Sébdann" "Eilionora" "Coblaith" "Ingrid" 
+	"Lucia" "Saga" "Ulfr" "Zenon" "Constans" "Sisuile" "Bertil" "Elin" "Mór-Muman" "Arnfast" 
+	"Guðröðr" "Narses" "Kyros" "Dúnlaith" "Ablach" "Críchán" "Sæmundr" "Máirgred" "Conmál" "Matudán" 
+	"Arngrimr" "Ben-Míde" "Bagha" "Photios" "Maturkka" "Branwaladr" "Epiphania" "Caillech-Fhinnéin" "Þordis" "Lamzira" 
+	"Maer" "Demetra" "Alfhildr" "Condla" "Buðli" "Slébíne" "Gyða" "Åke" "Éremón" "Abner" 
+	"Lóchéne" "Elisabet" "Rhiaindrech" "Bo" "Dúngalach" "Bothildr" "Öysteinn" "Lasairfíona" "Gilla-Comgáin" "Knut" 
+	"Aaron" "Condál" "Ælfgyth" "Innes" "No Character" "Sulgen" "Aldrien" "Prosguetel" "Denise" "Raimonda" 
+	"Echive" "Godefroy" "Léonard" "Eadberht" "Adalbero" "Adalhard" "Alarich" "Manfred" "Gebhard" "Wigerich" 
+	"Wolfram" "Haukr" "Niklas" "Pasgen" "Alfontso" "Alvar" "Antso" "Aznar" "Belasko" "Bermudo" 
+	"Bernart" "Diego" "Donato" "Egidio" "Eneko" "Erramun" "Fernando" "Fortun" "Galindo" "Gartzia" 
+	"Gilen" "Gontzal" "Herramel" "Joanes" "Ladron" "Lope" "Luis" "Manrike" "Martín" "Munio" 
+	"Nuño" "Obeko" "Ordoño" "Pelaio" "Piarres" "Ramiro" "Rodrigo" "Vela" "Ximeno" "Zentulo" }
 monarch_names = {
-	"Conan #2" = 20
-	"Hoel #2" = 20
-	"Cador #1" = 20
-	"Duncan #1" = 20
-	"Howel #1" = 20
-	"Ricatus #1" = 20
-	"Arthnou #1" = 15
-	"Coll #1" = 15
-	"Gerens #1" = 10
-	"Gwefawr #0" = 10
-	"Massen #1" = 10
-	"Daveth #0" = 0
-	"Jago #0" = 0
-	"Jory #0" = 0
-	"Jowan #0" = 0
-	"Margh #0" = 0
-	"Myghal #0" = 0
-	"Pasco #0" = 0
-	"Piran #0" = 0
-	"Alan #0" = 0
-	"Colan #0" = 0
-	"Digory #0" = 0
-	"Gawen #0" = 0
-	"Kenver #0" = 0
-	"Kenwyn #0" = 0
-	"Kitto #0" = 0
-	"Maban #0" = 0
-	"Madern #0" = 0
-	"Melor #0" = 0
-	"Meriasek #0" = 0
-	"Peder #0" = 0
-	"Perran #0" = 0
-	"Petrok #0" = 0
-	"Ruan Talan #0" = 0
-	"Talek #0" = 0
-	"Tomas #0" = 0
-	"Uther #0" = 0
-	"Wella #0" = 0
-	"Yestin #0" = 0
-	"Ythel #0" = 0
-	
-	"Blejan #0" = -1
-	"Elowen #0" = -1
-	"Eseld #0" = -1
+	"Talorc #0" = 1
+	"Minchán #0" = 1
+	"Lerben #0" = -1
+	"Guðrun #0" = -1
+	"Raphail #0" = 1
+	"Muadhnait #0" = -1
+	"Báethgalach #0" = 1
+	"Cnes #0" = -1
+	"Faílenn #0" = -1
+	"Kol #0" = 1
+	"Sáerbrethach #0" = 1
+	"Laisrén #0" = 1
+	"Birgitta #0" = -1
+	"Aleta #0" = -1
+	"Samthann #0" = -1
+	"Cormac #0" = 1
+	"Valerios #0" = 1
+	"Agne #0" = -1
+	"Thomais #0" = -1
+	"Dúnadach #0" = 1
+	"Petronia #0" = -1
+	"Gilla-Pátraic #0" = 1
+	"Þordr #0" = 1
+	"Órlaith #0" = -1
+	"Der-Lugdach #0" = -1
+	"Tálán #0" = 1
+	"Forbassach #0" = 1
+	"Ilik #0" = 1
+	"Emer #0" = -1
+	"Cobflaith #0" = -1
+	"Kraka #0" = -1
+	"Snedgus #0" = 1
+	"Temair #0" = -1
+	"Mainchíne #0" = 1
+	"Bhátair #0" = 1
+	"Riacán #0" = 1
+	"Martha #0" = -1
+	"Imag #0" = -1
+	"Uasal #0" = -1
+	"Cellach #0" = -1
+	"Akakios #0" = 1
+	"Dubgilla #0" = -1
+	"Dubchoblaig #0" = -1
+	"Sofia #0" = -1
+	"Symmachos #0" = 1
+	"Anastasios #0" = 1
+	"Theophanes #0" = 1
+	"Sláíne #0" = -1
+	"Damianos #0" = 1
+	"Starkaðr #0" = 1
+	"Trenchad #0" = 1
+	"Der-Ilei #0" = -1
+	"Donngal #0" = 1
+	"Maine #0" = 1
+	"Grimr #0" = 1
+	"Asa #0" = -1
+	"Alexios #0" = 1
+	"Echrad #0" = -1
+	"Tómnat #0" = -1
+	"Alfrið #0" = -1
+	"Máel-Dúin #0" = 1
+	"Irge #0" = -1
+	"Odrán #0" = 1
+	"Konstas #0" = 1
+	"Eupraxia #0" = -1
+	"Scáthach #0" = -1
+	"Senchán #0" = 1
+	"Ultán #0" = 1
+	"Dyre #1" = 21
+	"Catríona #0" = -1
+	"Siothrún #0" = 1
+	"Guðmundr #1" = 21
+	"Eustratios #0" = 1
+	"Karl #0" = 1
+	"Hroðgar #0" = 1
+	"Porphyrios #0" = 1
+	"Hroðulfr #0" = 1
+	"Áine #0" = -1
+	"Crundmáel #1" = 24
+	"Xene #0" = -1
+	"Seonaid #0" = -1
+	"Cacht #0" = -1
+	"Þora #0" = -1
+	"Margareta #0" = -1
+	"Máel-Íosa #1" = 21
+	"Ingibjörg #0" = -1
+	"Euginia #0" = -1
+	"Sturla #0" = 1
+	"Helena #0" = -1
+	"Derbáil #0" = -1
+	"Borkvard #0" = 1
+	"Fedach #0" = 1
+	"Der-bForgaill #0" = -1
+	"Crónán #0" = 1
+	"Máel-Muire #0" = 1
+	"Máel-Mórda #0" = 1
+	"Éua #0" = -1
+	"Cú-Bretan #0" = 1
+	"Érennach #0" = 1
+	"Flann #0" = -1
+	"Tailefhlaith #0" = -1
+	"Duiblesc #0" = 1
+	"Comgán #0" = 1
+	"Róis #0" = -1
+	"Eithne #0" = -1
+	"Eógan #1" = 18
+	"Caisséne #0" = -1
+	"Mór #0" = -1
+	"Fáeldobur #0" = 1
+	"Ben-Ulad #0" = -1
+	"Muirne #0" = -1
+	"Barrfhind #1" = 18
+	"Síthmaith #0" = -1
+	"Dub-Dil #0" = -1
+	"Flaithem #0" = 1
+	"Aíbinn #0" = -1
+	"Fáelcar #0" = 1
+	"Tigernach #0" = 1
+	"Artgal #0" = 1
+	"Máel-Fábaill #0" = 1
+	"Fuacarta #0" = 1
+	"Cernachán #2" = 33
+	"Sétna #0" = 1
+	"Bé-Fáil #0" = -1
+	"Sadb #0" = -1
+	"Gráinne #0" = -1
+	"Muiredach #0" = 1
+	"Ciar #0" = -1
+	"Coirpre #0" = 1
+	"Ardgal #1" = 18
+	"Demmán #0" = 1
+	"Éicnech #0" = 1
+	"Doriend #0" = -1
+	"Mathgamain #0" = 1
+	"Nuala #0" = -1
+	"Anlaith #0" = -1
+	"Dub-Essa #0" = -1
+	"Gelgéis #0" = -1
+	"Áed #0" = 1
+	"Siobán #0" = -1
+	"Ráthach #0" = 1
+	"Martan #0" = 1
+	"Máel-Fothartaig #0" = 1
+	"Bodil #0" = -1
+	"Cainnech #0" = -1
+	"Faílbe #0" = 1
+	"Airechtach #0" = 1
+	"Fursu #0" = 1
+	"Fallaman #1" = 18
+	"Conchenn #0" = 1
+	"Máire #0" = -1
+	"Aróc #0" = -1
+	"Khatun #0" = -1
+	"Garb #0" = -1
+	"Gerróc #0" = -1
+	"Flannchad #0" = 1
+	"Conmac #0" = 1
+	"Ben-Muman #0" = -1
+	"Fearchar #0" = 1
+	"Brigit #0" = -1
+	"Dúinsech #0" = -1
+	"Sorcha #0" = -1
+	"Fianchú #0" = 1
+	"Gormlaith #0" = -1
+	"Rónán #0" = 1
+	"Tailltiu #0" = -1
+	"Ercán #0" = 1
+	"Conallán #0" = 1
+	"Múadán #0" = 1
+	"Échtgal #0" = 1
+	"Laidcenn #0" = 1
+	"Gabrán #1" = 18
+	"Taithlech #0" = 1
+	"Dub-dá-Lethe #0" = 1
+	"Kyra #0" = -1
+	"Aibilín #0" = -1
+	"Fáelchú #0" = 1
+	"Selblaith #0" = -1
+	"Lann #0" = -1
+	"Dubhglais #0" = 1
+	"Dunáed #0" = 1
+	"Sétach #0" = -1
+	"Eóganán #0" = 1
+	"Máiread #0" = -1
+	"Gormflaith #0" = -1
+	"Garalt #0" = 1
+	"Sébdann #0" = -1
+	"Eilionora #0" = -1
+	"Coblaith #0" = -1
+	"Ingrid #0" = -1
+	"Lucia #0" = -1
+	"Saga #0" = -1
+	"Ulfr #1" = 18
+	"Zenon #0" = 1
+	"Constans #0" = 1
+	"Sisuile #0" = -1
+	"Bertil #0" = 1
+	"Elin #0" = -1
+	"Mór-Muman #0" = -1
+	"Arnfast #1" = 18
+	"Guðröðr #1" = 18
+	"Narses #0" = 1
+	"Kyros #0" = 1
+	"Dúnlaith #0" = -1
+	"Ablach #0" = -1
+	"Críchán #0" = 1
+	"Sæmundr #0" = 1
+	"Máirgred #0" = -1
+	"Conmál #0" = 1
+	"Matudán #0" = 1
+	"Arngrimr #0" = 1
+	"Ben-Míde #0" = -1
+	"Bagha #0" = 1
+	"Photios #0" = 1
+	"Maturkka #0" = -1
+	"Branwaladr #0" = 1
+	"Epiphania #0" = -1
+	"Caillech-Fhinnéin #0" = -1
+	"Þordis #0" = -1
+	"Lamzira #0" = -1
+	"Maer #0" = -1
+	"Demetra #0" = -1
+	"Alfhildr #0" = -1
+	"Condla #0" = 1
+	"Buðli #0" = 1
+	"Slébíne #0" = 1
+	"Gyða #0" = -1
+	"Åke #1" = 18
+	"Éremón #0" = 1
+	"Abner #0" = 1
+	"Lóchéne #0" = 1
+	"Elisabet #0" = -1
+	"Rhiaindrech #0" = -1
+	"Bo #0" = 1
+	"Dúngalach #0" = 1
+	"Bothildr #0" = -1
+	"Öysteinn #0" = 1
+	"Lasairfíona #0" = -1
+	"Gilla-Comgáin #0" = 1
+	"Knut #0" = 1
+	"Aaron #0" = 1
+	"Condál #0" = -1
+	"Ælfgyth #0" = -1
+	"Innes #0" = -1
+	"No Character #31" = 0
+	"Sulgen #2" = 0
+	"Aldrien #1" = 0
+	"Prosguetel #1" = -1
+	"Denise #1" = -1
+	"Raimonda #1" = -1
+	"Echive #1" = -1
+	"Godefroy #1" = 0
+	"Léonard #1" = 0
+	"Eadberht #1" = 0
+	"Adalbero #1" = 0
+	"Adalhard #1" = 0
+	"Alarich #2" = 0
+	"Manfred #1" = 0
+	"Gebhard #1" = 0
+	"Wigerich #1" = 0
+	"Wolfram #1" = 0
+	"Haukr #1" = 0
+	"Niklas #1" = 0
+	"Pasgen #1" = 0
+	"Alfontso #0" = 0
+	"Alvar #0" = 0
+	"Antso #0" = 0
+	"Aznar #0" = 0
+	"Belasko #0" = 0
+	"Bermudo #0" = 0
+	"Bernart #0" = 0
+	"Diego #0" = 0
+	"Donato #0" = 0
+	"Egidio #0" = 0
+	"Eneko #0" = 0
+	"Erramun #0" = 0
+	"Fernando #0" = 0
+	"Fortun #0" = 0
+	"Galindo #0" = 0
+	"Gartzia #0" = 0
+	"Gilen #0" = 0
+	"Gontzal #0" = 0
+	"Herramel #0" = 0
+	"Joanes #0" = 0
+	"Ladron #0" = 0
+	"Lope #0" = 0
+	"Luis #0" = 0
+	"Manrike #0" = 0
+	"Martín #0" = 0
+	"Munio #0" = 0
+	"Nuño #0" = 0
+	"Obeko #0" = 0
+	"Ordoño #0" = 0
+	"Pelaio #0" = 0
+	"Piarres #0" = 0
+	"Ramiro #0" = 0
+	"Rodrigo #0" = 0
+	"Vela #0" = 0
+	"Ximeno #0" = 0
+	"Zentulo #0" = 0
 }
-
-leader_names = { 
-	Arthur Audley
-	Boscawen
-	Carew Chynoweth Clemow Collett Connor Cornish Curnow
-	Davy Drake Drew
-	Endean
-	Flamank Furze
-	Gwynn
-	Hale
-	Innes
-	Jago James Jenner Jolley Joseph
-	Keverne
-	Lanyon Locke Lyon
-	Menhenick 
-	Oates
-	Pascoe Penberthy Pendennis Penhaligon Pentreath Pethick Polwin
-	Quintrell
-	Roscarrock Rosewarne
-	"St Aubyn" Sweet
-	Trehearne Trelawny Trescothick Trevelyan Trevithick Tyrell
-	Warren Weekes
-}
-
 ship_names = {
-        Arthur
-        Bodmin Bolster Brutus
-        Chough Corineus Cormoran Cornishman
-        Dumnonia
-        Excalibur
-        Falmouth
-        Galahad Gawain Guinevere
-        "Hal-an-Tow" Helston
-        Kernow "King Mark"
-        Lancelot Launceston Lizard Lostwithiel Lyonesse
-        Marazion Mousehole
-        Pendragon Penzance Porthleven
-        Restormel
-        Scillonian "St Ives" "St Michael" "St Petroc" "St Pirin" Stannary
-        Tamar Tintagel Trelawny Truro
-        Whitsand
+	Bedwyr Brycheiniog
+	Cadwaladr Caerdydd Caernarfon Caradoc Ceredigion Conwy Culhwch  
+	Deheubarth "Dewi Sant" Dolbadarn Dolwyddelan Dyfed
+	Eryri
+	Glywysing Gwalchmei "Gwenan Gorn" Gwydion Gwyn Gwynedd
+	Lleu "Llewellyn Fawr"
+	Mabinogi Math Meirionydd Morgannwg
+	Olwen "Owain Glyndwr"
+	Penfro Powys "Preiddeu Annwn" Pryderi Pwyll
+	Rhiannon
+	Taff Teifi Teirnon Tywi
+	"Ynys Môn"
 }
+

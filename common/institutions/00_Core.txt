@@ -176,7 +176,7 @@ feudalism = {
 			}
 		}
 		modifier = {
-			factor = 5
+			factor = 1.25
 			scale = yes
 			potential = {
 				owner = {
@@ -215,7 +215,7 @@ feudalism = {
 			}
 		}
 		modifier = {
-			factor = 2
+			factor = 1
 			scale = yes
 			potential = {
 				owner = {
@@ -269,7 +269,7 @@ renaissance = {
 	penalty = 0.5
 
 	bonus = {
-		development_cost = -0.05
+		adm_tech_cost_modifier = -0.05
 		build_cost = -0.05
 	}
 
@@ -333,7 +333,14 @@ renaissance = {
 	
 	can_start = {
 		is_year = 1450
-		region = italy_region
+				OR = {
+					continent = europe
+					superregion = near_east_superregion
+					region = persia_region
+					region = egypt_region
+					region = maghreb_region
+					region = horn_of_africa_region
+				}
 		is_state = yes
 		NOT = { province_id = 126 }
 		is_island = no
@@ -362,7 +369,7 @@ renaissance = {
 	embracement_speed = {
 		modifier = {
 			scale = yes
-			factor = 0.6
+			factor = 0.45
 			custom_trigger_tooltip = {
 				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_renaissance
 				any_friendly_coast_border_province = {
@@ -371,7 +378,7 @@ renaissance = {
 			}
 		}
 		modifier = {
-			factor = 0.3
+			factor = 0.225
 			scale = yes
 			potential = {
 				NOT = {
@@ -389,28 +396,28 @@ renaissance = {
 			}
 		}
 		modifier = {
-			factor = 1
-			potential = {
-				region = italy_region
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_italian_capital
-				is_capital = yes
-				region = italy_region
-				culture_group = latin
-			}
-			
-			
-		}
-		modifier = {
 			factor = 0.05
 			scale = yes
 			potential = {
-				continent = europe
+				OR = {
+					continent = europe
+					superregion = near_east_superregion
+					region = persia_region
+					region = egypt_region
+					region = maghreb_region
+					region = horn_of_africa_region
+				}
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_development_10
-				continent = europe
+				OR = {
+					continent = europe
+					superregion = near_east_superregion
+					region = persia_region
+					region = egypt_region
+					region = maghreb_region
+					region = horn_of_africa_region
+				}
 				development = 10
 			}
 		}
@@ -418,48 +425,57 @@ renaissance = {
 			factor = 0.05
 			scale = yes
 			potential = {
-				continent = europe
+				OR = {
+					continent = europe
+					superregion = near_east_superregion
+					region = persia_region
+					region = egypt_region
+					region = maghreb_region
+					region = horn_of_africa_region
+				}
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_development_20
 				development = 20
-				continent = europe
+				OR = {
+					continent = europe
+					superregion = near_east_superregion
+					region = persia_region
+					region = egypt_region
+					region = maghreb_region
+					region = horn_of_africa_region
+				}
 			}
 		}
 		modifier = {
 			factor = 0.1
 			scale = yes
 			potential = {
-				continent = europe
+				OR = {
+					continent = europe
+					superregion = near_east_superregion
+					region = persia_region
+					region = egypt_region
+					region = maghreb_region
+					region = horn_of_africa_region
+				}
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_development_5_post_1500
-				continent = europe
+				OR = {
+					continent = europe
+					superregion = near_east_superregion
+					region = persia_region
+					region = egypt_region
+					region = maghreb_region
+					region = horn_of_africa_region
+				}
 				is_year = 1500
 				development = 5
 			}
 		}
 		modifier = {
-			factor = 0.5
-			scale = yes
-			potential = {
-				OR = {
-					area = flanders_area
-					area = tuscany_area
-					area = venetia_area
-				}
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_flanders_tuscany_venetia
-				OR = {
-					area = flanders_area
-					area = tuscany_area
-					area = venetia_area
-				}
-			}
-		}
-		modifier = {
-			factor = 5
+			factor = 0.625
 			scale = yes
 			potential = {
 				owner = {
@@ -479,7 +495,7 @@ renaissance = {
 			}
 		}
 		modifier = {
-			factor = 2
+			factor = 0.5
 			scale = yes
 			potential = {
 				owner = {
@@ -661,7 +677,7 @@ new_world_i = {
 	embracement_speed = {
 	
 		modifier = {
-			factor = 1.2
+			factor = 0.9
 			scale = yes
 			custom_trigger_tooltip = {
 				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_colonialism
@@ -673,7 +689,7 @@ new_world_i = {
 		}
 		
 		modifier = {
-			factor = 0.5
+			factor = 0.375
 			scale = yes
 			potential = {
 				has_port = yes
@@ -729,7 +745,7 @@ new_world_i = {
 		}
 		
 		modifier = {
-			factor = 5
+			factor = 0.625
 			scale = yes
 			potential = {
 				owner = {
@@ -749,7 +765,7 @@ new_world_i = {
 			}
 		}
 		modifier = {
-			factor = 2
+			factor = 0.5
 			scale = yes
 			potential = {
 				owner = {
@@ -900,8 +916,14 @@ printing_press = {
 		OR = {
 			religion = protestant
 			religion = reformed
-			region = north_german_region
-			region = south_german_region
+				OR = {
+					continent = europe
+					superregion = near_east_superregion
+					region = persia_region
+					region = egypt_region
+					region = maghreb_region
+					region = horn_of_africa_region
+				}
 		}
 
 	}
@@ -983,13 +1005,27 @@ printing_press = {
 			factor = 0.05
 			scale = yes
 			potential = {
-				continent = europe
+				OR = {
+					continent = europe
+					superregion = near_east_superregion
+					region = persia_region
+					region = egypt_region
+					region = maghreb_region
+					region = horn_of_africa_region
+				}
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_development_20_capital
 				development = 20
 				is_capital = yes
-				continent = europe
+				OR = {
+					continent = europe
+					superregion = near_east_superregion
+					region = persia_region
+					region = egypt_region
+					region = maghreb_region
+					region = horn_of_africa_region
+				}
 			}
 		}
 		modifier = {
@@ -1054,7 +1090,7 @@ printing_press = {
 			}
 		}
 		modifier = {
-			factor = 5
+			factor = 0.625
 			scale = yes
 			potential = {
 				owner = {
@@ -1074,7 +1110,7 @@ printing_press = {
 			}
 		}
 		modifier = {
-			factor = 2
+			factor = 0.5
 			scale = yes
 			potential = {
 				owner = {
@@ -1338,7 +1374,7 @@ global_trade = {
 		}
 		
 		modifier = {
-			factor = 5
+			factor = 0.625
 			scale = yes
 			potential = {
 				owner = {
@@ -1363,7 +1399,7 @@ global_trade = {
 			printing_press = 100
 		}
 		modifier = {
-			factor = 2
+			factor = 0.5
 			scale = yes
 			potential = {
 				owner = {
@@ -1832,7 +1868,7 @@ manufactories = {
 			}
 		}
 		modifier = {
-			factor = 5
+			factor = 0.625
 			scale = yes
 			potential = {
 				owner = {
@@ -1852,7 +1888,7 @@ manufactories = {
 			}
 		}
 		modifier = {
-			factor = 2
+			factor = 0.5
 			scale = yes
 			potential = {
 				owner = {
@@ -1906,7 +1942,7 @@ enlightenment = {
 	penalty = 0.5
 
 	bonus = {
-		culture_conversion_cost = -0.25
+		culture_conversion_cost = -0.2
 	}
 
 	trade_company_efficiency = 0.3
@@ -1979,7 +2015,14 @@ enlightenment = {
 			}
 			has_building = university
 			AND = {
-				continent = europe
+				OR = {
+					continent = europe
+					superregion = near_east_superregion
+					region = persia_region
+					region = egypt_region
+					region = maghreb_region
+					region = horn_of_africa_region
+				}
 				owner = {
 					ADM = 5
 					MIL = 5
@@ -2116,7 +2159,7 @@ enlightenment = {
 			}
 		}
 		modifier = {
-			factor = 5
+			factor = 1.25
 			scale = yes
 			potential = {
 				owner = {
@@ -2136,7 +2179,7 @@ enlightenment = {
 			}
 		}
 		modifier = {
-			factor = 2
+			factor = 1
 			scale = yes
 			potential = {
 				owner = {

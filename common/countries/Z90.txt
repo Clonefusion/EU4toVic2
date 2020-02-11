@@ -1,0 +1,225 @@
+# Pskov
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 140 130 62 }
+
+
+
+
+leader_names = {
+
+	"Xusrew" "Shenouti" "Nishde" "Bolis" "Touma" "Apahour" "Khnau" "Kristina" "Meriam" "Tawaret" 
+	"Pimoui" "Paisi" "Mina" "Boutros" "Habil" "Pernoufe" "Binyamin" "Yared" "Ghabri" "Mareten" 
+	"Agathonikos" "Šahbaz" "Mehrîban" "Šahram" "Reza" "Nošîrwan" "Ghobad" "Ferhad" "Amin" "Xwedadad" 
+	"Cehandar" "Mehrab" "Alah-Verdi" "Azad" "Lorîcan" "Feramez" "Dilvîn" "Šahin" "Asan" "Gosdantin" 
+	"Nesr" "Gholam" "Gulšen" "Begîxan" "Mikayel" "Erdešîr" "Zerîxan" "Roupen" "Mariyam" "Hafez" 
+	"Daryûš" "Diyarî" "Goštasp" "Eshkhan" "Šana" "Youkhanna" "Belîcan" "Taniel" "Rûken" "Eliz" 
+	"Rita" "Bextîyar" "Merzuban" "Delaram" "Nezam" "Esmerxan" "Helez" "Razmouhi" "Yezîd" "Ibtisam" 
+	"Kohar" "Satenik" "Mistefa" "Sarkis" "Humayun" "Kamran" "Rûciwan" "Vachagan" "Rîken" "Thana" 
+	"Baziyan" "Heliz" "Šarvin" "Dilnaz" "Vahan" "Tatoul" "Oshin" "Vahram" "Anoush" "Thoros" 
+	"Vesd" "Vartan" "Zarmihr" "Arsen" "Ovsanna" "Gurgen" "Pounig" "Zmroukhd" "Latavri" "Melek" 
+	"Almasd" "Bagrat" "Gorandoukht" "Vagharshak" "Gadar" "Alitz" "Bagour" "Mara" "Berjanoush" "Hagop" 
+	"Mikail" "Nefret" "Agathon" "Ounisht" "Raune" "Kifle" "Ouini" "No Character" "Ruslan" "Terentiy" 
+	"Rodislav" "Der-Ilei" "Girgen" "Atrak" "Gunnhildr" "Öysteinn" "Eirikr" "Vladimir" "Zorya" "Buzer" 
+	"Kurlemuse" "Daira" "Tautvila" "Sprudeik" "Dardedze" "Sai'ou" "Samia" "Theodote" "Diônisios" "Likiik" 
+	"Sampo" "Ese" "Alp" "Araslan" "Bagha" "Baghatur" "Bälgiçi" "Barjik" "Barsbek" "Bastu" 
+	"Bashtwa" "Bihor" "Böri" "Bugha" "Bulan" "Bulçan" "Busir" "Çat" "Çat'n" "Çorpan" 
+	"Ilik" "Iltäbär" "Itakh" "Kamaj" "Karadakh" "Kayghalagh" "Khatir" "Khuterkin" "Kibar" "Kisa" 
+	"Kundaçiq" "Kundaç" "Mänär" "Mänäs" "Mënümarót" "Ötemis" "Papaçyz" "Samsam" "Sartäç" "Simsam" 
+	"Täbär" "Tabghaç" "Tarkhan" "Tarmaç" "Tuzniq" "Vakrim" "Yabghu" "Yavantey" "Yençepi" "Yerneslu" 
+	"Yeçtirek" "Yilig" }
+monarch_names = {
+	"Xusrew #0" = 1
+	"Shenouti #0" = 1
+	"Nishde #0" = 1
+	"Bolis #1" = 21
+	"Touma #0" = 1
+	"Apahour #0" = 1
+	"Khnau #0" = -1
+	"Kristina #0" = -1
+	"Meriam #0" = -1
+	"Tawaret #0" = -1
+	"Pimoui #0" = 1
+	"Paisi #0" = -1
+	"Mina #0" = 1
+	"Boutros #0" = 1
+	"Habil #0" = 1
+	"Pernoufe #0" = -1
+	"Binyamin #0" = 1
+	"Yared #0" = 1
+	"Ghabri #0" = 1
+	"Mareten #0" = 1
+	"Agathonikos #0" = 1
+	"Šahbaz #0" = 1
+	"Mehrîban #0" = -1
+	"Šahram #0" = 1
+	"Reza #0" = 1
+	"Nošîrwan #0" = 1
+	"Ghobad #0" = 1
+	"Ferhad #0" = 1
+	"Amin #0" = 1
+	"Xwedadad #0" = 1
+	"Cehandar #0" = 1
+	"Mehrab #0" = 1
+	"Alah-Verdi #0" = 1
+	"Azad #0" = 1
+	"Lorîcan #0" = -1
+	"Feramez #0" = 1
+	"Dilvîn #0" = -1
+	"Šahin #0" = 1
+	"Asan #0" = -1
+	"Gosdantin #0" = 1
+	"Nesr #0" = 1
+	"Gholam #0" = 1
+	"Gulšen #0" = -1
+	"Begîxan #0" = -1
+	"Mikayel #0" = 1
+	"Erdešîr #0" = 1
+	"Zerîxan #0" = -1
+	"Roupen #0" = 1
+	"Mariyam #0" = -1
+	"Hafez #0" = 1
+	"Daryûš #0" = 1
+	"Diyarî #0" = -1
+	"Goštasp #0" = 1
+	"Eshkhan #0" = 1
+	"Šana #0" = -1
+	"Youkhanna #0" = 1
+	"Belîcan #0" = -1
+	"Taniel #0" = 1
+	"Rûken #0" = -1
+	"Eliz #0" = -1
+	"Rita #0" = -1
+	"Bextîyar #0" = 1
+	"Merzuban #0" = 1
+	"Delaram #0" = -1
+	"Nezam #0" = 1
+	"Esmerxan #0" = -1
+	"Helez #0" = -1
+	"Razmouhi #0" = -1
+	"Yezîd #0" = 1
+	"Ibtisam #0" = -1
+	"Kohar #0" = -1
+	"Satenik #0" = -1
+	"Mistefa #0" = 1
+	"Sarkis #0" = 1
+	"Humayun #0" = 1
+	"Kamran #0" = 1
+	"Rûciwan #0" = -1
+	"Vachagan #0" = 1
+	"Rîken #0" = -1
+	"Thana #0" = -1
+	"Baziyan #0" = -1
+	"Heliz #0" = -1
+	"Šarvin #0" = 1
+	"Dilnaz #0" = -1
+	"Vahan #0" = 1
+	"Tatoul #0" = 1
+	"Oshin #0" = 1
+	"Vahram #0" = 1
+	"Anoush #0" = -1
+	"Thoros #0" = 1
+	"Vesd #0" = 1
+	"Vartan #0" = 1
+	"Zarmihr #0" = 1
+	"Arsen #0" = 1
+	"Ovsanna #0" = -1
+	"Gurgen #0" = 1
+	"Pounig #0" = -1
+	"Zmroukhd #0" = -1
+	"Latavri #0" = -1
+	"Melek #0" = 1
+	"Almasd #0" = -1
+	"Bagrat #0" = 1
+	"Gorandoukht #0" = -1
+	"Vagharshak #0" = 1
+	"Gadar #0" = -1
+	"Alitz #0" = -1
+	"Bagour #0" = 1
+	"Mara #0" = -1
+	"Berjanoush #0" = -1
+	"Hagop #0" = 1
+	"Mikail #0" = 1
+	"Nefret #0" = -1
+	"Agathon #0" = 1
+	"Ounisht #0" = 1
+	"Raune #0" = -1
+	"Kifle #0" = -1
+	"Ouini #0" = 1
+	"No Character #1" = 0
+	"Ruslan #2" = 0
+	"Terentiy #2" = 0
+	"Rodislav #1" = 0
+	"Der-Ilei #1" = -1
+	"Girgen #1" = 0
+	"Atrak #1" = 0
+	"Gunnhildr #1" = -1
+	"Öysteinn #1" = 0
+	"Eirikr #1" = 0
+	"Vladimir #3" = 0
+	"Zorya #1" = -1
+	"Buzer #2" = 0
+	"Kurlemuse #1" = 0
+	"Daira #1" = -1
+	"Tautvila #1" = 0
+	"Sprudeik #1" = 0
+	"Dardedze #1" = -1
+	"Sai'ou #1" = -1
+	"Samia #1" = -1
+	"Theodote #1" = 0
+	"Diônisios #1" = 0
+	"Likiik #1" = 0
+	"Sampo #1" = 0
+	"Ese #1" = -1
+	"Alp #0" = 0
+	"Araslan #0" = 0
+	"Bagha #0" = 0
+	"Baghatur #0" = 0
+	"Bälgiçi #0" = 0
+	"Barjik #0" = 0
+	"Barsbek #0" = 0
+	"Bastu #0" = 0
+	"Bashtwa #0" = 0
+	"Bihor #0" = 0
+	"Böri #0" = 0
+	"Bugha #0" = 0
+	"Bulan #0" = 0
+	"Bulçan #0" = 0
+	"Busir #0" = 0
+	"Çat #0" = 0
+	"Çat'n #0" = 0
+	"Çorpan #0" = 0
+	"Ilik #0" = 0
+	"Iltäbär #0" = 0
+	"Itakh #0" = 0
+	"Kamaj #0" = 0
+	"Karadakh #0" = 0
+	"Kayghalagh #0" = 0
+	"Khatir #0" = 0
+	"Khuterkin #0" = 0
+	"Kibar #0" = 0
+	"Kisa #0" = 0
+	"Kundaçiq #0" = 0
+	"Kundaç #0" = 0
+	"Mänär #0" = 0
+	"Mänäs #0" = 0
+	"Mënümarót #0" = 0
+	"Ötemis #0" = 0
+	"Papaçyz #0" = 0
+	"Samsam #0" = 0
+	"Sartäç #0" = 0
+	"Simsam #0" = 0
+	"Täbär #0" = 0
+	"Tabghaç #0" = 0
+	"Tarkhan #0" = 0
+	"Tarmaç #0" = 0
+	"Tuzniq #0" = 0
+	"Vakrim #0" = 0
+	"Yabghu #0" = 0
+	"Yavantey #0" = 0
+	"Yençepi #0" = 0
+	"Yerneslu #0" = 0
+	"Yeçtirek #0" = 0
+	"Yilig #0" = 0
+}
+

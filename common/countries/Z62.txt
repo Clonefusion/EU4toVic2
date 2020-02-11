@@ -1,0 +1,193 @@
+# Nordgau
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 57 57 70 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	economic_ideas
+	spy_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	religious_ideas
+	quantity_ideas
+}
+
+historical_units = {
+	halberd_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+
+
+leader_names = {
+
+	"Vilém" "Zdislava" "Doubravka" "Drslav" "Skonka" "Judita" "Kuník" "Jaroslav" "Bohuslava" "Ojír" 
+	"Mlada" "Havel" "Stanislava" "Vratislav" "Vsebor" "Sezima" "Heralt" "Perchta" "Svatopluk" "Ludmila" 
+	"Milic" "Marie" "Jitka" "Budivoj" "Vladimír" "Eliska" "Helena" "Libuse" "Rostislav" "Jindrich" 
+	"Zdirad" "Jaromír" "Viola" "Slavomír" "Jesek" "Litold" "Blazena" "Albert" "Alois" "Bozena" 
+	"Barbora" "Hedvika" "Justina" "Hrabis" "Boleslava" "Svatava" "Diepold" "Albrecht" "Spytihnev" "Vojslava" 
+	"Gertruda" "Bozislava" "Jaroslava" "Konstancie" "Kunhuta" "Bretislava" "Castolov" "Svatobor" "Borijov" "Wilhelm" 
+	"Markvart" "Engeltraud" "Bedriska" "Drahomíra" "Sobieslav" "Leopold" "Otakar" "Zikmund" "Vanek" "Hemma" 
+	"Adelheid" "Dobroslava" "Markéta" "Dobromila" "Mojmír" "Kojata" "No Character" "Duron" "Konrad" "Gerberga" 
+	"Ekkehard" "Sumarliði" "Ehrenfried" "Franz" "Walram" "Adalhard" "Eginolf" "Helferich" "Ota" "Ctirad" 
+	"Strachkvas" "Herman" "Ales" "Arnost" "Bavor" "Bedrich" "Benes" "Bocek" "Bohuslav" "Boleslav" 
+	"Bores" "Bretislav" "Cenek" "Chval" "Detrich" "Gerhard" "Hanus" "Hynek" "Jan" "Jirík" 
+	"Karel" "Konrád" "Matous" "Mikulás" "Oldrich" "Ondrej" "Pelhrim" "Petr" "Premysl" "Prokop" 
+	"Rajmund" "Slavibor" "Smil" "Tobiás" "Václav" "Viktorín" "Vítek" "Vladislav" "Vojtech" "Závis" 
+	"Zbynek" "Zdík" }
+monarch_names = {
+	"Vilém #0" = 1
+	"Zdislava #0" = -1
+	"Doubravka #0" = -1
+	"Drslav #0" = 1
+	"Skonka #0" = -1
+	"Judita #0" = -1
+	"Kuník #0" = 1
+	"Jaroslav #0" = 1
+	"Bohuslava #0" = -1
+	"Ojír #0" = 1
+	"Mlada #0" = -1
+	"Havel #0" = 1
+	"Stanislava #0" = -1
+	"Vratislav #0" = 1
+	"Vsebor #2" = 18
+	"Sezima #0" = 1
+	"Heralt #0" = 1
+	"Perchta #0" = -1
+	"Svatopluk #0" = 1
+	"Ludmila #0" = -1
+	"Milic #1" = 33
+	"Marie #0" = -1
+	"Jitka #0" = -1
+	"Budivoj #0" = 1
+	"Vladimír #0" = 1
+	"Eliska #0" = -1
+	"Helena #0" = -1
+	"Libuse #1" = -25
+	"Rostislav #0" = 1
+	"Jindrich #0" = 1
+	"Zdirad #0" = 1
+	"Jaromír #0" = 1
+	"Viola #0" = -1
+	"Slavomír #0" = 1
+	"Jesek #1" = 21
+	"Litold #0" = 1
+	"Blazena #0" = -1
+	"Albert #0" = 1
+	"Alois #2" = 24
+	"Bozena #0" = -1
+	"Barbora #0" = -1
+	"Hedvika #0" = -1
+	"Justina #0" = -1
+	"Hrabis #0" = 1
+	"Boleslava #0" = -1
+	"Svatava #0" = -1
+	"Diepold #0" = 1
+	"Albrecht #0" = 1
+	"Spytihnev #0" = 1
+	"Vojslava #0" = -1
+	"Gertruda #0" = -1
+	"Bozislava #0" = -1
+	"Jaroslava #0" = -1
+	"Konstancie #0" = -1
+	"Kunhuta #0" = -1
+	"Bretislava #0" = -1
+	"Castolov #0" = 1
+	"Svatobor #0" = 1
+	"Borijov #0" = 1
+	"Wilhelm #1" = 18
+	"Markvart #0" = 1
+	"Engeltraud #0" = -1
+	"Bedriska #0" = -1
+	"Drahomíra #0" = -1
+	"Sobieslav #0" = 1
+	"Leopold #0" = 1
+	"Otakar #0" = 1
+	"Zikmund #0" = 1
+	"Vanek #2" = 18
+	"Hemma #1" = -19
+	"Adelheid #0" = -1
+	"Dobroslava #0" = -1
+	"Markéta #0" = -1
+	"Dobromila #0" = -1
+	"Mojmír #0" = 1
+	"Kojata #0" = 1
+	"No Character #20" = 0
+	"Duron #1" = 0
+	"Konrad #1" = 0
+	"Gerberga #1" = -1
+	"Ekkehard #1" = 0
+	"Sumarliði #1" = 0
+	"Ehrenfried #1" = 0
+	"Franz #1" = 0
+	"Walram #1" = 0
+	"Adalhard #1" = 0
+	"Eginolf #1" = 0
+	"Helferich #1" = 0
+	"Ota #1" = 0
+	"Ctirad #1" = 0
+	"Strachkvas #2" = 0
+	"Herman #1" = 0
+	"Ales #0" = 0
+	"Arnost #0" = 0
+	"Bavor #0" = 0
+	"Bedrich #0" = 0
+	"Benes #0" = 0
+	"Bocek #0" = 0
+	"Bohuslav #0" = 0
+	"Boleslav #0" = 0
+	"Bores #0" = 0
+	"Bretislav #0" = 0
+	"Cenek #0" = 0
+	"Chval #0" = 0
+	"Detrich #0" = 0
+	"Gerhard #0" = 0
+	"Hanus #0" = 0
+	"Hynek #0" = 0
+	"Jan #0" = 0
+	"Jirík #0" = 0
+	"Karel #0" = 0
+	"Konrád #0" = 0
+	"Matous #0" = 0
+	"Mikulás #0" = 0
+	"Oldrich #0" = 0
+	"Ondrej #0" = 0
+	"Pelhrim #0" = 0
+	"Petr #0" = 0
+	"Premysl #0" = 0
+	"Prokop #0" = 0
+	"Rajmund #0" = 0
+	"Slavibor #0" = 0
+	"Smil #0" = 0
+	"Tobiás #0" = 0
+	"Václav #0" = 0
+	"Viktorín #0" = 0
+	"Vítek #0" = 0
+	"Vladislav #0" = 0
+	"Vojtech #0" = 0
+	"Závis #0" = 0
+	"Zbynek #0" = 0
+	"Zdík #0" = 0
+}
+ship_names = {
+	"St. Kilian" "Tassilo III" "Kaiser Ludwig IV"
+	"König Arnulf" "Graf von Bogen" "Graf von Andechs"
+	"Graf von Sulzbach" Wittelsbach "Graf von Diepolding"
+	"König Konrad III" "König Friedrich I" "Pfalzgraf Otto"
+	Augsburg Andechs Burgau Diessen Friedberg Kempten Lindau
+	Memmingen Mindel Oettingen Straubing Wolfstein
+}
+

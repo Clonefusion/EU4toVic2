@@ -1,0 +1,289 @@
+# Abkhazia
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 255 173 196 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+	religious_ideas
+	quantity_ideas
+}
+
+historical_units = {
+	eastern_medieval_infantry
+	eastern_knights
+	slavic_stradioti
+	eastern_militia
+	muscovite_musketeer
+	muscovite_caracolle
+	muscovite_soldaty
+	muscovite_cossack
+	russian_petrine
+	russian_lancer
+	russian_green_coat
+	russian_cuirassier
+	eastern_skirmisher
+	eastern_uhlan
+	eastern_carabinier
+	russian_mass
+}
+
+
+
+leader_names = {
+
+	"Batas" "Sirma" "Usunbike" "Kure" "Yeldem" "Yasar" "Kugel" "Kibar" "Ipekel" "Tatus" 
+	"Asli" "Papaçyz" "Aba" "Baitzas" "Barïsbek" "Batan" "Konel" "Falki" "Tura" "Bayça" 
+	"Yazi" "Gunduz" "Gulçiçek" "Kourkoutai" "Sibel" "Sevilay" "Karacik" "Irge" "Ilkay" "Bizel" 
+	"Kostas" "Ipa" "Temir" "Özgul" "Gundes" "Kortan" "Dilek" "Bugha" "Karaca" "Kaydum" 
+	"Yeke" "Sarica" "Ildey" "Boru" "Sol" "Bozçin" "Biçkili" "Kegen" "Özlem" "Korkutan" 
+	"Mala" "Tyrach" "Barjik" "Çelgil" "Balgor" "Gunes" "Ayten" "Yildiz" "Sati" "Umay" 
+	"Ayasun" "Mutlu" "Teber" "Samur" "Sevindik" "Giazis" "Çiçek" "Peksen" "Çilen" "Ipaos" 
+	"Bator" "Esin" "No Character" "Zurab" "Gubaz" "Vardo" "Mordvinko" "Tunya" "Erziya" "Gurgen" 
+	"Grigoli" "Viacheslav" "Ruslan" "Yevdokia" "Guaram" "Levan" "Merab" "Salahaddin" "Sergios" "Aleksandre" 
+	"Orestes" "Eustratios" "Hektorios" "Sumbat" "Duda" "Parthena" "Goran" "Thomais" "Touran" "Farah" 
+	"Pertevniyal" "Afshar" "Amin" "Anushirvan" "Aram" "Ardahan" "Ardavan" "Ardeshir" "Assad" "Aurang" 
+	"Ayeshah" "Babak" "Bahman" "Bahram" "Bakhtiar" "Behrad" "Behrouz" "Bozorg" "Danush" "Darab" 
+	"Dariush" "Davud" "Djamasp" "Ebrahim" "Ehsan" "Esfandiar" "Eskander" "Esma'il" "Faramarz" "Faraz" 
+	"Fareed" "Farhad" "Fariborz" "Farroukh" "Farrukhzad" "Farzad" "Fath" "Ferdows" "Fereedun" "Ghobad" 
+	"Gholam" "Godarz" "Goshtasb" "Hafez" "Hassan" "Hazarasp" "Hedayat" "Hooshyar" "Hormoz" "Humayun" 
+	"Jahandar" "Jahangir" "Jahanshah" "Jamshid" "Javeed" "Kambiz" "Kamran" "Kavoos" "Keyghobad" "Keykhosrau" 
+	"Kharmandar" "Khashayar" "Kavadh" "Khodadad" "Khosrau" "Khudayar" "Khurshid" "Kurush" "Manuchihr" "Manushihr" 
+	"Marzuban" "Mashad" "Mehrab" "Mehrzad" "Morad" "Morteza" "Mozaffar" "Nard" "Naveed" "Nawid" 
+	"Nezam" "Parviz" "Pashang" "Peroz" "Pujman" "Reza" "Rostam" "Ruhollah" "Sadri" "Salman" 
+	"Shahab" "Shahbaz" "Shahin" "Shahram" "Shahrokh" "Shahruz" "Shahryar" "Shayan" "Sina" "Tahmasb" 
+	"Vahhab" "Vahid" "Vali" "Varshasb" "Vishtasb" "Yazdegerd" "Yousef" "Zahak" "Zakaria" "Zand" 
+	"Zia" }
+monarch_names = {
+	"Batas #0" = 1
+	"Sirma #0" = -1
+	"Usunbike #0" = -1
+	"Kure #0" = 1
+	"Yeldem #0" = -1
+	"Yasar #0" = -1
+	"Kugel #0" = 1
+	"Kibar #0" = 1
+	"Ipekel #0" = -1
+	"Tatus #0" = 1
+	"Asli #0" = -1
+	"Papaçyz #0" = 1
+	"Aba #0" = 1
+	"Baitzas #0" = 1
+	"Barïsbek #0" = 1
+	"Batan #0" = 1
+	"Konel #0" = 1
+	"Falki #0" = 1
+	"Tura #0" = -1
+	"Bayça #0" = 1
+	"Yazi #0" = 1
+	"Gunduz #0" = -1
+	"Gulçiçek #0" = -1
+	"Kourkoutai #0" = 1
+	"Sibel #0" = -1
+	"Sevilay #0" = -1
+	"Karacik #0" = -1
+	"Irge #0" = -1
+	"Ilkay #0" = -1
+	"Bizel #0" = 1
+	"Kostas #0" = 1
+	"Ipa #0" = 1
+	"Temir #0" = 1
+	"Özgul #0" = -1
+	"Gundes #0" = -1
+	"Kortan #0" = 1
+	"Dilek #0" = -1
+	"Bugha #0" = 1
+	"Karaca #0" = 1
+	"Kaydum #1" = 30
+	"Yeke #0" = 1
+	"Sarica #0" = -1
+	"Ildey #0" = 1
+	"Boru #0" = 1
+	"Sol #0" = 1
+	"Bozçin #0" = -1
+	"Biçkili #0" = 1
+	"Kegen #0" = 1
+	"Özlem #0" = -1
+	"Korkutan #0" = 1
+	"Mala #0" = -1
+	"Tyrach #0" = 1
+	"Barjik #0" = 1
+	"Çelgil #0" = 1
+	"Balgor #0" = 1
+	"Gunes #0" = -1
+	"Ayten #0" = -1
+	"Yildiz #0" = -1
+	"Sati #0" = -1
+	"Umay #0" = -1
+	"Ayasun #0" = -1
+	"Mutlu #0" = -1
+	"Teber #0" = 1
+	"Samur #0" = -1
+	"Sevindik #0" = -1
+	"Giazis #0" = 1
+	"Çiçek #0" = -1
+	"Peksen #0" = -1
+	"Çilen #0" = -1
+	"Ipaos #1" = 21
+	"Bator #0" = 1
+	"Esin #0" = -1
+	"No Character #14" = 0
+	"Zurab #1" = 0
+	"Gubaz #2" = 0
+	"Vardo #1" = -1
+	"Mordvinko #1" = 0
+	"Tunya #1" = 0
+	"Erziya #1" = 0
+	"Gurgen #1" = 0
+	"Grigoli #1" = 0
+	"Viacheslav #1" = 0
+	"Ruslan #2" = 0
+	"Yevdokia #1" = -1
+	"Guaram #1" = 0
+	"Levan #1" = 0
+	"Merab #1" = 0
+	"Salahaddin #2" = 0
+	"Sergios #1" = 0
+	"Aleksandre #1" = 0
+	"Orestes #1" = 0
+	"Eustratios #1" = 0
+	"Hektorios #1" = 0
+	"Sumbat #1" = 0
+	"Duda #1" = -1
+	"Parthena #1" = -1
+	"Goran #1" = 0
+	"Thomais #1" = -1
+	"Touran #1" = -1
+	"Farah #1" = -1
+	"Pertevniyal #1" = -1
+	"Afshar #0" = 0
+	"Amin #0" = 0
+	"Anushirvan #0" = 0
+	"Aram #0" = 0
+	"Ardahan #0" = 0
+	"Ardavan #0" = 0
+	"Ardeshir #0" = 0
+	"Assad #0" = 0
+	"Aurang #0" = 0
+	"Ayeshah #0" = 0
+	"Babak #0" = 0
+	"Bahman #0" = 0
+	"Bahram #0" = 0
+	"Bakhtiar #0" = 0
+	"Behrad #0" = 0
+	"Behrouz #0" = 0
+	"Bozorg #0" = 0
+	"Danush #0" = 0
+	"Darab #0" = 0
+	"Dariush #0" = 0
+	"Davud #0" = 0
+	"Djamasp #0" = 0
+	"Ebrahim #0" = 0
+	"Ehsan #0" = 0
+	"Esfandiar #0" = 0
+	"Eskander #0" = 0
+	"Esma'il #0" = 0
+	"Faramarz #0" = 0
+	"Faraz #0" = 0
+	"Fareed #0" = 0
+	"Farhad #0" = 0
+	"Fariborz #0" = 0
+	"Farroukh #0" = 0
+	"Farrukhzad #0" = 0
+	"Farzad #0" = 0
+	"Fath #0" = 0
+	"Ferdows #0" = 0
+	"Fereedun #0" = 0
+	"Ghobad #0" = 0
+	"Gholam #0" = 0
+	"Godarz #0" = 0
+	"Goshtasb #0" = 0
+	"Hafez #0" = 0
+	"Hassan #0" = 0
+	"Hazarasp #0" = 0
+	"Hedayat #0" = 0
+	"Hooshyar #0" = 0
+	"Hormoz #0" = 0
+	"Humayun #0" = 0
+	"Jahandar #0" = 0
+	"Jahangir #0" = 0
+	"Jahanshah #0" = 0
+	"Jamshid #0" = 0
+	"Javeed #0" = 0
+	"Kambiz #0" = 0
+	"Kamran #0" = 0
+	"Kavoos #0" = 0
+	"Keyghobad #0" = 0
+	"Keykhosrau #0" = 0
+	"Kharmandar #0" = 0
+	"Khashayar #0" = 0
+	"Kavadh #0" = 0
+	"Khodadad #0" = 0
+	"Khosrau #0" = 0
+	"Khudayar #0" = 0
+	"Khurshid #0" = 0
+	"Kurush #0" = 0
+	"Manuchihr #0" = 0
+	"Manushihr #0" = 0
+	"Marzuban #0" = 0
+	"Mashad #0" = 0
+	"Mehrab #0" = 0
+	"Mehrzad #0" = 0
+	"Morad #0" = 0
+	"Morteza #0" = 0
+	"Mozaffar #0" = 0
+	"Nard #0" = 0
+	"Naveed #0" = 0
+	"Nawid #0" = 0
+	"Nezam #0" = 0
+	"Parviz #0" = 0
+	"Pashang #0" = 0
+	"Peroz #0" = 0
+	"Pujman #0" = 0
+	"Reza #0" = 0
+	"Rostam #0" = 0
+	"Ruhollah #0" = 0
+	"Sadri #0" = 0
+	"Salman #0" = 0
+	"Shahab #0" = 0
+	"Shahbaz #0" = 0
+	"Shahin #0" = 0
+	"Shahram #0" = 0
+	"Shahrokh #0" = 0
+	"Shahruz #0" = 0
+	"Shahryar #0" = 0
+	"Shayan #0" = 0
+	"Sina #0" = 0
+	"Tahmasb #0" = 0
+	"Vahhab #0" = 0
+	"Vahid #0" = 0
+	"Vali #0" = 0
+	"Varshasb #0" = 0
+	"Vishtasb #0" = 0
+	"Yazdegerd #0" = 0
+	"Yousef #0" = 0
+	"Zahak #0" = 0
+	"Zakaria #0" = 0
+	"Zand #0" = 0
+	"Zia #0" = 0
+}
+ship_names = {
+	Aragveti Anacopia Artaani Abkhazeti
+	Bichvinta Batomi
+	Dmanisi Demetre
+	Ereti
+	Geguti Gelati
+	Kutatsi Kharnabuji Kura
+	Lasharisjvari Lore
+	Mtkvari
+	Narikala
+	Ruisi Racha
+	Seti Svaneti
+	Tamar Tbilisi Telavi Tbilisi Tashiri
+	Urbnisi
+}
+

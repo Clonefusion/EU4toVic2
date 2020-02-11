@@ -1,20 +1,16 @@
-#Poland
-
+# Poland
+ck2_converter_generated = yes
 graphical_culture = easterngfx
-
-color = { 197  92  106 }
-
-revolutionary_colors = { 5  0  5 }
-
+color = { 150 23 23 }
 historical_idea_groups = {
-	diplomatic_ideas
-	humanist_ideas	
 	trade_ideas
-	offensive_ideas
-	administrative_ideas
 	defensive_ideas
-	aristocracy_ideas	
-	quality_ideas
+	offensive_ideas
+	diplomatic_ideas
+	economic_ideas
+	spy_ideas
+	administrative_ideas
+	religious_ideas
 }
 
 historical_units = {
@@ -35,91 +31,198 @@ historical_units = {
 	russian_mass
 }
 
-monarch_names = {
-	"August #1" = 60
-	"Wladyslaw #3" = 60
-	"Stanislaw #0" = 40
-	"Kazimierz #3" = 20
-	"Aleksander #0" = 20
-	"Henryk #0" = 20
-	"Jan #0" = 20
-	"Jan #0 Olbracht" = 20
-	"Jan #0 Kazimierz" = 20
-	"Michal #0" = 20
-	"Stefan #0" = 20
-	"Zygmunt #0" = 20
-	"Zygmunt #0 August" = 20
-	"Aleksander #0 Karol" = 15
-	"Zygmunt #0 Kazimierz" = 15
-	"Krzysztof #0" = 10
-	"Fryderyk #0" = 10
-	"Jan #0 Zygmunt" = 10
-	"Karol #0 Ferdynand" = 10
-	"Olbracht #0" = 10
-	"Albert #0" = 0
-	"Aleksy #0" = 0
-	"Andrzej #0" = 0
-	"Bartlomiej #0" = 0
-	"Bogumil #0" = 0
-	"Bronislaw #0" = 0
-	"Dawid #0" = 0
-	"Dominik #0" = 0
-	"Emil #0" = 0
-	"Eugeniusz #0" = 0
-	"Ferdynand #0" = 0
-	"Gustaw #0" = 0
-	"Igor #0" = 0
-	"Iwan #0" = 0
-	"Krystian #0" = 0
-	"Lech #0" = 0
-	"Lucjusz #0" = 0
-	"Ludwik #0" = 0
-	"Lukasz #0" = 0
-	"Maksym #0" = 0
-	"Mariusz #0" = 0
-	"Mieszko #3" = 0
-	"Miroslaw #0" = 0
-	"Oskar #0" = 0
-	"Patryk #0" = 0
-	"Rafal #0" = 0
-	"Sylwester #0" = 0
-	"Szymon #0" = 0
-	"Zygfryd #0" = 0
-	"Jadwiga #1" = -1
-	"Anna #0" = -1
-	"Katarzyna #0" = -1
-}
+
 
 leader_names = {
-	Arciszewski
-	Benyowski Bidzinski Branicki Bielinski Boner Brzostowski Buczacki Butler
-	Czarniecki Chometowski Cetner Chlewicki Chodecki Czapski Czarnkowski
-	Dunin Denhoff Drzewicki Dambski Dzialynski Dzieduszycki
-	Firlej Fredro
-	Grodzicki Górka Grabowski Gembicki Gosiewski Grudzinski Grzymultowski Gurowski
-	Houwaldt Herburt Hylzen
-	Jablonowski Jazlowiecki Jaroslawski Jordan Judycki
-	Kurozwecki Koniecpolski Krasinski Kalinowski Korycki Kazanowski Kmita Komorowski Kamieniecki Karnkowski Krasicki Kwilecki
-	Lubomirski Lisowski Lanckoronski Leszczynski Lacki Latalski Ligeza Lipski Lubranski
-	Malski Mniszech Matczynski Mlodziejowski Malachowski Melsztynski Mielecki Mielzynski Morsztyn Mycielski
-	Nalecz Niesiolowski
-	Olesnicki Opacki Ozarowski Ossolinski Odrowaz Oporowski Ostroróg Ostrowski
-	Paniewski Poniatowski Pulaski Przyjemski Piaseczynski Potocki Pilecki Pociej Poninski Prazmowski Przebendowski
-	Rytwianski Rzewuski Raczynski Radziejowski Rej
-	Sobieski Siemienowicz Sulkowski Stadnicki Sieniawski Sierakowski Skarbek Soltyk Szafraniec Szembek Szydlowiecki Scibor
-	Tarnowski Tarlo Teczynski Tomicki Tyzenhaus
-	Uchanski
-	Wyhowski Wielopolski Walewski Weyher Wierzbowski Wolski Wodzicki
-	Zamoyski Zebrzydowski Zacwilchowski Zborowski Zaluski
-}
 
+	"Pliksov" "Naula" "Likiik" "Baise" "Manvydas" "Agita" "Rushky" "Imela" "Juvage" "Pukuveras" 
+	"Litto" "Elmede" "Rasa" "Balodis" "Galene" "Gedere" "Meltsayka" "Treniota" "Zigne" "Karijotas" 
+	"Galeine" "Karnak" "Kage" "Daira" "Dzeguze" "Balba" "Pakstyan" "Bikshe" "Tautvila" "Visheiv" 
+	"Traidenis" "Lammekinus" "Kordula" "Greze" "Simsam" "Bitens" "Darate" "Shutr" "Gibedats" "Meinekinus" 
+	"Erdzivil" "Kuliens" "Butovit" "Vaishvilkas" "Maija" "Brita" "Aishno" "Dovyat" "Vishikut" "Marite" 
+	"Viesturs" "Ruta" "Dose" "Yalgava" "Savna" "Sprudeik" "Pukiik" "Dzintis" "Dardedze" "Jedetus" 
+	"Gunda" "Talivaldis" "Biur" "Dobre" "Eunike" "Scurdo" "Mel'shay" "Gastile" "Gerden" "Gundega" 
+	"Liga" "Arvo" "Jaunule" "Vidyava" "Narvait" "Borut" "Ieva" "Erasts" "Viba" "Cherava" 
+	"Faga-Laye" "Brian" "Davins" "Poshayka" "Dausprungas" "Imanta" "Kurlemuse" "Dangeruthe" "Sabe" "Tura" 
+	"Lonkogveni" "Parush" "Vykantas" "Ausala" "Ako" "Kanafa" "Yudki" "Tarkhan" "Gotene" "Sviendorog" 
+	"Demas" "Vishly" "Rusins" "Skornand" "Ringaudas" "Mafalda" "Isabelle" "Kodere" "Gunvald" "Giemund" 
+	"Marcelina" "Darbeslave" "Vetseke" "Bulei" "Hassana" "Geyka" "Babba" "Birma" "Yuma" "Malla" 
+	"Mecca" "Hamish" "Fodi" "Mar-Chindin" "Nameisis" "Gando" "Samsam" "Muir" "Ankad" "Cirulis" 
+	"Gavin" "Bannu" "Shvarnas" "Koïzé" "Rodina" "Dervorgilla" "Kiten" "Yaqub" "Kerstigens" "Indulf" 
+	"Tib" "Sargun" "Halima" "Steikint" "Namiss" "Klavess" "Dermid" "Aymort" "Mendune" "Morna" 
+	"Casimir" "Aelix" "Wojuta" "Zbigniew" "Mszczuj" "Czyrzniech" "Golovke" "Janis" "Kaire" "Kaupo" 
+	"Stegut" "Valikaila" }
+monarch_names = {
+	"Pliksov #0" = 1
+	"Naula #0" = -1
+	"Likiik #0" = 1
+	"Baise #0" = 1
+	"Manvydas #0" = 1
+	"Agita #0" = -1
+	"Rushky #0" = 1
+	"Imela #0" = -1
+	"Juvage #1" = 39
+	"Pukuveras #0" = 1
+	"Litto #0" = 1
+	"Elmede #0" = 1
+	"Rasa #0" = -1
+	"Balodis #0" = 1
+	"Galene #0" = -1
+	"Gedere #0" = 1
+	"Meltsayka #0" = 1
+	"Treniota #0" = 1
+	"Zigne #1" = -46
+	"Karijotas #1" = 27
+	"Galeine #1" = 27
+	"Karnak #0" = 1
+	"Kage #0" = 1
+	"Daira #0" = -1
+	"Dzeguze #0" = -1
+	"Balba #0" = -1
+	"Pakstyan #0" = 1
+	"Bikshe #0" = 1
+	"Tautvila #0" = 1
+	"Visheiv #0" = 1
+	"Traidenis #1" = 36
+	"Lammekinus #0" = 1
+	"Kordula #0" = -1
+	"Greze #0" = -1
+	"Simsam #0" = 1
+	"Bitens #0" = -1
+	"Darate #0" = -1
+	"Shutr #0" = 1
+	"Gibedats #0" = 1
+	"Meinekinus #0" = 1
+	"Erdzivil #0" = 1
+	"Kuliens #0" = 1
+	"Butovit #0" = 1
+	"Vaishvilkas #0" = 1
+	"Maija #0" = -1
+	"Brita #0" = -1
+	"Aishno #0" = 1
+	"Dovyat #0" = 1
+	"Vishikut #0" = 1
+	"Marite #0" = -1
+	"Viesturs #0" = 1
+	"Ruta #0" = -1
+	"Dose #1" = -49
+	"Yalgava #0" = -1
+	"Savna #1" = -67
+	"Sprudeik #1" = 30
+	"Pukiik #0" = 1
+	"Dzintis #0" = 1
+	"Dardedze #0" = -1
+	"Jedetus #0" = 1
+	"Gunda #0" = -1
+	"Talivaldis #0" = 1
+	"Biur #0" = 1
+	"Dobre #0" = 1
+	"Eunike #0" = -1
+	"Scurdo #0" = 1
+	"Mel'shay #0" = -1
+	"Gastile #1" = 24
+	"Gerden #0" = 1
+	"Gundega #1" = -52
+	"Liga #0" = -1
+	"Arvo #0" = 1
+	"Jaunule #1" = 36
+	"Vidyava #0" = -1
+	"Narvait #0" = 1
+	"Borut #0" = 1
+	"Ieva #0" = -1
+	"Erasts #0" = 1
+	"Viba #0" = -1
+	"Cherava #0" = -1
+	"Faga-Laye #0" = 1
+	"Brian #0" = 1
+	"Davins #0" = 1
+	"Poshayka #0" = -1
+	"Dausprungas #0" = 1
+	"Imanta #0" = 1
+	"Kurlemuse #0" = 1
+	"Dangeruthe #0" = 1
+	"Sabe #0" = 1
+	"Tura #0" = -1
+	"Lonkogveni #1" = 27
+	"Parush #0" = 1
+	"Vykantas #0" = 1
+	"Ausala #1" = -58
+	"Ako #0" = 1
+	"Kanafa #0" = 1
+	"Yudki #0" = 1
+	"Tarkhan #0" = 1
+	"Gotene #0" = 1
+	"Sviendorog #0" = 1
+	"Demas #0" = 1
+	"Vishly #0" = 1
+	"Rusins #0" = 1
+	"Skornand #1" = 27
+	"Ringaudas #0" = 1
+	"Mafalda #0" = -1
+	"Isabelle #0" = -1
+	"Kodere #1" = 36
+	"Gunvald #0" = 1
+	"Giemund #0" = 1
+	"Marcelina #0" = -1
+	"Darbeslave #0" = 1
+	"Vetseke #0" = 1
+	"Bulei #0" = 1
+	"Hassana #0" = -1
+	"Geyka #0" = -1
+	"Babba #0" = 1
+	"Birma #0" = 1
+	"Yuma #0" = 1
+	"Malla #0" = 1
+	"Mecca #0" = -1
+	"Hamish #0" = 1
+	"Fodi #0" = 1
+	"Mar-Chindin #0" = 1
+	"Nameisis #0" = 1
+	"Gando #0" = -1
+	"Samsam #0" = 1
+	"Muir #0" = 1
+	"Ankad #0" = 1
+	"Cirulis #0" = 1
+	"Gavin #0" = 1
+	"Bannu #0" = 1
+	"Shvarnas #0" = 1
+	"Koïzé #0" = 1
+	"Rodina #0" = -1
+	"Dervorgilla #0" = -1
+	"Kiten #0" = 1
+	"Yaqub #0" = 1
+	"Kerstigens #0" = 1
+	"Indulf #0" = 1
+	"Tib #0" = 1
+	"Sargun #0" = 1
+	"Halima #0" = -1
+	"Steikint #0" = 1
+	"Namiss #0" = -1
+	"Klavess #0" = 1
+	"Dermid #0" = 1
+	"Aymort #0" = 1
+	"Mendune #0" = 1
+	"Morna #0" = -1
+	"Casimir #1" = 0
+	"Aelix #1" = 0
+	"Wojuta #1" = 0
+	"Zbigniew #1" = 0
+	"Mszczuj #1" = 0
+	"Czyrzniech #1" = 0
+	"Golovke #0" = 0
+	"Janis #0" = 0
+	"Kaire #0" = 0
+	"Kaupo #0" = 0
+	"Stegut #0" = 0
+	"Valikaila #0" = 0
+}
 ship_names = {
 	"Arka Noego"
         "Bialy Orzel" Burza "Bialy Lew" "Brzesko-Kujawskie" Belzkie Braclawskie
         Charitas "Czarny Orzel" "Czarny Kruk" Chelminskie Czernichowskie
         Fortuna
         Gryf Gwiazda Gnieznienskie
-	Inowroclawskie
+	Inoworclawskie
 	"Król Dawid" Kaliskie Krakowskie Kijowskie Kraków
         Lublin "Latajacy Jelen" Lwów Leczyckie Lubelskie
         "Maly Bialy Orzel" Malborskie Mazowieckie
@@ -131,6 +234,3 @@ ship_names = {
         Zwyciestwo "Zólty Lew"
 }
 
-army_names = {
-	"Armia z $PROVINCE$"
-}

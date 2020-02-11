@@ -1,20 +1,16 @@
-#Country Name: Please see filename.
-
+# Scotland
+ck2_converter_generated = yes
 graphical_culture = westerngfx
-
-color = { 199  175  12 }
-
-preferred_religion = reformed
-
+color = { 198 163 12 }
 historical_idea_groups = {
-	administrative_ideas
 	defensive_ideas
-	exploration_ideas
-	offensive_ideas
-	economic_ideas
-	maritime_ideas
+	aristocracy_ideas
+	naval_ideas
 	trade_ideas
+	diplomatic_ideas
+	economic_ideas
 	innovativeness_ideas
+	offensive_ideas
 }
 
 historical_units = {
@@ -34,95 +30,255 @@ historical_units = {
 	napoleonic_lancers
 }
 
-leader_names = {
-	Adam Alexander
-	Bruce Beaton Boyd
-	Cameron Campbell Cochrane Crichton Cunynghame Crawford Carnegie Colyear
-	Douglas Duncan "de Dunbar" Dalzell Drummond
-	Erskine
-	Forbes Ferguson Fletcher Fleming
-	Gordon Graham Gilchrist
-	Hume Hepburn Hamilton
-	Johnstone
-	Knox Keith Kerr
-	Law Leslie Livingston Lindsay
-	MacKenzie MacDonald MacGregor Malise MacTaggart Montgomerie Maxwell Murray Maitland
-	Nasmyth
-	Ogilvy
-	Playfair Paterson
-	Raeburn Randolph Ruthven
-	Selkirk Strathbogie Sinclair Stewart Seton
-	Wilkie Wishart Wemyss	
-}
 
+
+leader_names = {
+
+	"Sölvi" "Svanhildr" "Alfr" "Vagn" "Edith" "Hrörekr" "Eithne" "Faste" "Isabel" "Þora" 
+	"Skuld" "Murron" "Inga" "Asa" "Sigbjörn" "Iliana" "Hafrid" "Björn" "Sheena" "Óenucán" 
+	"Brice" "Kraka" "Eilif" "Asta" "Elisabet" "Maer" "Þyra" "Arnbjörn" "Halla" "Saga" 
+	"Katarina" "Ingjerðr" "Gloð" "Bothildr" "Einarr" "Dag" "Rikissa" "Guðfrið" "Gyða" "Þorgil" 
+	"Rögnfrið" "Baldr" "Tjudmund" "Sif" "Vigdis" "Freyja" "Sigrid" "Ingfrid" "Linda" "Gerðr" 
+	"Freyr" "Ingemar" "Hrolfr" "Falki" "Ingjald" "Ylva" "Rikulfr" "Helena" "Kolbjörn" "Steinn" 
+	"Asbjörn" "Arnfast" "Cúldub" "Knut" "Aslaug" "Gyrið" "Fredrik" "Sörkver" "Elisedd" "Holmger" 
+	"Ingibjörg" "Totil" "Slaine" "Áedán" "Bragi" "Ale" "Róis" "Alfhildr" "Gunnhildr" "Grima" 
+	"Haraldr" "Margareta" "Sara" "Barabal" "Oscar" "Olafr" "Gyla" "No Character" "Hereweald" "Sælræd" 
+	"Scule" "Beorhtwynn" "Wifredo" "Cyneswith" "Gaudiosa" "Wihtræd" "Malcolm" "Una" "Maldred" "Frirek" 
+	"Skuli" "Dietpold" "Guðröðr" "Emelrich" "Walter" "Hroðgar" "Iestyn" "Barid" "Botulfr" "Cirulis" 
+	"Sigurðr" "Adam" "Alpin" "Alan" "Alastair" "Angus" "Archibald" "Arthur" "Arran" "Aulay" 
+	"Beathan" "Brian" "Cailean" "Calum" "Carbrey" "Colban" "Colin" "Conall" "Conan" "Dermid" 
+	"Donald" "Douglas" "Duff" "Dugald" "Duncan" "Edgar" "Edward" "Edwin" "Eric" "Evander" 
+	"Ewan" "Farquhar" "Fergus" "Fingal" "Findlay" "Frang" "Gavin" "Gilbert" "Gilbride" "Gilchrist" 
+	"Gillespie" "Gilpatrick" "Gilroy" "Giric" "Glenn" "Godfrey" "Gregor" "Hamish" "Hector" "Henry" 
+	"Hugh" "Iain" "Indulf" "James" "Kenneth" "Kentigern" "Lachlan" "Lennon" "Lulach" "Macbeth" 
+	"Maldoven" "Malise" "Malmure" "Maoilios" "Marcas" "Matad" "Morgan" "Muir" "Mungo" "Murdoch" 
+	"Murray" "Neil" "Ninian" "Radulf" "Ranald" "Richard" "Robert" "Roderick" "Ronald" "Rory" 
+	"Ross" "Roy" "Shaw" "Somerled" "Stephan" "Sweeny" "Tadhg" "Talore" "Torquil" "Uhtred" 
+	"Uisdean" "Walan" "Waldeve" "William" }
 monarch_names = {
-	"James #0" = 120
-	"Robert #2" = 20
-	"Henry #0" = 20
-	"Alexander #3" = 10
-	"Arthur #0" = 10
-	"Walter #0" = 10
-	"John #1" = 5
-	"Charles #0" = 5
-	"Malcolm #4" = 1
-	"Donald #3" = 1
-	"David #2" = 1
-	"Duncan #2" = 1
-	"Andrea #0" = 0
+	"Sölvi #0" = 1
+	"Svanhildr #0" = -1
+	"Alfr #0" = 1
+	"Vagn #0" = 1
+	"Edith #0" = -1
+	"Hrörekr #0" = 1
+	"Eithne #0" = -1
+	"Faste #1" = 21
+	"Isabel #0" = -1
+	"Þora #0" = -1
+	"Skuld #0" = -1
+	"Murron #0" = -1
+	"Inga #0" = -1
+	"Asa #0" = -1
+	"Sigbjörn #0" = 1
+	"Iliana #0" = -1
+	"Hafrid #0" = -1
+	"Björn #0" = 1
+	"Sheena #0" = -1
+	"Óenucán #0" = 1
+	"Brice #1" = 18
+	"Kraka #0" = -1
+	"Eilif #0" = 1
+	"Asta #0" = -1
+	"Elisabet #0" = -1
+	"Maer #0" = -1
+	"Þyra #0" = -1
+	"Arnbjörn #0" = 1
+	"Halla #0" = -1
+	"Saga #0" = -1
+	"Katarina #0" = -1
+	"Ingjerðr #0" = -1
+	"Gloð #0" = -1
+	"Bothildr #0" = -1
+	"Einarr #0" = 1
+	"Dag #0" = 1
+	"Rikissa #0" = -1
+	"Guðfrið #0" = 1
+	"Gyða #0" = -1
+	"Þorgil #1" = 18
+	"Rögnfrið #0" = -1
+	"Baldr #1" = 18
+	"Tjudmund #0" = 1
+	"Sif #0" = -1
+	"Vigdis #0" = -1
+	"Freyja #0" = -1
+	"Sigrid #0" = -1
+	"Ingfrid #0" = -1
+	"Linda #0" = -1
+	"Gerðr #0" = -1
+	"Freyr #0" = 1
+	"Ingemar #0" = 1
+	"Hrolfr #0" = 1
+	"Falki #0" = 1
+	"Ingjald #0" = 1
+	"Ylva #0" = -1
+	"Rikulfr #0" = 1
+	"Helena #0" = -1
+	"Kolbjörn #0" = 1
+	"Steinn #0" = 1
+	"Asbjörn #0" = 1
+	"Arnfast #0" = 1
+	"Cúldub #0" = 1
+	"Knut #1" = 18
+	"Aslaug #0" = -1
+	"Gyrið #0" = -1
+	"Fredrik #1" = 18
+	"Sörkver #0" = 1
+	"Elisedd #0" = 1
+	"Holmger #0" = 1
+	"Ingibjörg #0" = -1
+	"Totil #0" = 1
+	"Slaine #0" = -1
+	"Áedán #0" = 1
+	"Bragi #0" = 1
+	"Ale #0" = 1
+	"Róis #0" = -1
+	"Alfhildr #0" = -1
+	"Gunnhildr #0" = -1
+	"Grima #0" = -1
+	"Haraldr #0" = 1
+	"Margareta #0" = -1
+	"Sara #0" = -1
+	"Barabal #0" = -1
+	"Oscar #0" = 1
+	"Olafr #0" = 1
+	"Gyla #0" = -1
+	"No Character #60" = 0
+	"Hereweald #1" = 0
+	"Sælræd #1" = 0
+	"Scule #1" = 0
+	"Beorhtwynn #1" = -1
+	"Wifredo #1" = 0
+	"Cyneswith #1" = -1
+	"Gaudiosa #1" = -1
+	"Wihtræd #1" = 0
+	"Malcolm #2" = 0
+	"Una #1" = -1
+	"Maldred #1" = 0
+	"Frirek #1" = 0
+	"Skuli #1" = 0
+	"Dietpold #1" = 0
+	"Guðröðr #1" = 0
+	"Emelrich #1" = 0
+	"Walter #2" = 0
+	"Hroðgar #1" = 0
+	"Iestyn #1" = 0
+	"Barid #1" = 0
+	"Botulfr #1" = 0
+	"Cirulis #1" = 0
+	"Sigurðr #2" = 0
+	"Adam #0" = 0
+	"Alpin #0" = 0
 	"Alan #0" = 0
-	"Ailpein #0" = 0
+	"Alastair #0" = 0
+	"Angus #0" = 0
 	"Archibald #0" = 0
-	"Barclay #0" = 0
+	"Arthur #0" = 0
+	"Arran #0" = 0
+	"Aulay #0" = 0
 	"Beathan #0" = 0
-	"Bruce #0" = 0
-	"Cameron #0" = 0
-	"Cináed #0" = 0
+	"Brian #0" = 0
+	"Cailean #0" = 0
+	"Calum #0" = 0
+	"Carbrey #0" = 0
+	"Colban #0" = 0
+	"Colin #0" = 0
 	"Conall #0" = 0
+	"Conan #0" = 0
+	"Dermid #0" = 0
+	"Donald #0" = 0
 	"Douglas #0" = 0
 	"Duff #0" = 0
-	"Edan #0" = 0
+	"Dugald #0" = 0
+	"Duncan #0" = 0
+	"Edgar #0" = 0
+	"Edward #0" = 0
+	"Edwin #0" = 0
+	"Eric #0" = 0
 	"Evander #0" = 0
-	"Fraser #0" = 0
-	"Garry #0" = 0
-	"Glen #0" = 0
-	"Ian #0" = 0
-	"Keir #0" = 0
-	"Kennedy #0" = 0
-	"Lennox #0" = 0
-	"Logan #0" = 0
-	"Micheil #0" = 0
+	"Ewan #0" = 0
+	"Farquhar #0" = 0
+	"Fergus #0" = 0
+	"Fingal #0" = 0
+	"Findlay #0" = 0
+	"Frang #0" = 0
+	"Gavin #0" = 0
+	"Gilbert #0" = 0
+	"Gilbride #0" = 0
+	"Gilchrist #0" = 0
+	"Gillespie #0" = 0
+	"Gilpatrick #0" = 0
+	"Gilroy #0" = 0
+	"Giric #0" = 0
+	"Glenn #0" = 0
+	"Godfrey #0" = 0
+	"Gregor #0" = 0
+	"Hamish #0" = 0
+	"Hector #0" = 0
+	"Henry #0" = 0
+	"Hugh #0" = 0
+	"Iain #0" = 0
+	"Indulf #0" = 0
+	"James #0" = 0
+	"Kenneth #0" = 0
+	"Kentigern #0" = 0
+	"Lachlan #0" = 0
+	"Lennon #0" = 0
+	"Lulach #0" = 0
+	"Macbeth #0" = 0
+	"Maldoven #0" = 0
+	"Malise #0" = 0
+	"Malmure #0" = 0
+	"Maoilios #0" = 0
+	"Marcas #0" = 0
+	"Matad #0" = 0
+	"Morgan #0" = 0
+	"Muir #0" = 0
 	"Mungo #0" = 0
-	"Munroe #0" = 0
-	"Scott #0" = 0
-	"Wallace #0" = 0
-	"Mary #0" = -10
-	"Elizabeth #0" = -1
-	"Margaret  #0" = -1
-	"Euphemia #0" = -1
-	"Anabella  #0" = -1
+	"Murdoch #0" = 0
+	"Murray #0" = 0
+	"Neil #0" = 0
+	"Ninian #0" = 0
+	"Radulf #0" = 0
+	"Ranald #0" = 0
+	"Richard #0" = 0
+	"Robert #0" = 0
+	"Roderick #0" = 0
+	"Ronald #0" = 0
+	"Rory #0" = 0
+	"Ross #0" = 0
+	"Roy #0" = 0
+	"Shaw #0" = 0
+	"Somerled #0" = 0
+	"Stephan #0" = 0
+	"Sweeny #0" = 0
+	"Tadhg #0" = 0
+	"Talore #0" = 0
+	"Torquil #0" = 0
+	"Uhtred #0" = 0
+	"Uisdean #0" = 0
+	"Walan #0" = 0
+	"Waldeve #0" = 0
+	"William #0" = 0
+}
+ship_names = {
+	Advantage "Ann of Anstruther"
+	Bonaventure Bruce
+	Charles "Christian of Boness" Christopher Cuckoo
+	Flower Fortune
+	"Good Fortune" Green-tree
+	"Great Michael"
+	James Janet "Jenny Pirwin"
+	"King's Caravel"
+	"Lamb of Leith" Lesley Lion
+	Margaret "Margaret of Peterhead" "Mary Willoughby" "Mary Walsingham" Mercury Moon Morton
+	Pelican "Prince Rupert" "Providence of Dundee"
+	"Rainbow of Dundee" Rothes
+	Salamander "St. Salvator"
+	Thistle
+	Unicorn
+	Venture
+	Wemyss
+	"Yellow Caravel"
 }
 
-ship_names = {
-	"Alexander Gaily" "Ann of Anstruther" "Ann of Caledonia" Annandale Anthony
-	Bonaventure Bosse
-	Caledonia "Christian of Bo'ness" Christopher Colomb Continent
-	David "Dogarvine of Londonderry" Dolphin "Duke of Hamilton" "Dumbarton Castle"
-	Eagle "Effenying Castle" Elizabeth Endeavour
-	Flower Fortune
-	"Good Fortune" "Great Lyon" "Great Spaniard" "Great Unicorn" Greentree
-	Hope "Hope of Bo'ness" "Hopeful Beginning"
-	Instauration
-	James "James of Anstruther" Janet "Jennet Purwyn"
-	"King's Carvel"
-	"Lamb of Glasgow" "Lamb of Leith" Lesley "Little Unicorn" Lyon
-	Margaret "Margaret of Peterhead" "Mary Willoughby" "Mary Walsingham" Mercury Michael Moriset Morton
-	"Olive Branch"
-	Pelican Phoenix "Prince Rupert" "Providence of Dundee" "Providence of Kirkcaldy"
-	Rainbow "Reid Lyon" "Rising Sun" Rothes "Royal Mary" "Royal William"
-	"Saint Andrew" Salamander Society Speedwell "Speedy Return"
-	Thistle Towaich Treasurer
-	Unicorn Union
-	Venture "Phoenix of Glasgow"
-	Wemyss "William and George" "William and Mary"
-	"Yellow Carvel"
-}

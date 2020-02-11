@@ -28,7 +28,7 @@ age_of_discovery = {
 					}
 				}
 		}
-		obj_100_development = {
+		obj_150_development = {
 			allow = {
 				capital_scope = {
 					NOT = {
@@ -38,7 +38,7 @@ age_of_discovery = {
 					}
 				}
 			}
-			total_development = 100
+			total_development = 150
 
 		}
 		
@@ -60,11 +60,11 @@ age_of_discovery = {
 		}
 		obj_30_development_city = {
 			custom_trigger_tooltip = {
-				tooltip = obj_30_development_city_tooltip
+				tooltip = obj_50_development_city_tooltip
 				any_owned_province = {
 					is_core = ROOT
 					controlled_by = owner
-					development = 30
+					development = 50
 				}
 			}
 		}
@@ -179,7 +179,7 @@ age_of_discovery = {
 		
 		ab_ottoman_siege_ability = {
 			allow = {
-				tag = TUR
+				tag = BNG
 			}
 			modifier = {
 				siege_ability = 0.33
@@ -192,7 +192,7 @@ age_of_discovery = {
 		ab_portugal_colonial_growth = {
 		
 			allow = {
-				tag = POR
+				tag = NOR
 			}
 			modifier = {
 				global_colonial_growth = 50
@@ -204,7 +204,7 @@ age_of_discovery = {
 		ab_denmark_reduced_lib_desire = {
 		
 			allow = {
-				tag = DAN
+				tag = LIT
 			}
 			modifier = {
 				reduced_liberty_desire = 30
@@ -224,7 +224,7 @@ age_of_discovery = {
 		ab_venice_ship_trade = {
 		
 			allow = {
-				tag = VEN
+				tag = ISR
 			}
 			modifier = {
 				global_ship_trade_power = 0.5
@@ -240,7 +240,10 @@ age_of_reformation = {
 	start = 1530
 	
 	can_start = {
-		is_religion_enabled = protestant
+		OR = {
+			is_year = 1530
+			is_religion_enabled = protestant
+		}
 	}
 	
 	
@@ -270,7 +273,7 @@ age_of_reformation = {
 		}
 		
 		obj_colonial_empire = {
-			colony = 5
+			colony = 4
 		}
 		
 		obj_force_converted = {
@@ -385,10 +388,10 @@ age_of_reformation = {
 	
 		ab_spain_tercio = {
 			allow = {
-				tag = SPA
+				tag = NRM
 			}
 			modifier = {
-				shock_damage_received = -0.3
+				shock_damage_received = -0.1
 			}
 			ai_will_do = {
 				factor = 100
@@ -396,7 +399,7 @@ age_of_reformation = {
 		}
 		ab_mughal_artillery = {
 			allow = {
-				tag = MUG
+				tag = X14
 			}
 			modifier = {
 				artillery_cost = -0.5
@@ -409,12 +412,11 @@ age_of_reformation = {
 		ab_polish_legitimacy = {
 			allow = {
 				OR = {
-					tag = PLC
-					tag = POL
+					tag = NOR
 				}
 			}
 			modifier = {
-				global_trade_goods_size_modifier = 0.33
+				global_trade_goods_size_modifier = 0.2
 			}
 			ai_will_do = {
 				factor = 100
@@ -423,7 +425,7 @@ age_of_reformation = {
 		
 		ab_persia_reinforce = {
 			allow = {
-				tag = PER
+				tag = X14
 			}
 			modifier = {
 				reinforce_cost_modifier = -0.3
@@ -485,8 +487,7 @@ age_of_absolutism = {
 		}
 		
 		obj_emperor_of_china = {
-			is_emperor_of_china = yes
-			imperial_mandate = 50
+			trade_income_percentage = 0.50
 		}
 		
 		obj_cultures_accepted = {
@@ -495,8 +496,12 @@ age_of_absolutism = {
 		
 		obj_win_religious_war = {
 			custom_trigger_tooltip = {
-				tooltip = obj_religious_league_war_on_winning_side_tooltip
-				has_country_flag = religious_league_war_on_winning_side
+				tooltip = obj_80_development_city_tooltip
+				any_owned_province = {
+					is_core = ROOT
+					controlled_by = owner
+					development = 80
+				}
 			}
 			
 		}
@@ -577,10 +582,10 @@ age_of_absolutism = {
 	
 		ab_france_fire_damage = {
 			allow = {
-				tag = FRA
+				tag = Z63
 			}
 			modifier = {
-				fire_damage = 0.2
+				fire_damage = 0.1
 			}
 			ai_will_do = {
 				factor = 100
@@ -588,7 +593,7 @@ age_of_absolutism = {
 		}
 		ab_dutch_anti_corruption = {
 			allow = {
-				tag = NED
+				tag = Z63
 			}
 			modifier = {
 				yearly_corruption = -0.2
@@ -599,25 +604,13 @@ age_of_absolutism = {
 		}	
 		ab_sweden_manpower = {
 			allow = {
-				tag = SWE
-			}
-			modifier = {
-				manpower_recovery_speed = 0.35
-			}
-			ai_will_do = {
-				factor = 100
-			}
-		}
-
-		ab_manchu_banner = {
-			allow = {
 				OR = {
-					tag = MCH
-					tag = QNG
+					tag = NRM
+					tag = LNG
 				}
 			}
 			modifier = {
-				amount_of_banners = 0.5
+				manpower_recovery_speed = 0.35
 			}
 			ai_will_do = {
 				factor = 100
@@ -661,19 +654,19 @@ age_of_revolutions = {
 		}
 		obj_large_subject = {
 			any_subject_country = {
-				total_development = 250
+				total_development = 300
 			}
 		}
 		obj_disc_army = {
 			has_global_modifier_value = {
 				which = discipline
-				value = 0.25
+				value = 0.2
 				extra_shortcut = yes
 			}
 		}
 		obj_huge_capital = {
 			capital_scope = {
-				development = 50
+				development = 75
 			}
 		}
 		obj_great_general = {
@@ -767,10 +760,10 @@ age_of_revolutions = {
 		}
 		ab_pru_military = {
 			allow = {
-				tag = PRU
+				tag = Z51
 			}
 			modifier = {
-				fire_damage_received = -0.2
+				fire_damage_received = -0.1
 			}
 			ai_will_do = {
 				factor = 100
@@ -778,7 +771,7 @@ age_of_revolutions = {
 		}
 		ab_gbr_fleet = {
 			allow = {
-				tag = GBR
+				tag = Z63
 			}
 			modifier = {
 				naval_maintenance_modifier = -0.33
@@ -787,20 +780,9 @@ age_of_revolutions = {
 				factor = 100
 			}
 		}
-		ab_russia_boost = {
-			allow = {
-				tag = RUS
-			}
-			modifier = {
-				max_states = 20
-			}
-			ai_will_do = {
-				factor = 100
-			}
-		}
 		ab_austria_rep = {
 			allow = {
-				tag = HAB
+				tag = ISR
 			}
 			modifier = {
 				diplomatic_reputation = 5

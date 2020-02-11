@@ -1,108 +1,203 @@
-#Country Name: Please see filename.
+# Syria
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 145 130 88 }
 
-graphical_culture = muslimgfx
 
-color = { 125  110  225 }
 
-historical_idea_groups = {
-	defensive_ideas
-	religious_ideas
-	offensive_ideas
-	trade_ideas
-	spy_ideas
-	diplomatic_ideas
-	innovativeness_ideas
-	economic_ideas
-}
-
-historical_units = {
-	persian_footsoldier
-	persian_cavalry_charge
-	persian_shamshir
-	qizilbash_cavalry
-	tofongchis_musketeer
-	topchis_artillery
-	afsharid_reformed
-	afsharid_reformed_infantry
-	muslim_mass_infantry
-	muslim_dragoon
-	persian_rifle
-}
-
-monarch_names = {
-	"al-Nasr #2" = 20
-	"al-Mu'azzam #2" = 20
-	"al-Salih #2" = 20
-	"al-'Adil #2" = 20
-	"al-Kamil #1" = 20
-	"al-Ashraf #1" = 20
-	"al-Afdal #1" = 15
-	"Tadj #2" = 10
-	"Mujir ud-Din #1" = 10
-	"Djamal ud-Din #1" = 10
-	"Shihab ud-Din #1" = 10
-	"Shams #1" = 10
-	"Saif #1" = 10
-	"'Abbas #0" = 0
-	"'Abd al-Rahman #0" = 0
-	"Anwar #0" = 0
-	"Atuf #0" = 0
-	"Bakr #0" = 0
-	"Fahd #0" = 0
-	"Hakim #0" = 0
-	"Harun #0" = 0
-	"Hikmat #0" = 0
-	"Hisham #0" = 0
-	"Husayn #0" = 0
-	"Isma'il #0" = 0
-	"Jafar #0" = 0
-	"Jamaal #0" = 0
-	"Karim #0" = 0
-	"Malîk #0" = 0
-	"Mirza #0" = 0
-	"Muhammad #0" = 0
-	"Rashîd #0" = 0
-	"Rusul #0" = 0
-	"Shimun #0" = 0
-	"Tarîq #0" = 0
-	"Usama #0" = 0
-	"Yasir #0" = 0
-	"Yusuf #0" = 0
-	"Zaid #0" = 0
-	"Zîyad #0" = 0
-	
-	"Ihsan #0" = -1
-	"Marwa #0" = -1
-	"Fatima #0" = -1
-	"Aisha #0" = -1
-}
 
 leader_names = {
-	Damad
-	Esad
-	Farhad
-	Hafiz
-	Fazil
-	Ismail
-	Mehmed
-	Murad
-	Nasuh
-	Osman
-	Salih
-	Sinan
+
+	"Madrona" "Chana" "Chananel" "Rivkah" "Rajiya" "Elyakim" "Chaninai" "Shabsai" "Sherira" "Menashe" 
+	"Pultzelina" "Esther" "Belet" "Hila" "Beila" "Mari" "Yuda" "Paltoi" "Nazaneen" "Yehudis" 
+	"Yeintil" "Shoinlin" "Chiyya" "Nasan" "Yachya" "Reuven" "Meshulam" "Tziporah" "Elazar" "Khalid" 
+	"Shluida" "Chanan" "Aziza" "Shonlin" "Minna" "Sechok" "Baruch" "Shinoi" "Uri" "Acha" 
+	"Mevasser" "Levi" "Yoel" "Saadiah" "Kahana" "Chofni" "Guta" "Amunah" "Saris" "Natronai" 
+	"Shemaryah" "Ala'i" "Kalonymos" "Chaim" "Mukhtar" "Scolaster" "Machir" "Shimon" "Yehudai" "Murad" 
+	"Nesanel" "Tzadok" "Rava" "Guthela" "Malcha" "Shila" "Moshe" "Azariah" "Elchanan" "Yasar" 
+	"Dodai" "Boaz" "Chanoch" "Avomai" "Doltza" "Nachshon" "Aharon" "Giza" "Shalom" "Matrona" 
+	"Achunai" "Chizkiyah" "Meir" "Eliezer" "Shlomo" "Yoshiah" "Kafnai" "Mordechai" "Ravya" "Chushiel" 
+	"Gershom" "Rivai" "Asher" "Muhsin" "Muzaffaraddin" "Ghayyat" "Khaterah" "Zahra" "Zakkai" "Chelbo" 
+	"Tamar" "Hafsa" "Hashmaddin" "Sheshna" "Abdul-Azeem" "Sorgo" "Sitara" "Amir" "Gedalyah" "Jalila" 
+	"Dudai" "Ravai" "Giat" "Musa" "Negar" "Huma" "Kamala" "Umaya" "Abba" "Ismat" 
+	"Merwan" "Xušyar" "Hamdan" "Eldad" "Abbaye" "Achai" "Alechsandri" "Ammi" "Amram" "Ashi" 
+	"Avraham" "Baboi" "Bibai" "Binyamin" "Bustenai" "Chayim" "Chisdai" "Dimi" "Efrayim" "Eina" 
+	"Hillel" "Ivomai" "Kiyomi" "Mar" "Matiyahu" "Menechem" "Mesharsheya" "Mishael" "Nachman" "Natan" 
+	"Natroi" "Nechemiah" "Nehilai" "Nissim" "Pirkoi" "Ravi" "Shanoi" "Shmuel" "Sulam" "Tachlifa" 
+	"Tzemach" "Yaakov" "Yechiel" "Yehudah" "Yehoshua" "Yeshayah" "Yisrael" "Yitzchak" "Yosef" "Yosi" 
+	"Zelekman" "Zuiskind" }
+monarch_names = {
+	"Madrona #0" = -1
+	"Chana #1" = -46
+	"Chananel #2" = 36
+	"Rivkah #0" = -1
+	"Rajiya #0" = -1
+	"Elyakim #0" = 1
+	"Chaninai #0" = 1
+	"Shabsai #0" = 1
+	"Sherira #0" = 1
+	"Menashe #1" = 24
+	"Pultzelina #0" = -1
+	"Esther #0" = -1
+	"Belet #0" = -1
+	"Hila #0" = 1
+	"Beila #1" = -34
+	"Mari #0" = 1
+	"Yuda #0" = 1
+	"Paltoi #0" = 1
+	"Nazaneen #0" = -1
+	"Yehudis #0" = -1
+	"Yeintil #0" = -1
+	"Shoinlin #0" = -1
+	"Chiyya #0" = 1
+	"Nasan #0" = 1
+	"Yachya #0" = 1
+	"Reuven #0" = 1
+	"Meshulam #0" = 1
+	"Tziporah #0" = -1
+	"Elazar #0" = 1
+	"Khalid #0" = 1
+	"Shluida #0" = -1
+	"Chanan #0" = 1
+	"Aziza #0" = -1
+	"Shonlin #0" = -1
+	"Minna #0" = -1
+	"Sechok #0" = 1
+	"Baruch #0" = 1
+	"Shinoi #0" = 1
+	"Uri #0" = 1
+	"Acha #0" = 1
+	"Mevasser #0" = 1
+	"Levi #0" = 1
+	"Yoel #0" = 1
+	"Saadiah #0" = 1
+	"Kahana #0" = 1
+	"Chofni #0" = 1
+	"Guta #0" = -1
+	"Amunah #0" = 1
+	"Saris #0" = -1
+	"Natronai #1" = 48
+	"Shemaryah #1" = 21
+	"Ala'i #0" = 1
+	"Kalonymos #0" = 1
+	"Chaim #1" = 21
+	"Mukhtar #0" = 1
+	"Scolaster #0" = -1
+	"Machir #0" = 1
+	"Shimon #0" = 1
+	"Yehudai #1" = 21
+	"Murad #0" = 1
+	"Nesanel #0" = 1
+	"Tzadok #0" = 1
+	"Rava #2" = 24
+	"Guthela #0" = -1
+	"Malcha #0" = 1
+	"Shila #0" = 1
+	"Moshe #0" = 1
+	"Azariah #0" = 1
+	"Elchanan #0" = 1
+	"Yasar #2" = 18
+	"Dodai #0" = 1
+	"Boaz #0" = 1
+	"Chanoch #0" = 1
+	"Avomai #0" = 1
+	"Doltza #0" = -1
+	"Nachshon #0" = 1
+	"Aharon #0" = 1
+	"Giza #0" = 1
+	"Shalom #1" = 21
+	"Matrona #0" = -1
+	"Achunai #0" = 1
+	"Chizkiyah #0" = 1
+	"Meir #1" = 24
+	"Eliezer #0" = 1
+	"Shlomo #1" = 18
+	"Yoshiah #0" = 1
+	"Kafnai #0" = 1
+	"Mordechai #0" = 1
+	"Ravya #0" = 1
+	"Chushiel #1" = 18
+	"Gershom #1" = 21
+	"Rivai #0" = 1
+	"Asher #0" = 1
+	"Muhsin #0" = 1
+	"Muzaffaraddin #0" = 1
+	"Ghayyat #0" = 1
+	"Khaterah #0" = -1
+	"Zahra #0" = -1
+	"Zakkai #0" = 1
+	"Chelbo #0" = 1
+	"Tamar #0" = 1
+	"Hafsa #0" = -1
+	"Hashmaddin #1" = 18
+	"Sheshna #0" = 1
+	"Abdul-Azeem #0" = 1
+	"Sorgo #0" = 1
+	"Sitara #1" = -22
+	"Amir #0" = 1
+	"Gedalyah #0" = 1
+	"Jalila #0" = -1
+	"Dudai #0" = 1
+	"Ravai #0" = 1
+	"Giat #0" = 1
+	"Musa #0" = 1
+	"Negar #0" = -1
+	"Huma #0" = -1
+	"Kamala #0" = -1
+	"Umaya #0" = 1
+	"Abba #0" = 1
+	"Ismat #1" = 0
+	"Merwan #1" = 0
+	"Xušyar #1" = 0
+	"Hamdan #1" = 0
+	"Eldad #1" = 0
+	"Abbaye #0" = 0
+	"Achai #0" = 0
+	"Alechsandri #0" = 0
+	"Ammi #0" = 0
+	"Amram #0" = 0
+	"Ashi #0" = 0
+	"Avraham #0" = 0
+	"Baboi #0" = 0
+	"Bibai #0" = 0
+	"Binyamin #0" = 0
+	"Bustenai #0" = 0
+	"Chayim #0" = 0
+	"Chisdai #0" = 0
+	"Dimi #0" = 0
+	"Efrayim #0" = 0
+	"Eina #0" = 0
+	"Hillel #0" = 0
+	"Ivomai #0" = 0
+	"Kiyomi #0" = 0
+	"Mar #0" = 0
+	"Matiyahu #0" = 0
+	"Menechem #0" = 0
+	"Mesharsheya #0" = 0
+	"Mishael #0" = 0
+	"Nachman #0" = 0
+	"Natan #0" = 0
+	"Natroi #0" = 0
+	"Nechemiah #0" = 0
+	"Nehilai #0" = 0
+	"Nissim #0" = 0
+	"Pirkoi #0" = 0
+	"Ravi #0" = 0
+	"Shanoi #0" = 0
+	"Shmuel #0" = 0
+	"Sulam #0" = 0
+	"Tachlifa #0" = 0
+	"Tzemach #0" = 0
+	"Yaakov #0" = 0
+	"Yechiel #0" = 0
+	"Yehudah #0" = 0
+	"Yehoshua #0" = 0
+	"Yeshayah #0" = 0
+	"Yisrael #0" = 0
+	"Yitzchak #0" = 0
+	"Yosef #0" = 0
+	"Yosi #0" = 0
+	"Zelekman #0" = 0
+	"Zuiskind #0" = 0
 }
 
-ship_names = {
-	Arif
-	Azmi
-	Dervish
-	Fuad
-	Haci
-	Haydar
-	Mulish
-	Nuri
-	Salih
-	Said
-	Sefveti
-	Shukri
-}

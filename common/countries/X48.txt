@@ -1,0 +1,120 @@
+# Maru
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 194 67 10 }
+
+
+
+
+leader_names = {
+
+	"Viramdeva" "Damayanti" "Bahadur-Singh" "Akal" "Shrimitradevi" "Prasadhanadevi" "Nannuka" "Prabhavatigupta" "Dungar-Singh" "Dilipapala" 
+	"Kunwar" "Mahendrapala" "Alsi" "Nattadevi" "Mahipala" "Kanchuka" "Krsnapa" "Anantadevi" "Khetrapala" "Vapyata" 
+	"Gopala" "Kanwar" "Kamal" "Maharani" "Vidurathpala" "Lasthiyavva" "Baghpal" "Kakhopal" "Bisaldeva" "Draupad" 
+	"Rangraj" "Vidyadhara" "Rajamati" "Amir" "Brahmadeva" "Anuppal" "Kakanvati" "Dhruvadevi" "Rajkunvarbai" "Jhetpal" 
+	"Hamir" "Govindraj" "Dehanagadevi" "Kumaradevi" "Hirapala" "Somasi" "Bachraj" "Sultanpala" "Mahidevi" "No Character" 
+	"Hirapal" "Gopendraraja" "Dronasinha" "Bhuyikadevi" "Sunita" "Sadashivrao" "Bachman" "Sirçan" "Sevenç" "Blush" 
+	"Eldeçyuk" "Bönek" "Uzluk" "Kutan" "Sokal" "Aepak" "Umay" "Begluk" "Kotyan" "Gulay" 
+	"Çilbu" "Asalup" "Asep" "Atrak" "Bonyak" "Borç" "Etrek" "Girgen" "Gzi" "Itlar" 
+	"Ituk" "Könçek" "Kobyak" "Kopti" "Koza" "Kozel" "Kubasar" "Kuntuvdi" "Pulad" "Saru" 
+	"Sotan" "Sugr" "Törtogul" "Togli" "Tolun" "Tugor" "Uzur" }
+monarch_names = {
+	"Viramdeva #0" = 1
+	"Damayanti #0" = -1
+	"Bahadur-Singh #1" = 18
+	"Akal #0" = -1
+	"Shrimitradevi #0" = -1
+	"Prasadhanadevi #0" = -1
+	"Nannuka #0" = 1
+	"Prabhavatigupta #0" = -1
+	"Dungar-Singh #1" = 27
+	"Dilipapala #0" = 1
+	"Kunwar #0" = 1
+	"Mahendrapala #0" = 1
+	"Alsi #0" = 1
+	"Nattadevi #1" = -22
+	"Mahipala #0" = 1
+	"Kanchuka #0" = -1
+	"Krsnapa #0" = 1
+	"Anantadevi #0" = -1
+	"Khetrapala #1" = 18
+	"Vapyata #0" = 1
+	"Gopala #0" = 1
+	"Kanwar #0" = -1
+	"Kamal #0" = 1
+	"Maharani #0" = -1
+	"Vidurathpala #0" = 1
+	"Lasthiyavva #0" = -1
+	"Baghpal #0" = 1
+	"Kakhopal #0" = 1
+	"Bisaldeva #0" = 1
+	"Draupad #0" = 1
+	"Rangraj #0" = 1
+	"Vidyadhara #0" = 1
+	"Rajamati #0" = -1
+	"Amir #0" = 1
+	"Brahmadeva #0" = 1
+	"Anuppal #0" = 1
+	"Kakanvati #0" = -1
+	"Dhruvadevi #0" = -1
+	"Rajkunvarbai #0" = -1
+	"Jhetpal #0" = 1
+	"Hamir #0" = 1
+	"Govindraj #0" = 1
+	"Dehanagadevi #0" = -1
+	"Kumaradevi #0" = -1
+	"Hirapala #1" = 24
+	"Somasi #0" = 1
+	"Bachraj #1" = 18
+	"Sultanpala #0" = 1
+	"Mahidevi #0" = -1
+	"No Character #13" = 0
+	"Hirapal #1" = 0
+	"Gopendraraja #1" = 0
+	"Dronasinha #1" = 0
+	"Bhuyikadevi #1" = -1
+	"Sunita #1" = -1
+	"Sadashivrao #1" = 0
+	"Bachman #4" = 0
+	"Sirçan #1" = 0
+	"Sevenç #2" = 0
+	"Blush #1" = 0
+	"Eldeçyuk #1" = 0
+	"Bönek #1" = 0
+	"Uzluk #3" = 0
+	"Kutan #1" = 0
+	"Sokal #1" = 0
+	"Aepak #1" = 0
+	"Umay #1" = -1
+	"Begluk #2" = 0
+	"Kotyan #1" = 0
+	"Gulay #1" = -1
+	"Çilbu #0" = 0
+	"Asalup #0" = 0
+	"Asep #0" = 0
+	"Atrak #0" = 0
+	"Bonyak #0" = 0
+	"Borç #0" = 0
+	"Etrek #0" = 0
+	"Girgen #0" = 0
+	"Gzi #0" = 0
+	"Itlar #0" = 0
+	"Ituk #0" = 0
+	"Könçek #0" = 0
+	"Kobyak #0" = 0
+	"Kopti #0" = 0
+	"Koza #0" = 0
+	"Kozel #0" = 0
+	"Kubasar #0" = 0
+	"Kuntuvdi #0" = 0
+	"Pulad #0" = 0
+	"Saru #0" = 0
+	"Sotan #0" = 0
+	"Sugr #0" = 0
+	"Törtogul #0" = 0
+	"Togli #0" = 0
+	"Tolun #0" = 0
+	"Tugor #0" = 0
+	"Uzur #0" = 0
+}
+

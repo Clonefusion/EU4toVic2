@@ -1,0 +1,57 @@
+royal_palace = {
+	land_forcelimit = 6
+}
+
+magnificent_garden= {
+	trade_goods_size = 1
+	local_manpower_modifier = 0.375
+}
+
+great_harbor= {
+	province_trade_power_modifier = 1
+	naval_forcelimit = 3
+}
+
+great_walls= {
+	province_trade_power_modifier = 0.5
+	local_hostile_attrition = 3
+	local_defensiveness = 1
+}
+
+grand_university= {
+	local_development_cost = -0.15
+	local_institution_spread = 0.5
+	local_manpower_modifier = 0.25
+	local_tax_modifier = 0.25
+	trade_value_modifier = 0.25
+}
+
+grand_fortress= {
+	local_defensiveness = 1
+	local_manpower_modifier = 0.75
+}
+
+great_underground_city= {
+	local_defensiveness = 0.5
+	local_development_cost = -0.2
+	local_hostile_attrition = 1
+}
+
+great_lighthouse= {
+	province_trade_power_modifier = 1.5
+	local_tax_modifier = 0.25
+}
+
+great_temple= {
+	local_tax_modifier = 1
+}
+
+ruler_statue= {
+	tax_income = 10
+}
+
+great_library= {
+	local_development_cost = -0.15
+	local_institution_spread = 0.5
+	trade_value = 3
+}

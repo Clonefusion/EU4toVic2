@@ -1,0 +1,210 @@
+# Franconia
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 100 108 100 }
+historical_idea_groups = {
+	trade_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+
+
+leader_names = {
+
+	"Litold" "Spytihnev" "Johanka" "Guta" "Helena" "Pribyslava" "Ludmila" "Mojmír" "Castolov" "Eufemie" 
+	"Hynek" "Jaromír" "Vojtech" "Vsebor" "Hedvika" "Richeza" "Zdenka" "Vladislava" "Zdík" "Zofie" 
+	"Jaroslava" "Bavor" "Markéta" "Judita" "Chval" "Domaslava" "Kuník" "Vítek" "Dorota" "Detrich" 
+	"Kojata" "Drslav" "Diepold" "Ota" "Strachkvas" "Borijov" "Zdirad" "Viktorín" "Pelhrim" "Bozislava" 
+	"Libuse" "Premysl" "Perchta" "Gertruda" "Bretislav" "Gerhard" "Zdislava" "Anezka" "Bedriska" "Adléta" 
+	"Konrád" "Rajmund" "Bedrich" "Otakar" "Jesek" "Havel" "Oldrich" "Klára" "Albert" "Heralt" 
+	"Rostislav" "Kunhuta" "Vratislav" "Viola" "Svatava" "Albrecht" "Václav" "Bocek" "Vilém" "Jana" 
+	"Konstancie" "Tobiás" "Doubravka" "Vilemína" "Bores" "Dobroslava" "Hrabis" "Kristyna" "Arnost" "Bozena" 
+	"Barbora" "Drahoslava" "Sezima" "Boleslav" "Milic" "Justina" "Karel" "Budivoj" "Jaroslav" "Skonka" 
+	"Boleslava" "Drahomíra" "Bohuslava" "Marie" "Jindrich" "Cenek" "Blazena" "Bretislava" "Zikmund" "Blanka" 
+	"Prokop" "Stanislava" "Slavomír" "Slavibor" "Mlada" "No Character" "Gotthard" "Wido" "Humbert" "Nikolaus" 
+	"Kuno" "Berthold" "Adalbero" "Anselm" "Pons" "Aymeric" "Sumarliði" "Ehrenfried" "Franz" "Walram" 
+	"Adalhard" "Hemma" "Eginolf" "Vladislav" "Ales" "Benes" "Bohuslav" "Ctirad" "Hanus" "Herman" 
+	"Jan" "Jirík" "Markvart" "Matous" "Mikulás" "Ojír" "Ondrej" "Petr" "Smil" "Sobieslav" 
+	"Svatobor" "Svatopluk" "Vanek" "Vladimír" "Závis" "Zbynek" }
+monarch_names = {
+	"Litold #1" = 39
+	"Spytihnev #2" = 24
+	"Johanka #0" = -1
+	"Guta #0" = -1
+	"Helena #0" = -1
+	"Pribyslava #0" = -1
+	"Ludmila #0" = -1
+	"Mojmír #0" = 1
+	"Castolov #1" = 21
+	"Eufemie #0" = -1
+	"Hynek #0" = 1
+	"Jaromír #0" = 1
+	"Vojtech #0" = 1
+	"Vsebor #3" = 36
+	"Hedvika #0" = -1
+	"Richeza #0" = -1
+	"Zdenka #0" = -1
+	"Vladislava #0" = -1
+	"Zdík #0" = 1
+	"Zofie #0" = -1
+	"Jaroslava #0" = -1
+	"Bavor #0" = 1
+	"Markéta #0" = -1
+	"Judita #0" = -1
+	"Chval #0" = 1
+	"Domaslava #0" = -1
+	"Kuník #0" = 1
+	"Vítek #0" = 1
+	"Dorota #0" = -1
+	"Detrich #0" = 1
+	"Kojata #1" = 30
+	"Drslav #1" = 24
+	"Diepold #0" = 1
+	"Ota #0" = 1
+	"Strachkvas #1" = 39
+	"Borijov #0" = 1
+	"Zdirad #0" = 1
+	"Viktorín #0" = 1
+	"Pelhrim #0" = 1
+	"Bozislava #0" = -1
+	"Libuse #0" = -1
+	"Premysl #0" = 1
+	"Perchta #0" = -1
+	"Gertruda #0" = -1
+	"Bretislav #0" = 1
+	"Gerhard #0" = 1
+	"Zdislava #0" = -1
+	"Anezka #0" = -1
+	"Bedriska #0" = -1
+	"Adléta #0" = -1
+	"Konrád #0" = 1
+	"Rajmund #0" = 1
+	"Bedrich #0" = 1
+	"Otakar #0" = 1
+	"Jesek #0" = 1
+	"Havel #1" = 24
+	"Oldrich #0" = 1
+	"Klára #0" = -1
+	"Albert #0" = 1
+	"Heralt #0" = 1
+	"Rostislav #0" = 1
+	"Kunhuta #0" = -1
+	"Vratislav #0" = 1
+	"Viola #0" = -1
+	"Svatava #0" = -1
+	"Albrecht #0" = 1
+	"Václav #0" = 1
+	"Bocek #0" = 1
+	"Vilém #0" = 1
+	"Jana #0" = -1
+	"Konstancie #0" = -1
+	"Tobiás #0" = 1
+	"Doubravka #0" = -1
+	"Vilemína #0" = -1
+	"Bores #0" = 1
+	"Dobroslava #0" = -1
+	"Hrabis #0" = 1
+	"Kristyna #0" = -1
+	"Arnost #0" = 1
+	"Bozena #0" = -1
+	"Barbora #0" = -1
+	"Drahoslava #0" = -1
+	"Sezima #0" = 1
+	"Boleslav #2" = 18
+	"Milic #0" = 1
+	"Justina #0" = -1
+	"Karel #1" = 27
+	"Budivoj #0" = 1
+	"Jaroslav #0" = 1
+	"Skonka #0" = -1
+	"Boleslava #0" = -1
+	"Drahomíra #0" = -1
+	"Bohuslava #0" = -1
+	"Marie #0" = -1
+	"Jindrich #0" = 1
+	"Cenek #0" = 1
+	"Blazena #0" = -1
+	"Bretislava #0" = -1
+	"Zikmund #0" = 1
+	"Blanka #0" = -1
+	"Prokop #0" = 1
+	"Stanislava #0" = -1
+	"Slavomír #0" = 1
+	"Slavibor #0" = 1
+	"Mlada #0" = -1
+	"No Character #7" = 0
+	"Gotthard #2" = 0
+	"Wido #1" = 0
+	"Humbert #1" = 0
+	"Nikolaus #1" = 0
+	"Kuno #1" = 0
+	"Berthold #1" = 0
+	"Adalbero #1" = 0
+	"Anselm #2" = 0
+	"Pons #1" = 0
+	"Aymeric #1" = 0
+	"Sumarliði #1" = 0
+	"Ehrenfried #1" = 0
+	"Franz #1" = 0
+	"Walram #1" = 0
+	"Adalhard #1" = 0
+	"Hemma #1" = -1
+	"Eginolf #1" = 0
+	"Vladislav #1" = 0
+	"Ales #0" = 0
+	"Benes #0" = 0
+	"Bohuslav #0" = 0
+	"Ctirad #0" = 0
+	"Hanus #0" = 0
+	"Herman #0" = 0
+	"Jan #0" = 0
+	"Jirík #0" = 0
+	"Markvart #0" = 0
+	"Matous #0" = 0
+	"Mikulás #0" = 0
+	"Ojír #0" = 0
+	"Ondrej #0" = 0
+	"Petr #0" = 0
+	"Smil #0" = 0
+	"Sobieslav #0" = 0
+	"Svatobor #0" = 0
+	"Svatopluk #0" = 0
+	"Vanek #0" = 0
+	"Vladimír #0" = 0
+	"Závis #0" = 0
+	"Zbynek #0" = 0
+}
+ship_names = {
+	Ariadne Habicht Adler Albatross Amazone
+	Arcona Basilisk Beowulf Biene Wespe Wolf
+	Nautilus Natter Otter Pelikan Pfeil Meteor
+	Möwe Mücke Luchs König Kaiser Eber Drache
+	Falke Frauenlob Freya Fuchs Gazelle Geier
+	Greif Condor Cormoran Comet Wacht Tiger
+	Seeadler Jaguar Hyäne Blitz Bremse Brummer
+	Bussard Vulkan
+}
+

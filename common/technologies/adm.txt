@@ -60,6 +60,10 @@ technology = { #Temples
 	year = 1453
 	# Temple
 	temple = yes
+	library = yes
+	school = yes
+	college = yes
+	allowed_idea_groups = 1
 	
 }
 
@@ -67,7 +71,7 @@ technology = { #National Ideas
 	# Tech 5
 	year = 1466
 
-	allowed_idea_groups = 1
+	allowed_idea_groups = 2
 	production_efficiency	 =	0.02
 }
 
@@ -83,9 +87,9 @@ technology = { #Workshop
 technology = { #Renaissance Thought
 	# Tech 7
 	year = 1492
+	church = yes
 	
 	#Noble Republic
-	allowed_idea_groups = 2	
 }
 
 technology = { #Courthouse
@@ -93,13 +97,15 @@ technology = { #Courthouse
 
 	year = 1505
 	courthouse = yes
-	max_states = 3
+	max_states = 2
+	allowed_idea_groups = 3
 
 }
 
 technology = { #The Scythe
 	# Tech 9
 	year = 1518
+	roads = yes
 	
 	#The Scythe
 	production_efficiency 	=	0.02
@@ -110,8 +116,8 @@ technology = { #The Scythe
 technology = { #Modern Theocracy
 	# Tech 10
 	year = 1531
+	artisans_shop = yes
 	
-	allowed_idea_groups = 3
 	theocratic_government = yes
 }
 
@@ -121,6 +127,7 @@ technology = { #Textile Manufactory
 	
 	#Textile Manufactory
 	textile = yes  
+	allowed_idea_groups = 4
 
 }
 
@@ -130,12 +137,13 @@ technology = { #Early Modern Administration
 	
 	administrative_monarchy	= yes 
 	administrative_republic	= yes
-	max_states = 3
+	max_states = 2
 }
 
 technology = { #Improved Drainage
 	# Tech 13
 	year = 1570
+	camp = yes
 	
 	#Improved Drainage
 	production_efficiency 	=	0.02
@@ -146,7 +154,7 @@ technology = { #Scientific Experimentation
 	year = 1583
 	
 	plantations = yes
-	allowed_idea_groups	= 4
+	allowed_idea_groups	= 5
 }
 
 technology = { #Military Administration
@@ -154,12 +162,14 @@ technology = { #Military Administration
 	year = 1596
 	
 	may_force_march = yes
+	harbor = yes
 	
 }
 
 technology = { #Metallurgy
 	# Tech 16
 	year = 1609
+	field_fortification = yes
 	
 	mills = yes
 	production_efficiency 	=	0.02
@@ -172,17 +182,18 @@ technology = { #University
 	year = 1622
 	
 	university = yes	
-	max_states = 5
+	max_states = 4
 	
-	administrative_efficiency = 0.1
+	administrative_efficiency = 0.05
 	development_efficiency = 0.1
+	allowed_idea_groups = 6
 }
 
 technology = { #National Sovereignty
 	# Tech 18
 	year = 1635
+	monastery = yes
 	
-	allowed_idea_groups	= 5
 }
 
 technology = { #Cathedral
@@ -198,7 +209,8 @@ technology = { #Absolute Rulership
 	year = 1661
 	
 	republican_dictatorship = yes
-	max_states = 5
+	max_states = 4
+	allowed_idea_groups = 7
 }
 
 technology = { #Land Clearance
@@ -208,13 +220,13 @@ technology = { #Land Clearance
 	#Land Clearance
 	production_efficiency 	=	0.02
 	furnace = yes
+	road_network = yes
 }
 
 technology = { #The Constitution
 	# Tech 22
 	year = 1687
 	
-	allowed_idea_groups = 6
 	constitutional_monarchy = yes
 	constitutional_republic = yes  
 
@@ -225,8 +237,9 @@ technology = { #Measuring the World
 	# Tech 23
 	year = 1700
 	
-	administrative_efficiency = 0.1
+	administrative_efficiency = 0.05
 	development_efficiency = 0.1
+	allowed_idea_groups = 8
 }
 
 technology = { #Bonds and Tontines
@@ -234,7 +247,7 @@ technology = { #Bonds and Tontines
 	year = 1715
 	
 	counting_house = yes  
-	max_states = 5
+	max_states = 4
 }
 
 technology = { #Improved Production
@@ -243,22 +256,23 @@ technology = { #Improved Production
 	
 	#Improved Farm Animals
 	production_efficiency 	=	0.02
+	artisans_guild = yes
 }
 
 technology = { #Separation of Powers
 	# Tech 26
 	year = 1745
 	
-	allowed_idea_groups 	= 	7
+	allowed_idea_groups 	= 	9
 }
 
 technology = { #Modern Bureaucracy
 	# Tech 27
 	year = 1760
 
-	administrative_efficiency = 0.1
+	administrative_efficiency = 0.05
 	development_efficiency = 0.1	
-	max_states = 5
+	max_states = 4
 }
 
 technology = { #Rotherham Plough
@@ -267,13 +281,14 @@ technology = { #Rotherham Plough
 	
 	#Rotherham Plough
 	production_efficiency 	=	0.02
+	land_reclamation = yes
 }
 
 technology = { #Rights of Man
 	# Tech 29
 	year = 1790
 	
-	allowed_idea_groups = 8
+	allowed_idea_groups = 10
 	enlightened_despotism = yes
 	bureaucratic_despotism = yes
 }
@@ -292,7 +307,7 @@ technology = { #Revolutionary Ideals
 	
 	revolutionary_republic = yes
 	revolutionary_empire = yes
-	max_states = 5
+	max_states = 4
 }
 
 technology = { #Four Field Rotation

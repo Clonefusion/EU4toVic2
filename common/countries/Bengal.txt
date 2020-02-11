@@ -1,119 +1,150 @@
-#Country Name: See the Name of this File.
-
+# Katayavemid
+ck2_converter_generated = yes
 graphical_culture = indiangfx
+color = { 114 25 100 }
 
-color = { 36  109  194 }
 
-historical_idea_groups = {
-	trade_ideas
-	maritime_ideas
-	humanist_ideas
-	quantity_ideas
-	economic_ideas
-	defensive_ideas
-	diplomatic_ideas
-	quality_ideas
-}
 
-historical_units = {
-	indian_footsoldier
-	rajput_hill_fighters
-	indian_arquebusier
-	mughal_musketeer
-	rajput_musketeer
-	mughal_mansabdar
-	indian_elephant
-	sikh_hit_and_run
-	bhonsle_cavalry
-	indian_rifle
-	tipu_sultan_rocket
-}
-
-monarch_names = {
-	"Sikandar #1" = 20
-	"Sher #0" = 20
-	"Ala-ud-Din Firuz #2" = 20
-	"Rukn ad-Din Barbak #0" = 10
-	"Jalal ad-Din Fateh #0" = 10
-	"Nasir-ud-Din Mahmud #1" = 20
-	"Nasir ad-Din Nasrat #0" = 10
-	"Jalaluddin Mohammed #1" = 10
-	"Islam #0" = 10
-	"Mirza Muhammad #0" = 10
-	"Shams-ud-Din Yusuf #1" = 10
-	"Shams-ud-Din Ahmad #1" = 10
-	"Shams-ud-Din Muhammad #0" = 10
-	"Mir Muhammad Ja'far #0" = 10
-	"Shihab-ud-Din Bayazid #1" = 5
-	"Mir Qasim 'Ali #0" = 5
-	"Sayf-ud-Din Hamza #1" = 5
-	"Ghiyasuddin Azam #1" = 5
-	"Ghiyasuddin Mahmud #0" = 5
-	"Ghiyat ad-Din Bahadur #0" = 5
-	"Ghiyat ad-Din Jalal #0" = 5
-	"Da'ud #0" = 5
-	"Sulayman #0" = 5
-	"Murshid Quli #0" = 5
-	"Shuja' ad-Din Muhammad #0" = 5
-	"Azam #0" = 0
-	"Ahmad #0" = 0
-	"Abu Nasr #0" = 0
-	"Barbak #0" = 0
-	"Farid #0" = 0
-	"Yusuf #0" = 0
-	"Husain #0" = 0
-	"Firuz #0" = 0
-	"Nasrat #0" = 0
-	"Fateh #0" = 0
-	"Bayazid #0" = 0
-	"Nasir #0" = 0
-	"Ghiyasuddin #0" = 0
-	"Mirza #0" = 0
-	"Raja #0" = 0
-	"Hamza #0" = 0
-	"Malika Bibi #0" = -1
-	"Sharat #0" = -1
-	"Kamala #0" = -1
-}
 
 leader_names = {
-	Azad
-	"ad-Daula"
-	Ganesha
-	Bose
-	Chodhury
-	Das
-	Debshikdar
-	Ganguly
-	Ghosh
-	Karani
-	Khan
-	Majumdar
-	Mukerjhee
-	Pal
-	Roy
-	Saraswoti
-	Sarkar
-	Sen
-	Shahi
-	Shaikh
-	Suri
-	Thakur
-	Waddedar
-	Zamindar
+
+	"Katayavema" "Anavota" "Durgaraja" "Gamakamba" "Rajaraja" "Rudramadevi" "Nagipoti" "Yuddamalla" "Ganapathideva" "Kalakampa" 
+	"Chamekamba" "Chellava" "Kubjavishnuvardhana" "Somaditya" "Allayavema" "Bhandanaditya" "Pammava" "Indrabhattaraka" "Srimahadevi" "Chandena" 
+	"Tundaka" "Rudramba" "Hariharamba" "Kadeyaraja" "Narendra" "Vengabhupathi" "Prataparudra" "Mahadeva" "Prolayavema" "Prolayanayak" 
+	"Rajanayaka" "Kammanayaka" "Anitalli" "Danamava" "Obayamma" "Ballaladeva" "Devanayaka" "Hoysaladevi" "Revakanimmadi" "Vanraja" 
+	"Viranarasimha" "Lakshmi" "Kapilendradeva" "Bhogavati" "Chinnambike" "Mangalesi" "Ramachandra" "Dandimahadevi" "Yayati" "Apsaradevi" 
+	"Dantidurga" "Ereganga" "Madhava" "Kundakadevi" "Yajnavati" "Vasumati" "Bhavanaga" "Jayasimha" "Sila" "Mahadevi" 
+	"Yajiyavati" "Narasanayaka" "Chandravarman" "Mailaladevi" "Kalyanavati" "Dandi" "Nayanadevi" "Praudharaya" "Vrishadhvaja" "Puranjaya" 
+	"Gandharavati" "Irâcâcekara" "Kotukulapattan" "Kottabhanja" "Kannama" "Rajasundari" "Lakshmikaradevi" "Hamvira" "Durlabha" "Mahakala" 
+	"Amittiravalli" "Nrpakama" "Kumaragiri" "Ankâti" "Rudradeva" "Prola" "Virâcakecaripanmar" "Bijjabbe" "Shantaladevi" "Chennappa" 
+	"Shakti-Kumar" "Vitari" "Yuddhamalla" "Mallapa" "No Character" "Bhikhari" "Rambhadra Singh Dev" "Jatanpala" "Nar-Verma" "Namalladevi" 
+	"Harischandra" "Govinda" "Jagattunga" "Allada" "Amma" "Ammaraja" "Anavema" "Ayyapayya" "Baladitya" "Beta" 
+	"Bhima" "Ganapathinayaka" "Kaapayanayaka" "Mangiyuvaraja" "Nachana" "Niravadyadhavala" "Pandaranga" "Prthiviyaraja" "Saktivarman" "Singamanayaka" 
+	"Vijayaditya" "Vimaladitya" "Virabhadra" "Vishnuvardhana" }
+monarch_names = {
+	"Katayavema #0" = 1
+	"Anavota #3" = 39
+	"Durgaraja #0" = 1
+	"Gamakamba #0" = -1
+	"Rajaraja #0" = 1
+	"Rudramadevi #0" = -1
+	"Nagipoti #0" = -1
+	"Yuddamalla #0" = 1
+	"Ganapathideva #0" = 1
+	"Kalakampa #0" = 1
+	"Chamekamba #0" = -1
+	"Chellava #0" = -1
+	"Kubjavishnuvardhana #0" = 1
+	"Somaditya #0" = 1
+	"Allayavema #0" = 1
+	"Bhandanaditya #0" = 1
+	"Pammava #0" = -1
+	"Indrabhattaraka #0" = 1
+	"Srimahadevi #0" = -1
+	"Chandena #0" = -1
+	"Tundaka #0" = -1
+	"Rudramba #0" = -1
+	"Hariharamba #0" = -1
+	"Kadeyaraja #0" = 1
+	"Narendra #0" = 1
+	"Vengabhupathi #0" = 1
+	"Prataparudra #0" = 1
+	"Mahadeva #0" = 1
+	"Prolayavema #0" = 1
+	"Prolayanayak #0" = 1
+	"Rajanayaka #0" = 1
+	"Kammanayaka #0" = 1
+	"Anitalli #0" = -1
+	"Danamava #0" = 1
+	"Obayamma #0" = -1
+	"Ballaladeva #0" = 1
+	"Devanayaka #0" = 1
+	"Hoysaladevi #1" = -25
+	"Revakanimmadi #0" = -1
+	"Vanraja #0" = 1
+	"Viranarasimha #0" = 1
+	"Lakshmi #1" = -19
+	"Kapilendradeva #0" = 1
+	"Bhogavati #0" = -1
+	"Chinnambike #0" = -1
+	"Mangalesi #0" = 1
+	"Ramachandra #2" = 24
+	"Dandimahadevi #0" = -1
+	"Yayati #0" = 1
+	"Apsaradevi #0" = -1
+	"Dantidurga #0" = 1
+	"Ereganga #0" = 1
+	"Madhava #0" = 1
+	"Kundakadevi #0" = -1
+	"Yajnavati #0" = -1
+	"Vasumati #0" = -1
+	"Bhavanaga #1" = -19
+	"Jayasimha #0" = 1
+	"Sila #0" = 1
+	"Mahadevi #0" = -1
+	"Yajiyavati #0" = -1
+	"Narasanayaka #0" = 1
+	"Chandravarman #0" = 1
+	"Mailaladevi #0" = -1
+	"Kalyanavati #0" = -1
+	"Dandi #0" = -1
+	"Nayanadevi #0" = -1
+	"Praudharaya #0" = 1
+	"Vrishadhvaja #0" = 1
+	"Puranjaya #0" = 1
+	"Gandharavati #0" = -1
+	"Irâcâcekara #0" = 1
+	"Kotukulapattan #0" = 1
+	"Kottabhanja #0" = 1
+	"Kannama #0" = 1
+	"Rajasundari #0" = -1
+	"Lakshmikaradevi #0" = -1
+	"Hamvira #0" = 1
+	"Durlabha #0" = -1
+	"Mahakala #0" = 1
+	"Amittiravalli #0" = -1
+	"Nrpakama #0" = 1
+	"Kumaragiri #0" = 1
+	"Ankâti #0" = -1
+	"Rudradeva #0" = 1
+	"Prola #0" = 1
+	"Virâcakecaripanmar #0" = 1
+	"Bijjabbe #0" = -1
+	"Shantaladevi #0" = -1
+	"Chennappa #0" = 1
+	"Shakti-Kumar #0" = 1
+	"Vitari #0" = -1
+	"Yuddhamalla #0" = 1
+	"Mallapa #0" = 1
+	"No Character #6" = 0
+	"Bhikhari #1" = 0
+	"Rambhadra Singh Dev #1" = 0
+	"Jatanpala #1" = 0
+	"Nar-Verma #1" = 0
+	"Namalladevi #1" = -1
+	"Harischandra #1" = 0
+	"Govinda #1" = 0
+	"Jagattunga #2" = 0
+	"Allada #0" = 0
+	"Amma #0" = 0
+	"Ammaraja #0" = 0
+	"Anavema #0" = 0
+	"Ayyapayya #0" = 0
+	"Baladitya #0" = 0
+	"Beta #0" = 0
+	"Bhima #0" = 0
+	"Ganapathinayaka #0" = 0
+	"Kaapayanayaka #0" = 0
+	"Mangiyuvaraja #0" = 0
+	"Nachana #0" = 0
+	"Niravadyadhavala #0" = 0
+	"Pandaranga #0" = 0
+	"Prthiviyaraja #0" = 0
+	"Saktivarman #0" = 0
+	"Singamanayaka #0" = 0
+	"Vijayaditya #0" = 0
+	"Vimaladitya #0" = 0
+	"Virabhadra #0" = 0
+	"Vishnuvardhana #0" = 0
 }
 
-ship_names = {
-	"Abu Bakr" "Ali Khan" Bhagirathi
-	Brahmaputra "Chingri Mach" Chittagong
-	Durbar Durdasha Fatima Ganga
-	"Hilsa Mach" Hooghly "Ilish Mach"
-	Jalangi Jasmine Kolkata Machli
-	"Kali Meghana" "Kali Nauk" "Lal Nauk"
-	Malda Meghna Mongla Murshidabad
-	"Nauk-i-Islam" "Nawaber Nauk" "Nil Nauk"
-	"Nil Sagor" Osman Padma "Rui Mach"
-	"Sagorer Bahini" "Shaheed" "Sheikher Nauk"
-	"Sonar Bangladesh" "Sunderboner Bahini"
-	"Sunderboner Nauk" Tasleema
-}

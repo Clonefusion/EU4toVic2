@@ -1,0 +1,88 @@
+# Lower Lorraine
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 255 0 0 }
+
+
+
+
+leader_names = {
+
+	"Ordoño" "Konstantzia" "Maior" "Pelaio" "Ramiro" "Nuño" "Alfontso" "Ladron" "Vela" "Mentzia" 
+	"Teresa" "Iriael" "Gontzal" "Munio" "Gilen" "Béatrice" "Fortun" "Egidio" "Oria" "Emili" 
+	"Blanka" "Rodrigo" "Munia" "Bourguigne" "Elbira" "Bernart" "Aznar" "Obeko" "Aines" "Eliza" 
+	"Berengaria" "Antsa" "Fernando" "Héloise" "Aldontza" "Belaskita" "Herramel" "Manrike" "Belasko" "Gartzia" 
+	"Ximena" "Oneka" "Alvar" "Diego" "Antso" "Urraka" "Erramun" "Plazentzia" "Donato" "Bermudo" 
+	"Galindo" "Toda" "Elbiriael" "Lope" "Luis" "Frédéric" "Alphonse" "Ebbon" "Ogier" "Estefaniael" 
+	"Gramyr" "Nuña" "Eneko" "Joanes" "Martín" "Piarres" "Ximeno" "Zentulo" }
+monarch_names = {
+	"Ordoño #0" = 1
+	"Konstantzia #0" = -1
+	"Maior #1" = -31
+	"Pelaio #1" = 33
+	"Ramiro #0" = 1
+	"Nuño #0" = 1
+	"Alfontso #0" = 1
+	"Ladron #0" = 1
+	"Vela #0" = 1
+	"Mentzia #0" = -1
+	"Teresa #0" = -1
+	"Iriael #0" = -1
+	"Gontzal #0" = 1
+	"Munio #1" = 24
+	"Gilen #1" = 36
+	"Béatrice #0" = -1
+	"Fortun #0" = 1
+	"Egidio #0" = 1
+	"Oria #0" = -1
+	"Emili #0" = -1
+	"Blanka #0" = -1
+	"Rodrigo #0" = 1
+	"Munia #0" = -1
+	"Bourguigne #0" = -1
+	"Elbira #1" = -28
+	"Bernart #0" = 1
+	"Aznar #0" = 1
+	"Obeko #0" = 1
+	"Aines #0" = -1
+	"Eliza #0" = -1
+	"Berengaria #0" = -1
+	"Antsa #0" = -1
+	"Fernando #0" = 1
+	"Héloise #0" = -1
+	"Aldontza #0" = -1
+	"Belaskita #0" = -1
+	"Herramel #0" = 1
+	"Manrike #0" = 1
+	"Belasko #0" = 1
+	"Gartzia #0" = 1
+	"Ximena #0" = -1
+	"Oneka #1" = -34
+	"Alvar #0" = 1
+	"Diego #0" = 1
+	"Antso #0" = 1
+	"Urraka #0" = -1
+	"Erramun #0" = 1
+	"Plazentzia #0" = -1
+	"Donato #0" = 1
+	"Bermudo #0" = 1
+	"Galindo #2" = 24
+	"Toda #0" = -1
+	"Elbiriael #0" = -1
+	"Lope #0" = 1
+	"Luis #0" = 1
+	"Frédéric #1" = 0
+	"Alphonse #2" = 0
+	"Ebbon #1" = 0
+	"Ogier #1" = 0
+	"Estefaniael #2" = -1
+	"Gramyr #1" = 0
+	"Nuña #1" = -1
+	"Eneko #0" = 0
+	"Joanes #0" = 0
+	"Martín #0" = 0
+	"Piarres #0" = 0
+	"Ximeno #0" = 0
+	"Zentulo #0" = 0
+}
+

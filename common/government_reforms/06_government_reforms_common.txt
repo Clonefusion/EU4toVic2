@@ -57,16 +57,15 @@ council_of_the_indies_reform = {
 	icon = "merchant_ship"
 	allow_normal_conversion = yes
 	potential = {
-		culture_group = iberian
-		capital_scope = {
-			region = iberia_region
-		}
-	}
-	trigger = {
-		num_of_colonists = 1
-		culture_group = iberian
-		capital_scope = {
-			region = iberia_region
+		OR = {
+			AND = {
+				tag = NOR
+				NOT = { map_setup = map_setup_random }
+			}
+			AND = {
+				is_playing_custom_nation = yes
+				have_had_reform = grand_duchy_reform
+			}
 		}
 	}
 	modifiers = {

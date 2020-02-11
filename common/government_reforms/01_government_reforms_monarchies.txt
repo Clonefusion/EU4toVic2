@@ -71,7 +71,7 @@ grand_duchy_reform = {
 	potential = {
 		OR = {
 			AND = {
-				tag = LIT
+				tag = Y02
 				NOT = { map_setup = map_setup_random }
 			}
 			AND = {
@@ -81,7 +81,6 @@ grand_duchy_reform = {
 		}
 	}
 	legacy_equivalent = despotic_monarchy
-	fixed_rank = 1
 	valid_for_nation_designer = yes
 	nation_designer_cost = 10
 	modifiers = {
@@ -94,12 +93,15 @@ indian_sultanate_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		OR = {
-			capital_scope = {
-				superregion = india_superregion
+			AND = {
+				tag = BAL
+				NOT = { map_setup = map_setup_random }
 			}
-			has_reform = indian_sultanate_reform
+			AND = {
+				is_playing_custom_nation = yes
+				have_had_reform = grand_duchy_reform
+			}
 		}
-		religion_group = muslim
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 10
@@ -292,10 +294,13 @@ elective_monarchy = {
 	allow_normal_conversion = yes
 	potential = {
 		OR = {
-			has_reform = elective_monarchy
+			AND = {
+				tag = SHY
+				NOT = { map_setup = map_setup_random }
+			}
 			AND = {
 				is_playing_custom_nation = yes
-				have_had_reform = elective_monarchy
+				have_had_reform = grand_duchy_reform
 			}
 		}
 	}
@@ -326,7 +331,16 @@ iqta = {
 	icon = "muslim"
 	allow_normal_conversion = yes
 	potential = {
-		religion_group = muslim
+		OR = {
+			AND = {
+				tag = BNG
+				NOT = { map_setup = map_setup_random }
+			}
+			AND = {
+				is_playing_custom_nation = yes
+				have_had_reform = grand_duchy_reform
+			}
+		}
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 10
@@ -353,7 +367,16 @@ english_monarchy = {
 	icon = "british_queen"
 	allow_normal_conversion = no
 	potential = {
-		has_reform = english_monarchy
+		OR = {
+			AND = {
+				tag = Y98
+				NOT = { map_setup = map_setup_random }
+			}
+			AND = {
+				is_playing_custom_nation = yes
+				have_had_reform = grand_duchy_reform
+			}
+		}
 	}
 	lock_level_when_selected = yes
 	valid_for_nation_designer = yes
@@ -381,19 +404,14 @@ ottoman_government = {
 	allow_normal_conversion = yes
 	icon = "ottoman_government"
 	potential = {
-		religion_group = muslim
 		OR = {
 			AND = {
-				tag = TUR
-				NOT = { map_setup = map_setup_random }
-			}
-			AND = {
-				tag = RUM
+				tag = IRQ
 				NOT = { map_setup = map_setup_random }
 			}
 			AND = {
 				is_playing_custom_nation = yes
-				have_had_reform = ottoman_government
+				have_had_reform = grand_duchy_reform
 			}
 		}
 	}
@@ -419,10 +437,6 @@ ottoman_government = {
 		allow = { has_dlc = "Cradle of Civilization" }
 		has_pashas = yes
 	}
-	conditional = {
-		allow = { has_dlc = "Rights of Man" }
-		has_harem = yes
-	}
 }
 
 prussian_monarchy = {
@@ -431,16 +445,15 @@ prussian_monarchy = {
 	potential = {
 		OR = {
 			AND = {
-				tag = PRU
+				OR = {
+					tag = NRM
+					tag = LNG
+				}	
 				NOT = { map_setup = map_setup_random }
 			}
 			AND = {
-				tag = GER
-				have_had_reform = prussian_monarchy
-			}
-			AND = {
 				is_playing_custom_nation = yes
-				have_had_reform = prussian_monarchy
+				have_had_reform = grand_duchy_reform
 			}
 		}
 	}
@@ -503,23 +516,17 @@ tsardom = {
 	icon = "king"
 	allow_normal_conversion = yes
 	potential = {
-		religion = orthodox
 		OR = {
 			AND = {
-				tag = RUS
-				NOT = { map_setup = map_setup_random }
-			}
-			AND = {
-				tag = UKR
+				tag = LIT
 				NOT = { map_setup = map_setup_random }
 			}
 			AND = {
 				is_playing_custom_nation = yes
-				have_had_reform = tsardom
+				have_had_reform = grand_duchy_reform
 			}
 		}
 	}
-	fixed_rank = 3
 	legacy_equivalent = tsardom_legacy
 	valid_for_nation_designer = yes
 	nation_designer_cost = 40
@@ -538,9 +545,6 @@ tsardom = {
 
 	conditional = {
 		allow = { has_dlc = "Third Rome" }
-		government_abilities = {
-			russian_mechanic
-		}
 		claim_states = yes
 	}
 }
@@ -549,15 +553,14 @@ mamluk_government = {
 	icon = "mamluk_government"
 	allow_normal_conversion = yes
 	potential = {
-		religion_group = muslim
 		OR = {
 			AND = {
-				tag = MAM
+				tag = Y50
 				NOT = { map_setup = map_setup_random }
 			}
 			AND = {
 				is_playing_custom_nation = yes
-				have_had_reform = mamluk_government
+				have_had_reform = grand_duchy_reform
 			}
 		}
 	}
@@ -598,12 +601,12 @@ feudal_theocracy = {
 	potential = {
 		OR = {
 			AND = {
-				religion_group = muslim
-				has_reform = feudal_theocracy
+				tag = Z63
+				NOT = { map_setup = map_setup_random }
 			}
 			AND = {
 				is_playing_custom_nation = yes
-				have_had_reform = feudal_theocracy
+				have_had_reform = grand_duchy_reform
 			}
 		}
 	}
@@ -1251,7 +1254,7 @@ letat_cest_moi_reform = {
 	icon = "queen"
 	allow_normal_conversion = yes
 	modifiers = {
-		max_states = 5
+		max_states = 4
 	}
 }
 

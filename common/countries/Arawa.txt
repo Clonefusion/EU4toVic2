@@ -1,0 +1,38 @@
+#Country Name: Please see filename.
+
+graphical_culture = southamericagfx
+
+color = { 132  118  60 }
+
+historical_idea_groups = {
+	exploration_ideas
+	economic_ideas
+	offensive_ideas
+	expansion_ideas
+	influence_ideas
+	trade_ideas
+	quality_ideas
+	defensive_ideas
+}
+
+
+historical_units = {
+	western_medieval_infantry
+	chevauchee
+	western_longbow
+	gaelic_mercenary
+	gaelic_free_shooter
+	french_caracolle
+	irish_charge
+	anglofrench_line
+	french_dragoon
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+

@@ -1,109 +1,147 @@
-#Country Name: Please see filename.
+# Moldavia
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 223 202 145 }
 
-graphical_culture = easterngfx
 
-color = { 136  157  23 }
 
-historical_idea_groups = {
-	defensive_ideas
-	offensive_ideas
-	spy_ideas
-	trade_ideas
-	diplomatic_ideas
-	economic_ideas
-	administrative_ideas
-	quality_ideas
-}
-
-historical_units = {
-	eastern_medieval_infantry
-	eastern_knights
-	slavic_stradioti
-	eastern_militia
-	ottoman_sekban
-	ottoman_reformed_spahi
-	ottoman_reformed_janissary
-	ottoman_toprakli_hit_and_run
-	ottoman_nizami_cedid
-	ottoman_toprakli_dragoon
-	eastern_skirmisher
-	eastern_uhlan
-	eastern_carabinier
-	ottoman_new_model
-	ottoman_lancer
-}
-
-monarch_names = {
-	"Alexandru #0" = 280
-	"Stefan #1" = 180
-	"Constantin #0" = 120
-	"Mihail #0" = 80
-	"Grigore #0" = 60
-	"Ioan #0" = 60
-	"Petru #2" = 40
-	"Bogdan #1" = 40
-	"Antioh #0" = 40
-	"Ilias #0" = 40
-	"Scarlat #0" = 40
-	"Stefanito #0" = 40
-	"George #0" = 40
-	"Petru #2 Aron" = 20
-	"Aron #0" = 20
-	"Dimitrie #0" = 20
-	"Dumitrascu #0" = 20
-	"Emanuel #0" = 20
-	"Eustratius #0" = 20
-	"Gaspar #0" = 20
-	"George Stefan #0" = 20
-	"Iancu #0" = 20
-	"Ilias Alexandru #0" = 20
-	"Ioan #0 Iacob" = 20
-	"Ioan Teodoru #0" = 20
-	"Iuga #0" = 20
-	"Jeremie #0" = 20
-	"Matvei #0" = 20
-	"Milos #0" = 20
-	"Moise #0" = 20
-	"Nicolae #0" = 20
-	"Radu #0" = 20
-	"Simeon #0" = 20
-	"Vasile #0" = 20
-	"Ioan #0 Bogdan" = 15
-	"Sergei #0" = 10
-	"Roman #2" = 5
-	"Andrei #0" = 0
-	"Iulian #0" = 0
-	"Mircea #0" = 0
-	
-	"Camelia #0" = -1
-	"Doina #0" = -1
-	"Olga #0" = -1
-}
 
 leader_names = {
-	Callimachi Campineanu Cantacuzino Cantemir Caragea Craiovescu
-	Duca
-	Ghica
-	Ilias
-	Lupu
-	Mavrocordat Moruzi Movila Musatin
-	Norocea 
-	Racovita Ruset                         
-	Sturdza Sutu
-	Voda
+
+	"Bulan" "Tabghaç" "Akgul" "Mänär" "Sartäç" "Tähtani" "Sibel" "Ayasun" "Yildiz" "Savkëlti" 
+	"Peksen" "Ilkay" "Bulçan" "Usunbike" "Sarikel" "Këlyamal" "Khuterkin" "Yerneslu" "Yavantey" "Bugha" 
+	"Puyantay" "Tarmaç" "Bälgiçi" "Borut" "Sarica" "Kundaç" "Savaçka" "Ilik" "Ötemis" "Kisa" 
+	"Çeçtilet" "Ipekel" "Samsam" "Patiyer" "Litto" "Çeçki" "Bastu" "Gunduz" "Samur" "Yartilek" 
+	"Tarkhan" "Çorpan" "Shurkka" "Baghatur" "Maturkka" "Kayghalagh" "Sirma" "Mänäs" "Yençepi" "Busir" 
+	"Bihor" "Lärkka" "Bozçin" "Kibar" "Ipek" "Sarä" "Irge" "Barsbek" "Böri" "Naça" 
+	"Mala" "Tuzniq" "Çat" "Çiltanesi" "Paykëlti" "Khatun" "Kätyarikka" "Çeçeppi" "Karadakh" "Vakrim" 
+	"Songul" "Yasar" "Savintik" "Savtilek" "Lyukha" "Tekçe" "Tura" "Gulçiçäk" "Zorya" "Mënümarót" 
+	"Këlnissa" "Gulay" "Özgul" "Yabghu" "Simsam" "Ayten" "Bagha" "Çat'n" "Araslan" "Parsbit" 
+	"Kamaj" "Ikalay" "Asli" "Gundes" "Itakh" "No Character" "Roman" "Yemelyan" "Mitrofan" "Sabin" 
+	"Alexei" "Viacheslav" "Ruslan" "Putiata" "Vseslav" "Dobronega" "Marina" "Pavel" "Dobrynia" "Vladimir" 
+	"Alp" "Barjik" "Bashtwa" "Buzer" "Iltäbär" "Khatir" "Kundaçiq" "Papaçyz" "Täbär" "Yeçtirek" 
+	"Yilig" }
+monarch_names = {
+	"Bulan #1" = 24
+	"Tabghaç #0" = 1
+	"Akgul #0" = -1
+	"Mänär #0" = 1
+	"Sartäç #0" = 1
+	"Tähtani #0" = -1
+	"Sibel #1" = -28
+	"Ayasun #0" = -1
+	"Yildiz #0" = -1
+	"Savkëlti #0" = -1
+	"Peksen #0" = -1
+	"Ilkay #0" = -1
+	"Bulçan #0" = 1
+	"Usunbike #0" = -1
+	"Sarikel #0" = -1
+	"Këlyamal #0" = -1
+	"Khuterkin #0" = 1
+	"Yerneslu #0" = 1
+	"Yavantey #1" = 24
+	"Bugha #0" = 1
+	"Puyantay #0" = -1
+	"Tarmaç #1" = 39
+	"Bälgiçi #0" = 1
+	"Borut #0" = 1
+	"Sarica #2" = -22
+	"Kundaç #0" = 1
+	"Savaçka #0" = -1
+	"Ilik #0" = 1
+	"Ötemis #0" = 1
+	"Kisa #0" = 1
+	"Çeçtilet #0" = -1
+	"Ipekel #0" = -1
+	"Samsam #1" = 27
+	"Patiyer #0" = -1
+	"Litto #0" = 1
+	"Çeçki #0" = -1
+	"Bastu #1" = 27
+	"Gunduz #1" = -25
+	"Samur #0" = -1
+	"Yartilek #0" = -1
+	"Tarkhan #0" = 1
+	"Çorpan #1" = 24
+	"Shurkka #0" = -1
+	"Baghatur #0" = 1
+	"Maturkka #0" = -1
+	"Kayghalagh #0" = 1
+	"Sirma #0" = -1
+	"Mänäs #0" = 1
+	"Yençepi #0" = 1
+	"Busir #0" = 1
+	"Bihor #0" = 1
+	"Lärkka #0" = -1
+	"Bozçin #0" = -1
+	"Kibar #0" = 1
+	"Ipek #0" = -1
+	"Sarä #0" = -1
+	"Irge #0" = -1
+	"Barsbek #0" = 1
+	"Böri #0" = 1
+	"Naça #0" = -1
+	"Mala #0" = -1
+	"Tuzniq #0" = 1
+	"Çat #0" = 1
+	"Çiltanesi #0" = -1
+	"Paykëlti #0" = -1
+	"Khatun #0" = -1
+	"Kätyarikka #0" = -1
+	"Çeçeppi #0" = -1
+	"Karadakh #0" = 1
+	"Vakrim #0" = 1
+	"Songul #0" = -1
+	"Yasar #0" = -1
+	"Savintik #0" = -1
+	"Savtilek #0" = -1
+	"Lyukha #0" = -1
+	"Tekçe #0" = -1
+	"Tura #0" = -1
+	"Gulçiçäk #0" = -1
+	"Zorya #1" = -22
+	"Mënümarót #0" = 1
+	"Këlnissa #0" = -1
+	"Gulay #0" = -1
+	"Özgul #0" = -1
+	"Yabghu #0" = 1
+	"Simsam #0" = 1
+	"Ayten #0" = -1
+	"Bagha #0" = 1
+	"Çat'n #0" = 1
+	"Araslan #0" = 1
+	"Parsbit #0" = -1
+	"Kamaj #0" = 1
+	"Ikalay #0" = -1
+	"Asli #0" = -1
+	"Gundes #0" = -1
+	"Itakh #0" = 1
+	"No Character #2" = 0
+	"Roman #1" = 0
+	"Yemelyan #2" = 0
+	"Mitrofan #1" = 0
+	"Sabin #2" = 0
+	"Alexei #1" = 0
+	"Viacheslav #1" = 0
+	"Ruslan #1" = 0
+	"Putiata #1" = 0
+	"Vseslav #1" = 0
+	"Dobronega #1" = -1
+	"Marina #1" = -1
+	"Pavel #1" = 0
+	"Dobrynia #1" = 0
+	"Vladimir #2" = 0
+	"Alp #0" = 0
+	"Barjik #0" = 0
+	"Bashtwa #0" = 0
+	"Buzer #0" = 0
+	"Iltäbär #0" = 0
+	"Khatir #0" = 0
+	"Kundaçiq #0" = 0
+	"Papaçyz #0" = 0
+	"Täbär #0" = 0
+	"Yeçtirek #0" = 0
+	"Yilig #0" = 0
 }
 
-ship_names = {
-	"Athleta Christi"
-	Baia "Bogdan I"
-	Iuga
-	Moldova
-	"Râul Prut"
-	"Stefan cel Mare" Suceava
-	"Târgul Moldovei"
-	Vaslui
-}
-
-army_names = {
-	"Oastea de $PROVINCE$" 
-}

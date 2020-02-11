@@ -167,7 +167,7 @@ technology = {
 	
 	#The limber
 	artillery_fire 		= 	1
-	artillery_shock 	=	0.05
+	artillery_shock 	=	0.2
 	military_tactics 	= 	0.25
 	enable = large_cast_bronze_mortar 
 	enable = houfnice
@@ -212,7 +212,8 @@ technology = {
 	year = 1531
 	
 	#Reiter
-	maneuver_value 		= 	0.25
+	maneuver_value 		= 	0.35
+	cavalry_shock		=	0.05
 
 	enable = hungarian_hussar
 	enable = ottoman_spahi		
@@ -377,7 +378,8 @@ technology = {
 	year = 1635
 	
 	#Carbine
-	maneuver_value 		= 	0.25
+	maneuver_value 		= 	0.35
+	cavalry_shock		=	0.05
 
 		
 	enable = swedish_gallop	
@@ -472,9 +474,9 @@ technology = {
 	
 	#Light Cavalry
 	
-	cavalry_shock		=	1.0
+	cavalry_shock		=	1.05
 	military_tactics 	= 	0.25
-	maneuver_value 		= 	0.5
+	maneuver_value 		= 	0.35
 
 	enable = swedish_arme_blanche	
 	enable = french_dragoon		
@@ -579,8 +581,9 @@ technology = {
 	year = 1775
 	
 	#Cuirassier
-	maneuver_value 		= 	0.25
+	maneuver_value 		= 	0.35
 	infantry_shock		=	0.5	
+	cavalry_shock		=	0.05
 	
 	enable = african_cuirassier
 	enable = russian_cuirassier	
@@ -619,7 +622,7 @@ technology = {
 	
 	military_tactics	=	0.25
 	land_morale			=	1.0
-	maneuver_value = 0.25
+	maneuver_value = 0.35
 	
 	enable = russian_mass
 	enable = mixed_order_infantry	

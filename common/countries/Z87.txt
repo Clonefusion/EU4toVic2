@@ -1,0 +1,118 @@
+# Mordva
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 15 64 33 }
+
+
+
+
+leader_names = {
+
+	"Bizel" "Yildiz" "Özgul" "Giazis" "Esin" "Tekçe" "Kätyarikka" "Baitzas" "Usunbike" "Teber" 
+	"Ipaos" "Karaca" "Bayça" "Ildey" "Sarä" "Busir" "Sevilay" "Lyukha" "Karacik" "Balgor" 
+	"Gunes" "Bator" "Yeke" "Kuerçi" "Bozçin" "Songul" "Tatus" "Kabuksin" "Dilek" "Ipek" 
+	"Kourkoutai" "Ipa" "Kugel" "Batas" "Gunduz" "Kaydum" "Konel" "Yasar" "Sarica" "Kegen" 
+	"Gulay" "Aba" "Çilen" "Ayten" "Samur" "Kostas" "Bulçan" "Sarikel" "Umay" "Tura" 
+	"Tyrach" "Mala" "Sevindik" "Akgul" "Yilig" "Boru" "Özlem" "Sirma" "Kortan" "Khatir" 
+	"Asli" "Çelgil" "Sol" "Gundes" "Kure" "Kozel" "Korkutan" "Gulçiçek" "Çiçek" "Biçkili" 
+	"Yeçtirek" "Suru" "Irge" "Çiltanesi" "Peksen" "Ilkay" "Togli" "Batan" "Yazi" "Ana" 
+	"Ipekel" "Mutlu" "Çat'n" "Temir" "Yeldem" "Sibel" "Çiçäk" "Këlyamal" "Sati" "Bula" 
+	"No Character" "Vladimir" "Zorya" "Boris" "Böri" }
+monarch_names = {
+	"Bizel #2" = 33
+	"Yildiz #0" = -1
+	"Özgul #0" = -1
+	"Giazis #2" = 39
+	"Esin #0" = -1
+	"Tekçe #0" = -1
+	"Kätyarikka #0" = -1
+	"Baitzas #0" = 1
+	"Usunbike #0" = -1
+	"Teber #0" = 1
+	"Ipaos #0" = 1
+	"Karaca #0" = 1
+	"Bayça #0" = 1
+	"Ildey #0" = 1
+	"Sarä #0" = -1
+	"Busir #0" = 1
+	"Sevilay #0" = -1
+	"Lyukha #0" = -1
+	"Karacik #0" = -1
+	"Balgor #0" = 1
+	"Gunes #0" = -1
+	"Bator #2" = 24
+	"Yeke #1" = 45
+	"Kuerçi #0" = 1
+	"Bozçin #0" = -1
+	"Songul #0" = -1
+	"Tatus #0" = 1
+	"Kabuksin #1" = 24
+	"Dilek #0" = -1
+	"Ipek #0" = -1
+	"Kourkoutai #0" = 1
+	"Ipa #0" = 1
+	"Kugel #1" = 21
+	"Batas #0" = 1
+	"Gunduz #0" = -1
+	"Kaydum #1" = 36
+	"Konel #0" = 1
+	"Yasar #0" = -1
+	"Sarica #0" = -1
+	"Kegen #0" = 1
+	"Gulay #0" = -1
+	"Aba #0" = 1
+	"Çilen #0" = -1
+	"Ayten #0" = -1
+	"Samur #0" = -1
+	"Kostas #0" = 1
+	"Bulçan #0" = 1
+	"Sarikel #0" = -1
+	"Umay #0" = -1
+	"Tura #0" = -1
+	"Tyrach #0" = 1
+	"Mala #0" = -1
+	"Sevindik #0" = -1
+	"Akgul #0" = -1
+	"Yilig #0" = 1
+	"Boru #1" = 21
+	"Özlem #0" = -1
+	"Sirma #1" = -28
+	"Kortan #0" = 1
+	"Khatir #0" = 1
+	"Asli #0" = -1
+	"Çelgil #0" = 1
+	"Sol #0" = 1
+	"Gundes #0" = -1
+	"Kure #1" = 24
+	"Kozel #0" = 1
+	"Korkutan #0" = 1
+	"Gulçiçek #0" = -1
+	"Çiçek #0" = -1
+	"Biçkili #0" = 1
+	"Yeçtirek #0" = 1
+	"Suru #0" = 1
+	"Irge #0" = -1
+	"Çiltanesi #0" = -1
+	"Peksen #0" = -1
+	"Ilkay #1" = -22
+	"Togli #0" = 1
+	"Batan #0" = 1
+	"Yazi #0" = 1
+	"Ana #0" = -1
+	"Ipekel #0" = -1
+	"Mutlu #0" = -1
+	"Çat'n #0" = 1
+	"Temir #0" = 1
+	"Yeldem #0" = -1
+	"Sibel #0" = -1
+	"Çiçäk #0" = -1
+	"Këlyamal #0" = -1
+	"Sati #0" = -1
+	"Bula #1" = 18
+	"No Character #3" = 0
+	"Vladimir #9" = 0
+	"Zorya #3" = -1
+	"Boris #1" = 0
+	"Böri #1" = 0
+}
+

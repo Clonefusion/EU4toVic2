@@ -1619,3 +1619,54 @@ take_capital_force_tributary = {
 	
 	war_name = TRIBUTARY_MISSION_WAR_NAME
 }
+
+limited_war_victory = {
+    type = superiority
+
+    attacker = {
+        badboy_factor = 0.5
+        prestige_factor = 1
+        peace_cost_factor = 1
+
+        allowed_provinces = {
+        }
+
+        peace_options = {
+            po_demand_provinces
+            po_return_cores
+			po_revoke_cores
+            po_gold
+            po_trade_power
+			po_steer_trade
+            po_humiliate
+        }
+
+        prov_desc = ALL_CORES
+    }
+
+    defender = {
+        badboy_factor = 0.5
+        prestige_factor = 1
+        peace_cost_factor = 1
+
+        allowed_provinces = {
+        }
+
+        peace_options = {
+            po_demand_provinces
+            po_return_cores
+			po_revoke_cores
+            po_gold
+            po_trade_power
+            po_steer_trade
+            po_humiliate
+        }
+
+        prov_desc = ALL_CORES
+    }
+
+    deny_annex = yes
+
+    country_desc = ALL_NATIVES
+    war_name = HUMILIATE_WAR_NAME
+}

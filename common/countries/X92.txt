@@ -1,0 +1,269 @@
+# Talas
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 145 165 50 }
+
+
+
+
+leader_names = {
+
+	"Khwasaw" "Touran" "Nazgol" "Farnch" "Fereedun" "Ghoncheh" "Wishaghn" "Kundakk" "Ferdows" "Farhad" 
+	"Ghamze" "Navvaba" "Parvaneh" "Khosrow" "Barak" "Gurak" "Divashtich" "Yodkhsetak" "Tuhun" "Tarkhun" 
+	"Urak" "Turghar" "Lushan" "Nanaifarn" "Avyaman" "Yechi" "Chaki" "Mechun" "Tishifan" "Wupoyan" 
+	"Tarxun" "Wanxanak" "Nawekat" "Wiyus" "Uxushukan" "Bharxuman" "Skatch" "Sheshch" "Chaxren" "Ramch" 
+	"Shaw" "Maxak" "Ramtish" "Axushfarn" "Bhurz" "Chukshak" "Fudanyan" "Dishebo" "Vandak" "Khudayfarn" 
+	"Sili" "Tishrat" "Chunakk" "Namdar" "Xutawch" "Pisak" "Karz" "Nijat" "Chatfaratsaran" "Dewastich" 
+	"Varzakk" "Nanai-thvar" "Chuzakk" "Khwatawch" "Karzh" "Nizat" "Nanaikuch" "Ukhwan" "Pator" "Wakhushuvirt" 
+	"Maniakh" "Watch" "Shafnoshak" "Akhurmaztakk" "Akhushfarn" "Anghatnaw" "Anghatspadh" "Anushirvan" "Ardavan" "Ardeshir" 
+	"Armatsach" "Arsach" "Artikhuvandakh" "Artivan" "Aspandhat" "Astken" "Aurang" "Avyaman-yan" "Avyamanch" "Avyamanvandak" 
+	"Babak" "Bahram" "Banda" "Bharkhuman" "Buddhadasa" "Chakar" "Chakhapak" "Chakhren" "Cher" "Chetvandak" 
+	"Dariush" "Devadasa" "Dewashtich" "Dhakh" "Dhruwaspvandak" "Esfandiar" "Eskander" "Ewakhsh" "Faramarz" "Farn" 
+	"Farnaghat" "Farnkhund" "Farroukh" "Farrukhzad" "Farzad" "Fatmiwach" "Frikhwataw" "Ghawtus" "Ghobad" "Ghoshfarn" 
+	"Ghotamsach" "Godarz" "Goshtasb" "Hazarasp" "Hormoz" "Induk" "Irkin" "Jamshid" "Jiamut" "Jimatvande" 
+	"Kanak" "Kanakk" "Kartir" "Karzhtik" "Kavoos" "Kaway" "Kharstrang" "Khun" "Khurshid" "Khwadhawanakk" 
+	"Khwarmew" "Khwasawch" "Kund" "Kurush" "Kushan" "Kushanakanak" "Makhak" "Marti" "Marzuban" "Maymarghch" 
+	"Methakan" "Mew" "Miren" "Muqanna" "Nanai" "Nanaidhvar" "Nanaikhsay" "Nanaithvar" "Nanaizanch" "Nanayakk" 
+	"Nanevante" "Narisaf" "Narshakhi" "Nawchirth" "Nibothak" "Nipak" "Nithan" "Ot-tegin" "Papakk" "Parsak" 
+	"Parviz" "Pashang" "Patrodhan" "Pekako" "Peroz" "Pesakk" "Pujman" "Qishiq" "Rashdhes" "Razmwanwan" 
+	"Resan" "Rewdhvar" "Rokhshan" "Rostam" "Rutha" "Sagharak" "Sas" "Sasan" "Satasp" "Sesh" 
+	"Shahbaz" "Shahin" "Shahrokh" "Shans" "Shennu" "Shirch" "Sina" "Spadh" "Spadhkharsh" "Srawakk" 
+	"Stayidh" "Suryakk" "Tahmasb" "Takhsich" "Takhsichvandak" "Takut" "Taw" "Tir" "Tishtrya" "Tishvandak" 
+	"Ukhushukan" "Vagh" "Vaghrew" "Vahhab" "Varshasb" "Varzak" "Varzirak" "Vishtasb" "Viyus" "Vuvva" 
+	"Wakhunam" "Wakhushakk" "Wakhushu" "Wanenak" "Wankaway" "Wankhanak" "Wanrazmak" "Wanwans" "Xeykhosrow" "Y’n" 
+	"Zand" "Zymt" }
+monarch_names = {
+	"Khwasaw #0" = 1
+	"Touran #0" = -1
+	"Nazgol #0" = -1
+	"Farnch #0" = 1
+	"Fereedun #0" = 1
+	"Ghoncheh #0" = -1
+	"Wishaghn #0" = 1
+	"Kundakk #0" = 1
+	"Ferdows #0" = 1
+	"Farhad #0" = 1
+	"Ghamze #0" = -1
+	"Navvaba #0" = -1
+	"Parvaneh #0" = -1
+	"Khosrow #0" = 1
+	"Barak #0" = 1
+	"Gurak #0" = 0
+	"Divashtich #0" = 0
+	"Yodkhsetak #0" = 0
+	"Tuhun #0" = 0
+	"Tarkhun #0" = 0
+	"Urak #0" = 0
+	"Turghar #0" = 0
+	"Lushan #0" = 0
+	"Nanaifarn #0" = 0
+	"Avyaman #0" = 0
+	"Yechi #0" = 0
+	"Chaki #0" = 0
+	"Mechun #0" = 0
+	"Tishifan #0" = 0
+	"Wupoyan #0" = 0
+	"Tarxun #0" = 0
+	"Wanxanak #0" = 0
+	"Nawekat #0" = 0
+	"Wiyus #0" = 0
+	"Uxushukan #0" = 0
+	"Bharxuman #0" = 0
+	"Skatch #0" = 0
+	"Sheshch #0" = 0
+	"Chaxren #0" = 0
+	"Ramch #0" = 0
+	"Shaw #0" = 0
+	"Maxak #0" = 0
+	"Ramtish #0" = 0
+	"Axushfarn #0" = 0
+	"Bhurz #0" = 0
+	"Chukshak #0" = 0
+	"Fudanyan #0" = 0
+	"Dishebo #0" = 0
+	"Vandak #0" = 0
+	"Khudayfarn #0" = 0
+	"Sili #0" = 0
+	"Tishrat #0" = 0
+	"Chunakk #0" = 0
+	"Namdar #0" = 0
+	"Xutawch #0" = 0
+	"Pisak #0" = 0
+	"Karz #0" = 0
+	"Nijat #0" = 0
+	"Chatfaratsaran #0" = 0
+	"Dewastich #0" = 0
+	"Varzakk #0" = 0
+	"Nanai-thvar #0" = 0
+	"Chuzakk #0" = 0
+	"Khwatawch #0" = 0
+	"Karzh #0" = 0
+	"Nizat #0" = 0
+	"Nanaikuch #0" = 0
+	"Ukhwan #0" = 0
+	"Pator #0" = 0
+	"Wakhushuvirt #0" = 0
+	"Maniakh #0" = 0
+	"Watch #0" = 0
+	"Shafnoshak #0" = 0
+	"Akhurmaztakk #0" = 0
+	"Akhushfarn #0" = 0
+	"Anghatnaw #0" = 0
+	"Anghatspadh #0" = 0
+	"Anushirvan #0" = 0
+	"Ardavan #0" = 0
+	"Ardeshir #0" = 0
+	"Armatsach #0" = 0
+	"Arsach #0" = 0
+	"Artikhuvandakh #0" = 0
+	"Artivan #0" = 0
+	"Aspandhat #0" = 0
+	"Astken #0" = 0
+	"Aurang #0" = 0
+	"Avyaman-yan #0" = 0
+	"Avyamanch #0" = 0
+	"Avyamanvandak #0" = 0
+	"Babak #0" = 0
+	"Bahram #0" = 0
+	"Banda #0" = 0
+	"Bharkhuman #0" = 0
+	"Buddhadasa #0" = 0
+	"Chakar #0" = 0
+	"Chakhapak #0" = 0
+	"Chakhren #0" = 0
+	"Cher #0" = 0
+	"Chetvandak #0" = 0
+	"Dariush #0" = 0
+	"Devadasa #0" = 0
+	"Dewashtich #0" = 0
+	"Dhakh #0" = 0
+	"Dhruwaspvandak #0" = 0
+	"Esfandiar #0" = 0
+	"Eskander #0" = 0
+	"Ewakhsh #0" = 0
+	"Faramarz #0" = 0
+	"Farn #0" = 0
+	"Farnaghat #0" = 0
+	"Farnkhund #0" = 0
+	"Farroukh #0" = 0
+	"Farrukhzad #0" = 0
+	"Farzad #0" = 0
+	"Fatmiwach #0" = 0
+	"Frikhwataw #0" = 0
+	"Ghawtus #0" = 0
+	"Ghobad #0" = 0
+	"Ghoshfarn #0" = 0
+	"Ghotamsach #0" = 0
+	"Godarz #0" = 0
+	"Goshtasb #0" = 0
+	"Hazarasp #0" = 0
+	"Hormoz #0" = 0
+	"Induk #0" = 0
+	"Irkin #0" = 0
+	"Jamshid #0" = 0
+	"Jiamut #0" = 0
+	"Jimatvande #0" = 0
+	"Kanak #0" = 0
+	"Kanakk #0" = 0
+	"Kartir #0" = 0
+	"Karzhtik #0" = 0
+	"Kavoos #0" = 0
+	"Kaway #0" = 0
+	"Kharstrang #0" = 0
+	"Khun #0" = 0
+	"Khurshid #0" = 0
+	"Khwadhawanakk #0" = 0
+	"Khwarmew #0" = 0
+	"Khwasawch #0" = 0
+	"Kund #0" = 0
+	"Kurush #0" = 0
+	"Kushan #0" = 0
+	"Kushanakanak #0" = 0
+	"Makhak #0" = 0
+	"Marti #0" = 0
+	"Marzuban #0" = 0
+	"Maymarghch #0" = 0
+	"Methakan #0" = 0
+	"Mew #0" = 0
+	"Miren #0" = 0
+	"Muqanna #0" = 0
+	"Nanai #0" = 0
+	"Nanaidhvar #0" = 0
+	"Nanaikhsay #0" = 0
+	"Nanaithvar #0" = 0
+	"Nanaizanch #0" = 0
+	"Nanayakk #0" = 0
+	"Nanevante #0" = 0
+	"Narisaf #0" = 0
+	"Narshakhi #0" = 0
+	"Nawchirth #0" = 0
+	"Nibothak #0" = 0
+	"Nipak #0" = 0
+	"Nithan #0" = 0
+	"Ot-tegin #0" = 0
+	"Papakk #0" = 0
+	"Parsak #0" = 0
+	"Parviz #0" = 0
+	"Pashang #0" = 0
+	"Patrodhan #0" = 0
+	"Pekako #0" = 0
+	"Peroz #0" = 0
+	"Pesakk #0" = 0
+	"Pujman #0" = 0
+	"Qishiq #0" = 0
+	"Rashdhes #0" = 0
+	"Razmwanwan #0" = 0
+	"Resan #0" = 0
+	"Rewdhvar #0" = 0
+	"Rokhshan #0" = 0
+	"Rostam #0" = 0
+	"Rutha #0" = 0
+	"Sagharak #0" = 0
+	"Sas #0" = 0
+	"Sasan #0" = 0
+	"Satasp #0" = 0
+	"Sesh #0" = 0
+	"Shahbaz #0" = 0
+	"Shahin #0" = 0
+	"Shahrokh #0" = 0
+	"Shans #0" = 0
+	"Shennu #0" = 0
+	"Shirch #0" = 0
+	"Sina #0" = 0
+	"Spadh #0" = 0
+	"Spadhkharsh #0" = 0
+	"Srawakk #0" = 0
+	"Stayidh #0" = 0
+	"Suryakk #0" = 0
+	"Tahmasb #0" = 0
+	"Takhsich #0" = 0
+	"Takhsichvandak #0" = 0
+	"Takut #0" = 0
+	"Taw #0" = 0
+	"Tir #0" = 0
+	"Tishtrya #0" = 0
+	"Tishvandak #0" = 0
+	"Ukhushukan #0" = 0
+	"Vagh #0" = 0
+	"Vaghrew #0" = 0
+	"Vahhab #0" = 0
+	"Varshasb #0" = 0
+	"Varzak #0" = 0
+	"Varzirak #0" = 0
+	"Vishtasb #0" = 0
+	"Viyus #0" = 0
+	"Vuvva #0" = 0
+	"Wakhunam #0" = 0
+	"Wakhushakk #0" = 0
+	"Wakhushu #0" = 0
+	"Wanenak #0" = 0
+	"Wankaway #0" = 0
+	"Wankhanak #0" = 0
+	"Wanrazmak #0" = 0
+	"Wanwans #0" = 0
+	"Xeykhosrow #0" = 0
+	"Y’n #0" = 0
+	"Zand #0" = 0
+	"Zymt #0" = 0
+}
+

@@ -1,0 +1,35 @@
+#Country Name: Please see filename.
+
+graphical_culture = asiangfx
+
+color = { 97 44 96 }
+
+historical_idea_groups = {
+	defensive_ideas
+	economic_ideas
+	exploration_ideas
+	administrative_ideas
+	humanist_ideas
+	quantity_ideas
+	influence_ideas
+	offensive_ideas
+}
+
+historical_units = {
+	chinese_longspear
+	eastern_bow
+	chinese_footsoldier
+	chinese_steppe
+	asian_arquebusier
+	asian_charge_cavalry
+	asian_mass_infantry
+	manchu_banner
+	han_banner
+	asian_musketeer
+	chinese_dragoon
+	reformed_asian_musketeer
+	reformed_asian_cavalry
+	reformed_manchu_rifle
+}
+
+

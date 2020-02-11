@@ -427,7 +427,7 @@ colony = {
 	liberty_desire_development_ratio = 0.1
 
 	max_government_rank = 1
-	cities_required_for_bonuses = 10
+	cities_required_for_bonuses = 1
 
 	relative_power_class = 0
 
@@ -454,6 +454,14 @@ colony = {
 
 	# Modifiers:
 	modifier_overlord = {
+		modifier = gov_rank_10
+		trigger = {
+			num_of_cities = 1
+			NOT = { num_of_cities = 10 }
+		}
+	}
+	modifier_overlord = {
+		
 		modifier = large_colonial_nation
 		trigger = {
 			num_of_cities = 10
@@ -576,6 +584,165 @@ tributary_state = {
 			}
 		}
 	}
+}
+
+sphereling = {
+	copy_from = default
+	
+	# Graphics:
+	sprite = GFX_icon_vassal
+	diplomacy_overlord_sprite = GFX_diplomacy_leadvassal
+	diplomacy_subject_sprite = GFX_diplomacy_amvassal
+
+	# Properties:
+	transfer_trade_if_merchant_republic = yes
+	has_power_projection = no
+	gets_help_with_rebels = yes
+	can_send_tribute = yes
+	transfer_trade_power = yes
+	can_fight_independence_war = yes
+	joins_overlords_wars = no
+	joins_colonial_wars = no
+	overlord_can_attack = no
+	can_release_in_peace = no
+	can_release_and_play = no
+	can_transfer_in_peace = yes
+	can_be_integrated = no
+	can_be_annexed = no
+	base_liberty_desire = 5
+	uses_military_focus = no
+	overlord_protects_external = yes
+	counts_for_borders = no
+	can_use_claims = no
+	separatists_become_subjects = no
+	can_transfer_in_peace = no
+	press_sailors = yes
+	overlord_can_fabricate_for = yes
+	can_set_mil_focus = no
+	can_send_missionary_to_subject = yes
+	liberty_desire_development_ratio = 0.75
+	military_focus = 0.75
+	embargo_rivals = yes
+	support_loyalists = no
+	subsidize_armies = yes
+	send_officers = no
+	placate_rulers = yes
+	enforce_religion = yes
+	customize_subject = no
+	replace_governor = no
+	grant_province = yes
+	enforce_culture = no
+	siphon_income = no
+	fortify_march = no
+	start_colonial_war = no
+	grant_core_claim = yes
+	increase_tariffs = no
+	decrease_tariffs = no
+	takeondebt = yes
+	bestow_gifts = no
+	send_additional_troops = no
+	demand_artifacts = no
+	demand_additional_tribute = no
+	force_seppuku = no
+	press_sailors = no
+	contribute_to_capital = no
+	force_isolation = no
+	return_land = no
+	conscript_general = no
+	knowledge_sharing = yes
+	
+	max_government_rank = 2
+
+	liberty_desire_development_ratio = 0.25
+	liberty_desire_same_dynasty = -5.0
+	pays_overlord = 0.75
+	forcelimit_bonus = 1.25
+	forcelimit_to_overlord = 0.1
+
+	relative_power_class = 2
+	
+	restoration_cb = cb_disloyal_vassal
+
+	# Subject Interactions:
+	scutage = no
+	place_relative_on_throne = yes
+	sacrifice_ruler = no
+	sacrifice_heir = no
+	divert_trade = yes
+	seize_territory = no
+
+	# Modifiers:
+	modifier_overlord = {
+		modifier = vassal_subject
+	}
+	modifier_overlord = {
+		modifier = gov_rank_4
+	}
+	modifier_overlord = {
+		modifier = gov_rank_5
+		trigger = {
+			total_development = 75
+			NOT = { total_development = 150 }
+		}
+	}
+	modifier_overlord = {
+		modifier = gov_rank_6
+		trigger = {
+			total_development = 150
+			NOT = { total_development = 225 }
+		}
+	}
+	modifier_overlord = {
+		modifier = gov_rank_7
+		trigger = {
+			total_development = 225
+			NOT = { total_development = 300 }
+		}
+	}
+	modifier_overlord = {
+		modifier = gov_rank_8
+		trigger = {
+			total_development = 300
+			NOT = { total_development = 400 }
+		}
+	}
+	modifier_overlord = {
+		modifier = gov_rank_9
+		trigger = {
+			total_development = 400
+			NOT = { total_development = 500 }
+		}
+	}
+	modifier_overlord = {
+		modifier = tutorial_colonial_range
+		trigger = {
+			total_development = 500
+			NOT = { total_development = 600 }
+		}
+	}
+	modifier_overlord = {
+		modifier = custom_setup
+		trigger = {
+			total_development = 600
+			NOT = { total_development = 725 }
+		}
+	}
+	modifier_overlord = {
+		modifier = invasion_nation
+		trigger = {
+			total_development = 725
+			NOT = { total_development = 850 }
+		}
+	}
+	modifier_overlord = {
+		modifier = revolution_target
+		trigger = {
+			total_development = 850
+		}
+	}
+
+	overlord_opinion_modifier = is_vassal
+	subject_opinion_modifier = is_vassal
 }
 
 # Completely scripted subject type (no code used). Add any number of these. Check common/new_diplomatic_actions for how to make visible in game.

@@ -1,0 +1,49 @@
+# All global modifiers are here. They are applied from certain game-features.
+#
+# Effects are fully scriptable here.
+
+# These names can NOT be removed or changes, as the code uses them....
+
+blood_of_von_einzbern = {	
+	devotion = 0.01	
+}
+
+ancestry_of_house_vult = {	
+	devotion = 0.01	
+}
+
+lineage_of_house_kralj = {	
+	devotion = 0.01	
+}
+
+the_gift_of_von_wenceslaus = {	
+	devotion = 0.01	
+}
+
+the_origin_of_the_aesirlings = {	
+	devotion = 0.01	
+}
+
+kin_of_the_gada_selija = {	
+	devotion = 0.01	
+}
+
+descendants_of_anarion = {	
+	devotion = 0.01	
+}
+
+the_carcassonne_inheritance = {	
+	devotion = 0.01	
+}
+
+the_line_of_house_atreides = {	
+	devotion = 0.01	
+}
+
+the_brotherhood_of_house_theoderich = {	
+	devotion = 0.01	
+}
+
+the_line_of_clan_mac_meibhric = {	
+	devotion = 0.01	
+}

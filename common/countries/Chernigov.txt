@@ -1,107 +1,213 @@
-graphical_culture = easterngfx
+# Ixian Rus
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 0 100 0 }
 
-color = { 190 190 190 }
 
-historical_idea_groups = {
-	defensive_ideas
-	expansion_ideas
-	religious_ideas
-	offensive_ideas
-	naval_ideas
-	spy_ideas
-	economic_ideas
-	quality_ideas
-}
 
-historical_units = {
-	bardiche_infantry
-	druzhina_cavalry
-	slavic_stradioti
-	eastern_militia
-	muscovite_musketeer
-	muscovite_caracolle
-	muscovite_soldaty
-	muscovite_cossack
-	russian_petrine
-	russian_lancer
-	russian_green_coat
-	russian_cuirassier
-	eastern_skirmisher
-	eastern_uhlan
-	eastern_carabinier
-	russian_mass
-}
 
 leader_names = {
-	Apraksin
-	Bagration "Barclay de Tolly" Bibikoff Bodisco Boruffsin
-	Golitzin
-	Kaibula Kamenski Kolzoff
-	Mensjikov Mustislavski
-	"Ostermann Tolstoy"
-	Paletskij
-	Rajevski
-	Schuvalov Sjeremetjev Sjtjenjatvev
-	Tiesenhusen
-	Vasiljevitj "von Buxhoevden" "von Knorring" "von Lascy"
-}
 
+	"Vladimir" "Zorya" "Pertevniyal" "Ayasun" "Alexandra" "Bulan" "Kamaj" "Çeçtilet" "Baghatur" "Tarmaç" 
+	"Pamphilios" "Këlyamal" "Çeçki" "Ferdows" "Salomeh" "Savkëlti" "Maturkka" "Khatir" "Özgul" "Mënümarót" 
+	"Puyantay" "Özlem" "Mänäs" "Kätyarikka" "Danush" "Bulçan" "Çorpan" "Alp" "Khuterkin" "Bugha" 
+	"Iouliana" "Javaneh" "Böri" "Yerneslu" "Paksyay" "Karacik" "Barsbek" "Sarica" "Asli" "Vakrim" 
+	"Çeçeppi" "Täbär" "Paykëlti" "Çat" "Sarantay" "Kibar" "Gunduz" "Ipek" "Peksen" "Yildiz" 
+	"Ayten" "Sarä" "Tarkhan" "Tekçe" "Sibel" "Yasar" "Kurlemuse" "Gulçiçäk" "Gerasimos" "Çilen" 
+	"Ötemis" "Yavantey" "Gulay" "Kundaç" "Sarikel" "Tuzniq" "Ilkay" "Tabghaç" "Anastasia" "Theodoulos" 
+	"Bastu" "Serapion" "Usunbike" "Yeçtirek" "Mänär" "Bälgiçi" "Savtilek" "Esin" "Ipekel" "Ikalay" 
+	"Seyamka" "Liga" "Bozorg" "Gundes" "Theophylaktos" "Samsam" "Samur" "Itakh" "Fath" "Yençepi" 
+	"Lyukha" "Ruta" "Yazdegerd" "Kayghalagh" "Këlnissa" "Iltäbär" "Khatun" "Yabghu" "Dilek" "Sati" 
+	"Kisa" "Umay" "Karadakh" "Burandokht" "Morteza" "Busir" "Parsbit" "Bagha" "Irge" "Kundaçiq" 
+	"Sirma" "Viba" "Papaçyz" "Arnfast" "Bodil" "Asa" "Mutlu" "Valdemar" "Asta" "Birger" 
+	"Savilay" "Çat'n" "Gunes" "Buzer" "Kristina" "Tura" "Bozçin" "Öysteinn" "Alv" "Patiyer" 
+	"Sartäç" "Naça" "Savaçka" "Songul" "Bihor" "Mala" "Tähtani" "Bashtwa" "Folki" "Shurkka" 
+	"Azadeh" "Grima" "Araslan" "Ingrid" "Akgul" "Savintik" "Barjik" "Holmfrid" "Yartilek" "Ahu" 
+	"Andronikos" "Ghazal" "Ilik" "Kaydum" "Farzad" "Yeldem" "Tyrach" "Çiçäk" "Çiltanesi" "Navvaba" 
+	"Chenksa" "Yilig" "Naveed" "Shahrzad" "Touran" "Simsam" "Shahrokh" "Parvin" "Oshama" "Chechama" 
+	"Avya" "Dose" "Khosrau" "Agathe" "Yapti" "Vesei" "Yurak" "Kujku" "Panay" "Nyalku" 
+	"Sirtya" }
 monarch_names = {
-	"Vasiliy #2" = 15
-	"Ivan #0" = 0
-	"Dmitriy #3" = 70
-	"Yuriy #0" = 0
-	"Andrei #2" = 15
-	"Semen #0" = 0
-	"Fyodor #0" = 0
-	"Afanasiy #0" = 0
-	"Akim #0" = 0
-	"Aleksandr #0" = 0
-	"Alexei #0" = 0
-	"Anatoliy #0" = 0
-	"Arkadiy #0" = 0
-	"Boris #1" = 10
-	"Daniil #0" = 0
-	"Dorofey #0" = 0
-	"Feodosiy #0" = 0
-	"Feofilakt #0" = 0
-	"Gavriil #0" = 0
-	"Innokentiy #0" = 0
-	"Iosif #0" = 0
-	"Lavrentiy #0" = 0
-	"Makariy #0" = 0
-	"Matveiy #0" = 0
-	"Mikhail #2" = 10
-	"Nazariy #0" = 0
-	"Nikifor #0" = 0
-	"Oleg #3" = 15
-	"Onisim #0" = 0
-	"Pavel #0" = 0
-	"Prokopiy #0" = 0
-	"Pyotr #0" = 0
-	"Radomir #0" = 0
-	"Saveliy #0" = 0
-	"Sergei #0" = 0
-	"Terentiy #0" = 0
-	"Valeriy #0" = 0
-	"Yakim #0" = 0
-	"Yevgeniy #0" = 0
-	"Mstislav #3" = 20
-	"Svyatoslav #4" = 40
-	"Vsevolod #3" = 20
-	"Vladimir #2" = 15
-	"Roman #2" = 15
-	"Izyaslav #2" = 10
-	"Gleb #2" = 5
-	
-	"Agafya #0" = -1
-	"Svetlana #0" = -1
-	"Yuliya #0" = -1
+	"Vladimir #3" = 324
+	"Zorya #9" = -226
+	"Pertevniyal #0" = -1
+	"Ayasun #0" = -1
+	"Alexandra #0" = -1
+	"Bulan #0" = 1
+	"Kamaj #0" = 1
+	"Çeçtilet #0" = -1
+	"Baghatur #0" = 1
+	"Tarmaç #0" = 1
+	"Pamphilios #0" = 1
+	"Këlyamal #0" = -1
+	"Çeçki #0" = -1
+	"Ferdows #0" = 1
+	"Salomeh #0" = -1
+	"Savkëlti #0" = -1
+	"Maturkka #0" = -1
+	"Khatir #0" = 1
+	"Özgul #0" = -1
+	"Mënümarót #0" = 1
+	"Puyantay #0" = -1
+	"Özlem #0" = -1
+	"Mänäs #0" = 1
+	"Kätyarikka #1" = -46
+	"Danush #0" = 1
+	"Bulçan #0" = 1
+	"Çorpan #0" = 1
+	"Alp #0" = 1
+	"Khuterkin #0" = 1
+	"Bugha #0" = 1
+	"Iouliana #0" = -1
+	"Javaneh #0" = -1
+	"Böri #0" = 1
+	"Yerneslu #0" = 1
+	"Paksyay #0" = 1
+	"Karacik #0" = -1
+	"Barsbek #0" = 1
+	"Sarica #0" = -1
+	"Asli #0" = -1
+	"Vakrim #0" = 1
+	"Çeçeppi #0" = -1
+	"Täbär #0" = 1
+	"Paykëlti #0" = -1
+	"Çat #0" = 1
+	"Sarantay #1" = -31
+	"Kibar #0" = 1
+	"Gunduz #0" = -1
+	"Ipek #0" = -1
+	"Peksen #0" = -1
+	"Yildiz #0" = -1
+	"Ayten #0" = -1
+	"Sarä #0" = -1
+	"Tarkhan #0" = 1
+	"Tekçe #0" = -1
+	"Sibel #0" = -1
+	"Yasar #0" = -1
+	"Kurlemuse #0" = 1
+	"Gulçiçäk #0" = -1
+	"Gerasimos #0" = 1
+	"Çilen #0" = -1
+	"Ötemis #0" = 1
+	"Yavantey #1" = 45
+	"Gulay #0" = -1
+	"Kundaç #0" = 1
+	"Sarikel #0" = -1
+	"Tuzniq #0" = 1
+	"Ilkay #0" = -1
+	"Tabghaç #0" = 1
+	"Anastasia #0" = -1
+	"Theodoulos #0" = 1
+	"Bastu #0" = 1
+	"Serapion #0" = 1
+	"Usunbike #1" = -37
+	"Yeçtirek #1" = 39
+	"Mänär #0" = 1
+	"Bälgiçi #1" = 36
+	"Savtilek #0" = -1
+	"Esin #0" = -1
+	"Ipekel #0" = -1
+	"Ikalay #0" = -1
+	"Seyamka #0" = -1
+	"Liga #0" = -1
+	"Bozorg #0" = 1
+	"Gundes #0" = -1
+	"Theophylaktos #0" = 1
+	"Samsam #0" = 1
+	"Samur #0" = -1
+	"Itakh #0" = 1
+	"Fath #0" = 1
+	"Yençepi #1" = 48
+	"Lyukha #0" = -1
+	"Ruta #0" = -1
+	"Yazdegerd #0" = 1
+	"Kayghalagh #0" = 1
+	"Këlnissa #0" = -1
+	"Iltäbär #0" = 1
+	"Khatun #0" = -1
+	"Yabghu #0" = 1
+	"Dilek #0" = -1
+	"Sati #0" = -1
+	"Kisa #0" = 1
+	"Umay #0" = -1
+	"Karadakh #0" = 1
+	"Burandokht #0" = -1
+	"Morteza #0" = 1
+	"Busir #0" = 1
+	"Parsbit #0" = -1
+	"Bagha #0" = 1
+	"Irge #0" = -1
+	"Kundaçiq #0" = 1
+	"Sirma #0" = -1
+	"Viba #0" = -1
+	"Papaçyz #0" = 1
+	"Arnfast #0" = 1
+	"Bodil #0" = -1
+	"Asa #0" = -1
+	"Mutlu #0" = -1
+	"Valdemar #0" = 1
+	"Asta #0" = -1
+	"Birger #0" = 1
+	"Savilay #0" = -1
+	"Çat'n #0" = 1
+	"Gunes #0" = -1
+	"Buzer #0" = 1
+	"Kristina #0" = -1
+	"Tura #0" = -1
+	"Bozçin #0" = -1
+	"Öysteinn #0" = 1
+	"Alv #0" = 1
+	"Patiyer #0" = -1
+	"Sartäç #0" = 1
+	"Naça #0" = -1
+	"Savaçka #0" = -1
+	"Songul #0" = -1
+	"Bihor #0" = 1
+	"Mala #0" = -1
+	"Tähtani #0" = -1
+	"Bashtwa #0" = 1
+	"Folki #0" = 1
+	"Shurkka #1" = -40
+	"Azadeh #0" = -1
+	"Grima #0" = -1
+	"Araslan #0" = 1
+	"Ingrid #0" = -1
+	"Akgul #0" = -1
+	"Savintik #0" = -1
+	"Barjik #0" = 1
+	"Holmfrid #0" = -1
+	"Yartilek #0" = -1
+	"Ahu #0" = -1
+	"Andronikos #0" = 1
+	"Ghazal #0" = -1
+	"Ilik #0" = 1
+	"Kaydum #0" = 1
+	"Farzad #0" = 1
+	"Yeldem #0" = -1
+	"Tyrach #0" = 1
+	"Çiçäk #0" = -1
+	"Çiltanesi #0" = -1
+	"Navvaba #0" = -1
+	"Chenksa #0" = -1
+	"Yilig #0" = 1
+	"Naveed #0" = 1
+	"Shahrzad #0" = -1
+	"Touran #0" = -1
+	"Simsam #0" = 1
+	"Shahrokh #0" = 1
+	"Parvin #0" = -1
+	"Oshama #0" = -1
+	"Chechama #0" = -1
+	"Avya #0" = -1
+	"Dose #0" = -1
+	"Khosrau #0" = 1
+	"Agathe #0" = -1
+	"Yapti #1" = 0
+	"Vesei #1" = 0
+	"Yurak #1" = 0
+	"Kujku #1" = -1
+	"Panay #1" = 0
+	"Nyalku #1" = 0
+	"Sirtya #1" = 0
 }
 
-ship_names = {
-	"Dmitri Donskoi" "Vasiliy I" "D. Aleksandrovich"
-	Rurik "Ivan Kalita" Moscha Volga Schorna Coluna
-	Cortiza Mosnisk Olescho Piersek Troitzkoy Wolok
-	Klin Iausa
-}

@@ -1,0 +1,184 @@
+# Makuria
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 141 162 79 }
+
+
+
+
+leader_names = {
+
+	"Guthela" "Yechiel" "Meshulam" "Abbaye" "Chushiel" "Yehudah" "Minna" "Shluida" "Eliezer" "Shlomo" 
+	"No Character" "Menankouda" "Enôch" "Kalinikos" "Bartholomaios" "Ioustina" "Ghazi" "Prochoros" "Hoassi" "Makarios" 
+	"Ashraf" "Raphael" "Krystafer" "Milad" "Philotheos" "Chrissa" "Eulabia" "Epimachos" "Fatima" "Mašanñal" 
+	"Nai" "Dzeguze" "Theodote" "Diônisios" "Ilyas" "Ogbae" "Androus" "Raphaelkouda" "Aaron" "Abanoub" 
+	"Abderahman" "Abianos" "Abisalom" "Ablarion" "Abraam" "Agathon" "Agathonikos" "Agathos" "Ahmod" "Aiai" 
+	"Aha" "Akhom" "Amon" "Amakhte" "An" "Andronicus" "Anthinos" "Apanoub" "Apahour" "Apamon" 
+	"Apas" "Aretee" "Arsenios" "Athanasios" "Beet" "Bertouet" "Biktor" "Binyamin" "Bishoi" "Bolis" 
+	"Boutros" "Cosmas" "Damianos" "Danyal" "Da’oud" "Ennikeran" "Erhu" "Ezra" "Farag" "Gerges" 
+	"Ghabri" "Guirguis" "Habil" "Hanouf" "Hanri" "Hany" "Haroun" "Hesdy" "Ishaaq" "Jerjer" 
+	"Jinti" "Jori" "Keloj" "Kyrillos" "Lot" "Macari" "Marcos" "Mareten" "Matta" "Mei" 
+	"Mikail" "Mikhael" "Mina" "Musa" "Nakat" "Nahdi" "Nishde" "Naui" "Nishti" "Nofr" 
+	"Noub" "Ounouf" "Ourot" "Ouini" "Ounisht" "Pajro" "Pakat" "Pakhom" "Pamin" "Panous" 
+	"Papnouti" "Pashnona" "Pasnadi" "Patape" "Payom" "Pijimi" "Pijoul" "Pikhit" "Pimen" "Pimoue" 
+	"Pimoui" "Pishai" "Pisha-eneh" "Pishoui" "Psote" "Rami" "Rashad" "Rashi" "Roufail" "Ruweis" 
+	"Shenouda" "Shenouti" "Shosi" "Sim'an" "Sok" "Tadros" "Taio" "Tawadros" "Touma" "Yakovos" 
+	"Yared" "Yoannis" "Yousab" "Zacharias" "Zaia" }
+monarch_names = {
+	"Guthela #1" = -19
+	"Yechiel #0" = 1
+	"Meshulam #1" = 18
+	"Abbaye #0" = 1
+	"Chushiel #0" = 1
+	"Yehudah #0" = 1
+	"Minna #0" = -1
+	"Shluida #0" = -1
+	"Eliezer #0" = 1
+	"Shlomo #0" = 1
+	"No Character #11" = 0
+	"Menankouda #1" = 0
+	"Enôch #1" = 0
+	"Kalinikos #2" = 0
+	"Bartholomaios #1" = 0
+	"Ioustina #1" = -1
+	"Ghazi #2" = 0
+	"Prochoros #1" = 0
+	"Hoassi #1" = 0
+	"Makarios #1" = 0
+	"Ashraf #2" = 0
+	"Raphael #1" = 0
+	"Krystafer #1" = 0
+	"Milad #2" = 0
+	"Philotheos #1" = 0
+	"Chrissa #1" = -1
+	"Eulabia #1" = -1
+	"Epimachos #1" = 0
+	"Fatima #1" = -1
+	"Mašanñal #1" = 0
+	"Nai #2" = 0
+	"Dzeguze #1" = -1
+	"Theodote #1" = 0
+	"Diônisios #1" = 0
+	"Ilyas #1" = 0
+	"Ogbae #1" = 0
+	"Androus #1" = 0
+	"Raphaelkouda #1" = 0
+	"Aaron #0" = 0
+	"Abanoub #0" = 0
+	"Abderahman #0" = 0
+	"Abianos #0" = 0
+	"Abisalom #0" = 0
+	"Ablarion #0" = 0
+	"Abraam #0" = 0
+	"Agathon #0" = 0
+	"Agathonikos #0" = 0
+	"Agathos #0" = 0
+	"Ahmod #0" = 0
+	"Aiai #0" = 0
+	"Aha #0" = 0
+	"Akhom #0" = 0
+	"Amon #0" = 0
+	"Amakhte #0" = 0
+	"An #0" = 0
+	"Andronicus #0" = 0
+	"Anthinos #0" = 0
+	"Apanoub #0" = 0
+	"Apahour #0" = 0
+	"Apamon #0" = 0
+	"Apas #0" = 0
+	"Aretee #0" = 0
+	"Arsenios #0" = 0
+	"Athanasios #0" = 0
+	"Beet #0" = 0
+	"Bertouet #0" = 0
+	"Biktor #0" = 0
+	"Binyamin #0" = 0
+	"Bishoi #0" = 0
+	"Bolis #0" = 0
+	"Boutros #0" = 0
+	"Cosmas #0" = 0
+	"Damianos #0" = 0
+	"Danyal #0" = 0
+	"Da’oud #0" = 0
+	"Ennikeran #0" = 0
+	"Erhu #0" = 0
+	"Ezra #0" = 0
+	"Farag #0" = 0
+	"Gerges #0" = 0
+	"Ghabri #0" = 0
+	"Guirguis #0" = 0
+	"Habil #0" = 0
+	"Hanouf #0" = 0
+	"Hanri #0" = 0
+	"Hany #0" = 0
+	"Haroun #0" = 0
+	"Hesdy #0" = 0
+	"Ishaaq #0" = 0
+	"Jerjer #0" = 0
+	"Jinti #0" = 0
+	"Jori #0" = 0
+	"Keloj #0" = 0
+	"Kyrillos #0" = 0
+	"Lot #0" = 0
+	"Macari #0" = 0
+	"Marcos #0" = 0
+	"Mareten #0" = 0
+	"Matta #0" = 0
+	"Mei #0" = 0
+	"Mikail #0" = 0
+	"Mikhael #0" = 0
+	"Mina #0" = 0
+	"Musa #0" = 0
+	"Nakat #0" = 0
+	"Nahdi #0" = 0
+	"Nishde #0" = 0
+	"Naui #0" = 0
+	"Nishti #0" = 0
+	"Nofr #0" = 0
+	"Noub #0" = 0
+	"Ounouf #0" = 0
+	"Ourot #0" = 0
+	"Ouini #0" = 0
+	"Ounisht #0" = 0
+	"Pajro #0" = 0
+	"Pakat #0" = 0
+	"Pakhom #0" = 0
+	"Pamin #0" = 0
+	"Panous #0" = 0
+	"Papnouti #0" = 0
+	"Pashnona #0" = 0
+	"Pasnadi #0" = 0
+	"Patape #0" = 0
+	"Payom #0" = 0
+	"Pijimi #0" = 0
+	"Pijoul #0" = 0
+	"Pikhit #0" = 0
+	"Pimen #0" = 0
+	"Pimoue #0" = 0
+	"Pimoui #0" = 0
+	"Pishai #0" = 0
+	"Pisha-eneh #0" = 0
+	"Pishoui #0" = 0
+	"Psote #0" = 0
+	"Rami #0" = 0
+	"Rashad #0" = 0
+	"Rashi #0" = 0
+	"Roufail #0" = 0
+	"Ruweis #0" = 0
+	"Shenouda #0" = 0
+	"Shenouti #0" = 0
+	"Shosi #0" = 0
+	"Sim'an #0" = 0
+	"Sok #0" = 0
+	"Tadros #0" = 0
+	"Taio #0" = 0
+	"Tawadros #0" = 0
+	"Touma #0" = 0
+	"Yakovos #0" = 0
+	"Yared #0" = 0
+	"Yoannis #0" = 0
+	"Yousab #0" = 0
+	"Zacharias #0" = 0
+	"Zaia #0" = 0
+}
+

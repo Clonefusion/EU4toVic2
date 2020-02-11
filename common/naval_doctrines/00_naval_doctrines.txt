@@ -53,8 +53,7 @@ ship_boarding =
 wooden_wall =
 {
 	can_select = {
-		is_primitive = no
-		culture_group = british
+		tag = Z63
 	}
 
 	country_modifier = {
@@ -67,14 +66,7 @@ wooden_wall =
 grand_armada =
 {
 	can_select = {
-		is_primitive = no
-		NOT = {
-			OR = {
-				primary_culture = portugese
-				primary_culture = brazilian
-			}
-		}
-		culture_group = iberian
+		tag = NOR
 	}
 
 	country_modifier = {
@@ -87,11 +79,7 @@ grand_armada =
 portuguese_marines =
 {
 	can_select = {
-		is_primitive = no
-		OR = {
-			primary_culture = portugese
-			primary_culture = brazilian
-		}
+		tag = Y50
 	}
 
 	country_modifier = {

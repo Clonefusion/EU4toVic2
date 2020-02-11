@@ -1,0 +1,165 @@
+# Uda
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 160 182 255 }
+
+
+
+
+leader_names = {
+
+	"Agut" "Kadïñ" "Tamghançur" "Ershen" "Bachman" "Etrek" "Çor" "Togli" "Uzluk" "Tugor" 
+	"Pulad" "Sarica" "Sibel" "Buqaçuq" "Sevenç" "Ilbilgä" "Itlar" "Uzur" "Begluk" "Koza" 
+	"Asalup" "Ilkay" "Girgen" "Yildiz" "Irge" "Azgan" "Gulçiçek" "Sokal" "Umay" "Özgul" 
+	"Jürküñ" "Yïgash" "Qazghaq" "Eshinke" "Tüzmish" "Yaruq" "Teçush" "Yollughtegin" "Adigh" "Elbeslik" 
+	"Jelme" "Yïlqï" "Burtam" "Sarïgha" "Uruñ" "Ilbeslik" "Otqan" "Elig" "Yaghïçi" "Anar" 
+	"Ükükün" "Ïtaçïq" "Alïpqutlugh" "Özyegen" "Shughur" "Üge" "Beslik" "Toñuz" "Büri" "Çaça" 
+	"Hïdïr" "Yiltïs" "Ontutuq" "Tograk" "Iltughun" "Ketim" "Qaraqaz" "Tekesh" "Adïgh" "Kültudun" 
+	"Çeçek" "Börtil" "Udun" "Külbilgä" "Çuçibüri" "Katun" "Uqugh" "Erdem" "Togluq" "Ïshbara" 
+	"Yïlgun" "Asuq" "Böri" "Tojgan" "Öçen" "Çeçem" "Kül" "Çuçi" "Eçshün" "Teñriken" 
+	"Teken" "Ushlik" "Shöñüz" "Inek" "Örüñ" "Oghulbarïs" "Yamtar" "Bumin" "Apït" "Sutqiz" 
+	"Eltugun" "Yaruqtegin" "Lahpçïq" "Yasar" "Songul" "Çigshi" "Könçek" "Gulay" "Tinsi" "Mala" 
+	"Sotan" "Sugr" "Asli" "Shandramata" "Vali" "Shahrokh" "Çilbu" "Aepak" "Asep" "Atrak" 
+	"Bönek" "Blush" "Bonyak" "Borç" "Eldeçyuk" "Gzi" "Ituk" "Kobyak" "Kopti" "Kotyan" 
+	"Kozel" "Kubasar" "Kuntuvdi" "Kutan" "Saru" "Sirçan" "Törtogul" "Tolun" }
+monarch_names = {
+	"Agut #0" = 1
+	"Kadïñ #0" = -1
+	"Tamghançur #0" = 1
+	"Ershen #0" = -1
+	"Bachman #0" = 1
+	"Etrek #0" = 1
+	"Çor #1" = 21
+	"Togli #2" = 18
+	"Uzluk #0" = 1
+	"Tugor #0" = 1
+	"Pulad #0" = 1
+	"Sarica #1" = -22
+	"Sibel #0" = -1
+	"Buqaçuq #0" = 1
+	"Sevenç #0" = 1
+	"Ilbilgä #0" = -1
+	"Itlar #0" = 1
+	"Uzur #0" = 1
+	"Begluk #0" = 1
+	"Koza #0" = 1
+	"Asalup #0" = 1
+	"Ilkay #0" = -1
+	"Girgen #1" = 18
+	"Yildiz #0" = -1
+	"Irge #0" = -1
+	"Azgan #0" = -1
+	"Gulçiçek #0" = -1
+	"Sokal #1" = 18
+	"Umay #0" = -1
+	"Özgul #0" = -1
+	"Jürküñ #0" = 1
+	"Yïgash #1" = -25
+	"Qazghaq #0" = 1
+	"Eshinke #0" = 1
+	"Tüzmish #0" = 1
+	"Yaruq #0" = 1
+	"Teçush #0" = -1
+	"Yollughtegin #0" = 1
+	"Adigh #0" = 1
+	"Elbeslik #0" = -1
+	"Jelme #0" = 1
+	"Yïlqï #0" = -1
+	"Burtam #0" = -1
+	"Sarïgha #0" = -1
+	"Uruñ #0" = 1
+	"Ilbeslik #0" = -1
+	"Otqan #0" = -1
+	"Elig #0" = 1
+	"Yaghïçi #0" = 1
+	"Anar #0" = 1
+	"Ükükün #0" = -1
+	"Ïtaçïq #0" = 1
+	"Alïpqutlugh #0" = 1
+	"Özyegen #0" = 1
+	"Shughur #0" = 1
+	"Üge #0" = 1
+	"Beslik #0" = -1
+	"Toñuz #0" = 1
+	"Büri #0" = 1
+	"Çaça #0" = 1
+	"Hïdïr #0" = 1
+	"Yiltïs #0" = -1
+	"Ontutuq #0" = 1
+	"Tograk #0" = -1
+	"Iltughun #0" = 1
+	"Ketim #0" = 1
+	"Qaraqaz #0" = -1
+	"Tekesh #0" = 1
+	"Adïgh #0" = 1
+	"Kültudun #0" = 1
+	"Çeçek #0" = -1
+	"Börtil #0" = 1
+	"Udun #0" = 1
+	"Külbilgä #0" = 1
+	"Çuçibüri #0" = 1
+	"Katun #0" = -1
+	"Uqugh #0" = 1
+	"Erdem #0" = 1
+	"Togluq #0" = 1
+	"Ïshbara #0" = 1
+	"Yïlgun #0" = -1
+	"Asuq #0" = 1
+	"Böri #0" = 1
+	"Tojgan #0" = 1
+	"Öçen #0" = 1
+	"Çeçem #0" = 1
+	"Kül #0" = 1
+	"Çuçi #0" = 1
+	"Eçshün #0" = 1
+	"Teñriken #0" = -1
+	"Teken #0" = -1
+	"Ushlik #0" = 1
+	"Shöñüz #0" = 1
+	"Inek #0" = 1
+	"Örüñ #0" = -1
+	"Oghulbarïs #0" = 1
+	"Yamtar #0" = 1
+	"Bumin #0" = 1
+	"Apït #0" = 1
+	"Sutqiz #1" = -19
+	"Eltugun #0" = 1
+	"Yaruqtegin #0" = 1
+	"Lahpçïq #0" = -1
+	"Yasar #1" = -19
+	"Songul #0" = -1
+	"Çigshi #0" = 1
+	"Könçek #1" = 18
+	"Gulay #0" = -1
+	"Tinsi #1" = 0
+	"Mala #1" = -1
+	"Sotan #1" = 0
+	"Sugr #1" = 0
+	"Asli #1" = -1
+	"Shandramata #1" = -1
+	"Vali #1" = 0
+	"Shahrokh #1" = 0
+	"Çilbu #0" = 0
+	"Aepak #0" = 0
+	"Asep #0" = 0
+	"Atrak #0" = 0
+	"Bönek #0" = 0
+	"Blush #0" = 0
+	"Bonyak #0" = 0
+	"Borç #0" = 0
+	"Eldeçyuk #0" = 0
+	"Gzi #0" = 0
+	"Ituk #0" = 0
+	"Kobyak #0" = 0
+	"Kopti #0" = 0
+	"Kotyan #0" = 0
+	"Kozel #0" = 0
+	"Kubasar #0" = 0
+	"Kuntuvdi #0" = 0
+	"Kutan #0" = 0
+	"Saru #0" = 0
+	"Sirçan #0" = 0
+	"Törtogul #0" = 0
+	"Tolun #0" = 0
+}
+

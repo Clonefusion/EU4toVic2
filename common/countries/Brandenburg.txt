@@ -1,21 +1,15 @@
-#Country Name: Please see filename.
-
+# Brandenburg
+ck2_converter_generated = yes
 graphical_culture = westerngfx
-
-color = { 123  90  90 }
-
-revolutionary_colors = { 1  0  4 }
-
-preferred_religion = protestant
-
+color = { 123 90 90 }
 historical_idea_groups = {
-	innovativeness_ideas
-	offensive_ideas
-	diplomatic_ideas
-	quality_ideas
-	economic_ideas
-	trade_ideas
 	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	spy_ideas
+	innovativeness_ideas
+	quantity_ideas
 	administrative_ideas
 }
 
@@ -23,7 +17,6 @@ historical_units = {
 	western_medieval_infantry
 	western_medieval_knights
 	western_men_at_arms
-	swiss_landsknechten
 	dutch_maurician
 	austrian_tercio
 	austrian_grenzer
@@ -37,94 +30,210 @@ historical_units = {
 	napoleonic_lancers
 }
 
+
+
+leader_names = {
+
+	"Þorsteinn" "Borkvard" "Gorm" "Gerðr" "Svanhildr" "Elin" "Steinn" "Anundr" "Ulfhildr" "Gyða" 
+	"Gloð" "Toste" "Saga" "Åke" "Gandalfr" "Ale" "Hafrid" "Alfrið" "Holmger" "Öysteinn" 
+	"Kolbjörn" "Alfhildr" "Grimr" "Snorri" "Þordr" "Maer" "Þora" "Haraldr" "Yrsa" "Sif" 
+	"Linda" "Oddr" "Bertil" "Halla" "Refil" "Rögnfrið" "Freyr" "Baldr" "Vigdis" "Þorolfr" 
+	"Hroðulfr" "Sofia" "Ingemar" "Ingfrid" "Jedvard" "Guðrun" "Katarina" "Björg" "Magni" "Þorbrandr" 
+	"Örvar" "Þorgil" "Elisabet" "Kettil" "Kraka" "Þyra" "Holmfrid" "Margareta" "Tjudmund" "Birgitta" 
+	"Rögnhildr" "Frirek" "Aslaug" "Falki" "Alvör" "Inga" "Hroðgar" "Bretislava" "Freyja" "Bragi" 
+	"Asa" "No Character" "Stefana" "Juliusz" "Aerin" "Toke" "Arni" "Gunnhildr" "Sæmundr" "Gyla" 
+	"Alfr" "Alfgeir" "Anders" "Anlaufr" "Arnbjörn" "Arngrimr" "Arnfast" "Asbjörn" "Bagge" "Barid" 
+	"Bengt" "Bersi" "Birger" "Björn" "Bo" "Botulfr" "Buðli" "Dag" "Dan" "Dyre" 
+	"Eilif" "Egill" "Emund" "Einarr" "Eirikr" "Eskild" "Faste" "Filip" "Fredrik" "Froði" 
+	"Folki" "Geirr" "Georg" "Gnupa" "Greger" "Guðfrið" "Guðmundr" "Guðröðr" "Gunnarr" "Hakon" 
+	"Halsten" "Haukr" "Helgi" "Hemming" "Hrafn" "Hrolfr" "Hrane" "Hæsteinn" "Hjalmar" "Hrörekr" 
+	"Hysing" "Ingólfr" "Ingjald" "Ivar" "Jon" "Karl" "Kettilmund" "Kjartan" "Klas" "Knut" 
+	"Kol" "Markus" "Mats" "Nils" "Niklas" "Ofeig" "Olafr" "Ormr" "Ottarr" "Refr" 
+	"Ragnarr" "Rikulfr" "Rögnvaldr" "Skuli" "Sigbjörn" "Sigtrygg" "Sigurðr" "Starkaðr" "Sturla" "Styrbjörn" 
+	"Styrkar" "Sumarliði" "Suni" "Sveinn" "Sverker" "Sölvi" "Sörkver" "Tolir" "Þorbjörn" "Þorfinn" 
+	"Totil" "Tryggve" "Tyke" "Ulfr" "Vagn" "Valdemar" "Yngvar" }
 monarch_names = {
-	"Friedrich #0" = 60
-	"Albrecht #3 Achilles" = 20
-	"Friedrich Wilhelm #0" = 20
-	"Georg Wilhelm #0" = 20
-	"Joachim #0 Hector" = 20
-	"Joachim #0 Nestor" = 20
-	"Jobst #0" = 20
-	"Johann Cicero #0" = 20
-	"Johann Friedrich #0" = 20
-	"Johann Georg #0" = 20
-	"Johann Siegmund #0" = 20
-	"Siegmund #0" = 20
-	"Albrecht #3" = 15
-	"Wilhelm Friedrich #0" = 15
-	"Karl #0" = 15
-	"Johann #5" = 10
-	"Heinrich #2" = 10
-	"Albrecht Christian #0" = 10
-	"Albrecht Friedrich #0" = 10
-	"August #0" = 10
-	"Christian #0" = 10
-	"Christian Wilhelm #0" = 10
-	"Ernst #0" = 10
-	"Georg #0" = 10
-	"Georg Albrecht #0" = 10
-	"Joachim #0" = 10
-	"Joachim #0 Ernst" = 10
-	"Joachim #0 Siegmund" = 10
-	"Paul #0" = 10
-	"Adolf #0" = 0
-	"Clemens #0" = 0
-	"Diederick #0" = 0
-	"Eberhard #0" = 0
-	"Helmut #0" = 0
-	"Hermann #0" = 0
-	"Jakob #0" = 0
-	"Luitpold #0" = 0
+	"Þorsteinn #2" = 24
+	"Borkvard #1" = 21
+	"Gorm #0" = 1
+	"Gerðr #0" = -1
+	"Svanhildr #0" = -1
+	"Elin #0" = -1
+	"Steinn #0" = 1
+	"Anundr #0" = 1
+	"Ulfhildr #0" = -1
+	"Gyða #0" = -1
+	"Gloð #0" = -1
+	"Toste #0" = 1
+	"Saga #0" = -1
+	"Åke #0" = 1
+	"Gandalfr #0" = 1
+	"Ale #2" = 21
+	"Hafrid #0" = -1
+	"Alfrið #2" = -19
+	"Holmger #1" = 18
+	"Öysteinn #1" = 21
+	"Kolbjörn #1" = 18
+	"Alfhildr #0" = -1
+	"Grimr #0" = 1
+	"Snorri #0" = 1
+	"Þordr #0" = 1
+	"Maer #0" = -1
+	"Þora #0" = -1
+	"Haraldr #0" = 1
+	"Yrsa #0" = -1
+	"Sif #0" = -1
+	"Linda #0" = -1
+	"Oddr #0" = 1
+	"Bertil #1" = 21
+	"Halla #0" = -1
+	"Refil #1" = 18
+	"Rögnfrið #0" = -1
+	"Freyr #0" = 1
+	"Baldr #0" = 1
+	"Vigdis #0" = -1
+	"Þorolfr #1" = 18
+	"Hroðulfr #0" = 1
+	"Sofia #0" = -1
+	"Ingemar #0" = 1
+	"Ingfrid #0" = -1
+	"Jedvard #0" = 1
+	"Guðrun #0" = -1
+	"Katarina #0" = -1
+	"Björg #0" = -1
+	"Magni #0" = 1
+	"Þorbrandr #0" = 1
+	"Örvar #0" = 1
+	"Þorgil #0" = 1
+	"Elisabet #0" = -1
+	"Kettil #0" = 1
+	"Kraka #0" = -1
+	"Þyra #0" = -1
+	"Holmfrid #0" = -1
+	"Margareta #0" = -1
+	"Tjudmund #0" = 1
+	"Birgitta #0" = -1
+	"Rögnhildr #1" = -19
+	"Frirek #0" = 1
+	"Aslaug #0" = -1
+	"Falki #0" = 1
+	"Alvör #0" = -1
+	"Inga #0" = -1
+	"Hroðgar #1" = 18
+	"Bretislava #0" = -1
+	"Freyja #0" = -1
+	"Bragi #0" = 1
+	"Asa #0" = -1
+	"No Character #3" = 0
+	"Stefana #1" = -1
+	"Juliusz #1" = 0
+	"Aerin #3" = 0
+	"Toke #3" = 0
+	"Arni #1" = 0
+	"Gunnhildr #1" = -1
+	"Sæmundr #1" = 0
+	"Gyla #1" = -1
+	"Alfr #0" = 0
+	"Alfgeir #0" = 0
+	"Anders #0" = 0
+	"Anlaufr #0" = 0
+	"Arnbjörn #0" = 0
+	"Arngrimr #0" = 0
+	"Arnfast #0" = 0
+	"Asbjörn #0" = 0
+	"Bagge #0" = 0
+	"Barid #0" = 0
+	"Bengt #0" = 0
+	"Bersi #0" = 0
+	"Birger #0" = 0
+	"Björn #0" = 0
+	"Bo #0" = 0
+	"Botulfr #0" = 0
+	"Buðli #0" = 0
+	"Dag #0" = 0
+	"Dan #0" = 0
+	"Dyre #0" = 0
+	"Eilif #0" = 0
+	"Egill #0" = 0
+	"Emund #0" = 0
+	"Einarr #0" = 0
+	"Eirikr #0" = 0
+	"Eskild #0" = 0
+	"Faste #0" = 0
+	"Filip #0" = 0
+	"Fredrik #0" = 0
+	"Froði #0" = 0
+	"Folki #0" = 0
+	"Geirr #0" = 0
+	"Georg #0" = 0
+	"Gnupa #0" = 0
+	"Greger #0" = 0
+	"Guðfrið #0" = 0
+	"Guðmundr #0" = 0
+	"Guðröðr #0" = 0
+	"Gunnarr #0" = 0
+	"Hakon #0" = 0
+	"Halsten #0" = 0
+	"Haukr #0" = 0
+	"Helgi #0" = 0
+	"Hemming #0" = 0
+	"Hrafn #0" = 0
+	"Hrolfr #0" = 0
+	"Hrane #0" = 0
+	"Hæsteinn #0" = 0
+	"Hjalmar #0" = 0
+	"Hrörekr #0" = 0
+	"Hysing #0" = 0
+	"Ingólfr #0" = 0
+	"Ingjald #0" = 0
+	"Ivar #0" = 0
+	"Jon #0" = 0
+	"Karl #0" = 0
+	"Kettilmund #0" = 0
+	"Kjartan #0" = 0
+	"Klas #0" = 0
+	"Knut #0" = 0
+	"Kol #0" = 0
 	"Markus #0" = 0
-	"Stefan #0" = 0
-	"Viktor #0" = 0
-	
-	"Miriam #0" = -1
-	"Paula #0" = -1
-	"Ulrike #0" = -1
-	"Sabina #0" = -1
-	"Anna Maria #0" = -1
-	"Sophie #0" = -1
-	"Hedwig #0" = -1
-	"Magdalena #0" = -1
-	"Margarete #0" = -1
-	"Agnes #0" = -1
-	"Barbara #0" = -1
-	"Amalie #0" = -1
-	"Frederike #0" = -1
+	"Mats #0" = 0
+	"Nils #0" = 0
+	"Niklas #0" = 0
+	"Ofeig #0" = 0
+	"Olafr #0" = 0
+	"Ormr #0" = 0
+	"Ottarr #0" = 0
+	"Refr #0" = 0
+	"Ragnarr #0" = 0
+	"Rikulfr #0" = 0
+	"Rögnvaldr #0" = 0
+	"Skuli #0" = 0
+	"Sigbjörn #0" = 0
+	"Sigtrygg #0" = 0
+	"Sigurðr #0" = 0
+	"Starkaðr #0" = 0
+	"Sturla #0" = 0
+	"Styrbjörn #0" = 0
+	"Styrkar #0" = 0
+	"Sumarliði #0" = 0
+	"Suni #0" = 0
+	"Sveinn #0" = 0
+	"Sverker #0" = 0
+	"Sölvi #0" = 0
+	"Sörkver #0" = 0
+	"Tolir #0" = 0
+	"Þorbjörn #0" = 0
+	"Þorfinn #0" = 0
+	"Totil #0" = 0
+	"Tryggve #0" = 0
+	"Tyke #0" = 0
+	"Ulfr #0" = 0
+	"Vagn #0" = 0
+	"Valdemar #0" = 0
+	"Yngvar #0" = 0
 }
-
-leader_names = {	
-	Arnim "von Schwerin" Blankensee "von Taubeneck"
-	"von Dossow" Perlkowski "von Bühler" "von Dessau"
-	"von Kyau" Arnswald Finck Zitzwitz "von Plothow"
-	Billerbeck "von Stille" "von Anhalt-Dessau" Knobelsdorf
-	"von Rauch" "von Quernheimberg" Höltzendorff "von Quitzow"
-	Cisielsky Linkendorf Ucklanski Selasinky "von Ziethen"
-	Münchov Briesen Riwotzki Schnittern "von Merckatz"
-	"von Manstein" Schach "von Seel" Treskaw "von Hohenlohe"
-	"von Rottenburg" Truxes Kreytz "von Rüts" "von Derfflinger"
-	"von Wermsdorff" Casimir "von Hohenzollern" Below "von Bimback"
-	"von Mach" Posadofsky "von Preußen"
-}
-
 ship_names = {
-	"Brandenburgischer Dragoner" "Charlotte Louise" "Churfürst von Brandenburg" "Churfürtstlische Liebjagd" "Churprinz von Brandenburg" "Clevesche Lindenbaum"
-	"Die Sieben Provinzien" "Fliegender Drache" "Friedrich Carl" "Friedrich Wilhelm zu Pferde" "Friedrich Wilhelm" "Goldener Löve" "Grafschaft Mark" "Große Jacht"
-	"Grüner Drache" "Herzogtum Cleve" "Kastell Spandau" "Kronprinz van Preußen" "König von Preußen" "König von Spanien" "König Wilhelm" "Littauer Bauer" "Maria Catharina"
-	"Markgraf von Brandenburg" "Nordischer Löve" "Preußischer Adler" "Princess Maria" "Prinz Adalbert" "Prinz Ludwig" "Prinz Philipp" "Prinz von Preußen" "Prinz Wilhelm"
-	"Prinzess Maria" "Rother Löve" "Sankt Johannes der Täufer" "Sankt Josef" "Sankt Peter" "Schloss Oranienburg" "Stad Emden" "Vogel Greif" "Wappen von Brandenburg"
-	"Wappen von Cleve" "Wilhelmine Margrethe" Afrikaner Amazone Arminius Barbarossa Basilisk Berlin Bersteinfänger Bielefeld Blitz Britannia Bulle Camaeleon Churprinz
-	Clementia Cleve Comet Cyclop Danzig Delphin Derffinger Dorothea Drache Eichhorn Falke Fortuna Frauenlob Frede Fuchs Gazelle Gefion Grille Grossfriedrichburg Habicht
-	Hansa Hay Hela Hertha Hyäne Jupiter Kronprinz Leopard Makarele Maria Mars Merkur Meteor Mohrian Morian Mummelpot Musquito Natter Neptun Niobe Pallas Pax Pfeil
-	Pierlepomp Post Potsdam Prosperpina Rommelpot Rosenfelde Rover Salamander Schwalbe Seeritter Spandau Sperber Stralsund Thetis Tiger Undine Vineta Wasserhund Wespe
-	Wolkensäule
+	Pommern "Herzog Kasimir" "Herzog Bogislaw"
+	"Stettin Herzog Barnim" Wismar Rostock
+	Stralsund Greifswald Demmin Anklam "Herzog Otto"
 }
 
-army_names = {
-	"Kurfürstliche Garde" "Elbe Armee" "Oder Armee" "Armee von $PROVINCE$" 
-}
-
-fleet_names = {
-	"Kurfürstliche Flotte"
-}

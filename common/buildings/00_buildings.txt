@@ -28,11 +28,13 @@
 # Tier 1, 15th Century Buildings
 ################################################
 marketplace = {
-	cost = 100
+	cost = 80
 	time = 12
 	
 	modifier = {
 		province_trade_power_modifier = 0.5
+		local_development_cost = -0.05
+		
 	}
 	
 	ai_will_do = {
@@ -41,7 +43,7 @@ marketplace = {
 }
 
 workshop = {
-	cost = 100
+	cost = 80
 	time = 12
 	modifier = {
 		local_production_efficiency = 0.5
@@ -55,7 +57,7 @@ workshop = {
 }
 
 temple = {
-	cost = 100
+	cost = 80
 	time = 12
 	modifier = {
 		local_tax_modifier = 0.4
@@ -67,10 +69,10 @@ temple = {
 }
 
 barracks = {
-	cost = 100
+	cost = 80
 	time = 12
 	modifier = {
-		local_manpower_modifier = 0.5
+		local_manpower_modifier = 0.6
 	}
 
 #	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
@@ -102,7 +104,7 @@ barracks = {
 }		
 
 shipyard = {
-	cost = 100
+	cost = 80
 	time = 12
 	trigger = {
 		has_port = yes
@@ -127,7 +129,7 @@ shipyard = {
 }
 
 fort_15th = {
-	cost = 200
+	cost = 160
 	time = 30
 	modifier = {
 		fort_level = 2
@@ -169,9 +171,10 @@ fort_15th = {
 # Tier 2, 16th Century Buildings
 ################################################
 courthouse = {
-	cost = 100
+	cost = 80
 	time = 12
 	modifier = {
+		local_defensiveness = 0.1
 		local_state_maintenance_modifier = -0.25
 		local_autonomy = -0.1
 	}
@@ -182,13 +185,14 @@ courthouse = {
 }
 
 dock = {
-	cost = 100
+	cost = 80
 	time = 12
 	trigger = {
 		has_port = yes
 	}
 	modifier = {
-		local_sailors_modifier = 0.5
+		local_sailors_modifier = 0.6
+		trade_goods_size_modifier = 0.05
 	}
 	
 	ai_will_do = {
@@ -197,7 +201,7 @@ dock = {
 }
 
 regimental_camp = {
-	cost = 200
+	cost = 160
 	time = 12
 	modifier = {
 		land_forcelimit = 1
@@ -240,11 +244,12 @@ regimental_camp = {
 }
 
 fort_16th = {
-	cost = 400
+	cost = 320
 	time = 30
 	make_obsolete = fort_15th
 	modifier = {
-		fort_level = 4
+		fort_level = 3
+		local_defensiveness = 0.6
 	}
 
 #	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
@@ -285,9 +290,10 @@ fort_16th = {
 cathedral = {
 	make_obsolete = temple
 	
-	cost = 300
+	cost = 240
 	time = 12
 	modifier = {
+		local_defensiveness = 0.1
 		local_missionary_strength = 0.03
 		local_tax_modifier = 0.6
 	}
@@ -299,10 +305,10 @@ cathedral = {
 
 
 university = {
-	cost = 300
+	cost = 240
 	time = 12
 	modifier = {
-		local_development_cost = -0.20
+		local_development_cost = -0.25
 		allowed_num_of_buildings = 1
 	}
 	
@@ -341,13 +347,14 @@ university = {
 }
 
 trade_depot = {
-	cost = 300
+	cost = 240
 	time = 12
 	
 	make_obsolete = marketplace
 	
 	modifier = {
 		province_trade_power_modifier = 1
+		local_development_cost = -0.1
 	}
 	
 	ai_will_do = {
@@ -356,7 +363,7 @@ trade_depot = {
 }
 
 grand_shipyard = {
-	cost = 300
+	cost = 240
 	time = 12
 	
 	make_obsolete = shipyard
@@ -384,7 +391,7 @@ grand_shipyard = {
 }
 
 training_fields = {
-	cost = 300
+	cost = 240
 	time = 12
 	
 	make_obsolete = barracks
@@ -413,7 +420,7 @@ training_fields = {
 #	}
 	
 	modifier = {
-		local_manpower_modifier = 1
+		local_manpower_modifier = 1.2
 	}
 	
 	ai_will_do = {
@@ -423,13 +430,14 @@ training_fields = {
 
 
 fort_17th = {
-	cost = 600
+	cost = 480
 	time = 30
 	
 	make_obsolete = fort_16th
 	
 	modifier = {
-		fort_level = 6
+		fort_level = 5
+		local_defensiveness = 0.6
 	}
 
 #	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
@@ -477,6 +485,7 @@ stock_exchange = {
 	
 	modifier = {
 		province_trade_power_modifier = 1.25
+		local_development_cost = -0.25
 	}
 	
 	ai_will_do = {
@@ -485,7 +494,7 @@ stock_exchange = {
 }
 
 counting_house = {
-	cost = 400
+	cost = 320
 	time = 12
 	
 	make_obsolete = workshop
@@ -504,12 +513,13 @@ counting_house = {
 
 
 town_hall = {
-	cost = 200
+	cost = 160
 	time = 12
 	
 	make_obsolete = courthouse
 	
 	modifier = {
+		local_defensiveness = 0.25
 		local_state_maintenance_modifier = -0.5
 		local_autonomy = -0.2
 	}
@@ -520,7 +530,7 @@ town_hall = {
 }
 
 drydock = {
-	cost = 300
+	cost = 240
 	time = 12
 	
 	make_obsolete = dock
@@ -530,7 +540,8 @@ drydock = {
 	}
 	
 	modifier = {
-		local_sailors_modifier = 1.0
+		local_sailors_modifier = 1.2
+		trade_goods_size_modifier = 0.1
 	}	
 	
 	ai_will_do = {
@@ -539,7 +550,7 @@ drydock = {
 }
 
 conscription_center = {
-	cost = 400
+	cost = 320
 	time = 12
 	
 	
@@ -588,14 +599,15 @@ conscription_center = {
 
 
 fort_18th = {
-	cost = 800
+	cost = 640
 	time = 30
 	
 	
 	make_obsolete = fort_17th
 	
 	modifier = {
-		fort_level = 8
+		fort_level = 6
+		local_defensiveness = 1
 	}
 
 #	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
@@ -635,10 +647,11 @@ fort_18th = {
 ################################################
 
 manufactory = {
-	cost = 500
+	cost = 400
 	time = 60
 	modifier = {
-		trade_goods_size = 1.0
+		trade_goods_size = 0.9
+		trade_goods_size_modifier = 0.1
 	}
 }
 
@@ -777,7 +790,8 @@ furnace = {
 	}
 
 	modifier = {
-		global_trade_goods_size_modifier = 0.05 #National Bonus
+		development_cost = -0.01 #National Bonus
+		local_development_cost = -0.15
 	}
 	onmap = yes
 	show_separate = yes # Means as a manufactory it will be shown according to the old way

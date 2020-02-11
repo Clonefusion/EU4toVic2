@@ -1,0 +1,330 @@
+# Swabia
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 206 203 203 }
+historical_idea_groups = {
+	trade_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+
+
+leader_names = {
+
+	"Kuník" "Agathe" "Ida" "Anezka" "Irmele" "Mojmír" "Chval" "Viola" "Adelheid" "Vojslava" 
+	"Ademar" "Richenza" "Zikmund" "Premysl" "Bores" "Gotthard" "Berengar" "Cecilie" "Skonka" "Gerhard" 
+	"Ekbert" "Libuse" "Ingeltrude" "Svatopluk" "Zdík" "Gisela" "Sobieslav" "Isentrude" "Otakar" "Adela" 
+	"Brunhilde" "Katerina" "Ilsa" "Winfrida" "Berta" "Boleslav" "Justina" "Bedriska" "Boleslava" "Jutta" 
+	"Guta" "Welf" "Manfred" "Wolfgang" "Dobroslava" "Friedrich" "Udalrich" "Vladislava" "Závis" "Vojtech" 
+	"Hynek" "Rajmund" "Bretislav" "Kojata" "Sezima" "Borijov" "Perchta" "Helena" "Dorota" "Karel" 
+	"Bocek" "Bozena" "Zofie" "Vladimír" "Judita" "Jindrich" "Heralt" "Drahoslava" "Klára" "Eufemie" 
+	"Ojír" "Domaslava" "Vilém" "Blazena" "Doubravka" "Herman" "Slavibor" "Richeza" "Drslav" "Bohuslav" 
+	"Jaroslava" "Hrabis" "Vanek" "Tobiás" "Hedvika" "Havel" "Slavomír" "Vilemína" "Budivoj" "Engeltraud" 
+	"Jana" "Ota" "Kunhuta" "Stanislava" "Prokop" "Smil" "Kristyna" "Pribyslava" "Václav" "Svatava" 
+	"Milic" "Mlada" "Castolov" "Bavor" "Dobromila" "Markéta" "Litold" "Bedrich" "Bozislava" "Zdenka" 
+	"Johanka" "Eufemia" "Konstancie" "Marie" "Jaroslav" "Poppo" "Olga" "Richwara" "Inga" "Rudolf" 
+	"Zbynek" "Hermann" "Cenek" "Walther" "Evangelos" "Beatrix" "Alois" "Klementia" "Irmeltrud" "Zdirad" 
+	"Wenzel" "Barbara" "Gerhild" "Adléta" "Baldewin" "Reinhard" "Jedvard" "Baldarich" "Hemma" "No Character" 
+	"Manegold" "Adolf" "Oda" "Gunhilda" "Lothar" "Andreas" "Sumarliði" "Ehrenfried" "Franz" "Walram" 
+	"Adalhard" "Eginolf" "Helferich" "Vladislav" "Henry" "Albert" "Adalbero" "Adalbert" "Adam" "Alarich" 
+	"Alberich" "Albrecht" "Aldrich" "Amadeus" "Amalrich" "Anselm" "Arnold" "Arnulf" "Augustin" "Baldomar" 
+	"Baldur" "Bernhard" "Berthold" "Burchard" "Dieter" "Dietmar" "Dietpold" "Dietrich" "Dietwin" "Eberhard" 
+	"Ekkehard" "Emelrich" "Emich" "Emmerich" "Emund" "Engelbert" "Erich" "Ernst" "Ferdinand" "Filibert" 
+	"Folkhard" "Folkmar" "Gautselin" "Gebhard" "Georg" "Gerlach" "Giselbert" "Gottfried" "Gottschalk" "Gotzelo" 
+	"Guntram" "Gunzelin" "Günther" "Hartmann" "Hartwig" "Heinrich" "Heribert" "Hesso" "Hugo" "Humbert" 
+	"Hupold" "Jakob" "Johann" "Jürgen" "Karl" "Karlmann" "Kaspar" "Konrad" "Kuno" "Lambert" 
+	"Landolf" "Leopold" "Liudolf" "Liutbert" "Liutbrand" "Liutpold" "Ludolf" "Ludwig" "Lutbert" "Markward" 
+	"Matthias" "Meinhard" "Nikolaus" "Norbert" "Otto" "Philipp" "Radbot" "Reinhold" "Ruprecht" "Rutger" 
+	"Siegfried" "Sieghard" "Siegmund" "Sigismund" "Stefan" "Theodorich" "Thietmar" "Ulrich" "Viktor" "Waldemar" 
+	"Werner" "Wido" "Wigerich" "Wilhelm" "Wolfram" }
+monarch_names = {
+	"Kuník #1" = 42
+	"Agathe #0" = -1
+	"Ida #0" = -1
+	"Anezka #0" = -1
+	"Irmele #0" = -1
+	"Mojmír #0" = 1
+	"Chval #0" = 1
+	"Viola #0" = -1
+	"Adelheid #1" = -19
+	"Vojslava #0" = -1
+	"Ademar #0" = 1
+	"Richenza #0" = -1
+	"Zikmund #0" = 1
+	"Premysl #0" = 1
+	"Bores #3" = 36
+	"Gotthard #1" = 21
+	"Berengar #0" = 1
+	"Cecilie #0" = -1
+	"Skonka #0" = -1
+	"Gerhard #0" = 1
+	"Ekbert #0" = 1
+	"Libuse #0" = -1
+	"Ingeltrude #0" = -1
+	"Svatopluk #0" = 1
+	"Zdík #0" = 1
+	"Gisela #0" = -1
+	"Sobieslav #0" = 1
+	"Isentrude #0" = -1
+	"Otakar #0" = 1
+	"Adela #0" = -1
+	"Brunhilde #0" = -1
+	"Katerina #0" = -1
+	"Ilsa #0" = -1
+	"Winfrida #0" = -1
+	"Berta #0" = -1
+	"Boleslav #0" = 1
+	"Justina #0" = -1
+	"Bedriska #0" = -1
+	"Boleslava #0" = -1
+	"Jutta #0" = -1
+	"Guta #0" = -1
+	"Welf #0" = 1
+	"Manfred #0" = 1
+	"Wolfgang #0" = 1
+	"Dobroslava #0" = -1
+	"Friedrich #1" = 18
+	"Udalrich #0" = 1
+	"Vladislava #0" = -1
+	"Závis #0" = 1
+	"Vojtech #0" = 1
+	"Hynek #0" = 1
+	"Rajmund #0" = 1
+	"Bretislav #0" = 1
+	"Kojata #0" = 1
+	"Sezima #1" = 24
+	"Borijov #2" = 24
+	"Perchta #0" = -1
+	"Helena #0" = -1
+	"Dorota #0" = -1
+	"Karel #0" = 1
+	"Bocek #0" = 1
+	"Bozena #0" = -1
+	"Zofie #0" = -1
+	"Vladimír #0" = 1
+	"Judita #0" = -1
+	"Jindrich #0" = 1
+	"Heralt #0" = 1
+	"Drahoslava #0" = -1
+	"Klára #0" = -1
+	"Eufemie #0" = -1
+	"Ojír #2" = 30
+	"Domaslava #0" = -1
+	"Vilém #0" = 1
+	"Blazena #0" = -1
+	"Doubravka #0" = -1
+	"Herman #0" = 1
+	"Slavibor #0" = 1
+	"Richeza #0" = -1
+	"Drslav #0" = 1
+	"Bohuslav #0" = 1
+	"Jaroslava #0" = -1
+	"Hrabis #0" = 1
+	"Vanek #0" = 1
+	"Tobiás #0" = 1
+	"Hedvika #0" = -1
+	"Havel #0" = 1
+	"Slavomír #0" = 1
+	"Vilemína #0" = -1
+	"Budivoj #0" = 1
+	"Engeltraud #0" = -1
+	"Jana #0" = -1
+	"Ota #0" = 1
+	"Kunhuta #0" = -1
+	"Stanislava #0" = -1
+	"Prokop #0" = 1
+	"Smil #0" = 1
+	"Kristyna #0" = -1
+	"Pribyslava #0" = -1
+	"Václav #0" = 1
+	"Svatava #0" = -1
+	"Milic #0" = 1
+	"Mlada #0" = -1
+	"Castolov #0" = 1
+	"Bavor #0" = 1
+	"Dobromila #0" = -1
+	"Markéta #0" = -1
+	"Litold #0" = 1
+	"Bedrich #0" = 1
+	"Bozislava #0" = -1
+	"Zdenka #0" = -1
+	"Johanka #0" = -1
+	"Eufemia #1" = -19
+	"Konstancie #0" = -1
+	"Marie #0" = -1
+	"Jaroslav #0" = 1
+	"Poppo #1" = 21
+	"Olga #0" = -1
+	"Richwara #0" = -1
+	"Inga #0" = -1
+	"Rudolf #0" = 1
+	"Zbynek #0" = 1
+	"Hermann #0" = 1
+	"Cenek #0" = 1
+	"Walther #0" = 1
+	"Evangelos #0" = 1
+	"Beatrix #0" = -1
+	"Alois #0" = 1
+	"Klementia #0" = -1
+	"Irmeltrud #0" = -1
+	"Zdirad #0" = 1
+	"Wenzel #0" = 1
+	"Barbara #0" = -1
+	"Gerhild #0" = -1
+	"Adléta #0" = -1
+	"Baldewin #0" = 1
+	"Reinhard #0" = 1
+	"Jedvard #0" = 1
+	"Baldarich #0" = 1
+	"Hemma #1" = -19
+	"No Character #8" = 0
+	"Manegold #1" = 0
+	"Adolf #2" = 0
+	"Oda #1" = -1
+	"Gunhilda #1" = -1
+	"Lothar #1" = 0
+	"Andreas #1" = 0
+	"Sumarliði #1" = 0
+	"Ehrenfried #1" = 0
+	"Franz #1" = 0
+	"Walram #1" = 0
+	"Adalhard #1" = 0
+	"Eginolf #1" = 0
+	"Helferich #1" = 0
+	"Vladislav #1" = 0
+	"Henry #1" = 0
+	"Albert #1" = 0
+	"Adalbero #0" = 0
+	"Adalbert #0" = 0
+	"Adam #0" = 0
+	"Alarich #0" = 0
+	"Alberich #0" = 0
+	"Albrecht #0" = 0
+	"Aldrich #0" = 0
+	"Amadeus #0" = 0
+	"Amalrich #0" = 0
+	"Anselm #0" = 0
+	"Arnold #0" = 0
+	"Arnulf #0" = 0
+	"Augustin #0" = 0
+	"Baldomar #0" = 0
+	"Baldur #0" = 0
+	"Bernhard #0" = 0
+	"Berthold #0" = 0
+	"Burchard #0" = 0
+	"Dieter #0" = 0
+	"Dietmar #0" = 0
+	"Dietpold #0" = 0
+	"Dietrich #0" = 0
+	"Dietwin #0" = 0
+	"Eberhard #0" = 0
+	"Ekkehard #0" = 0
+	"Emelrich #0" = 0
+	"Emich #0" = 0
+	"Emmerich #0" = 0
+	"Emund #0" = 0
+	"Engelbert #0" = 0
+	"Erich #0" = 0
+	"Ernst #0" = 0
+	"Ferdinand #0" = 0
+	"Filibert #0" = 0
+	"Folkhard #0" = 0
+	"Folkmar #0" = 0
+	"Gautselin #0" = 0
+	"Gebhard #0" = 0
+	"Georg #0" = 0
+	"Gerlach #0" = 0
+	"Giselbert #0" = 0
+	"Gottfried #0" = 0
+	"Gottschalk #0" = 0
+	"Gotzelo #0" = 0
+	"Guntram #0" = 0
+	"Gunzelin #0" = 0
+	"Günther #0" = 0
+	"Hartmann #0" = 0
+	"Hartwig #0" = 0
+	"Heinrich #0" = 0
+	"Heribert #0" = 0
+	"Hesso #0" = 0
+	"Hugo #0" = 0
+	"Humbert #0" = 0
+	"Hupold #0" = 0
+	"Jakob #0" = 0
+	"Johann #0" = 0
+	"Jürgen #0" = 0
+	"Karl #0" = 0
+	"Karlmann #0" = 0
+	"Kaspar #0" = 0
+	"Konrad #0" = 0
+	"Kuno #0" = 0
+	"Lambert #0" = 0
+	"Landolf #0" = 0
+	"Leopold #0" = 0
+	"Liudolf #0" = 0
+	"Liutbert #0" = 0
+	"Liutbrand #0" = 0
+	"Liutpold #0" = 0
+	"Ludolf #0" = 0
+	"Ludwig #0" = 0
+	"Lutbert #0" = 0
+	"Markward #0" = 0
+	"Matthias #0" = 0
+	"Meinhard #0" = 0
+	"Nikolaus #0" = 0
+	"Norbert #0" = 0
+	"Otto #0" = 0
+	"Philipp #0" = 0
+	"Radbot #0" = 0
+	"Reinhold #0" = 0
+	"Ruprecht #0" = 0
+	"Rutger #0" = 0
+	"Siegfried #0" = 0
+	"Sieghard #0" = 0
+	"Siegmund #0" = 0
+	"Sigismund #0" = 0
+	"Stefan #0" = 0
+	"Theodorich #0" = 0
+	"Thietmar #0" = 0
+	"Ulrich #0" = 0
+	"Viktor #0" = 0
+	"Waldemar #0" = 0
+	"Werner #0" = 0
+	"Wido #0" = 0
+	"Wigerich #0" = 0
+	"Wilhelm #0" = 0
+	"Wolfram #0" = 0
+}
+ship_names = {
+	Ariadne Habicht Adler Albatross Amazone
+	Arcona Basilisk Beowulf Biene Wespe Wolf
+	Nautilus Natter Otter Pelikan Pfeil Meteor
+	Möwe Mücke Luchs König Kaiser Eber Drache
+	Falke Frauenlob Freya Fuchs Gazelle Geier
+	Greif Condor Cormoran Comet Wacht Tiger
+	Seeadler Jaguar Hyäne Blitz Bremse Brummer
+	Bussard Vulkan
+}
+

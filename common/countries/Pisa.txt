@@ -1,104 +1,445 @@
-#Country Name: Please see filename.
-
+# Pisa
+ck2_converter_generated = yes
 graphical_culture = westerngfx
+color = { 196 192 140 }
 
-color = { 177  150  109 }
 
-historical_idea_groups = {
-	trade_ideas
-	maritime_ideas
-	defensive_ideas
-	economic_ideas
-	spy_ideas
-	religious_ideas
-	offensive_ideas
-	administrative_ideas
-}
 
-historical_units = {
-	western_medieval_infantry
-	western_medieval_knights
-	western_men_at_arms
-	italian_condotta
-	austrian_tercio
-	austrian_grenzer
-	austrian_hussar
-	austrian_white_coat
-	austrian_jaeger
-	mixed_order_infantry
-	open_order_cavalry
-	napoleonic_square
-	napoleonic_lancers
-}
-
-monarch_names = {
-	"Gabriele Maria #0" = 20
-	"Gherardo #0 Leonardo" = 20
-	"Jacopo #1" = 15
-	"Emanuele #0" = 15
-	"Alessandro #0" = 5
-	"Belisario #0" = 5
-	"Adriano #0" = 0
-	"Alessio #0" = 0
-	"Baldovino #0" = 0
-	"Beniamino #0" = 0
-	"Biagio #0" = 0
-	"Bonaventura #0" = 0
-	"Celio #0" = 0
-	"Constantino #0" = 0
-	"Damiano #0" = 0
-	"Danilo #0" = 0
-	"Eros #0" = 0
-	"Eustachio #0" = 0
-	"Evangelista #0" = 0
-	"Fortunato #0" = 0
-	"Gennaro #0" = 0
-	"Giancarlo #0" = 0
-	"Giovanni #0" = 20
-	"Giustino #0" = 0
-	"Innocenzo #0" = 0
-	"Leonardo #0" = 0
-	"Leone #0" = 0
-	"Marco #0" = 0
-	"Mauro #0" = 0
-	"Orfeo #0" = 0
-	"Pasquale #0" = 0
-	"Pietro #0" = 0
-	"Roberto #0" = 0
-	"Sergio #0" = 0
-	"Severino #0" = 0
-	"Ugo #0" = 0
-	"Valerio #0" = 0
-	"Vincenzo #0" = 0
-	"Vitale #0" = 0
-	"Vittorio #0" = 0
-	
-	"Ludovica #0" = -1
-	"Mariangela #0" = -1
-	"Petronilla #0" = -1
-}
 
 leader_names = {
-	"dell Agnello" Amelia Appiani "d'Appiani d'Aragona" Barone Bartoli Barzagli Basile Birindelli Brunforte Buonarroti Butteri
-	Capitani Chiellini Conti Dini Fibonacci Galilei Gambacorta Ganza Gentileschi "della Gherardesca" Gori Greco Grosso Guidi
-	Letta Lombardi Mancini Marchetti Marianelli Notaro Oddo Pacinotti Pesce "del Piero" Pini Pisano Pontecorvo Pozzi
-	"de Rossi" Ruffo Sonnino Tabucchi Tosetti Tumicelli "della Ubaldini" Ulivelli Ventura Zaccardo
+
+	"Radušic" "Bitinja" "Milin" "Zenislava" "Mislena" "Draga" "Borigoj" "Stanka" "Stagoj" "Kosana" 
+	"Zverce" "Volkun" "Živkoka" "Slavko" "Minigoj" "Grozdana" "Gojimir" "Milunka" "Tašo" "Cvetana" 
+	"Vitogoj" "Tankosa" "Trebil" "Radenko" "Bojana" "Zemidrug" "Cveta" "Gorazd" "Divna" "Radan" 
+	"Žilec" "Gorislava" "Vecegoj" "Granislava" "Dušan" "Stregomil" "Rada" "Sebibor" "Tihica" "Sebimir" 
+	"Lastigoj" "Skrben" "Židana" "Mirica" "Hotimir" "Višegoj" "Godemisl" "Trdogoj" "Zlatkoka" "Dragoslav" 
+	"Mirna" "Tihonja" "Milislava" "Boželisa" "Stana" "Gosta" "Dobruška" "Gostinja" "Milojka" "Radovan" 
+	"Volcina" "Bogdana" "Živina" "Uncat" "Dobrodej" "Gojislav" "Geraldo" "Abbondio" "Demetrio" "Cornelio" 
+	"Carla" "Riccardo" "Bruno" "Marcella" "Milanko" "Valhun" "Brian" "Corrado" "Sergia" "Kaisarios" 
+	"Niphon" "Bartolomeo" "Porphyrios" "Pagano" "Henry" "Albert" "Miha" "Abbondanzio" "Abelardo" "Abelino" 
+	"Achille" "Adalberto" "Adelfo" "Adelmio" "Adelmo" "Adone" "Adriano" "Agapito" "Agostino" "Aimone" 
+	"Alamanno" "Alarico" "Albano" "Alberico" "Alberto" "Albino" "Alboino" "Alcide" "Aldobrandino" "Aleardo" 
+	"Aleramo" "Alessandro" "Alessio" "Alighiero" "Alvise" "Ambrogio" "Amedeo" "Anastasio" "Andrea" "Angelo" 
+	"Annibale" "Anselmo" "Antonino" "Antonio" "Antoniotto" "Arcibaldo" "Arderico" "Armando" "Arnolfo" "Arrigo" 
+	"Arsenio" "Artemio" "Ascanio" "Astorre" "Atenolfo" "Attilio" "Augusto" "Aurelio" "Ausilio" "Ausonio" 
+	"Averado" "Azzo" "Azzone" "Baldassarre" "Baldovino" "Barnaba" "Basilio" "Bassiano" "Basso" "Battista" 
+	"Beltrano" "Benedetto" "Benvenuto" "Berardo" "Bernabò" "Bernardo" "Berto" "Bertoldo" "Biagio" "Bonaventura" 
+	"Bonifacio" "Borso" "Bruto" "Buonconte" "Buoso" "Callisto" "Camillo" "Candido" "Cangrande" "Carlo" 
+	"Cassio" "Castore" "Cataldo" "Catone" "Cecco" "Cesare" "Chiaffredo" "Chiano" "Ciro" "Ciuccio" 
+	"Claudio" "Clemente" "Comita" "Conone" "Corradino" "Cosimo" "Cosma" "Costante" "Costantino" "Costanzo" 
+	"Cristoforo" "Damiano" "Davide" "Dioniso" "Doménico" "Durante" "Eduardo" "Elio" "Emmanuele" "Ennio" 
+	"Enrico" "Enzio" "Enzo" "Ercole" "Eriprando" "Ermenegildo" "Ettore" "Eugenio" "Ezio" "Ezzelino" 
+	"Fabrizio" "Fausto" "Federigo" "Felice" "Ferdinando" "Ferruccio" "Filippo" "Fiorello" "Flavio" "Folco" 
+	"Fortunato" "Fosco" "Francesco" "Fresco" "Gabriele" "Gabrino" "Gaetano" "Galasso" "Galeazzo" "Galeotto" 
+	"Gaspare" "Gastone" "Gelasio" "Gentile" "Gerardo" "Germano" "Gerolamo" "Gherardo" "Giacinto" "Giacomo" 
+	"Gian" "Gianfranco" "Gianleone" "Giano" "Giberto" "Gilberto" "Giolio" "Giordano" "Giorgio" "Giovanni" 
+	"Giulio" "Giuseppe" "Goffredo" "Gregorio" "Gualtiero" "Guarnito" "Guerrino" "Guglielmo" "Guido" "Guidone" 
+	"Guigliadore" "Iacopo" "Igino" "Innocenzo" "Ippolito" "Isnardo" "Jacopo" "Lamberto" "Landolfo" "Landone" 
+	"Lanfranco" "Lattanzio" "Lazzarino" "Lazzaro" "Lealdo" "Leonardo" "Leone" "Leonello" "Leopoldo" "Libero" 
+	"Lionello" "Livio" "Lodovico" "Lorenzo" "Luca" "Luchino" "Lucio" "Luigi" "Malacresta" "Manfredo" 
+	"Manuele" "Marco" "Mariano" "Marino" "Mario" "Marsiglio" "Martino" "Massimo" "Mastino" "Matteo" 
+	"Merigo" "Michelangelo" "Michele" "Napoleone" "Nazareno" "Nestore" "Niccolò" "Nicola" "Nino" "Nolfo" 
+	"Oberto" "Obizzino" "Obizzo" "Oddone" "Omero" "Onorio" "Oreste" "Orlando" "Ottavio" "Ottobono" 
+	"Ottone" "Pancrazio" "Pandolfo" "Paolo" "Pasquale" "Patrizio" "Pellegrino" "Pericle" "Pietro" "Pio" 
+	"Prospero" "Rafaello" "Radul" "Raimondo" "Rainero" "Raineri" "Rinaldo" "Rizzardo" "Roberto" "Rodolfo" 
+	"Rolando" "Rosso" "Ruggiero" "Salinguerra" "Salvatore" "Salvestro" "Sante" "Saverio" "Sciarra" "Sebastiano" 
+	"Secondotto" "Serafino" "Sergio" "Sesto" "Settimio" "Severino" "Severo" "Silvano" "Silvestro" "Simone" 
+	"Simonetto" "Sinibaldo" "Sinucello" "Sozzo" "Spinetto" "Stefano" "Stentore" "Taddeo" "Tedaldo" "Tedice" 
+	"Teodoro" "Tibaldo" "Tiziano" "Tommaso" "Torgodorio" "Torquato" "Ubaldo" "Uberto" "Ugo" "Ugoccione" 
+	"Ugolino" "Umberto" "Urbano" "Valentino" "Valerio" "Vincentello" "Vincenzo" "Virginio" "Vitale" "Vittore" 
+	"Vittorio" "Zaccaria" }
+monarch_names = {
+	"Radušic #0" = 1
+	"Bitinja #0" = -1
+	"Milin #0" = 1
+	"Zenislava #0" = -1
+	"Mislena #0" = -1
+	"Draga #0" = -1
+	"Borigoj #1" = 18
+	"Stanka #0" = -1
+	"Stagoj #0" = 1
+	"Kosana #0" = -1
+	"Zverce #0" = 1
+	"Volkun #0" = 1
+	"Živkoka #0" = -1
+	"Slavko #0" = 1
+	"Minigoj #0" = 1
+	"Grozdana #0" = -1
+	"Gojimir #0" = 1
+	"Milunka #0" = -1
+	"Tašo #1" = 24
+	"Cvetana #0" = -1
+	"Vitogoj #0" = 1
+	"Tankosa #0" = -1
+	"Trebil #0" = 1
+	"Radenko #0" = 1
+	"Bojana #0" = -1
+	"Zemidrug #0" = 1
+	"Cveta #0" = -1
+	"Gorazd #0" = 1
+	"Divna #0" = -1
+	"Radan #0" = 1
+	"Žilec #0" = 1
+	"Gorislava #0" = -1
+	"Vecegoj #0" = 1
+	"Granislava #0" = -1
+	"Dušan #0" = 1
+	"Stregomil #0" = 1
+	"Rada #0" = -1
+	"Sebibor #0" = 1
+	"Tihica #0" = -1
+	"Sebimir #0" = 1
+	"Lastigoj #0" = 1
+	"Skrben #0" = 1
+	"Židana #0" = -1
+	"Mirica #0" = -1
+	"Hotimir #0" = 1
+	"Višegoj #0" = 1
+	"Godemisl #0" = 1
+	"Trdogoj #0" = 1
+	"Zlatkoka #0" = -1
+	"Dragoslav #0" = 1
+	"Mirna #0" = -1
+	"Tihonja #0" = -1
+	"Milislava #0" = -1
+	"Boželisa #0" = -1
+	"Stana #0" = -1
+	"Gosta #0" = -1
+	"Dobruška #0" = -1
+	"Gostinja #0" = -1
+	"Milojka #0" = -1
+	"Radovan #0" = 1
+	"Volcina #0" = -1
+	"Bogdana #0" = -1
+	"Živina #0" = -1
+	"Uncat #0" = 1
+	"Dobrodej #0" = 1
+	"Gojislav #0" = 1
+	"Geraldo #1" = 0
+	"Abbondio #1" = 0
+	"Demetrio #1" = 0
+	"Cornelio #2" = 0
+	"Carla #1" = -1
+	"Riccardo #1" = 0
+	"Bruno #1" = 0
+	"Marcella #1" = -1
+	"Milanko #1" = 0
+	"Valhun #1" = 0
+	"Brian #1" = 0
+	"Corrado #1" = 0
+	"Sergia #1" = -1
+	"Kaisarios #1" = 0
+	"Niphon #1" = 0
+	"Bartolomeo #1" = 0
+	"Porphyrios #1" = 0
+	"Pagano #1" = 0
+	"Henry #1" = 0
+	"Albert #1" = 0
+	"Miha #1" = 0
+	"Abbondanzio #0" = 0
+	"Abelardo #0" = 0
+	"Abelino #0" = 0
+	"Achille #0" = 0
+	"Adalberto #0" = 0
+	"Adelfo #0" = 0
+	"Adelmio #0" = 0
+	"Adelmo #0" = 0
+	"Adone #0" = 0
+	"Adriano #0" = 0
+	"Agapito #0" = 0
+	"Agostino #0" = 0
+	"Aimone #0" = 0
+	"Alamanno #0" = 0
+	"Alarico #0" = 0
+	"Albano #0" = 0
+	"Alberico #0" = 0
+	"Alberto #0" = 0
+	"Albino #0" = 0
+	"Alboino #0" = 0
+	"Alcide #0" = 0
+	"Aldobrandino #0" = 0
+	"Aleardo #0" = 0
+	"Aleramo #0" = 0
+	"Alessandro #0" = 0
+	"Alessio #0" = 0
+	"Alighiero #0" = 0
+	"Alvise #0" = 0
+	"Ambrogio #0" = 0
+	"Amedeo #0" = 0
+	"Anastasio #0" = 0
+	"Andrea #0" = 0
+	"Angelo #0" = 0
+	"Annibale #0" = 0
+	"Anselmo #0" = 0
+	"Antonino #0" = 0
+	"Antonio #0" = 0
+	"Antoniotto #0" = 0
+	"Arcibaldo #0" = 0
+	"Arderico #0" = 0
+	"Armando #0" = 0
+	"Arnolfo #0" = 0
+	"Arrigo #0" = 0
+	"Arsenio #0" = 0
+	"Artemio #0" = 0
+	"Ascanio #0" = 0
+	"Astorre #0" = 0
+	"Atenolfo #0" = 0
+	"Attilio #0" = 0
+	"Augusto #0" = 0
+	"Aurelio #0" = 0
+	"Ausilio #0" = 0
+	"Ausonio #0" = 0
+	"Averado #0" = 0
+	"Azzo #0" = 0
+	"Azzone #0" = 0
+	"Baldassarre #0" = 0
+	"Baldovino #0" = 0
+	"Barnaba #0" = 0
+	"Basilio #0" = 0
+	"Bassiano #0" = 0
+	"Basso #0" = 0
+	"Battista #0" = 0
+	"Beltrano #0" = 0
+	"Benedetto #0" = 0
+	"Benvenuto #0" = 0
+	"Berardo #0" = 0
+	"Bernabò #0" = 0
+	"Bernardo #0" = 0
+	"Berto #0" = 0
+	"Bertoldo #0" = 0
+	"Biagio #0" = 0
+	"Bonaventura #0" = 0
+	"Bonifacio #0" = 0
+	"Borso #0" = 0
+	"Bruto #0" = 0
+	"Buonconte #0" = 0
+	"Buoso #0" = 0
+	"Callisto #0" = 0
+	"Camillo #0" = 0
+	"Candido #0" = 0
+	"Cangrande #0" = 0
+	"Carlo #0" = 0
+	"Cassio #0" = 0
+	"Castore #0" = 0
+	"Cataldo #0" = 0
+	"Catone #0" = 0
+	"Cecco #0" = 0
+	"Cesare #0" = 0
+	"Chiaffredo #0" = 0
+	"Chiano #0" = 0
+	"Ciro #0" = 0
+	"Ciuccio #0" = 0
+	"Claudio #0" = 0
+	"Clemente #0" = 0
+	"Comita #0" = 0
+	"Conone #0" = 0
+	"Corradino #0" = 0
+	"Cosimo #0" = 0
+	"Cosma #0" = 0
+	"Costante #0" = 0
+	"Costantino #0" = 0
+	"Costanzo #0" = 0
+	"Cristoforo #0" = 0
+	"Damiano #0" = 0
+	"Davide #0" = 0
+	"Dioniso #0" = 0
+	"Doménico #0" = 0
+	"Durante #0" = 0
+	"Eduardo #0" = 0
+	"Elio #0" = 0
+	"Emmanuele #0" = 0
+	"Ennio #0" = 0
+	"Enrico #0" = 0
+	"Enzio #0" = 0
+	"Enzo #0" = 0
+	"Ercole #0" = 0
+	"Eriprando #0" = 0
+	"Ermenegildo #0" = 0
+	"Ettore #0" = 0
+	"Eugenio #0" = 0
+	"Ezio #0" = 0
+	"Ezzelino #0" = 0
+	"Fabrizio #0" = 0
+	"Fausto #0" = 0
+	"Federigo #0" = 0
+	"Felice #0" = 0
+	"Ferdinando #0" = 0
+	"Ferruccio #0" = 0
+	"Filippo #0" = 0
+	"Fiorello #0" = 0
+	"Flavio #0" = 0
+	"Folco #0" = 0
+	"Fortunato #0" = 0
+	"Fosco #0" = 0
+	"Francesco #0" = 0
+	"Fresco #0" = 0
+	"Gabriele #0" = 0
+	"Gabrino #0" = 0
+	"Gaetano #0" = 0
+	"Galasso #0" = 0
+	"Galeazzo #0" = 0
+	"Galeotto #0" = 0
+	"Gaspare #0" = 0
+	"Gastone #0" = 0
+	"Gelasio #0" = 0
+	"Gentile #0" = 0
+	"Gerardo #0" = 0
+	"Germano #0" = 0
+	"Gerolamo #0" = 0
+	"Gherardo #0" = 0
+	"Giacinto #0" = 0
+	"Giacomo #0" = 0
+	"Gian #0" = 0
+	"Gianfranco #0" = 0
+	"Gianleone #0" = 0
+	"Giano #0" = 0
+	"Giberto #0" = 0
+	"Gilberto #0" = 0
+	"Giolio #0" = 0
+	"Giordano #0" = 0
+	"Giorgio #0" = 0
+	"Giovanni #0" = 0
+	"Giulio #0" = 0
+	"Giuseppe #0" = 0
+	"Goffredo #0" = 0
+	"Gregorio #0" = 0
+	"Gualtiero #0" = 0
+	"Guarnito #0" = 0
+	"Guerrino #0" = 0
+	"Guglielmo #0" = 0
+	"Guido #0" = 0
+	"Guidone #0" = 0
+	"Guigliadore #0" = 0
+	"Iacopo #0" = 0
+	"Igino #0" = 0
+	"Innocenzo #0" = 0
+	"Ippolito #0" = 0
+	"Isnardo #0" = 0
+	"Jacopo #0" = 0
+	"Lamberto #0" = 0
+	"Landolfo #0" = 0
+	"Landone #0" = 0
+	"Lanfranco #0" = 0
+	"Lattanzio #0" = 0
+	"Lazzarino #0" = 0
+	"Lazzaro #0" = 0
+	"Lealdo #0" = 0
+	"Leonardo #0" = 0
+	"Leone #0" = 0
+	"Leonello #0" = 0
+	"Leopoldo #0" = 0
+	"Libero #0" = 0
+	"Lionello #0" = 0
+	"Livio #0" = 0
+	"Lodovico #0" = 0
+	"Lorenzo #0" = 0
+	"Luca #0" = 0
+	"Luchino #0" = 0
+	"Lucio #0" = 0
+	"Luigi #0" = 0
+	"Malacresta #0" = 0
+	"Manfredo #0" = 0
+	"Manuele #0" = 0
+	"Marco #0" = 0
+	"Mariano #0" = 0
+	"Marino #0" = 0
+	"Mario #0" = 0
+	"Marsiglio #0" = 0
+	"Martino #0" = 0
+	"Massimo #0" = 0
+	"Mastino #0" = 0
+	"Matteo #0" = 0
+	"Merigo #0" = 0
+	"Michelangelo #0" = 0
+	"Michele #0" = 0
+	"Napoleone #0" = 0
+	"Nazareno #0" = 0
+	"Nestore #0" = 0
+	"Niccolò #0" = 0
+	"Nicola #0" = 0
+	"Nino #0" = 0
+	"Nolfo #0" = 0
+	"Oberto #0" = 0
+	"Obizzino #0" = 0
+	"Obizzo #0" = 0
+	"Oddone #0" = 0
+	"Omero #0" = 0
+	"Onorio #0" = 0
+	"Oreste #0" = 0
+	"Orlando #0" = 0
+	"Ottavio #0" = 0
+	"Ottobono #0" = 0
+	"Ottone #0" = 0
+	"Pancrazio #0" = 0
+	"Pandolfo #0" = 0
+	"Paolo #0" = 0
+	"Pasquale #0" = 0
+	"Patrizio #0" = 0
+	"Pellegrino #0" = 0
+	"Pericle #0" = 0
+	"Pietro #0" = 0
+	"Pio #0" = 0
+	"Prospero #0" = 0
+	"Rafaello #0" = 0
+	"Radul #0" = 0
+	"Raimondo #0" = 0
+	"Rainero #0" = 0
+	"Raineri #0" = 0
+	"Rinaldo #0" = 0
+	"Rizzardo #0" = 0
+	"Roberto #0" = 0
+	"Rodolfo #0" = 0
+	"Rolando #0" = 0
+	"Rosso #0" = 0
+	"Ruggiero #0" = 0
+	"Salinguerra #0" = 0
+	"Salvatore #0" = 0
+	"Salvestro #0" = 0
+	"Sante #0" = 0
+	"Saverio #0" = 0
+	"Sciarra #0" = 0
+	"Sebastiano #0" = 0
+	"Secondotto #0" = 0
+	"Serafino #0" = 0
+	"Sergio #0" = 0
+	"Sesto #0" = 0
+	"Settimio #0" = 0
+	"Severino #0" = 0
+	"Severo #0" = 0
+	"Silvano #0" = 0
+	"Silvestro #0" = 0
+	"Simone #0" = 0
+	"Simonetto #0" = 0
+	"Sinibaldo #0" = 0
+	"Sinucello #0" = 0
+	"Sozzo #0" = 0
+	"Spinetto #0" = 0
+	"Stefano #0" = 0
+	"Stentore #0" = 0
+	"Taddeo #0" = 0
+	"Tedaldo #0" = 0
+	"Tedice #0" = 0
+	"Teodoro #0" = 0
+	"Tibaldo #0" = 0
+	"Tiziano #0" = 0
+	"Tommaso #0" = 0
+	"Torgodorio #0" = 0
+	"Torquato #0" = 0
+	"Ubaldo #0" = 0
+	"Uberto #0" = 0
+	"Ugo #0" = 0
+	"Ugoccione #0" = 0
+	"Ugolino #0" = 0
+	"Umberto #0" = 0
+	"Urbano #0" = 0
+	"Valentino #0" = 0
+	"Valerio #0" = 0
+	"Vincentello #0" = 0
+	"Vincenzo #0" = 0
+	"Virginio #0" = 0
+	"Vitale #0" = 0
+	"Vittore #0" = 0
+	"Vittorio #0" = 0
+	"Zaccaria #0" = 0
 }
 
-ship_names = {
-	"Andreotto Saraceno"
-	"Bartolo da Sassoferrato" "Bernardo dei Paganelli"
-	"Ugolino della Gherardesca"
-	"Daiberto Pisano"
-	"Fazio della Gherardesca" "Fiumi Arno" "Francesco da Buti"
-	"Giovanni di Simone" "Giuseppe Setaioli"
-	"Leonardo Fibonacci"
-	"Monti Pisani" "Morosini da Venezia"
-	Rustichello
-	"San Frediano" "San Giovanni Battista" "San Michele" "San Nicola" "Sant'Agata" "Sant'Antonio" "Santa Maria Assunta" "Santa Maria della Spina" "San Paolo a Ripa d'Arno" "S.Piero a Grado" S.Rossore "San Sisto"
-	"Ugolino Caccini"
-}
-
-army_names = {
-	"Armata di $PROVINCE$"
-}

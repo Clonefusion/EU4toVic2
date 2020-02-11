@@ -1,0 +1,118 @@
+# Cheremisa
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 99 102 49 }
+
+
+
+
+leader_names = {
+
+	"Barjik" "Yençepi" "Gulçiçäk" "Yeldem" "Yerneslu" "Gunduz" "Täbär" "Bozçin" "Bator" "Savkëlti" 
+	"Çeçtilet" "Sarä" "Papaçyz" "Bihor" "Bastu" "Konel" "Çorpan" "Maturkka" "Khuterkin" "Patiyer" 
+	"Këlnissa" "Paykëlti" "Busir" "Tekçe" "Naça" "Sarantay" "Sibel" "Umay" "Yasar" "No Character" 
+	"Nalka" "Kubrat" "Kudym-Osh" "Ostro" "Agafya" "Pokshayka" "Yazi" "Boru" "Sol" "Korkutan" 
+	"Kure" "Balamber" "Organ" "Tsog" "Aydar" "Yeçtirek" "Kurt" "Togli" "Vladimir" "Mutlu" 
+	"Mala" "Batan" "Akgul" "Balgor" "Songul" "Alp" "Araslan" "Bagha" "Baghatur" "Bälgiçi" 
+	"Barsbek" "Bashtwa" "Böri" "Bugha" "Bulan" "Bulçan" "Buzer" "Çat" "Çat'n" "Ilik" 
+	"Iltäbär" "Itakh" "Kamaj" "Karadakh" "Kayghalagh" "Khatir" "Kibar" "Kisa" "Kundaçiq" "Kundaç" 
+	"Mänär" "Mänäs" "Mënümarót" "Ötemis" "Samsam" "Sartäç" "Simsam" "Tabghaç" "Tarkhan" "Tarmaç" 
+	"Tuzniq" "Vakrim" "Yabghu" "Yavantey" "Yilig" }
+monarch_names = {
+	"Barjik #1" = 24
+	"Yençepi #1" = 21
+	"Gulçiçäk #0" = -1
+	"Yeldem #1" = -19
+	"Yerneslu #0" = 1
+	"Gunduz #0" = -1
+	"Täbär #0" = 1
+	"Bozçin #0" = -1
+	"Bator #1" = 18
+	"Savkëlti #0" = -1
+	"Çeçtilet #0" = -1
+	"Sarä #0" = -1
+	"Papaçyz #0" = 1
+	"Bihor #0" = 1
+	"Bastu #0" = 1
+	"Konel #0" = 1
+	"Çorpan #0" = 1
+	"Maturkka #0" = -1
+	"Khuterkin #0" = 1
+	"Patiyer #0" = -1
+	"Këlnissa #0" = -1
+	"Paykëlti #0" = -1
+	"Busir #0" = 1
+	"Tekçe #0" = -1
+	"Naça #0" = -1
+	"Sarantay #0" = -1
+	"Sibel #1" = -19
+	"Umay #0" = -1
+	"Yasar #1" = -19
+	"No Character #4" = 0
+	"Nalka #2" = 0
+	"Kubrat #1" = 0
+	"Kudym-Osh #1" = 0
+	"Ostro #1" = 0
+	"Agafya #1" = -1
+	"Pokshayka #1" = 0
+	"Yazi #1" = 0
+	"Boru #1" = 0
+	"Sol #1" = 0
+	"Korkutan #1" = 0
+	"Kure #1" = 0
+	"Balamber #1" = 0
+	"Organ #1" = 0
+	"Tsog #1" = 0
+	"Aydar #1" = 0
+	"Yeçtirek #1" = 0
+	"Kurt #1" = 0
+	"Togli #1" = 0
+	"Vladimir #1" = 0
+	"Mutlu #1" = -1
+	"Mala #1" = -1
+	"Batan #1" = 0
+	"Akgul #1" = -1
+	"Balgor #1" = 0
+	"Songul #1" = -1
+	"Alp #0" = 0
+	"Araslan #0" = 0
+	"Bagha #0" = 0
+	"Baghatur #0" = 0
+	"Bälgiçi #0" = 0
+	"Barsbek #0" = 0
+	"Bashtwa #0" = 0
+	"Böri #0" = 0
+	"Bugha #0" = 0
+	"Bulan #0" = 0
+	"Bulçan #0" = 0
+	"Buzer #0" = 0
+	"Çat #0" = 0
+	"Çat'n #0" = 0
+	"Ilik #0" = 0
+	"Iltäbär #0" = 0
+	"Itakh #0" = 0
+	"Kamaj #0" = 0
+	"Karadakh #0" = 0
+	"Kayghalagh #0" = 0
+	"Khatir #0" = 0
+	"Kibar #0" = 0
+	"Kisa #0" = 0
+	"Kundaçiq #0" = 0
+	"Kundaç #0" = 0
+	"Mänär #0" = 0
+	"Mänäs #0" = 0
+	"Mënümarót #0" = 0
+	"Ötemis #0" = 0
+	"Samsam #0" = 0
+	"Sartäç #0" = 0
+	"Simsam #0" = 0
+	"Tabghaç #0" = 0
+	"Tarkhan #0" = 0
+	"Tarmaç #0" = 0
+	"Tuzniq #0" = 0
+	"Vakrim #0" = 0
+	"Yabghu #0" = 0
+	"Yavantey #0" = 0
+	"Yilig #0" = 0
+}
+

@@ -1,103 +1,183 @@
-#Country Name: Please see filename.
+# Tver
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 169 183 125 }
 
-graphical_culture = easterngfx
 
-color = { 136  158  183 }
 
-historical_idea_groups = {
-	trade_ideas
-	defensive_ideas
-	offensive_ideas
-	spy_ideas
-	economic_ideas
-	diplomatic_ideas
-	innovativeness_ideas
-	quality_ideas
-}
 
-historical_units = {
-	bardiche_infantry
-	druzhina_cavalry
-	slavic_stradioti
-	eastern_militia
-	muscovite_musketeer
-	muscovite_caracolle
-	muscovite_soldaty
-	muscovite_cossack
-	russian_petrine
-	russian_lancer
-	russian_green_coat
-	russian_cuirassier
-	eastern_skirmisher
-	eastern_uhlan
-	eastern_carabinier
-	russian_mass
-}
+leader_names = {
 
+	"Sieciech" "Hypatia" "Ayten" "Ebles" "Savkëlti" "Özlem" "Busir" "Bulçan" "Nadzieja" "Czyrzniech" 
+	"Leszek" "Gaudenty" "Bozena" "Krzeslaw" "Swietoslaw" "Gohilde" "Doman" "Waclaw" "Niezamysl" "Konstancja" 
+	"Bohemond" "Jadwiga" "Gervas" "Swietoslawa" "Adelajda" "Oswyn" "Umfreda" "Salomea" "Berengaria" "Valdrade" 
+	"Guntard" "Raymond" "Armand" "Rayner" "Marquisa" "Emonie" "Errand" "Aline" "Ancelmes" "Walter" 
+	"Alias" "Maysant" "Richenda" "Serril" "Emelenine" "Aimeric" "Orderic" "Azelma" "Richènda" "Ermengau" 
+	"Peironèla" "Adelise" "Arsenda" "Esclarmonda" "Laura" "Adam" "Ramiro" "Torf" "Agnes" "Oswulf" 
+	"Adeltrudis" "Roger" "Aurelia" "Bérard" "Albert" "Amaneus" "Gilen" "Camila" "Alienòr" "Tiborg" 
+	"Goffredo" "Obeko" "Agalina" "Alfontso" "Luis" "Maior" "Gartzia" "Konstantzia" "Giovanna" "Galindo" 
+	"Teresa" "Mentzia" "Manuel" "Joana" "Helene" "Pulcheria" "Chrysogone" "Apollonios" "Toda" "Nikodemos" 
+	"Bihor" "Yasar" "Bagha" "Papaçyz" "Ilik" "Aldontza" "Parsbit" "No Character" "Vseslav" "Yevstafiy" 
+	"Putiata" "Svetozar" "Terentiy" "Väinö" "Vasilko" "Vladimir" "Mänäs" "Bashtwa" "Alp" "Yilig" 
+	"Bulan" "Ayasun" "Gunduz" "Maturkka" "Yeçtirek" "Kundaçiq" "Tarkhan" "Araslan" "Baghatur" "Bälgiçi" 
+	"Barjik" "Barsbek" "Bastu" "Böri" "Bugha" "Buzer" "Çat" "Çat'n" "Çorpan" "Iltäbär" 
+	"Itakh" "Kamaj" "Karadakh" "Kayghalagh" "Khatir" "Khuterkin" "Kibar" "Kisa" "Kundaç" "Mänär" 
+	"Mënümarót" "Ötemis" "Samsam" "Sartäç" "Simsam" "Täbär" "Tabghaç" "Tarmaç" "Tuzniq" "Vakrim" 
+	"Yabghu" "Yavantey" "Yençepi" "Yerneslu" }
 monarch_names = {
-	"Mikhail #2" = 20
-	"Aleksandr #1" = 20
-	"Boris #0" = 20
-	"Yuriy #0" = 20
-	"Yaroslav #2" = 5
-	"Dmitriy #1" = 5
-	"Ivan #1" = 5
-	"Konstantin #1" = 5
-	"Svyatoslav #1" = 5
-	"Akim #0" = 0
-	"Anastas #0" = 0
-	"Anton #0" = 0
-	"Arseniy #0" = 0
-	"Bogdan #0" = 0
-	"Daniil #0" = 0
-	"David #0" = 0
-	"Ferapont #0" = 0
-	"Fyodor #0" = 0
-	"Isaak #0" = 0
-	"Kirill #0" = 0
-	"Lavrentiy #0" = 0
-	"Lazar #0" = 0
-	"Leonti #0" = 0
-	"Luka #0" = 0
-	"Makariy #0" = 0
-	"Mefodiy #0" = 0
-	"Milan #0" = 0
-	"Mitrofan #0" = 0
-	"Nazariy #0" = 0
-	"Nestor #0" = 0
-	"Nikolai #0" = 0
-	"Nikon #0" = 0
-	"Pyotr #0" = 0
-	"Roman #0" = 0
-	"Veniamin #0" = 0
-	"Vlad #0" = 0
-	"Vsevolod #0" = 0
-	"Yaromir #0" = 0
-	"Yevgeniy #0" = 0
-	"Zinoviy #0" = 0
-	
-	"Serafima #0" = -1
-	"Viktoriya #0" = -1
-	"Anna #0" = -1
-	"Xenia #0" = -1
-	"Maria #0" = -1
-	"Anastasia #0" = -1
-	"Alyona #0" = -1
-	"Elizaveta #0" = -1
-	"Natasha #0" = -1
-	"Tatiana #0" = -1
-	"Nadezhda #0" = -1
-	"Uliana #0" = -3
+	"Sieciech #0" = 1
+	"Hypatia #0" = -1
+	"Ayten #0" = -1
+	"Ebles #0" = 1
+	"Savkëlti #0" = -1
+	"Özlem #0" = -1
+	"Busir #0" = 1
+	"Bulçan #2" = 18
+	"Nadzieja #0" = -1
+	"Czyrzniech #0" = 1
+	"Leszek #0" = 1
+	"Gaudenty #0" = 1
+	"Bozena #0" = -1
+	"Krzeslaw #0" = 1
+	"Swietoslaw #0" = 1
+	"Gohilde #0" = -1
+	"Doman #0" = 1
+	"Waclaw #0" = 1
+	"Niezamysl #0" = 1
+	"Konstancja #0" = -1
+	"Bohemond #0" = 1
+	"Jadwiga #0" = -1
+	"Gervas #0" = 1
+	"Swietoslawa #0" = -1
+	"Adelajda #0" = -1
+	"Oswyn #0" = 1
+	"Umfreda #0" = -1
+	"Salomea #0" = -1
+	"Berengaria #0" = -1
+	"Valdrade #0" = -1
+	"Guntard #0" = 1
+	"Raymond #0" = 1
+	"Armand #0" = 1
+	"Rayner #0" = 1
+	"Marquisa #0" = -1
+	"Emonie #0" = -1
+	"Errand #0" = 1
+	"Aline #0" = -1
+	"Ancelmes #0" = 1
+	"Walter #0" = 1
+	"Alias #0" = 1
+	"Maysant #0" = -1
+	"Richenda #0" = -1
+	"Serril #0" = 1
+	"Emelenine #0" = -1
+	"Aimeric #0" = 1
+	"Orderic #0" = 1
+	"Azelma #0" = -1
+	"Richènda #0" = -1
+	"Ermengau #0" = 1
+	"Peironèla #0" = -1
+	"Adelise #0" = -1
+	"Arsenda #0" = -1
+	"Esclarmonda #0" = -1
+	"Laura #0" = -1
+	"Adam #0" = 1
+	"Ramiro #0" = 1
+	"Torf #0" = 1
+	"Agnes #0" = -1
+	"Oswulf #0" = 1
+	"Adeltrudis #0" = -1
+	"Roger #0" = 1
+	"Aurelia #0" = -1
+	"Bérard #0" = 1
+	"Albert #0" = 1
+	"Amaneus #0" = 1
+	"Gilen #0" = 1
+	"Camila #0" = -1
+	"Alienòr #0" = -1
+	"Tiborg #0" = -1
+	"Goffredo #0" = 1
+	"Obeko #0" = 1
+	"Agalina #0" = -1
+	"Alfontso #0" = 1
+	"Luis #0" = 1
+	"Maior #0" = -1
+	"Gartzia #0" = 1
+	"Konstantzia #0" = -1
+	"Giovanna #0" = -1
+	"Galindo #0" = 1
+	"Teresa #0" = -1
+	"Mentzia #0" = -1
+	"Manuel #0" = 1
+	"Joana #0" = -1
+	"Helene #0" = -1
+	"Pulcheria #0" = -1
+	"Chrysogone #0" = -1
+	"Apollonios #0" = 1
+	"Toda #0" = -1
+	"Nikodemos #0" = 1
+	"Bihor #0" = 1
+	"Yasar #0" = -1
+	"Bagha #1" = 18
+	"Papaçyz #0" = 1
+	"Ilik #0" = 1
+	"Aldontza #0" = -1
+	"Parsbit #0" = -1
+	"No Character #4" = 0
+	"Vseslav #1" = 0
+	"Yevstafiy #2" = 0
+	"Putiata #2" = 0
+	"Svetozar #1" = 0
+	"Terentiy #1" = 0
+	"Väinö #1" = 0
+	"Vasilko #1" = 0
+	"Vladimir #5" = 0
+	"Mänäs #1" = 0
+	"Bashtwa #1" = 0
+	"Alp #2" = 0
+	"Yilig #1" = 0
+	"Bulan #1" = 0
+	"Ayasun #1" = -1
+	"Gunduz #1" = -1
+	"Maturkka #1" = -1
+	"Yeçtirek #1" = 0
+	"Kundaçiq #1" = 0
+	"Tarkhan #1" = 0
+	"Araslan #0" = 0
+	"Baghatur #0" = 0
+	"Bälgiçi #0" = 0
+	"Barjik #0" = 0
+	"Barsbek #0" = 0
+	"Bastu #0" = 0
+	"Böri #0" = 0
+	"Bugha #0" = 0
+	"Buzer #0" = 0
+	"Çat #0" = 0
+	"Çat'n #0" = 0
+	"Çorpan #0" = 0
+	"Iltäbär #0" = 0
+	"Itakh #0" = 0
+	"Kamaj #0" = 0
+	"Karadakh #0" = 0
+	"Kayghalagh #0" = 0
+	"Khatir #0" = 0
+	"Khuterkin #0" = 0
+	"Kibar #0" = 0
+	"Kisa #0" = 0
+	"Kundaç #0" = 0
+	"Mänär #0" = 0
+	"Mënümarót #0" = 0
+	"Ötemis #0" = 0
+	"Samsam #0" = 0
+	"Sartäç #0" = 0
+	"Simsam #0" = 0
+	"Täbär #0" = 0
+	"Tabghaç #0" = 0
+	"Tarmaç #0" = 0
+	"Tuzniq #0" = 0
+	"Vakrim #0" = 0
+	"Yabghu #0" = 0
+	"Yavantey #0" = 0
+	"Yençepi #0" = 0
+	"Yerneslu #0" = 0
 }
 
-leader_names = { 
-	Dorogobushsky Kashinsky Mikulinsky Telyatevsky Kholmsky 
-	Chernyatinsky Andomsky Beloselsky Vadbolsky Dyabrinsky 
-	Kargolomsky Kemsky Sugorsky Ukhtomsky Sheleshpansky
-}
-
-ship_names = {
-	Yaroslavich Volga Tvertsa Mikhail Dmitry
-	Kashin Kholmsky Torzhok "Vyshniy Voloche"
-	Zubtsov Toropets Rzev Startsa Valdai Brosno
-}

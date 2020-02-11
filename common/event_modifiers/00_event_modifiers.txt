@@ -1812,6 +1812,11 @@ river_estuary_modifier = {
 	picture = "estuary_icon"
 }
 
+mahanadi_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
 neva_estuary_modifier = {
 	province_trade_power_value = 10
 	picture = "estuary_icon"
@@ -8801,6 +8806,26 @@ harmonized_christian = {
 	religion = yes
 }
 
+harmonized_hellenic = {
+	development_cost = -0.05
+	religion = yes
+}
+
+harmonized_tengri = {
+	cavalry_power = 0.05
+	religion = yes
+}
+
+harmonized_norse = {
+	ship_durability = 0.05
+	religion = yes
+}
+
+harmonized_bon = {
+	shock_damage_received = -0.05
+	religion = yes
+}
+
 #On the route to Harmonization:
 
 harmonization_classics_translated = {
@@ -10526,3 +10551,83 @@ taqiyya_event_timer = {}
 muslim_playing_court_event_timer = {}
 
 converted_natives_colony_timer = {}
+
+5_dev = {
+	local_development_cost = -0.01
+}
+
+10_dev = {
+	local_development_cost = -0.03
+}
+
+15_dev = {
+	local_development_cost = -0.06
+}
+
+20_dev = {
+	local_development_cost = -0.1
+}
+
+25_dev = {
+	local_development_cost = -0.15
+}
+
+30_dev = {
+	local_development_cost = -0.21
+}
+
+35_dev = {
+	local_development_cost = -0.28
+}
+
+40_dev = {
+	local_development_cost = -0.36
+}
+
+45_dev = {
+	local_development_cost = -0.45
+}
+
+50_dev = {
+	local_development_cost = -0.55
+}
+
+55_dev = {
+	local_development_cost = -0.66
+}
+
+60_dev = {
+	local_development_cost = -0.78
+}
+
+65_dev = {
+	local_development_cost = -0.9
+}
+
+70_dev = {
+	local_development_cost = -1.03
+}
+
+75_dev = {
+	local_development_cost = -1.17
+}
+
+80_dev = {
+	local_development_cost = -1.32
+}
+
+85_dev = {
+	local_development_cost = -1.48
+}
+
+90_dev = {
+	local_development_cost = -1.65
+}
+
+95_dev = {
+	local_development_cost = -1.83
+}
+
+100_dev = {
+	local_development_cost = -2.02
+}

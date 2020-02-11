@@ -1,0 +1,224 @@
+roads = {
+	cost = 200
+	time = 12
+	
+	modifier = {
+		province_trade_power_value = 1
+		allowed_num_of_buildings = 0.5
+		local_friendly_movement_speed = 0.1
+	}
+	
+	ai_will_do = {
+		factor = 1.5 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
+	}
+}
+
+road_network = {
+	cost = 500
+	time = 12
+	make_obsolete = road
+	
+	modifier = {
+		province_trade_power_value = 2
+		province_trade_power_modifier = 0.1
+		allowed_num_of_buildings = 0.5
+		local_friendly_movement_speed = 0.2
+	}
+	
+	ai_will_do = {
+		factor = 1.5 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
+	}
+}
+
+artisans_shop = {
+	cost = 200
+	time = 12
+	
+	modifier = {
+		trade_value = 0.5
+		allowed_num_of_buildings = 0.5
+	}
+	
+	ai_will_do = {
+		factor = 1 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
+	}
+}
+
+artisans_guild = {
+	cost = 500
+	time = 12
+	make_obsolete = artisans_shop
+	
+	modifier = {
+		trade_value = 1
+		trade_value_modifier = 0.1
+		allowed_num_of_buildings = 0.5
+	}
+	
+	ai_will_do = {
+		factor = 1 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
+	}
+}
+
+church = {
+	cost = 200
+	time = 12
+	
+	modifier = {
+		tax_income = 1
+		local_defensiveness = 0.1
+		allowed_num_of_buildings = 0.5
+	}
+	
+	ai_will_do = {
+		factor = 1 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
+	}
+}
+
+monastery = {
+	cost = 500
+	time = 12
+	make_obsolete = church
+	
+	modifier = {
+		tax_income = 2
+		local_defensiveness = 0.3
+		allowed_num_of_buildings = 0.5
+	}
+	
+	ai_will_do = {
+		factor = 1 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
+	}
+}
+
+field_fortification = {
+	cost = 200
+	time = 12
+	
+	modifier = {
+		local_defensiveness = 0.5
+		local_hostile_attrition = 1
+		local_friendly_movement_speed = -0.2
+		local_hostile_movement_speed = -0.2
+		province_trade_power_value = -1
+		province_trade_power_modifier = -0.1
+		trade_value = -0.5
+		trade_value_modifier = -0.1
+		tax_income = -1
+		local_tax_modifier = -0.1
+		allowed_num_of_buildings = 0.5
+	}
+	
+	ai_will_do = {
+		factor = 1 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
+	}
+}
+
+camp = {
+	cost = 200
+	time = 12
+	
+	modifier = {
+		local_unrest = -1
+		local_hostile_attrition = 1
+		local_monthly_devastation = -0.16
+		local_missionary_strength = 0.01
+		allowed_num_of_buildings = 0.5
+	}
+	
+	ai_will_do = {
+		factor = 1 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
+	}
+}
+
+library = {
+	cost = 200
+	time = 12
+	trigger = {
+		development = 20
+	}
+	
+	modifier = {
+		local_development_cost = -0.15
+		allowed_num_of_buildings = 0.5
+		local_missionary_strength = 0.005
+	}
+	
+	ai_will_do = {
+		factor = 1 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
+	}
+}
+
+school = {
+	cost = 400
+	time = 12
+	make_obsolete = library
+	trigger = {
+		development = 30
+		any_neighbor_province = { development = 20 }
+	}
+	
+	modifier = {
+		local_development_cost = -0.375
+		allowed_num_of_buildings = 0.5
+		local_missionary_strength = 0.01
+	}
+	
+	ai_will_do = {
+		factor = 1 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
+	}
+}
+
+college = {
+	cost = 600
+	time = 12
+	make_obsolete = school
+	trigger = {
+		development = 40
+		any_neighbor_province = { development = 30 }
+		all_neighbor_province = { development = 20 }
+	}
+	
+	modifier = {
+		local_development_cost = -0.9
+		allowed_num_of_buildings = 0.5
+		local_missionary_strength = 0.015
+	}
+	
+	ai_will_do = {
+		factor = 1 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
+	}
+}
+
+harbor = {
+	cost = 200
+	time = 12
+	trigger = {
+		has_port = yes
+	}
+	
+	modifier = {
+		allowed_num_of_buildings = 1.5
+	}
+	
+	ai_will_do = {
+		factor = 1 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
+	}
+}
+
+land_reclamation = {
+	cost = 600
+	time = 12
+	make_obsolete = harbor
+	trigger = {
+		has_port = yes
+	}
+	
+	modifier = {
+		allowed_num_of_buildings = 2
+	}
+	
+	ai_will_do = {
+		factor = 1 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
+	}
+}

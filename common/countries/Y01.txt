@@ -1,0 +1,182 @@
+# Zyriane
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 184 192 140 }
+historical_idea_groups = {
+	religious_ideas
+	trade_ideas
+	defensive_ideas
+	administrative_ideas
+	offensive_ideas
+	spy_ideas
+	quantity_ideas
+	economic_ideas
+}
+
+historical_units = {
+	bardiche_infantry
+	eastern_knights
+	slavic_stradioti
+	eastern_militia
+	muscovite_musketeer
+	muscovite_caracolle
+	muscovite_soldaty
+	muscovite_cossack
+	russian_petrine
+	russian_lancer
+	russian_green_coat
+	russian_cuirassier
+	eastern_skirmisher
+	eastern_uhlan
+	eastern_carabinier
+	russian_mass
+}
+
+
+
+leader_names = {
+
+	"Vishly" "Kage" "Gedere" "Ausala" "Rasa" "Dardedze" "Bitens" "Dangeruthe" "Zigne" "Dose" 
+	"Imanta" "Kordula" "Naula" "Lammekinus" "Aishno" "Jaunule" "Ako" "Galeine" "Greze" "Setyamka" 
+	"Zyryan" "Syrka" "Sektev" "Azeg" "Kudym-Osh" "Zarny" "Salinder" "Nenyts" "Tyushtya" "Irter" 
+	"Meltsayka" "Gazheg" "Kunava" "Sangasa" "Avya" "Sibel" "Viryay" "Rateg" "Chechama" "Zorya" 
+	"Songul" "Savkëlti" "Çat'n" "Nylog" "Aymort" "Liyava" "Dzeguze" "Andyamo" "Arnaz" "Arti" 
+	"Artis" "Arvo" "Biur" "Biyar" "Burmort" "Chichayka" "Chuga" "Dergun" "Deryab" "Dobrinya" 
+	"Dokya" "Dondy" "Hulyen" "Inzhay" "Lyneg" "Lysko" "Kezhapa" "Kezhay" "Kezhedey" "Kezhevat" 
+	"Kichay" "Koksha" "Kuaz" "Kya" "Kyldysin" "Malyaka" "Malyy" "Mosheg" "Nalka" "Nuyaksha" 
+	"Nuyanza" "Nuyat" "Nydog" "Odeg" "Onika" "Osh" "Oshmar" "Oshypel" "Ovtay" "Ozheg" 
+	"Ozhmeg" "Pakstyan" "Paksyay" "Paksyut" "Parush" "Pivtsay" "Pokshayka" "Putyayka" "Pyera" "Rayda" 
+	"Sarin" "Shindyay" "Shypicha" "Shyrpuzh" "Spira" "Tikshayka" "Tuhan" "Tyueykezhut" "Tyutyuk" "Tugan" 
+	"Turush" "Uchva" "Varaka" "Vechkas" "Velmayka" "Virdyan" "Viryas" "Vokan" "Yirkap" "Ylvan" 
+	"Zhebeg" "Zhuneg" }
+monarch_names = {
+	"Vishly #3" = 27
+	"Kage #0" = 1
+	"Gedere #0" = 1
+	"Ausala #0" = -1
+	"Rasa #0" = -1
+	"Dardedze #0" = -1
+	"Bitens #1" = -22
+	"Dangeruthe #1" = 24
+	"Zigne #0" = -1
+	"Dose #0" = -1
+	"Imanta #0" = 1
+	"Kordula #0" = -1
+	"Naula #0" = -1
+	"Lammekinus #0" = 1
+	"Aishno #0" = 1
+	"Jaunule #0" = 1
+	"Ako #0" = 1
+	"Galeine #0" = 1
+	"Greze #0" = -1
+	"Setyamka #1" = 0
+	"Zyryan #1" = 0
+	"Syrka #2" = 0
+	"Sektev #2" = 0
+	"Azeg #1" = 0
+	"Kudym-Osh #1" = 0
+	"Zarny #1" = 0
+	"Salinder #1" = 0
+	"Nenyts #1" = 0
+	"Tyushtya #1" = 0
+	"Irter #1" = 0
+	"Meltsayka #1" = 0
+	"Gazheg #1" = 0
+	"Kunava #1" = -1
+	"Sangasa #1" = -1
+	"Avya #1" = -1
+	"Sibel #1" = -1
+	"Viryay #1" = 0
+	"Rateg #1" = 0
+	"Chechama #1" = -1
+	"Zorya #2" = -1
+	"Songul #1" = -1
+	"Savkëlti #1" = -1
+	"Çat'n #1" = 0
+	"Nylog #1" = 0
+	"Aymort #1" = 0
+	"Liyava #1" = -1
+	"Dzeguze #1" = -1
+	"Andyamo #0" = 0
+	"Arnaz #0" = 0
+	"Arti #0" = 0
+	"Artis #0" = 0
+	"Arvo #0" = 0
+	"Biur #0" = 0
+	"Biyar #0" = 0
+	"Burmort #0" = 0
+	"Chichayka #0" = 0
+	"Chuga #0" = 0
+	"Dergun #0" = 0
+	"Deryab #0" = 0
+	"Dobrinya #0" = 0
+	"Dokya #0" = 0
+	"Dondy #0" = 0
+	"Hulyen #0" = 0
+	"Inzhay #0" = 0
+	"Lyneg #0" = 0
+	"Lysko #0" = 0
+	"Kezhapa #0" = 0
+	"Kezhay #0" = 0
+	"Kezhedey #0" = 0
+	"Kezhevat #0" = 0
+	"Kichay #0" = 0
+	"Koksha #0" = 0
+	"Kuaz #0" = 0
+	"Kya #0" = 0
+	"Kyldysin #0" = 0
+	"Malyaka #0" = 0
+	"Malyy #0" = 0
+	"Mosheg #0" = 0
+	"Nalka #0" = 0
+	"Nuyaksha #0" = 0
+	"Nuyanza #0" = 0
+	"Nuyat #0" = 0
+	"Nydog #0" = 0
+	"Odeg #0" = 0
+	"Onika #0" = 0
+	"Osh #0" = 0
+	"Oshmar #0" = 0
+	"Oshypel #0" = 0
+	"Ovtay #0" = 0
+	"Ozheg #0" = 0
+	"Ozhmeg #0" = 0
+	"Pakstyan #0" = 0
+	"Paksyay #0" = 0
+	"Paksyut #0" = 0
+	"Parush #0" = 0
+	"Pivtsay #0" = 0
+	"Pokshayka #0" = 0
+	"Putyayka #0" = 0
+	"Pyera #0" = 0
+	"Rayda #0" = 0
+	"Sarin #0" = 0
+	"Shindyay #0" = 0
+	"Shypicha #0" = 0
+	"Shyrpuzh #0" = 0
+	"Spira #0" = 0
+	"Tikshayka #0" = 0
+	"Tuhan #0" = 0
+	"Tyueykezhut #0" = 0
+	"Tyutyuk #0" = 0
+	"Tugan #0" = 0
+	"Turush #0" = 0
+	"Uchva #0" = 0
+	"Varaka #0" = 0
+	"Vechkas #0" = 0
+	"Velmayka #0" = 0
+	"Virdyan #0" = 0
+	"Viryas #0" = 0
+	"Vokan #0" = 0
+	"Yirkap #0" = 0
+	"Ylvan #0" = 0
+	"Zhebeg #0" = 0
+	"Zhuneg #0" = 0
+}
+ship_names = {
+	Cherdyn Pelym Kudym-Osha Shudeg
+	Voleg Rateg Koleg Uzheg
+	Baseg Yus Pokcha Vychegda Sysola
+	Iskor Kama Vishera Kolva Yazva Uros Vilgort
+}
+

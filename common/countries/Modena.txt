@@ -1,114 +1,129 @@
-#Country Name: Please see filename.
+# Modena
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 225 180 180 }
 
-graphical_culture = westerngfx
 
-color = { 241  252  151 }
 
-revolutionary_colors = { 5  13  5 } #Somewhat lilke the 1830s flag of Modena
-
-historical_idea_groups = {
-	trade_ideas
-	economic_ideas
-	defensive_ideas
-	innovativeness_ideas
-	spy_ideas
-	administrative_ideas
-	offensive_ideas
-	quantity_ideas
-}
-
-historical_units = {
-	western_medieval_infantry
-	western_medieval_knights
-	western_men_at_arms
-	italian_condotta
-	austrian_tercio
-	austrian_grenzer
-	austrian_hussar
-	austrian_white_coat
-	austrian_jaeger
-	mixed_order_infantry
-	open_order_cavalry
-	napoleonic_square
-	napoleonic_lancers
-}
-
-monarch_names = {
-	"Francesco #0" = 100
-	"Alfonso #0" = 80
-	"Ercole #0" = 60
-	"Niccolò #2" = 20
-	"Rinaldo #2" = 20
-	"Borso #0" = 20
-	"Cesare #0" = 20
-	"Ferdinando #0" = 20
-	"Leonello #0" = 20
-	"Obizzo #3" = 15
-	"Alberto #1 Carlo" = 15
-	"Alessandro #0" = 15
-	"Almerigo #0" = 15
-	"Luigi #0" = 15
-	"Sigismondo #0" = 15
-	"Tebaldo #0" = 15
-	"Benedetto #0" = 10
-	"Bonifazio #0" = 10
-	"Carlo #0" = 10
-	"Carlo Alessandro #0" = 10
-	"Clemente #0" = 10
-	"Filiberto #0" = 10
-	"Foresto #0" = 10
-	"Gian Federico #0" = 10
-	"Ippolito #0" = 10
-	"Massimiliano #0" = 10
-	"Azzo #8" = 5
-	"Aldobrandino #3" = 5
-	"Agostino #0" = 0
-	"Cosimo #0" = 0
-	"Davide #0" = 0
-	"Ennio #0" = 0
-	"Fulgenzio #0" = 0
-	"Giulio #0" = 0
-	"Lazzaro #0" = 0
-	"Nicola #0" = 0
-	"Prospero #0" = 0
-	"Renato #0" = 0
-	"Torquato #0" = 0
-	"Vincenzo #0" = 0
-	
-	"Filippa #0" = -1
-	"Giosetta #0" = -1
-	"Mafalda #0" = -1
-}
 
 leader_names = {
-	Allegri "d'Appiani d'Aragona" Araldini "di Ardizzone" Ariosto Avanzini
-	Bacciochi Barberini Battisti Boiardo Boncompagni Boncompagni-Ludovisi
-	Calcagnini Catena Colonna "del Cossa" d'Este Farini "di Farnese" "di Ferrari"
-	Giardini Grandi Graziosi Gualandelli Gucciardini Loschi
-	Malmussi Marescalchi Menotti Mitelli Montecuccoli Montefeltro Nardi Nobili
-	Ordelaffi Pavironica Peretti Pico Pio Rangoni "de Roberti" Rossetti
-	Santarosa "di Sauli" Tassoni "de Tolomei" "della Torre" Tura Viridis Zini
+
+	"Lantpert" "Manfred" "Eriprando" "Giacinta" "Filippo" "Antonia" "Lucrezia" "Nolfo" "Lealdo" "Mario" 
+	"Bertoldo" "Brian" "Berta" "Vallius" "Samir" "Sa'daddin" "Guarnito" "Federigo" "Henry" "Albrecht" 
+	"Litold" "Zikmund" "Markvart" "Vilém" "Ælfmær" "Æthelwine" "Glitterhoof" "Havel" "Albert" "Ales" 
+	"Arnost" "Bavor" "Bedrich" "Benes" "Bocek" "Bohuslav" "Boleslav" "Bores" "Borijov" "Bretislav" 
+	"Budivoj" "Castolov" "Cenek" "Chval" "Ctirad" "Diepold" "Detrich" "Drslav" "Gerhard" "Hanus" 
+	"Heralt" "Herman" "Hrabis" "Hynek" "Jan" "Jaromír" "Jaroslav" "Jesek" "Jindrich" "Jirík" 
+	"Karel" "Kojata" "Konrád" "Kuník" "Matous" "Mikulás" "Milic" "Mojmír" "Ojír" "Oldrich" 
+	"Ondrej" "Ota" "Otakar" "Pelhrim" "Petr" "Premysl" "Prokop" "Rajmund" "Rostislav" "Sezima" 
+	"Slavibor" "Slavomír" "Smil" "Sobieslav" "Spytihnev" "Strachkvas" "Svatobor" "Svatopluk" "Tobiás" "Václav" 
+	"Viktorín" "Vítek" "Vanek" "Vladimír" "Vladislav" "Vojtech" "Vratislav" "Vsebor" "Závis" "Zbynek" 
+	"Zdík" "Zdirad" }
+monarch_names = {
+	"Lantpert #1" = 0
+	"Manfred #2" = 0
+	"Eriprando #1" = 0
+	"Giacinta #1" = -1
+	"Filippo #1" = 0
+	"Antonia #1" = -1
+	"Lucrezia #1" = -1
+	"Nolfo #1" = 0
+	"Lealdo #1" = 0
+	"Mario #1" = 0
+	"Bertoldo #1" = 0
+	"Brian #1" = 0
+	"Berta #1" = -1
+	"Vallius #1" = 0
+	"Samir #1" = 0
+	"Sa'daddin #2" = 0
+	"Guarnito #3" = 0
+	"Federigo #1" = 0
+	"Henry #1" = 0
+	"Albrecht #1" = 0
+	"Litold #1" = 0
+	"Zikmund #1" = 0
+	"Markvart #1" = 0
+	"Vilém #1" = 0
+	"Ælfmær #1" = 0
+	"Æthelwine #1" = 0
+	"Glitterhoof #1" = 0
+	"Havel #1" = 0
+	"Albert #0" = 0
+	"Ales #0" = 0
+	"Arnost #0" = 0
+	"Bavor #0" = 0
+	"Bedrich #0" = 0
+	"Benes #0" = 0
+	"Bocek #0" = 0
+	"Bohuslav #0" = 0
+	"Boleslav #0" = 0
+	"Bores #0" = 0
+	"Borijov #0" = 0
+	"Bretislav #0" = 0
+	"Budivoj #0" = 0
+	"Castolov #0" = 0
+	"Cenek #0" = 0
+	"Chval #0" = 0
+	"Ctirad #0" = 0
+	"Diepold #0" = 0
+	"Detrich #0" = 0
+	"Drslav #0" = 0
+	"Gerhard #0" = 0
+	"Hanus #0" = 0
+	"Heralt #0" = 0
+	"Herman #0" = 0
+	"Hrabis #0" = 0
+	"Hynek #0" = 0
+	"Jan #0" = 0
+	"Jaromír #0" = 0
+	"Jaroslav #0" = 0
+	"Jesek #0" = 0
+	"Jindrich #0" = 0
+	"Jirík #0" = 0
+	"Karel #0" = 0
+	"Kojata #0" = 0
+	"Konrád #0" = 0
+	"Kuník #0" = 0
+	"Matous #0" = 0
+	"Mikulás #0" = 0
+	"Milic #0" = 0
+	"Mojmír #0" = 0
+	"Ojír #0" = 0
+	"Oldrich #0" = 0
+	"Ondrej #0" = 0
+	"Ota #0" = 0
+	"Otakar #0" = 0
+	"Pelhrim #0" = 0
+	"Petr #0" = 0
+	"Premysl #0" = 0
+	"Prokop #0" = 0
+	"Rajmund #0" = 0
+	"Rostislav #0" = 0
+	"Sezima #0" = 0
+	"Slavibor #0" = 0
+	"Slavomír #0" = 0
+	"Smil #0" = 0
+	"Sobieslav #0" = 0
+	"Spytihnev #0" = 0
+	"Strachkvas #0" = 0
+	"Svatobor #0" = 0
+	"Svatopluk #0" = 0
+	"Tobiás #0" = 0
+	"Václav #0" = 0
+	"Viktorín #0" = 0
+	"Vítek #0" = 0
+	"Vanek #0" = 0
+	"Vladimír #0" = 0
+	"Vladislav #0" = 0
+	"Vojtech #0" = 0
+	"Vratislav #0" = 0
+	"Vsebor #0" = 0
+	"Závis #0" = 0
+	"Zbynek #0" = 0
+	"Zdík #0" = 0
+	"Zdirad #0" = 0
+
+
+	"Libuse #0" = -1
 }
 
-ship_names = {
-	Albareto "Anselmo da Campione"
-	Baggiovara "Borso d'Este" 
-	Ca'Fusara Cicerone Cittanova Cognento Collegara 
-	Este
-	"Fiumi Panaro" "Fiumi Secchia"
-	Ganaceto
-	Lanfranco Lesignana Leodoino
-	Marzaglia 
-	Navicello Nonantola
-	"Obizzo d'Este"  
-	Portile 
-	"re Enzo"
-	"Santa Maria della Pomposa" "Sant'Agostino" Sant'Ambrogio "Santo Anselmo"
-	"San Damaso" "San Donnino" "San Francesco" "San Geminiano" 
-	"Tre Olmi" 
-	Villanova  
-}
-
-army_names = {
-	"Armata di $PROVINCE$"
-}

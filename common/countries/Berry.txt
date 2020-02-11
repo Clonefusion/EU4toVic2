@@ -1,120 +1,419 @@
-#Country Name: Please see filename.
-
+# Berry
+ck2_converter_generated = yes
 graphical_culture = westerngfx
+color = { 24 52 226 }
 
-color = { 85  65  215 }
 
-historical_idea_groups = {
-	defensive_ideas
-	trade_ideas
-	religious_ideas
-	diplomatic_ideas
-	economic_ideas
-	innovativeness_ideas
-	offensive_ideas
-	spy_ideas
-}
 
-historical_units = {
-	western_medieval_infantry
-	western_medieval_knights
-	western_men_at_arms
-	swiss_landsknechten
-	dutch_maurician
-	french_caracolle
-	anglofrench_line
-	french_dragoon
-	french_bluecoat
-	french_carabinier
-	french_impulse
-	mixed_order_infantry
-	open_order_cavalry
-	napoleonic_square
-	napoleonic_lancers
-}
-
-monarch_names = {
-	"Jean #0" = 40
-	"Charles #0" = 40
-	"François #0" = 20
-	"Pierre #0" = 5
-	"Hubert #0" = 5
-	"Étienne #0" = 5
-	"Hughes #0" = 5
-	"Robert #0" = 5
-	"Henri #0" = 5
-	"Abel #0" = 0	
-	"Adrien #0" = 0
-	"Alexandre #0" = 0
-	"Christian #0" = 0
-	"Claude #0" = 0
-	"Conrad #0" = 0
-	"Denis #0" = 0
-	"Eudes #0" = 0
-	"Eugène #0" = 0
-	"Frédéric #0" = 0
-	"Gaspard #0" = 0
-	"Georges #0" = 0
-	"Germain #0" = 0
-	"Gustave #0" = 0
-	"Jules #0" = 0
-	"Léopold #0" = 0
-	"Louis #0" = 0
-	"Maurice #0" = 0
-	"Michel #0" = 0
-	"Odet #0" = 0
-	"Philippe #0" = 0
-	"Raoul #0" = 0
-	"René #0" = 0
-	"Rodolphe #0" = 0
-	"Samuel #0" = 0
-	"Séverin #0" = 0
-	"Tristan #0" = 0
-	"Valentin #0" = 0
-	"Victor #0" = 0
-	
-	"Jeanne #0" = -15
-	"Margaret #0" = -1
-	"Marie #0" = -1
-}
-
-ship_names = {
-        Athis
-        Bel-Air Boultan Bouy
-        Chavenay Combert Courtaumont Court-sur-Couffy Cumières
-        Fontenelle
-        Gizaucourt
-        Isse
-        Jâlons Jippé Jonchery
-        "La Cheppe" "La Croisée" "Lagery" "La Grande Romanie" "La Presle" "La Salle" "Laval-sur-Tourbe" "La Grossemasse" "La Veuve" "Le Breuil" "Le Grand-Essart" "Le Moncet" "Les Cruzis" Livry-Louvercy Louvois
-        Minaucourt-le-Mesnil Montflambert Montigny Moussy
-        Neuville-en-Châlois
-        Passy-Grigny 
-        Raday
-        "Saint Hilaire" "Saint Imoges" "Saint Jean sur Tourbe" Seigneur-Klou Souain-Perthes Suippes
-        Tauxières-Mutry Toubiotte
-        Vadenay Valmy Vaudemange Vraux 
-        Wargemoulin
-}
 
 leader_names = {
-        d'Alenduy d'Artigoity d'Arzillières
-        "de Balatier" "de Balayne" "de Baleine" "Beaufort de Pothemont" "de Beaurepaire" "Bellot de Ferreux" "de Brancourt" "de Brienne" "de Broye" "de Bruce"
-        "Cauchon de Vercinay" "de Charbogne" "de Chassy" "du Châtelet" "de Châtillon" Clausse "de Coucy" "de Courtenay" "de Crécy" "de Croy"
-        d'Espinoy
-        "de Failly"
-        "de Grandpré" "de Grignon"
-        "du Hamel" "de Houx"
-        "de Joigny" "de Joinville"
-        "de La Fontaine" "de Lalaing" "de Lantages" "de Lavisé" "de Lezines" "de Loménie"
-        Pérignon "de Plancy" "du Prat"
-        "de Rethel" "de Roucy" "de Rumigny"
-        "de Saint Belin" "de Saint Cheron" "de Sergine"
-        "de Vauclerois" "de Vergy" "de Verrières" "de Villeprouvée"
+
+	"Justeaze Lizrich" "Gramyr" "Galindo" "Estefania" "Eneko" "Ximena" "Elbira" "Aznar" "Gilenyr" "Belaskita" 
+	"Obeko" "Zentulo" "Bernart" "Egidio" "Mentzia" "Nuña" "Fernando" "Aldontza" "Erramun" "Ramyr" 
+	"Pelaio" "Konstantzia" "Avelina" "Belasko" "Aines" "Oria" "Luis" "Berengaria" "Ramiro" "Ordoño" 
+	"Geirr" "Joana" "Humphrey" "Munia" "Plazentzia" "Arnfast" "Emili" "Gartzia" "Blanka" "Þyra" 
+	"Manrike" "Eliza" "Herramel" "Rodrigo" "Ladron" "Teresa" "Munio" "Alfhildr" "Antso" "Toda" 
+	"Alfontso" "Urraka" "Gregoria" "Sturla" "Maeglyr" "Nuño" "Sariael" "Iriael" "Berengariael" "Emund" 
+	"Diego" "Eliziael" "Gilen" "Maiael" "Maior" "Vela" "Clarimond" "Vigrid" "Björg" "Todiael" 
+	"Alvar" "Estefaniael" "Lope" "Ormr" "Falki" "Raenir" "Mabila" "Bermudo" "Oneka" "Blanca" 
+	"Ingjerðr" "Sæmundr" "Hemming" "Saga" "Yrsa" "Antsa" "Fortun" "Þorfinn" "Sverker" "Sança" 
+	"Styrkar" "Gontzyr" "Björn" "Andriael" "Rastlinyr" "Gontzal" "Donato" "Constància" "Åke" "Obyr" 
+	"Legolyr" "Melkor" "Faenor" "Ynniael" "Irisviel" "Illyasviel" "Tyriael" "Kladenyr" "Haimyr" "Lothyr" 
+	"Freyiael" "Nadbor" "Justeaze" "Beliael" "Anilyr" "Piarres" "Adalgardis" "Excalibyr" "Aegisyr" "Attilyr" 
+	"Hildebert" "Gerbert" "Sadalberga" "Andregoto" "Ulfhildr" "Styrbjörn" "Fragyr" "Tybalt" "Bragi" "Eleanor" 
+	"Asclettin" "Wilmot" "Linda" "Remiael" "Hermessent" "Bo" "Sara" "Aslaug" "Egelina" "Mimungyr" 
+	"Marie" "Parazonyr" "Gyða" "Hruntyr" "Beagallyr" "Hrörekr" "Hrolfr" "Dyrnwynyr" "Elisabet" "Ademar" 
+	"Nagelringyr" "Folki" "Gabriael" "Eirikr" "Sölvi" "Bernard" "Mautild" "Alfgeir" "Gunnhildr" "Kristina" 
+	"Adam" "Yolanda" "Cruaidinyr" "Sif" "Faramond" "Ingibjörg" "Antsiael" "Mjolnyr" "Blutgangyr" "Alisce" 
+	"Emma" "Alison" "Adelaide" "Estiael" "Magatamyr" "Caesyr" "Þordr" "Aveis" "Raymond" "Labryr" 
+	"Helena" "Alienora" "Laevateinnyr" "Aline" "Bourguigne" "Kozyr" "Hafrid" "Perunyr" "Giselle" "Geraud" 
+	"Turquetil" "Brisingyr" "Malmfrið" "Aleta" "Matilda" "Boson" "Gungyr" "Hermiael" "Bahamyr" "Ranimiro" 
+	"Draconyr" "Photios" "Georgia" "Oliba" "Brynnyr" "Gaebolgyr" "Pelagios" "Hadyr" "Ordoñyr" "Zeussiael" 
+	"Lyngurium" "Alliael" "William" "Julian" "Hamelin" "Lambert" "Marta" "Nuñyr" "Liuvericho" "Brunissenda" 
+	"Petronilha" "Herleve" "Basillike" "Aimeric" "Elduara" "Ioustinos" "Aldoniael" "Leonardo" "Arsenios" "Ermengardis" 
+	"Heriael" "Ainès" "Eudokiael" "Oniael" "Makarios" "Damiane" "Pulcheria" "Argilo" "Ladronyr" "Gorm" 
+	"Asta" "Eilif" "Zenon" "Elin" "Agathe" "Suneario" "Markia" "Onniael" "Anthemios" "Antonia" 
+	"Nuñiael" "Helene" "Anastasia" "Prokopios" "Ioustinianos" "Knut" "Blayniael" "Heralt" "Tridyr" "Arni" 
+	"Rolland" "Drogonyr" "Theoktistos" "Anthimos" "Molnyr" "Neophytos" "Zacharias" "Dionysia" "Meletios" "Ivar" 
+	"Agyr" "Ankhyr" "Erramunyr" "Spyr" "Kyros" "Mauger" "Antiochos" "Hæsteinn" "Xene" "Elizael" 
+	"Azaziael" "Katarina" "Munyr" "Ancelmes" "Hugolina" "Zenobia" "Zoe" "Julienne" "Gennadios" "Agnes" 
+	"Himerios" "Proscen" "Margareta" "Andvyr" "Sofia" "Halla" "Solomonyr" "Theophanes" "Kallinikos" "Aznyr" 
+	"Garyphallia" "Wolfssegenyr" "Bereniael" "Elbiriael" "Buðli" "Eulalia" "Totil" "Symmachos" "Nikarete" "Geoffroy" 
+	"Ale" "Lop" "Boethios" "Garcenda" "Gohilde" "Kale" "Louis" "Gerasimos" "Serril" "Ancarionyr" 
+	"Apollonia" "Pavlina" "Osmond" "Þordis" "Ximeniael" "Halsten" "Lothaire" "Tièrri" "Heria" "Leontia" 
+	"Sulgen" "Ulfr" "Þora" "Guichard" "Svanhildr" "Gerðr" "Sapphiael" "Elen" "Edmyr" "Viviana" 
+	"Petronia" "Centolh" "Rögnfrið" "Béatrice" "Seriael" "Herakleios" "Silvester" "Blayve" "Mélisende" "Guilhem" 
+	"Robert" "Ranulf" "Birgitta" "Violent" "Eugenios" "Holmfrid" "Gartyr" "Barid" "Migyr" "Örvar" 
+	"Edla" "Ingemar" "Grimr" "Jean" "Géraud" "Jourdain" "Joanes" "Martín" "Ximeno" }
+monarch_names = {
+	"Justeaze Lizrich #0" = -1
+	"Gramyr #2" = 42
+	"Galindo #1" = 81
+	"Estefania #0" = -1
+	"Eneko #0" = 1
+	"Ximena #0" = -1
+	"Elbira #0" = -1
+	"Aznar #0" = 1
+	"Gilenyr #0" = 1
+	"Belaskita #0" = -1
+	"Obeko #0" = 1
+	"Zentulo #0" = 1
+	"Bernart #0" = 1
+	"Egidio #1" = 66
+	"Mentzia #1" = -94
+	"Nuña #0" = -1
+	"Fernando #1" = 57
+	"Aldontza #0" = -1
+	"Erramun #1" = 99
+	"Ramyr #0" = 1
+	"Pelaio #0" = 1
+	"Konstantzia #0" = -1
+	"Avelina #0" = -1
+	"Belasko #0" = 1
+	"Aines #0" = -1
+	"Oria #0" = -1
+	"Luis #0" = 1
+	"Berengaria #0" = -1
+	"Ramiro #6" = 120
+	"Ordoño #0" = 1
+	"Geirr #0" = 1
+	"Joana #0" = -1
+	"Humphrey #0" = 1
+	"Munia #0" = -1
+	"Plazentzia #1" = -76
+	"Arnfast #0" = 1
+	"Emili #1" = -127
+	"Gartzia #0" = 1
+	"Blanka #0" = -1
+	"Þyra #0" = -1
+	"Manrike #0" = 1
+	"Eliza #0" = -1
+	"Herramel #0" = 1
+	"Rodrigo #0" = 1
+	"Ladron #0" = 1
+	"Teresa #0" = -1
+	"Munio #3" = 75
+	"Alfhildr #0" = -1
+	"Antso #0" = 1
+	"Toda #0" = -1
+	"Alfontso #0" = 1
+	"Urraka #0" = -1
+	"Gregoria #0" = -1
+	"Sturla #0" = 1
+	"Maeglyr #0" = 1
+	"Nuño #0" = 1
+	"Sariael #0" = -1
+	"Iriael #0" = -1
+	"Berengariael #0" = -1
+	"Emund #0" = 1
+	"Diego #1" = 78
+	"Eliziael #0" = -1
+	"Gilen #0" = 1
+	"Maiael #0" = -1
+	"Maior #0" = -1
+	"Vela #0" = 1
+	"Clarimond #0" = -1
+	"Vigrid #0" = -1
+	"Björg #0" = -1
+	"Todiael #1" = -34
+	"Alvar #1" = 51
+	"Estefaniael #0" = -1
+	"Lope #0" = 1
+	"Ormr #0" = 1
+	"Falki #0" = 1
+	"Raenir #0" = 1
+	"Mabila #0" = -1
+	"Bermudo #0" = 1
+	"Oneka #0" = -1
+	"Blanca #0" = -1
+	"Ingjerðr #0" = -1
+	"Sæmundr #0" = 1
+	"Hemming #0" = 1
+	"Saga #0" = -1
+	"Yrsa #0" = -1
+	"Antsa #0" = -1
+	"Fortun #0" = 1
+	"Þorfinn #0" = 1
+	"Sverker #0" = 1
+	"Sança #0" = -1
+	"Styrkar #0" = 1
+	"Gontzyr #0" = 1
+	"Björn #0" = 1
+	"Andriael #0" = -1
+	"Rastlinyr #0" = 1
+	"Gontzal #0" = 1
+	"Donato #0" = 1
+	"Constància #0" = -1
+	"Åke #0" = 1
+	"Obyr #0" = 1
+	"Legolyr #1" = 21
+	"Melkor #0" = 1
+	"Faenor #0" = 1
+	"Ynniael #0" = -1
+	"Irisviel #0" = -1
+	"Illyasviel #0" = -1
+	"Tyriael #0" = -1
+	"Kladenyr #0" = 1
+	"Haimyr #0" = 1
+	"Lothyr #0" = 1
+	"Freyiael #0" = -1
+	"Nadbor #0" = 1
+	"Justeaze #0" = -1
+	"Beliael #0" = -1
+	"Anilyr #0" = 1
+	"Piarres #0" = 1
+	"Adalgardis #0" = -1
+	"Excalibyr #0" = 1
+	"Aegisyr #0" = 1
+	"Attilyr #0" = 1
+	"Hildebert #0" = 1
+	"Gerbert #0" = 1
+	"Sadalberga #0" = -1
+	"Andregoto #0" = -1
+	"Ulfhildr #0" = -1
+	"Styrbjörn #0" = 1
+	"Fragyr #0" = 1
+	"Tybalt #0" = 1
+	"Bragi #0" = 1
+	"Eleanor #0" = -1
+	"Asclettin #0" = 1
+	"Wilmot #0" = -1
+	"Linda #0" = -1
+	"Remiael #0" = -1
+	"Hermessent #0" = -1
+	"Bo #0" = 1
+	"Sara #0" = -1
+	"Aslaug #0" = -1
+	"Egelina #0" = -1
+	"Mimungyr #0" = 1
+	"Marie #0" = -1
+	"Parazonyr #2" = 24
+	"Gyða #0" = -1
+	"Hruntyr #0" = 1
+	"Beagallyr #0" = 1
+	"Hrörekr #0" = 1
+	"Hrolfr #0" = 1
+	"Dyrnwynyr #1" = 21
+	"Elisabet #0" = -1
+	"Ademar #0" = 1
+	"Nagelringyr #0" = 1
+	"Folki #0" = 1
+	"Gabriael #0" = -1
+	"Eirikr #0" = 1
+	"Sölvi #0" = 1
+	"Bernard #0" = 1
+	"Mautild #0" = -1
+	"Alfgeir #0" = 1
+	"Gunnhildr #0" = -1
+	"Kristina #0" = -1
+	"Adam #0" = 1
+	"Yolanda #0" = -1
+	"Cruaidinyr #0" = 1
+	"Sif #0" = -1
+	"Faramond #0" = 1
+	"Ingibjörg #0" = -1
+	"Antsiael #0" = -1
+	"Mjolnyr #0" = 1
+	"Blutgangyr #0" = 1
+	"Alisce #0" = -1
+	"Emma #0" = -1
+	"Alison #0" = -1
+	"Adelaide #0" = -1
+	"Estiael #0" = -1
+	"Magatamyr #0" = 1
+	"Caesyr #0" = 1
+	"Þordr #0" = 1
+	"Aveis #0" = -1
+	"Raymond #0" = 1
+	"Labryr #0" = 1
+	"Helena #0" = -1
+	"Alienora #0" = -1
+	"Laevateinnyr #0" = 1
+	"Aline #0" = -1
+	"Bourguigne #0" = -1
+	"Kozyr #0" = 1
+	"Hafrid #0" = -1
+	"Perunyr #0" = 1
+	"Giselle #0" = -1
+	"Geraud #0" = 1
+	"Turquetil #0" = 1
+	"Brisingyr #0" = 1
+	"Malmfrið #0" = -1
+	"Aleta #0" = -1
+	"Matilda #0" = -1
+	"Boson #0" = 1
+	"Gungyr #0" = 1
+	"Hermiael #0" = -1
+	"Bahamyr #0" = 1
+	"Ranimiro #0" = 1
+	"Draconyr #0" = 1
+	"Photios #0" = 1
+	"Georgia #0" = -1
+	"Oliba #0" = 1
+	"Brynnyr #0" = 1
+	"Gaebolgyr #0" = 1
+	"Pelagios #0" = 1
+	"Hadyr #0" = 1
+	"Ordoñyr #0" = 1
+	"Zeussiael #0" = -1
+	"Lyngurium #0" = 1
+	"Alliael #0" = -1
+	"William #0" = 1
+	"Julian #0" = 1
+	"Hamelin #0" = 1
+	"Lambert #0" = 1
+	"Marta #0" = -1
+	"Nuñyr #0" = 1
+	"Liuvericho #0" = 1
+	"Brunissenda #0" = -1
+	"Petronilha #0" = -1
+	"Herleve #0" = -1
+	"Basillike #0" = -1
+	"Aimeric #0" = 1
+	"Elduara #0" = -1
+	"Ioustinos #0" = 1
+	"Aldoniael #0" = -1
+	"Leonardo #0" = 1
+	"Arsenios #0" = 1
+	"Ermengardis #0" = -1
+	"Heriael #0" = -1
+	"Ainès #0" = -1
+	"Eudokiael #0" = -1
+	"Oniael #0" = -1
+	"Makarios #0" = 1
+	"Damiane #0" = -1
+	"Pulcheria #0" = -1
+	"Argilo #0" = -1
+	"Ladronyr #0" = 1
+	"Gorm #0" = 1
+	"Asta #0" = -1
+	"Eilif #0" = 1
+	"Zenon #0" = 1
+	"Elin #0" = -1
+	"Agathe #0" = -1
+	"Suneario #0" = 1
+	"Markia #0" = -1
+	"Onniael #0" = -1
+	"Anthemios #0" = 1
+	"Antonia #0" = -1
+	"Nuñiael #0" = -1
+	"Helene #0" = -1
+	"Anastasia #0" = -1
+	"Prokopios #0" = 1
+	"Ioustinianos #0" = 1
+	"Knut #0" = 1
+	"Blayniael #0" = -1
+	"Heralt #0" = 1
+	"Tridyr #0" = 1
+	"Arni #0" = 1
+	"Rolland #0" = 1
+	"Drogonyr #0" = 1
+	"Theoktistos #0" = 1
+	"Anthimos #0" = 1
+	"Molnyr #0" = 1
+	"Neophytos #0" = 1
+	"Zacharias #0" = 1
+	"Dionysia #0" = -1
+	"Meletios #0" = 1
+	"Ivar #0" = 1
+	"Agyr #0" = 1
+	"Ankhyr #0" = 1
+	"Erramunyr #0" = 1
+	"Spyr #0" = 1
+	"Kyros #0" = 1
+	"Mauger #0" = 1
+	"Antiochos #0" = 1
+	"Hæsteinn #0" = 1
+	"Xene #0" = -1
+	"Elizael #0" = -1
+	"Azaziael #0" = -1
+	"Katarina #0" = -1
+	"Munyr #0" = 1
+	"Ancelmes #0" = 1
+	"Hugolina #0" = -1
+	"Zenobia #0" = -1
+	"Zoe #0" = -1
+	"Julienne #0" = -1
+	"Gennadios #0" = 1
+	"Agnes #0" = -1
+	"Himerios #0" = 1
+	"Proscen #0" = -1
+	"Margareta #0" = -1
+	"Andvyr #0" = 1
+	"Sofia #0" = -1
+	"Halla #0" = -1
+	"Solomonyr #0" = 1
+	"Theophanes #0" = 1
+	"Kallinikos #0" = 1
+	"Aznyr #0" = 1
+	"Garyphallia #0" = -1
+	"Wolfssegenyr #0" = 1
+	"Bereniael #0" = -1
+	"Elbiriael #0" = -1
+	"Buðli #0" = 1
+	"Eulalia #0" = -1
+	"Totil #0" = 1
+	"Symmachos #0" = 1
+	"Nikarete #0" = -1
+	"Geoffroy #0" = 1
+	"Ale #0" = 1
+	"Lop #0" = 1
+	"Boethios #0" = 1
+	"Garcenda #0" = -1
+	"Gohilde #0" = -1
+	"Kale #0" = -1
+	"Louis #0" = 1
+	"Gerasimos #0" = 1
+	"Serril #0" = 1
+	"Ancarionyr #0" = 1
+	"Apollonia #0" = -1
+	"Pavlina #0" = -1
+	"Osmond #0" = 1
+	"Þordis #0" = -1
+	"Ximeniael #0" = -1
+	"Halsten #0" = 1
+	"Lothaire #0" = 1
+	"Tièrri #0" = 1
+	"Heria #0" = -1
+	"Leontia #0" = -1
+	"Sulgen #0" = 1
+	"Ulfr #0" = 1
+	"Þora #0" = -1
+	"Guichard #0" = 1
+	"Svanhildr #0" = -1
+	"Gerðr #0" = -1
+	"Sapphiael #0" = -1
+	"Elen #0" = -1
+	"Edmyr #0" = 1
+	"Viviana #0" = -1
+	"Petronia #0" = -1
+	"Centolh #0" = 1
+	"Rögnfrið #0" = -1
+	"Béatrice #0" = -1
+	"Seriael #0" = -1
+	"Herakleios #0" = 1
+	"Silvester #0" = 1
+	"Blayve #0" = 1
+	"Mélisende #0" = -1
+	"Guilhem #0" = 1
+	"Robert #0" = 1
+	"Ranulf #0" = 1
+	"Birgitta #0" = -1
+	"Violent #0" = -1
+	"Eugenios #0" = 1
+	"Holmfrid #0" = -1
+	"Gartyr #0" = 1
+	"Barid #0" = 1
+	"Migyr #0" = 1
+	"Örvar #0" = 1
+	"Edla #0" = -1
+	"Ingemar #0" = 1
+	"Grimr #0" = 1
+	"Jean #1" = 0
+	"Géraud #1" = 0
+	"Jourdain #1" = 0
+	"Joanes #0" = 0
+	"Martín #0" = 0
+	"Ximeno #0" = 0
 }
 
-army_names = {
-         "Armée du Pays d'Othe" "Armée de la Marne" "Armée de Châlons"
-         "Armée de Reims"       "Armée de Troyes"
-	 "Armée de $PROVINCE$" 
-}

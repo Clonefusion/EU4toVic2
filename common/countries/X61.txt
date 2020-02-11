@@ -1,0 +1,158 @@
+# Khotan
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 216 184 43 }
+
+
+
+
+leader_names = {
+
+	"Ilbeslik" "Safali" "Hvimdu" "Phimduka" "Katun" "Vimalaprabha" "Shri" "Pakyau" "Khivyaina" "Gostana" 
+	"No Character" "Tcusyau" "Hvam" "Aryamgula" "Dharmadasi" "Tatpar" "Enoz" "Börtil" "Rsivadam" "Togo" 
+	"Sotri" "Detsen" "Tagbu" "Alp Yurek" "Ilknur" "Salman" "Shahruz" "Navvaba" "Goshtasb" "Fareed" 
+	"Golpari" "Ghamze" "Zeynab" "Asa" "Leila" "Bahman" "Vishtasb" "Alysanna" "Arsa" "Asi" 
+	"Baga" "Bahudhiva" "Bamdaka" "Bhadra" "Bradaysaa" "Brika" "Capastaka" "Ceguti" "Chika" "Daisai" 
+	"Dharma" "Dum" "Dzatsi" "Gulai" "Harka" "Haskadatta" "Huyi" "Hvarda" "Hvardamaya" "Ikam" 
+	"Irasamga" "Jabgu" "Jajahasa" "Kamnai" "Kayam" "Kharusa" "Khina" "Khuradatta" "Khvarnarse" "Kimashana" 
+	"Kimashani" "Kimatcuna" "Kirtti" "Kriti" "Kunala" "Kushtana" "Mamatti" "Manohara" "Murlimin" "Naganpaka" 
+	"Nipandaka" "Padatcaina" "Presamdha" "Punarrjam" "Punekula" "Purgula" "Raghu" "Samgai" "Samgaka" "Samgalaka" 
+	"Sangrama" "Sayausa" "Sham" "Shambhava" "Shikshananda" "Shinganca" "Shiresala" "Shirvamdai" "Shribhadra" "Shtrugize" 
+	"Shudamgula" "Shura" "Sidaka" "Sihya" "Siladharma" "Simhyi" "Skunkha" "Sthavira" "Sudarrjam" "Sudhana" 
+	"Sumauna" "Sumtharaka" "Tayasham" "Vadhaga" "Vagiti" "Vaham" "Vahana" "Vardhana" "Varman" "Vasudeva" 
+	"Vidakai" "Vidaram" "Vijita" "Vijitasimha" "Vikrama" "Virsha" "Visaram" "Vishirapumna" "Visma" "Ysambasta" 
+	"Zambasta" }
+monarch_names = {
+	"Ilbeslik #0" = -1
+	"Safali #0" = -1
+	"Hvimdu #0" = 1
+	"Phimduka #1" = 18
+	"Katun #1" = -19
+	"Vimalaprabha #0" = -1
+	"Shri #1" = -22
+	"Pakyau #0" = 1
+	"Khivyaina #0" = -1
+	"Gostana #1" = 18
+	"No Character #42" = 0
+	"Tcusyau #1" = 0
+	"Hvam #1" = 0
+	"Aryamgula #1" = 0
+	"Dharmadasi #1" = -1
+	"Tatpar #1" = 0
+	"Enoz #1" = 0
+	"Börtil #1" = 0
+	"Rsivadam #1" = 0
+	"Togo #1" = -1
+	"Sotri #1" = 0
+	"Detsen #1" = 0
+	"Tagbu #1" = 0
+	"Alp Yurek #1" = 0
+	"Ilknur #1" = -1
+	"Salman #1" = 0
+	"Shahruz #1" = 0
+	"Navvaba #1" = -1
+	"Goshtasb #1" = 0
+	"Fareed #1" = 0
+	"Golpari #1" = -1
+	"Ghamze #1" = -1
+	"Zeynab #1" = -1
+	"Asa #1" = -1
+	"Leila #1" = -1
+	"Bahman #1" = 0
+	"Vishtasb #1" = 0
+	"Alysanna #0" = 0
+	"Arsa #0" = 0
+	"Asi #0" = 0
+	"Baga #0" = 0
+	"Bahudhiva #0" = 0
+	"Bamdaka #0" = 0
+	"Bhadra #0" = 0
+	"Bradaysaa #0" = 0
+	"Brika #0" = 0
+	"Capastaka #0" = 0
+	"Ceguti #0" = 0
+	"Chika #0" = 0
+	"Daisai #0" = 0
+	"Dharma #0" = 0
+	"Dum #0" = 0
+	"Dzatsi #0" = 0
+	"Gulai #0" = 0
+	"Harka #0" = 0
+	"Haskadatta #0" = 0
+	"Huyi #0" = 0
+	"Hvarda #0" = 0
+	"Hvardamaya #0" = 0
+	"Ikam #0" = 0
+	"Irasamga #0" = 0
+	"Jabgu #0" = 0
+	"Jajahasa #0" = 0
+	"Kamnai #0" = 0
+	"Kayam #0" = 0
+	"Kharusa #0" = 0
+	"Khina #0" = 0
+	"Khuradatta #0" = 0
+	"Khvarnarse #0" = 0
+	"Kimashana #0" = 0
+	"Kimashani #0" = 0
+	"Kimatcuna #0" = 0
+	"Kirtti #0" = 0
+	"Kriti #0" = 0
+	"Kunala #0" = 0
+	"Kushtana #0" = 0
+	"Mamatti #0" = 0
+	"Manohara #0" = 0
+	"Murlimin #0" = 0
+	"Naganpaka #0" = 0
+	"Nipandaka #0" = 0
+	"Padatcaina #0" = 0
+	"Presamdha #0" = 0
+	"Punarrjam #0" = 0
+	"Punekula #0" = 0
+	"Purgula #0" = 0
+	"Raghu #0" = 0
+	"Samgai #0" = 0
+	"Samgaka #0" = 0
+	"Samgalaka #0" = 0
+	"Sangrama #0" = 0
+	"Sayausa #0" = 0
+	"Sham #0" = 0
+	"Shambhava #0" = 0
+	"Shikshananda #0" = 0
+	"Shinganca #0" = 0
+	"Shiresala #0" = 0
+	"Shirvamdai #0" = 0
+	"Shribhadra #0" = 0
+	"Shtrugize #0" = 0
+	"Shudamgula #0" = 0
+	"Shura #0" = 0
+	"Sidaka #0" = 0
+	"Sihya #0" = 0
+	"Siladharma #0" = 0
+	"Simhyi #0" = 0
+	"Skunkha #0" = 0
+	"Sthavira #0" = 0
+	"Sudarrjam #0" = 0
+	"Sudhana #0" = 0
+	"Sumauna #0" = 0
+	"Sumtharaka #0" = 0
+	"Tayasham #0" = 0
+	"Vadhaga #0" = 0
+	"Vagiti #0" = 0
+	"Vaham #0" = 0
+	"Vahana #0" = 0
+	"Vardhana #0" = 0
+	"Varman #0" = 0
+	"Vasudeva #0" = 0
+	"Vidakai #0" = 0
+	"Vidaram #0" = 0
+	"Vijita #0" = 0
+	"Vijitasimha #0" = 0
+	"Vikrama #0" = 0
+	"Virsha #0" = 0
+	"Visaram #0" = 0
+	"Vishirapumna #0" = 0
+	"Visma #0" = 0
+	"Ysambasta #0" = 0
+	"Zambasta #0" = 0
+}
+

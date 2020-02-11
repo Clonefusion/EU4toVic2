@@ -1150,45 +1150,6 @@ MUG_ideas = {
 	}
 }
 
-TIM_ideas = {
-	start = {
-		diplomatic_upkeep = 1
-		leader_land_shock = 1
-	}
-	
-	bonus = {
-		discipline = 0.05
-	}
-	
-	trigger = {
-		tag = TIM
-	}
-	free = yes
-	
-	timurid_architecture = {
-		prestige = 1
-	}
-	the_mantle_of_the_great_khan = {
-		land_morale = 0.1
-	}
-	unleash_the_tiger = {
-		shock_damage = 0.1
-	}
-	chagatai_literature = {
-		legitimacy = 1
-		horde_unity = 1
-	}
-	timurid_renaissance = {
-		technology_cost = -0.05
-	}
-	riches_of_the_silk_road = {
-		global_own_trade_power = 0.25
-	}
-	reform_the_diwan = {
-		yearly_corruption = -0.1
- 	}
-}
-
 HSA_ideas = {
 	start = {
 		trade_range_modifier = 0.15
@@ -1388,48 +1349,6 @@ AYU_ideas = {
 }
 
 
-NOR_ideas = {
-	start = {
-		global_sailors_modifier = 0.25
-		ship_durability = 0.10
-	}
-	
-	bonus = {
-		trade_steering = 0.20
-	}
-	
-	trigger = {
-		tag = NOR
-	}
-	free = yes
-	
-	natural_seamanship = {
-		naval_morale = 0.20
-		
-	}
-	call_of_our_forefathers = {
-		range = 0.33
-		may_explore = yes
-	}
-	pioneer_spirit = {
-		colonists = 1
-	}
-	nor_shipbuilding = {
-		global_ship_cost = -0.1
-	}
-	seize_the_opportunity = {
- 		global_trade_power = 0.1
-	}
-	nor_fishing = {
-		production_efficiency = 0.1
-	}
-	write_new_sagas = {
-		prestige = 1
-		discipline = 0.025
-	}
-}
-
-
 OMA_ideas = {
 	start = {
 		naval_morale = 0.15
@@ -1546,7 +1465,7 @@ BOH_ideas = {
 		stability_cost_modifier = -0.10
 	}
 	czech_nationalism = {
-		enemy_core_creation = 0.5
+		stability_cost_modifier = -0.20
 	}
 }
 
@@ -1717,49 +1636,9 @@ NOV_ideas = {
 }
 
 
-ETH_ideas = {
-	start = {
-		global_autonomy = -0.05
-		land_attrition = -0.10
-	}
-	
-	bonus = {
-		legitimacy = 1
-	}
-	
-	trigger = {
-		tag = ETH
-	}
-	free = yes		#will be added at load.
-	
-	solomonid_claim = {
-		prestige = 1
-	}
-	nagusa_negast = {
-		heir_chance = 0.5
-	}
-	hostile_borders = {
-		defensiveness = 0.20
-	}
-	diplomatic_demeanor = {
-		diplomatic_reputation = 1
-	}
-	the_ark_of_the_covenant = {
-		missionaries = 1
-	}
-	eth_expansionist_policy = {
-		core_creation = -0.10
-	}
-	eth_reformed_armies = {
-		infantry_power = 0.1
-	}
-}
-
-
 DAI_ideas = {
 	start = {
-		hostile_attrition = 1.0
-		enemy_core_creation = 0.5
+		hostile_attrition = 2.0
 	}
 	
 	bonus = {
@@ -1879,45 +1758,6 @@ SAX_ideas = {
 	}
 	the_saxon_circle = {
 		discipline = 0.05
-	}
-}
-
-
-LIT_ideas = {
-	start = {
-		manpower_recovery_speed = 0.15
-		tolerance_heretic = 3
-	}
-	
-	bonus = {
-		leader_land_manuever = 1
-	}
-	
-	trigger = {
-			tag = LIT
-	}
-	free = yes		#will be added at load.
-	
-	warlord_dukes = {
-		leader_land_shock = 1
-	}
-	auksine_laisve = {
-		stability_cost_modifier = -0.1
-	}
-	magdeburg_laws = {
-		global_tax_modifier = 0.1
-	}
-	magnate_estates = {
-		production_efficiency = 0.1
-	}
-	lithuanian_hussars = {
-		cavalry_power = 0.2
-	}
-	statutes_of_lithuania = {
-		global_unrest = -2
-	}
-	lithuanian_renaissance = {
-		technology_cost = -0.05
 	}
 }
 
@@ -2917,7 +2757,7 @@ CHICK_ideas = {
 		hostile_attrition = 1.0
 	}
 	unconqured_and_unconquerable = {
-		enemy_core_creation = 0.5
+		hostile_attrition = 1.0
 	}
 	slave_raids = {
 		trade_efficiency = 0.1
@@ -3343,7 +3183,7 @@ AFG_ideas = {
 	}
 	
 	bonus = {
-		enemy_core_creation = 0.5
+		global_own_trade_power = 0.1
 	}
 	
 	trigger = {
@@ -3376,8 +3216,7 @@ AFG_ideas = {
 
 WAL_ideas = {
 	start = {
-		enemy_core_creation = 0.5
-		discipline = 0.05
+		discipline = 0.06
 	}
 	
 	bonus = {
@@ -5362,8 +5201,7 @@ CUA_ideas = {
 
 CIR_ideas = {
 	start = {
-		stability_cost_modifier = -0.1
-		enemy_core_creation = 0.5
+		stability_cost_modifier = -0.3
 	}
 	
 	bonus = {
@@ -6979,44 +6817,6 @@ ZIM_ideas = {
 	}
 }
 
-BAL_ideas = {
-	start = {
-		fort_maintenance_modifier = -0.1
-		loot_amount = 0.25
-	}
-
-	bonus = {
-		land_forcelimit_modifier = 0.2
-	}
-	
-	trigger = {
-		tag = BAL
-	}
-	free = yes
-	
-	bal_natural_defences = {
-		hostile_attrition = 1.0
-	}
-	bal_hani_and_sheh_mureed = {
-		shock_damage_received = -0.1
-	}
-	bal_khan_of_the_baloch = {
-		legitimacy = 1
-	}
-	bal_reorganization_of_the_army = {
-		global_manpower_modifier = 0.15
-	}
-	bal_control_of_the_overland_trade = {
-		global_own_trade_power = 0.1
-	}
-	bal_chiefs_and_landlords = {
-		global_tax_modifier = 0.1
-	}
-	bal_baluch_leadership = {
-		army_tradition = 0.5
-	}
-}
-
 ORL_ideas = {
 	start = {
 		defensiveness = 0.2
@@ -8280,42 +8080,6 @@ CEP_ideas = {
 	}
 	cep_ionian_academy = {
 		culture_conversion_cost = -0.15
-	}
-}
-
-LOR_ideas = {
-	start = {
-		caravan_power = 0.2
-		infantry_cost = -0.1
-	}
-	bonus = {
-		global_tax_modifier = 0.1
-	}
-	trigger = {
-		tag = LOR
-	}
-	free = yes
-	
-	lor_vosges = {
-		defensiveness = 0.2
-	}
-	lor_mines_of_lorraine = {
-		production_efficiency = 0.1
-	}
-	lor_lotharingia = {
-		fabricate_claims_cost = -0.25
-	}
-	lor_between_great_powers = {
-		diplomats = 1
-	}
-	lor_two_languages = {
-		num_accepted_cultures = 1
-	}
-	lor_three_bishoprics = {
-		tolerance_own = 2
-	}
-	lor_place_stanislas = {
-		prestige = 1
 	}
 }
 
@@ -11329,46 +11093,6 @@ ORD_ideas = {
 	}
 }
 
-irish_ideas = {
-	start = {
-		land_morale = 0.1
-		trade_efficiency = 0.1
-	}
-	
-	bonus = {
-		legitimacy = 1
-		republican_tradition = 0.5
-	}
-	
-	trigger = {
-		tag = IRE
-	}
-	free = yes
-	
-	irish_endurance = {
-		shock_damage_received = -0.1
-	}
-	the_clanns = {
-		same_culture_advisor_cost = -0.2
-	}
-	more_than_irish = {
-		global_unrest = -2
-	}
-	loyal_catholics = {
-		papal_influence = 1
-		global_heretic_missionary_strength = 0.02
-	}
-	ire_abundant_harvests = {
-		global_trade_goods_size_modifier = 0.10
-	}
-	unconquerable_ireland = {
-		war_exhaustion = -0.02
- 	}
-	ire_gallowglasses = {
-		discipline = 0.05
-	}
-}
-
 ULS_ideas = {
 	start = {
 		global_manpower_modifier = 0.1
@@ -12170,44 +11894,6 @@ MER_ideas = {
 	}
 	mer_reorganized_rajput_regiments = {
 		discipline = 0.05
-	}
-}
-
-BNG_ideas = {
-	start = {
-		infantry_power = 0.1
-		global_manpower_modifier = 0.15
-	}
-	
-	bonus = {
-		backrow_artillery_damage = 0.15
-	}
-	
-	trigger = {
-		tag = BNG
-	}
-    free = yes       #will be added at load.
-    
-	bng_combat_piracy = {
-		trade_efficiency = 0.1
-	}
-	bng_habshi_generals = {
-		army_tradition = 0.5
-	}
-	bng_clearing_the_delta = {
-		development_cost = -0.1
-	}
-	bng_attract_sufis = {
-		idea_cost = -0.1
-	}
-	bng_conquest_of_the_gangetic_plain = {
-		leader_land_shock = 1
-	}
-	bng_rupees = {
-		global_tax_modifier = 0.1
-	}
-	bng_bengali_industrialization = {
-		global_trade_goods_size_modifier = 0.1
 	}
 }
 

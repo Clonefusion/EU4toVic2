@@ -15,6 +15,42 @@ republic_mechanic = {
 
 #Oligarchy vs Merchant Class vs Noble Elite
 
+russian_mechanic_gov = {
+	icon = "king"
+	allow_normal_conversion = yes
+	duration = 4
+	potential = {
+		OR = {
+			AND = {
+				tag = Z27
+				NOT = { map_setup = map_setup_random }
+			}
+			AND = {
+				is_playing_custom_nation = yes
+				have_had_reform = grand_duchy_reform
+			}
+		}
+	}
+	legacy_equivalent = tsardom_legacy
+	valid_for_nation_designer = yes
+	nation_designer_cost = 40
+
+	nation_designer_trigger = {
+		culture_group = east_slavic
+		religion = orthodox
+	}
+
+	modifiers = {
+	}
+
+	conditional = {
+		allow = { has_dlc = "Third Rome" }
+		government_abilities = {
+			russian_mechanic
+		}
+	}
+}
+
 oligarchy_reform = {
 	icon = "people_walking"
 	allow_normal_conversion = yes
@@ -100,12 +136,14 @@ venice_merchants_reform = {
 	nation_designer_cost = 40
 	legacy_equivalent = venetian_merchant_republic
 	potential = {
-		NOT = { map_setup = map_setup_random }
 		OR = {
-			tag = VEN
+			AND = {
+				tag = ISR
+				NOT = { map_setup = map_setup_random }
+			}
 			AND = {
 				is_playing_custom_nation = yes
-				have_had_reform = venice_merchants_reform
+				have_had_reform = grand_duchy_reform
 			}
 		}
 	}
@@ -159,7 +197,12 @@ pirate_republic_reform = {
 		max_absolutism = -50
 		naval_forcelimit_modifier = 0.5
 		capture_ship_chance = 0.33
-		may_perform_slave_raid_on_same_religion = yes
+		global_ship_trade_power = 0.5
+		privateer_efficiency = 0.5
+		blockade_efficiency = 0.5
+		global_foreign_trade_power = 0.5
+		global_sailors_modifier = 1
+		pr_buccaneers_influence = 0.05
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 40
@@ -177,8 +220,16 @@ pirate_republic_reform = {
 	}
 	
 	potential = {
-		has_reform = pirate_republic_reform
-		has_dlc = "Golden Century"
+		OR = {
+			AND = {
+				tag = NOR
+				NOT = { map_setup = map_setup_random }
+			}
+			AND = {
+				is_playing_custom_nation = yes
+				have_had_reform = grand_duchy_reform
+			}
+		}
 	}
 	
 	factions_frame = 9
@@ -283,7 +334,16 @@ peasants_republic = {
 	allow_normal_conversion = yes
 	icon = "peasant_republic"
 	potential = {
-		have_had_reform = peasants_republic
+		OR = {
+			AND = {
+				tag = Y43
+				NOT = { map_setup = map_setup_random }
+			}
+			AND = {
+				is_playing_custom_nation = yes
+				have_had_reform = grand_duchy_reform
+			}
+		}
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 20
@@ -392,8 +452,18 @@ ambrosian_republic = {
 	allow_normal_conversion = yes
 	potential = {
 		OR = {
-			has_reform = ambrosian_republic
-			have_had_reform = ambrosian_republic
+			AND = {
+				tag = KHD
+				NOT = { map_setup = map_setup_random }
+			}
+			AND = {
+				tag = MAJ
+				NOT = { map_setup = map_setup_random }
+			}
+			AND = {
+				is_playing_custom_nation = yes
+				have_had_reform = grand_duchy_reform
+			}
 		}
 	}
 	legacy_equivalent = ambrosian_republic_legacy
@@ -532,7 +602,7 @@ american_republic = {
 		has_dlc = "American Dream"
 		OR = {
 			AND = {
-				tag = USA
+				tag = X14
 				NOT = { map_setup = map_setup_random }
 			}
 			AND = {
@@ -573,7 +643,7 @@ federal_republic = {
 		has_dlc = "American Dream"
 		OR = {
 			AND = {
-				tag = USA
+				tag = Z27
 				NOT = { map_setup = map_setup_random }
 			}
 			AND = {
@@ -622,6 +692,7 @@ colonial_government = {
 		recover_army_morale_speed = 0.02
 		embracement_cost = -0.1
 		max_states = 2
+		defensiveness = -0.25
 	}
 
 	custom_attributes = {
@@ -638,12 +709,12 @@ dutch_republic = {
 	potential = {
 		OR = {
 			AND = {
-				tag = NED
+				tag = IRE
 				NOT = { map_setup = map_setup_random }
 			}
 			AND = {
 				is_playing_custom_nation = yes
-				have_had_reform = dutch_republic
+				have_had_reform = grand_duchy_reform
 			}
 		}
 	}
@@ -704,11 +775,13 @@ cossacks_reform = {
 	potential = {
 		OR = {
 			AND = {
-				tag = ZAZ
+				tag = VND
 				NOT = { map_setup = map_setup_random }
 			}
-			has_reform = cossacks_reform
-			have_had_reform = cossacks_reform
+			AND = {
+				is_playing_custom_nation = yes
+				have_had_reform = grand_duchy_reform
+			}
 		}
 	}
 	government_abilities = {
@@ -887,7 +960,7 @@ administrative_divisions_reform = {
 	icon = "map"
 	allow_normal_conversion = yes
 	modifiers = {
-		max_states = 5
+		max_states = 4
 	}
 	ai = {
 		factor = 1
