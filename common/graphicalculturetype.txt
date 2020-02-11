@@ -1,9 +1,0 @@
-westerngfx
-easterngfx
-muslimgfx
-indiangfx
-asiangfx
-africangfx
-northamericagfx
-southamericagfx
-inuitgfx
