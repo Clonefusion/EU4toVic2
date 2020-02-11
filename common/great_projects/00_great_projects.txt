@@ -1,0 +1,32 @@
+kiel_canal = {
+	ambient_object = kiel_canal
+	province = 1775
+	is_canal = yes
+	time = 120
+	
+	modifier = {
+		province_trade_power_value = 20
+	}
+}
+
+suez_canal = {
+	ambient_object = suez_canal
+	province = 4316
+	is_canal = yes
+	time = 120
+	
+	modifier = {
+		province_trade_power_value = 20
+	}
+}
+
+panama_canal = {
+	ambient_object = panama_canal
+	province = 835
+	is_canal = yes
+	time = 120
+	
+	modifier = {
+		province_trade_power_value = 20
+	}
+}
